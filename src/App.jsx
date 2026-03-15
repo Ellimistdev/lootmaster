@@ -138,7 +138,7 @@ export default function LootRankingApp() {
               <CardTitle className="text-zinc-50">Manual Item Input</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-zinc-300 mb-3">Optional. Add extra tab-separated items here. Example: <span className="text-zinc-100 font-mono">Custom Item\tWeapon\tInt Mace\tCrit\tVers</span></p>
+              <p className="text-sm text-zinc-300 mb-3">Optional. Add extra tab-separated items here. Format: <span className="text-zinc-100 font-mono">Name\tSlot\tType\tStat1\tStat2</span> or <span className="text-zinc-100 font-mono">Name\tSlot\tType\tPrimary\tStat1\tStat2</span></p>
               <Textarea value={manualItemsText} onChange={(e) => setManualItemsText(e.target.value)} className="min-h-[180px] bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700 font-mono text-sm leading-6" />
             </CardContent>
           </Card>

@@ -51,7 +51,22 @@ describe("loot logic helpers", () => {
   it("returns parse errors for malformed manual item rows", () => {
     const rows = parseManualItems("OnlyName");
     expect(rows).toHaveLength(1);
-    expect(rows[0].error).toMatch(/Expected at least 4 tab-separated fields/i);
+    expect(rows[0].error).toMatch(/Expected tab-separated fields/i);
+  });
+
+  it("supports optional primary stat in manual rows", () => {
+    const rows = parseManualItems("Custom Wand\tWeapon\tDagger\tInt\tCrit\tVers");
+
+    expect(rows[0].error).toBeNull();
+    expect(rows[0].primary).toBe("Int");
+    expect(rows[0].stats).toEqual(["crit", "vers"]);
+  });
+
+  it("deduplicates and caps manual secondary stats to two", () => {
+    const rows = parseManualItems("Custom Ring\tRing\tRing\tCrit\tCrit\tVers\tMastery");
+
+    expect(rows[0].error).toBeNull();
+    expect(rows[0].stats).toEqual(["crit", "vers"]);
   });
 });
 

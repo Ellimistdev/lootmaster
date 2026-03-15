@@ -145,6 +145,33 @@ export function flattenBossLoot(table) {
   return rows;
 }
 
+function normalizePrimaryInput(value) {
+  if (!value) return null;
+
+  const alias = {
+    int: "int",
+    intellect: "int",
+    agi: "agi",
+    agility: "agi",
+    str: "str",
+    strength: "str",
+  };
+
+  const normalized = String(value)
+    .split("/")
+    .map((part) => alias[String(part).trim().toLowerCase()])
+    .filter(Boolean);
+
+  if (!normalized.length) return null;
+
+  const pretty = { int: "Int", agi: "Agi", str: "Str" };
+  return [...new Set(normalized)].map((s) => pretty[s]).join("/");
+}
+
+function looksLikePrimaryInput(value) {
+  return Boolean(normalizePrimaryInput(value));
+}
+
 export function parseManualItems(text, startId = 100000) {
   return text
     .split(/\n+/)
@@ -154,14 +181,14 @@ export function parseManualItems(text, startId = 100000) {
       const parts = line
         .split("\t")
         .map((x) => x.trim())
-        .filter(Boolean);
+        .filter((x) => x.length > 0);
 
       if (parts.length < 4) {
         return {
           id: startId + idx + 1,
           raw: line,
           source: "manual",
-          error: "Expected at least 4 tab-separated fields.",
+          error: "Expected tab-separated fields: Name<TAB>Slot<TAB>Type<TAB>Stat1<TAB>Stat2 (optional: <TAB>Primary before stats).",
         };
       }
 
@@ -169,11 +196,20 @@ export function parseManualItems(text, startId = 100000) {
       const slot = parts[1] || "";
       const type = parts[2] || "";
       const stats = [];
+      let primary = null;
+      let statsStartIndex = 3;
 
-      for (let i = 3; i < parts.length; i++) {
-        const stat = normStat(parts[i]);
-        if (SECONDARIES.includes(stat)) stats.push(stat);
+      if (parts.length >= 5 && looksLikePrimaryInput(parts[3])) {
+        primary = normalizePrimaryInput(parts[3]);
+        statsStartIndex = 4;
       }
+
+      for (let i = statsStartIndex; i < parts.length; i++) {
+        const stat = normStat(parts[i]);
+        if (SECONDARIES.includes(stat) && !stats.includes(stat)) stats.push(stat);
+      }
+
+      const secondaryStats = stats.slice(0, 2);
 
       return {
         id: startId + idx + 1,
@@ -182,12 +218,14 @@ export function parseManualItems(text, startId = 100000) {
         name,
         slot,
         type,
-        primary: null,
-        big: stats[0] || null,
-        small: stats[1] || null,
-        stats,
+        primary,
+        big: secondaryStats[0] || null,
+        small: secondaryStats[1] || null,
+        stats: secondaryStats,
         source: "manual",
-        error: stats.length ? null : "No recognizable secondary stats found.",
+        error: secondaryStats.length
+          ? null
+          : "No recognizable secondary stats found. Use Crit/Haste/Mastery/Vers.",
       };
     });
 }

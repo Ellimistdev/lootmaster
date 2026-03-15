@@ -1,5 +1,5 @@
 import { Fragment, useEffect, useRef, useState } from "react";
-import { ChevronDown, Download, ExternalLink, Search } from "lucide-react";
+import { ChevronDown, Download, ExternalLink, Search, X } from "lucide-react";
 import TierText from "./components/TierText";
 import { Badge, Button, Card, CardContent, CardHeader, CardTitle, Input, Textarea } from "./components/ui";
 import { COMPARATOR_OPTIONS, DEFAULT_SPEC_ROWS, SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION, SPEC_OPTIONS } from "./data/constants";
@@ -26,7 +26,6 @@ export default function LootRankingApp() {
   const [manualItemsText, setManualItemsText] = useState("");
   const [showManualItems, setShowManualItems] = useState(false);
   const [showSpecOverrides, setShowSpecOverrides] = useState(false);
-  const [showRankingExplainer, setShowRankingExplainer] = useState(false);
   const [specOverrides, setSpecOverrides] = useState(() => loadStoredSpecOverrides());
   const [selectedClass, setSelectedClass] = useState(INITIAL_SELECTED_CLASS);
   const [selectedSpecName, setSelectedSpecName] = useState(INITIAL_SELECTED_SPEC_NAME);
@@ -34,6 +33,7 @@ export default function LootRankingApp() {
   const [bossFilter, setBossFilter] = useState("All bosses");
   const [query, setQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
+  const [mobileSpecDetail, setMobileSpecDetail] = useState(null);
   const importOverridesInputRef = useRef(null);
   const { ranked, defaultItemCount, manualItemCount, overrideCount, effectiveRows, bossOptions } = useComputed(manualItemsText, specOverrides, query, bossFilter);
 
@@ -142,9 +142,54 @@ export default function LootRankingApp() {
     URL.revokeObjectURL(url);
   };
 
+  const handleSelectItem = (row) => {
+    setSelectedItem((current) => (current?.item.id === row.item.id ? null : row));
+  };
+
+  const openMobileSpecDetail = (row, item) => {
+    const itemStats = item?.stats?.length ? item.stats.map(titleStat).join("/") : "None";
+
+    setMobileSpecDetail({
+      specFull: row.spec.full,
+      specColor: row.spec.color,
+      priority: row.spec.priority,
+      itemStats,
+      reason: row.result.reason,
+      tier: row.result.tier,
+      rank: row.result.rank,
+    });
+  };
+
+  const renderItemDetail = (row) => (
+    <div className="space-y-4">
+      <div className="text-sm text-zinc-300">
+        {row.item.boss} • {row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"}
+        {row.item.stats.length ? ` • ${row.item.stats.map(titleStat).join("/")}` : ""}
+      </div>
+      {row.item.error && <div className="text-sm text-amber-400">{row.item.error}</div>}
+      <div className="space-y-2">
+        {!row.detail.length && (
+          <div className="p-3 rounded-xl bg-black border border-zinc-800 text-sm text-zinc-400">
+            {row.item.error ? "This manual item could not be ranked until the input is corrected." : "No eligible specs found for this item."}
+          </div>
+        )}
+        {row.detail.map((detailRow) => (
+          <div key={detailRow.spec.full} className="flex flex-wrap items-center justify-between gap-3 p-3 rounded-xl bg-black border border-zinc-800">
+            <div className="flex items-center gap-3 flex-wrap">
+              <Badge variant="secondary" className="bg-zinc-800 text-zinc-100 border border-zinc-700">{detailRow.result.tier}</Badge>
+              <span style={{ color: detailRow.spec.color }} className="font-semibold">{detailRow.spec.short}</span>
+              <span className="text-zinc-400 text-sm">{detailRow.spec.full}</span>
+            </div>
+            <div className="text-sm text-zinc-300">Rank {detailRow.result.rank} • {detailRow.result.reason}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+
   return (
     <div className="min-h-screen bg-zinc-950 text-zinc-50 p-6">
-      <div className="max-w-7xl mx-auto space-y-6">
+      <div className="w-full max-w-[1800px] mx-auto space-y-6">
         <div>
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-zinc-50">Midnight Loot Master</h1>
@@ -172,12 +217,14 @@ export default function LootRankingApp() {
                   <Badge variant="secondary" className="bg-zinc-800 text-zinc-100 border border-zinc-700">Default loot items: {defaultItemCount}</Badge>
                   <Badge variant="secondary" className="bg-zinc-800 text-zinc-100 border border-zinc-700">Manual additions: {manualItemCount}</Badge>
                   <Badge variant="secondary" className="bg-zinc-800 text-zinc-100 border border-zinc-700">Spec overrides: {overrideCount}</Badge>
-                  <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={() => setShowManualItems((v) => !v)}>
-                    {showManualItems ? "Hide" : "Show"} Manual Item Input
-                  </Button>
-                  <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={() => setShowSpecOverrides((v) => !v)}>
-                    {showSpecOverrides ? "Hide" : "Show"} Spec Overrides
-                  </Button>
+                  <div className="ml-auto flex flex-wrap items-center gap-3">
+                    <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={() => setShowManualItems((v) => !v)}>
+                      {showManualItems ? "Hide" : "Show"} Manual Item Input
+                    </Button>
+                    <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={() => setShowSpecOverrides((v) => !v)}>
+                      {showSpecOverrides ? "Hide" : "Show"} Spec Overrides
+                    </Button>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -265,7 +312,7 @@ export default function LootRankingApp() {
             <Card className="bg-zinc-900 border-zinc-800 shadow-2xl">
               <CardHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <CardTitle className="text-zinc-50">Ranked Output</CardTitle>
-                <div className="flex flex-col gap-2 w-full md:w-auto md:flex-row md:items-center">
+                <div className="flex w-full flex-col gap-2 md:flex-row md:flex-wrap md:items-center md:justify-end xl:w-auto xl:flex-nowrap">
                   <select
                     value={bossFilter}
                     onChange={(e) => setBossFilter(e.target.value)}
@@ -276,7 +323,7 @@ export default function LootRankingApp() {
                       <option key={boss} value={boss}>{boss}</option>
                     ))}
                   </select>
-                  <div className="relative flex-1 md:w-72">
+                  <div className="relative flex-1 md:min-w-[16rem] xl:w-72">
                     <Search className="w-4 h-4 absolute left-3 top-3 text-zinc-500" />
                     <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Filter items..." className="pl-9 bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700" />
                   </div>
@@ -293,31 +340,88 @@ export default function LootRankingApp() {
             <CardTitle className="text-zinc-50">Items</CardTitle>
           </CardHeader>
           <CardContent>
-            <div className="overflow-auto rounded-2xl border border-zinc-800 bg-black">
-              <table className="w-full text-sm">
+            <div className="space-y-3 md:hidden">
+              {ranked.map((row) => (
+                <Fragment key={row.item.id}>
+                  <div
+                    role="button"
+                    tabIndex={0}
+                    onClick={() => handleSelectItem(row)}
+                    onKeyDown={(event) => {
+                      if (event.key === "Enter" || event.key === " ") {
+                        event.preventDefault();
+                        handleSelectItem(row);
+                      }
+                    }}
+                    className={`w-full rounded-2xl border p-4 text-left transition hover:bg-zinc-900/80 ${selectedItem?.item.id === row.item.id ? "border-sky-500 bg-zinc-900/80" : "border-zinc-800 bg-black"}`}
+                  >
+                    <div className="font-semibold text-zinc-50">{row.item.name}</div>
+                    <div className="mt-1 text-xs text-zinc-400">
+                      {row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"}
+                      {row.item.stats.length ? ` • ${row.item.stats.map(titleStat).join("/")}` : ""}
+                    </div>
+                    {row.item.error && <div className="mt-1 text-xs text-amber-400">{row.item.error}</div>}
+
+                    <div className="mt-3 space-y-2 text-sm">
+                      <div>
+                        <span className="text-zinc-400">S:</span>{" "}
+                        <TierText groups={row.s} item={row.item} onSpecPress={openMobileSpecDetail} />
+                      </div>
+                      <div>
+                        <span className="text-zinc-400">A:</span>{" "}
+                        <TierText groups={row.a} item={row.item} onSpecPress={openMobileSpecDetail} />
+                      </div>
+                      <div>
+                        <span className="text-zinc-400">Trash:</span>{" "}
+                        <TierText groups={row.trash} item={row.item} onSpecPress={openMobileSpecDetail} />
+                      </div>
+                    </div>
+                  </div>
+
+                  {selectedItem?.item.id === row.item.id && (
+                    <div className="rounded-2xl border border-zinc-800 bg-zinc-950 p-4">
+                      {renderItemDetail(row)}
+                    </div>
+                  )}
+                </Fragment>
+              ))}
+            </div>
+
+            <div className="hidden md:block rounded-2xl border border-zinc-800 bg-black">
+              <table className="w-full table-fixed text-sm">
                 <thead className="bg-zinc-950 sticky top-0 z-10">
                   <tr className="text-left border-b border-zinc-800 text-zinc-100">
-                    <th className="p-3 min-w-[260px]">Item</th>
-                    <th className="p-3 min-w-[320px]">S</th>
-                    <th className="p-3 min-w-[320px]">A</th>
-                    <th className="p-3 min-w-[220px]">Trash</th>
+                    <th className="p-3 w-[34%]">Item</th>
+                    <th className="p-3 w-[23%]">S</th>
+                    <th className="p-3 w-[23%]">A</th>
+                    <th className="p-3 w-[20%]">Trash</th>
                   </tr>
                 </thead>
                 <tbody>
                   {ranked.map((row) => (
-                    <tr key={row.item.id} className="border-b border-zinc-800 hover:bg-zinc-900/80 cursor-pointer" onClick={() => setSelectedItem(row)}>
-                      <td className="p-3 align-top text-zinc-100">
-                        <div className="font-semibold text-zinc-50">{row.item.name}</div>
-                        <div className="text-zinc-400 text-xs mt-1">
-                          {row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"}
-                          {row.item.stats.length ? ` • ${row.item.stats.map(titleStat).join("/")}` : ""}
-                        </div>
-                        {row.item.error && <div className="text-amber-400 text-xs mt-1">{row.item.error}</div>}
-                      </td>
-                      <td className="p-3 align-top"><TierText groups={row.s} item={row.item} /></td>
-                      <td className="p-3 align-top"><TierText groups={row.a} item={row.item} /></td>
-                      <td className="p-3 align-top"><TierText groups={row.trash} item={row.item} /></td>
-                    </tr>
+                    <Fragment key={row.item.id}>
+                      <tr className={`border-b border-zinc-800 cursor-pointer hover:bg-zinc-900/80 ${selectedItem?.item.id === row.item.id ? "bg-zinc-900/80" : ""}`} onClick={() => handleSelectItem(row)}>
+                        <td className="p-3 align-top break-words text-zinc-100">
+                          <div className="font-semibold text-zinc-50">{row.item.name}</div>
+                          <div className="text-zinc-400 text-xs mt-1">
+                            {row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"}
+                            {row.item.stats.length ? ` • ${row.item.stats.map(titleStat).join("/")}` : ""}
+                          </div>
+                          {row.item.error && <div className="text-amber-400 text-xs mt-1">{row.item.error}</div>}
+                        </td>
+                        <td className="p-3 align-top"><TierText groups={row.s} item={row.item} /></td>
+                        <td className="p-3 align-top"><TierText groups={row.a} item={row.item} /></td>
+                        <td className="p-3 align-top"><TierText groups={row.trash} item={row.item} /></td>
+                      </tr>
+
+                      {selectedItem?.item.id === row.item.id && (
+                        <tr className="border-b border-zinc-800 bg-zinc-950/80">
+                          <td colSpan={4} className="p-4">
+                            {renderItemDetail(row)}
+                          </td>
+                        </tr>
+                      )}
+                    </Fragment>
                   ))}
                 </tbody>
               </table>
@@ -352,36 +456,29 @@ export default function LootRankingApp() {
           </CardContent>
         </Card>
 
-        {selectedItem && (
-          <Card className="bg-zinc-900 border-zinc-800 shadow-2xl">
-            <CardHeader>
-              <CardTitle className="text-zinc-50">{selectedItem.item.name} — Detail</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <div className="mb-4 text-sm text-zinc-300">
-                {selectedItem.item.boss} • {selectedItem.item.slot} • {selectedItem.item.type} • {selectedItem.item.primary ? `Primary: ${selectedItem.item.primary}` : "No primary stat restriction"}
-                {selectedItem.item.stats.length ? ` • ${selectedItem.item.stats.map(titleStat).join("/")}` : ""}
+        {mobileSpecDetail && (
+          <div className="fixed inset-0 z-50 flex items-end bg-black/70 p-3 md:hidden" onClick={() => setMobileSpecDetail(null)}>
+            <div className="w-full rounded-2xl border border-zinc-700 bg-zinc-950 p-4 shadow-2xl" onClick={(event) => event.stopPropagation()}>
+              <div className="relative mb-3">
+                <p style={{ color: mobileSpecDetail.specColor }} className="text-center font-semibold">{mobileSpecDetail.specFull}</p>
+                <button
+                  type="button"
+                  onClick={() => setMobileSpecDetail(null)}
+                  className="absolute right-0 top-1/2 -translate-y-1/2 rounded-lg border border-zinc-700 p-2 text-zinc-300 hover:bg-zinc-900"
+                  aria-label="Close spec details"
+                >
+                  <X className="h-4 w-4" />
+                </button>
               </div>
-              {selectedItem.item.error && <div className="mb-4 text-sm text-amber-400">{selectedItem.item.error}</div>}
-              <div className="space-y-2">
-                {!selectedItem.detail.length && (
-                  <div className="p-3 rounded-xl bg-black border border-zinc-800 text-sm text-zinc-400">
-                    {selectedItem.item.error ? "This manual item could not be ranked until the input is corrected." : "No eligible specs found for this item."}
-                  </div>
-                )}
-                {selectedItem.detail.map((row) => (
-                  <div key={row.spec.full} className="flex flex-wrap items-center justify-between gap-3 p-3 rounded-xl bg-black border border-zinc-800">
-                    <div className="flex items-center gap-3 flex-wrap">
-                      <Badge variant="secondary" className="bg-zinc-800 text-zinc-100 border border-zinc-700">{row.result.tier}</Badge>
-                      <span style={{ color: row.spec.color }} className="font-semibold">{row.spec.short}</span>
-                      <span className="text-zinc-400 text-sm">{row.spec.full}</span>
-                    </div>
-                    <div className="text-sm text-zinc-300">Rank {row.result.rank} • {row.result.reason}</div>
-                  </div>
-                ))}
+
+              <div className="space-y-2 text-sm text-zinc-300">
+                <p><span className="text-zinc-400">Tier:</span> {mobileSpecDetail.tier} (Rank {mobileSpecDetail.rank})</p>
+                <p><span className="text-zinc-400">Effective priority:</span> {mobileSpecDetail.priority}</p>
+                <p><span className="text-zinc-400">Item secondaries:</span> {mobileSpecDetail.itemStats}</p>
+                <p><span className="text-zinc-400">Why this position:</span> {mobileSpecDetail.reason}</p>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </div>
         )}
 
         <footer className="rounded-2xl border border-zinc-800 bg-zinc-950/70 px-6 py-5 text-left shadow-2xl">
@@ -401,34 +498,22 @@ export default function LootRankingApp() {
                 <ExternalLink className="h-4 w-4" />
               </a>
             </div>
-
-            <Button
-              variant="secondary"
-              onClick={() => setShowRankingExplainer((value) => !value)}
-              aria-expanded={showRankingExplainer}
-              className="justify-center gap-2 self-start bg-zinc-800 text-zinc-100 hover:bg-zinc-700"
-            >
-              {showRankingExplainer ? "Hide" : "Show"} ranking explainer
-              <ChevronDown className={`h-4 w-4 transition ${showRankingExplainer ? "rotate-180" : ""}`} />
-            </Button>
           </div>
 
-          {showRankingExplainer && (
-            <div className="mt-5 border-t border-zinc-800 pt-5">
-              <div className="max-w-4xl space-y-3 text-sm text-zinc-300">
-                <p className="font-semibold text-zinc-100">How an item is ranked</p>
-                <ol className="list-decimal space-y-2 pl-5 marker:text-zinc-500">
-                  <li>Trinkets are excluded from the ranked table. Manual items with invalid input are also skipped until their stats are fixed.</li>
-                  <li>A spec must be eligible to equip the item first. The app checks primary stat, armor type, and weapon compatibility before any ranking happens.</li>
-                  <li>The item's two secondary stats are compared against that spec's effective priority list, including any override you applied in the spec editor.</li>
-                  <li>If both item stats are tied inside the spec's top priority group, the result is S tier at rank 0.5.</li>
-                  <li>If the item contains both the spec's first and second priority stats, the result is S tier. Rank 1 means the larger stat budget is on the first-priority stat; rank 2 means it leans toward the second.</li>
-                  <li>If the item matches only the first-priority stat, it lands in A tier at rank 3. Matching only the second-priority stat lands in A tier at rank 4.</li>
-                  <li>If neither of the top two priority stats is present, the item is marked Trash. Within each tier, identical ranks are grouped with = and rank groups are ordered with &gt;.</li>
-                </ol>
-              </div>
+          <div className="mt-5 border-t border-zinc-800 pt-5">
+            <div className="max-w-4xl space-y-3 text-sm text-zinc-300">
+              <p className="font-semibold text-zinc-100">How an item is ranked</p>
+              <ol className="list-decimal space-y-2 pl-5 marker:text-zinc-500">
+                <li>Trinkets are excluded from the ranked table. Manual items with invalid input are also skipped until their stats are fixed.</li>
+                <li>A spec must be eligible to equip the item first. The app checks primary stat, armor type, and weapon compatibility before any ranking happens.</li>
+                <li>The item's two secondary stats are compared against that spec's effective priority list, including any override you applied in the spec editor.</li>
+                <li>If both item stats are tied inside the spec's top priority group, the result is S tier at rank 0.5.</li>
+                <li>If the item contains both the spec's first and second priority stats, the result is S tier. Rank 1 means the larger stat budget is on the first-priority stat; rank 2 means it leans toward the second.</li>
+                <li>If the item matches only the first-priority stat, it lands in A tier at rank 3. Matching only the second-priority stat lands in A tier at rank 4.</li>
+                <li>If neither of the top two priority stats is present, the item is marked Trash. Within each tier, identical ranks are grouped with = and rank groups are ordered with &gt;.</li>
+              </ol>
             </div>
-          )}
+          </div>
         </footer>
       </div>
     </div>

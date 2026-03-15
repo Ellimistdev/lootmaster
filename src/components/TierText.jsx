@@ -14,7 +14,7 @@ function buildTooltip(row, item) {
   ].join("\n");
 }
 
-export default function TierText({ groups, item }) {
+export default function TierText({ groups, item, onSpecPress }) {
   if (!groups.length) return <span className="text-zinc-500">—</span>;
 
   return (
@@ -25,7 +25,22 @@ export default function TierText({ groups, item }) {
           {g.specs.map((row, i) => (
             <span key={row.spec.full}>
               {i > 0 ? " = " : ""}
-              <span style={{ color: row.spec.color }} title={buildTooltip(row, item)}>{row.spec.short}</span>
+              {onSpecPress ? (
+                <button
+                  type="button"
+                  onClick={(event) => {
+                    event.stopPropagation();
+                    onSpecPress(row, item);
+                  }}
+                  className="underline decoration-dotted underline-offset-2"
+                  style={{ color: row.spec.color }}
+                  title={buildTooltip(row, item)}
+                >
+                  {row.spec.short}
+                </button>
+              ) : (
+                <span style={{ color: row.spec.color }} title={buildTooltip(row, item)}>{row.spec.short}</span>
+              )}
             </span>
           ))}
         </span>

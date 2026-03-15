@@ -1,132 +1,44 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./components/ui";
 import StickyControlsPanel from "./components/StickyControlsPanel";
 import RankedItemsList from "./components/RankedItemsList";
 import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
 import RankingFooter from "./components/RankingFooter";
-import { COMPARATOR_OPTIONS, DEFAULT_SPEC_ROWS, SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION, SPEC_OPTIONS } from "./data/constants";
+import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/constants";
 import { useComputed } from "./hooks/useComputed";
-import { defaultSpecMap, parseSpecOverridesJson, primaryStatForSpec, serializeSpecOverrides, titleStat } from "./utils/lootLogic";
+import { titleStat } from "./utils/lootLogic";
+import { useSpecOverrides } from "./hooks/useSpecOverrides";
+import { useItemSelection } from "./hooks/useItemSelection";
 
-const INITIAL_SELECTED_SPEC_FULL = DEFAULT_SPEC_ROWS[0][0];
-const [INITIAL_SELECTED_CLASS, INITIAL_SELECTED_SPEC_NAME] = INITIAL_SELECTED_SPEC_FULL.split(" - ").map((x) => x.trim());
-const SPEC_OVERRIDES_STORAGE_KEY = "midnight-lootmaster-spec-overrides-v1";
 const GITHUB_ISSUES_URL = "https://github.com/Ellimistdev/lootmaster/issues";
-
-function loadStoredSpecOverrides() {
-  try {
-    if (typeof window === "undefined") return {};
-    const raw = window.localStorage.getItem(SPEC_OVERRIDES_STORAGE_KEY);
-    if (!raw) return {};
-    return parseSpecOverridesJson(raw);
-  } catch {
-    return {};
-  }
-}
 
 export default function LootRankingApp() {
   const [manualItemsText, setManualItemsText] = useState("");
   const [showManualItems, setShowManualItems] = useState(false);
-  const [showSpecOverrides, setShowSpecOverrides] = useState(false);
-  const [specOverrides, setSpecOverrides] = useState(() => loadStoredSpecOverrides());
-  const [selectedClass, setSelectedClass] = useState(INITIAL_SELECTED_CLASS);
-  const [selectedSpecName, setSelectedSpecName] = useState(INITIAL_SELECTED_SPEC_NAME);
-  const [draftOverride, setDraftOverride] = useState(defaultSpecMap()[INITIAL_SELECTED_SPEC_FULL]);
   const [bossFilter, setBossFilter] = useState("All bosses");
   const [query, setQuery] = useState("");
-  const [selectedItem, setSelectedItem] = useState(null);
-  const [mobileSpecDetail, setMobileSpecDetail] = useState(null);
-  const importOverridesInputRef = useRef(null);
+  const {
+    showSpecOverrides,
+    setShowSpecOverrides,
+    specOverrides,
+    selectedClass,
+    selectedSpecName,
+    draftOverride,
+    importOverridesInputRef,
+    classOptions,
+    specOptionsForClass,
+    selectedSpec,
+    handleSelectedClassChange,
+    handleSelectedSpecChange,
+    updateSelectedSpec,
+    applySelectedSpecOverride,
+    resetSelectedSpec,
+    resetAllSpecs,
+    exportSpecOverrides,
+    importSpecOverridesFromFile,
+  } = useSpecOverrides();
+  const { selectedItem, mobileSpecDetail, handleSelectItem, openMobileSpecDetail, closeMobileSpecDetail } = useItemSelection();
   const { ranked, defaultItemCount, manualItemCount, overrideCount, effectiveRows, bossOptions } = useComputed(manualItemsText, specOverrides, query, bossFilter);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    window.localStorage.setItem(SPEC_OVERRIDES_STORAGE_KEY, serializeSpecOverrides(specOverrides));
-  }, [specOverrides]);
-
-  const classToSpecs = DEFAULT_SPEC_ROWS.reduce((acc, [full]) => {
-    const [className, specName] = full.split(" - ").map((x) => x.trim());
-    if (!acc[className]) acc[className] = [];
-    acc[className].push(specName);
-    return acc;
-  }, {});
-
-  const classOptions = Object.keys(classToSpecs).sort((a, b) => a.localeCompare(b));
-  const specOptionsForClass = [...(classToSpecs[selectedClass] || [])].sort((a, b) => a.localeCompare(b));
-  const selectedSpec = `${selectedClass} - ${selectedSpecName}`;
-
-  const handleSelectedClassChange = (nextClass) => {
-    const nextSpecName = ([...(classToSpecs[nextClass] || [])].sort((a, b) => a.localeCompare(b))[0]) || "";
-    const nextSpec = `${nextClass} - ${nextSpecName}`;
-    setSelectedClass(nextClass);
-    setSelectedSpecName(nextSpecName);
-    setDraftOverride(specOverrides[nextSpec] || defaultSpecMap()[nextSpec]);
-  };
-
-  const handleSelectedSpecChange = (nextSpecName) => {
-    const nextSpec = `${selectedClass} - ${nextSpecName}`;
-    setSelectedSpecName(nextSpecName);
-    setDraftOverride(specOverrides[nextSpec] || defaultSpecMap()[nextSpec]);
-  };
-
-  const updateSelectedSpec = (field, index, value) => {
-    setDraftOverride((prev) => {
-      const next = { stats: [...prev.stats], comps: [...prev.comps] };
-      next[field][index] = value;
-      return next;
-    });
-  };
-
-  const applySelectedSpecOverride = () => {
-    const uniqueStats = new Set(draftOverride.stats);
-    if (uniqueStats.size !== draftOverride.stats.length) {
-      window.alert("Duplicate stats are not allowed in priority order. Please choose 4 unique stats.");
-      return;
-    }
-
-    setSpecOverrides((prev) => ({ ...prev, [selectedSpec]: draftOverride }));
-  };
-
-  const resetSelectedSpec = () => {
-    setSpecOverrides((prev) => {
-      const next = { ...prev };
-      delete next[selectedSpec];
-      return next;
-    });
-    setDraftOverride(defaultSpecMap()[selectedSpec]);
-  };
-
-  const resetAllSpecs = () => {
-    setSpecOverrides({});
-    setDraftOverride(defaultSpecMap()[selectedSpec]);
-  };
-
-  const exportSpecOverrides = () => {
-    const json = serializeSpecOverrides(specOverrides);
-    const blob = new Blob([json], { type: "application/json;charset=utf-8;" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = "spec_overrides.json";
-    a.click();
-    URL.revokeObjectURL(url);
-  };
-
-  const importSpecOverridesFromFile = async (event) => {
-    const file = event.target.files?.[0];
-    if (!file) return;
-
-    try {
-      const text = await file.text();
-      const imported = parseSpecOverridesJson(text);
-      setSpecOverrides(imported);
-      setDraftOverride(imported[selectedSpec] || defaultSpecMap()[selectedSpec]);
-    } catch {
-      window.alert("Could not import overrides. Please select a valid JSON file.");
-    } finally {
-      event.target.value = "";
-    }
-  };
 
   const exportCsv = () => {
     const rows = [["Boss", "Item", "S", "A", "Trash"]];
@@ -142,24 +54,6 @@ export default function LootRankingApp() {
     a.download = "loot_ranking_output.csv";
     a.click();
     URL.revokeObjectURL(url);
-  };
-
-  const handleSelectItem = (row) => {
-    setSelectedItem((current) => (current?.item.id === row.item.id ? null : row));
-  };
-
-  const openMobileSpecDetail = (row, item) => {
-    const itemStats = item?.stats?.length ? item.stats.map(titleStat).join("/") : "None";
-
-    setMobileSpecDetail({
-      specFull: row.spec.full,
-      specColor: row.spec.color,
-      priority: row.spec.priority,
-      itemStats,
-      reason: row.result.reason,
-      tier: row.result.tier,
-      rank: row.result.rank,
-    });
   };
 
   return (
@@ -249,7 +143,7 @@ export default function LootRankingApp() {
           </CardContent>
         </Card>
 
-        <MobileSpecDetailSheet detail={mobileSpecDetail} onClose={() => setMobileSpecDetail(null)} />
+        <MobileSpecDetailSheet detail={mobileSpecDetail} onClose={closeMobileSpecDetail} />
 
         <RankingFooter githubIssuesUrl={GITHUB_ISSUES_URL} />
       </div>

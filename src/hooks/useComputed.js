@@ -11,7 +11,7 @@ import {
   specRowsToText,
 } from "../utils/lootLogic";
 
-export function useComputed(manualItemsText, specOverrides, query) {
+export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
   return useMemo(() => {
     const defaultItems = flattenBossLoot(DEFAULT_LOOT_TABLE).filter((i) => i.slot !== "Trinket");
     const manualItems = parseManualItems(manualItemsText);
@@ -42,15 +42,21 @@ export function useComputed(manualItemsText, specOverrides, query) {
       };
     });
 
+    const bossOptions = [...new Set(ranked.map((r) => r.item.boss).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+
+    const filteredByBoss = bossFilter === "All bosses"
+      ? ranked
+      : ranked.filter((r) => r.item.boss === bossFilter);
+
     const q = query.trim().toLowerCase();
     const filteredRanked = q
-      ? ranked.filter((r) =>
+      ? filteredByBoss.filter((r) =>
           [r.item.name, r.item.slot, r.item.type, r.item.primary, r.item.boss, ...r.item.stats]
             .join(" ")
             .toLowerCase()
             .includes(q),
         )
-      : ranked;
+      : filteredByBoss;
 
     return {
       items,
@@ -60,6 +66,7 @@ export function useComputed(manualItemsText, specOverrides, query) {
       manualItemCount: manualItems.filter((i) => !i.error).length,
       overrideCount: Object.keys(specOverrides).length,
       effectiveRows,
+      bossOptions,
     };
-  }, [manualItemsText, specOverrides, query]);
+  }, [manualItemsText, specOverrides, query, bossFilter]);
 }

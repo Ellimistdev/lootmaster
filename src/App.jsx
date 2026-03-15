@@ -17,9 +17,10 @@ export default function LootRankingApp() {
   const [selectedClass, setSelectedClass] = useState(INITIAL_SELECTED_CLASS);
   const [selectedSpecName, setSelectedSpecName] = useState(INITIAL_SELECTED_SPEC_NAME);
   const [draftOverride, setDraftOverride] = useState(defaultSpecMap()[INITIAL_SELECTED_SPEC_FULL]);
+  const [bossFilter, setBossFilter] = useState("All bosses");
   const [query, setQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
-  const { ranked, defaultItemCount, manualItemCount, overrideCount, effectiveRows } = useComputed(manualItemsText, specOverrides, query);
+  const { ranked, defaultItemCount, manualItemCount, overrideCount, effectiveRows, bossOptions } = useComputed(manualItemsText, specOverrides, query, bossFilter);
 
   const classToSpecs = DEFAULT_SPEC_ROWS.reduce((acc, [full]) => {
     const [className, specName] = full.split(" - ").map((x) => x.trim());
@@ -205,9 +206,19 @@ export default function LootRankingApp() {
           <CardHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <CardTitle className="text-zinc-50">Ranked Output</CardTitle>
             <div className="flex items-center gap-2 w-full md:w-auto">
+              <select
+                value={bossFilter}
+                onChange={(e) => setBossFilter(e.target.value)}
+                className="rounded-xl border border-zinc-700 bg-black text-zinc-100 px-3 py-2"
+              >
+                <option value="All bosses">All bosses</option>
+                {bossOptions.map((boss) => (
+                  <option key={boss} value={boss}>{boss}</option>
+                ))}
+              </select>
               <div className="relative flex-1 md:w-72">
                 <Search className="w-4 h-4 absolute left-3 top-3 text-zinc-500" />
-                <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Filter items or boss..." className="pl-9 bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700" />
+                <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Filter items..." className="pl-9 bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700" />
               </div>
               <Button className="bg-sky-600 text-white hover:bg-sky-500 shrink-0" onClick={exportCsv}>
                 <Download className="w-4 h-4 mr-2" /> Export CSV
@@ -219,7 +230,6 @@ export default function LootRankingApp() {
               <table className="w-full text-sm">
                 <thead className="bg-zinc-950 sticky top-0 z-10">
                   <tr className="text-left border-b border-zinc-800 text-zinc-100">
-                    <th className="p-3 min-w-[180px]">Boss</th>
                     <th className="p-3 min-w-[260px]">Item</th>
                     <th className="p-3 min-w-[320px]">S</th>
                     <th className="p-3 min-w-[320px]">A</th>
@@ -229,7 +239,6 @@ export default function LootRankingApp() {
                 <tbody>
                   {ranked.map((row) => (
                     <tr key={row.item.id} className="border-b border-zinc-800 hover:bg-zinc-900/80 cursor-pointer" onClick={() => setSelectedItem(row)}>
-                      <td className="p-3 align-top text-zinc-300">{row.item.boss}</td>
                       <td className="p-3 align-top text-zinc-100">
                         <div className="font-semibold text-zinc-50">{row.item.name}</div>
                         <div className="text-zinc-400 text-xs mt-1">{row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"} • {row.item.stats.map(titleStat).join("/")}</div>

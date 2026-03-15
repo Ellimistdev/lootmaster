@@ -291,6 +291,60 @@ export function defaultSpecMap() {
   );
 }
 
+function normalizeOverrideStat(value) {
+  const stat = normStat(value);
+  return SECONDARIES.includes(stat) ? titleStat(stat).replace("Mastery", "Mast") : null;
+}
+
+function normalizeOverrideComp(value) {
+  const comp = String(value || "").trim();
+  return comp === ">" || comp === "=" ? comp : null;
+}
+
+export function sanitizeSpecOverrides(input) {
+  if (!input || typeof input !== "object") return {};
+
+  const allowedSpecs = new Set(DEFAULT_SPEC_ROWS.map(([full]) => full));
+  const cleaned = {};
+
+  Object.entries(input).forEach(([full, raw]) => {
+    if (!allowedSpecs.has(full)) return;
+    if (!raw || typeof raw !== "object") return;
+
+    const statsRaw = Array.isArray(raw.stats) ? raw.stats : [];
+    const compsRaw = Array.isArray(raw.comps) ? raw.comps : [];
+    if (statsRaw.length !== 4 || compsRaw.length !== 3) return;
+
+    const stats = statsRaw.map(normalizeOverrideStat);
+    const comps = compsRaw.map(normalizeOverrideComp);
+    if (stats.some((s) => !s) || comps.some((c) => !c)) return;
+
+    const uniqueStats = new Set(stats);
+    if (uniqueStats.size !== stats.length) return;
+
+    cleaned[full] = { stats, comps };
+  });
+
+  return cleaned;
+}
+
+export function serializeSpecOverrides(overrides) {
+  const payload = {
+    schema: "midnight-loot-master-overrides-v1",
+    exportedAt: new Date().toISOString(),
+    overrides: sanitizeSpecOverrides(overrides),
+  };
+  return JSON.stringify(payload, null, 2);
+}
+
+export function parseSpecOverridesJson(text) {
+  if (!text || !String(text).trim()) return {};
+
+  const parsed = JSON.parse(text);
+  const overridesSource = parsed && typeof parsed === "object" && parsed.overrides ? parsed.overrides : parsed;
+  return sanitizeSpecOverrides(overridesSource);
+}
+
 export function buildEffectiveSpecRows(overrides) {
   const base = defaultSpecMap();
   Object.entries(overrides).forEach(([full, value]) => {

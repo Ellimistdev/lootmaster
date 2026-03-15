@@ -236,6 +236,9 @@ export const DEFAULT_SPEC_ROWS = Object.entries(CLASS_LIBRARY).flatMap(([classNa
   Object.entries(classData.specs).map(([specName, specData]) => [`${className} - ${specName}`, [...specData.secondaryPriority]]),
 );
 
+export const SPEC_DATA_VERSION = "Season 1";
+export const SPEC_DATA_UPDATED_AT = "2026-03-14";
+
 export const SPEC_OPTIONS = ["Crit", "Haste", "Mast", "Vers"];
 export const COMPARATOR_OPTIONS = [">", "="];
 

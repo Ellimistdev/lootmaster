@@ -1,12 +1,15 @@
 import { describe, expect, it } from "vitest";
 import {
   classify,
+  parseSpecOverridesJson,
   flattenBossLoot,
   normStat,
   parseManualItems,
   parsePrimaryOptions,
   parsePriority,
   parseSpecs,
+  sanitizeSpecOverrides,
+  serializeSpecOverrides,
   specCanUseItem,
   specCanUseWeapon,
   weaponCategory,
@@ -168,5 +171,28 @@ describe("classification", () => {
 
     expect(result.tier).toBe("Trash");
     expect(result.rank).toBe(999);
+  });
+});
+
+describe("override maintenance helpers", () => {
+  it("keeps only valid override payload entries", () => {
+    const cleaned = sanitizeSpecOverrides({
+      "Mage - Fire": { stats: ["Crit", "Haste", "Mast", "Vers"], comps: [">", ">", ">"] },
+      "Mage - Arcane": { stats: ["Crit", "Crit", "Mast", "Vers"], comps: [">", ">", ">"] },
+      "Not A Real Spec": { stats: ["Crit", "Haste", "Mast", "Vers"], comps: [">", ">", ">"] },
+    });
+
+    expect(Object.keys(cleaned)).toEqual(["Mage - Fire"]);
+  });
+
+  it("round-trips override data via JSON import/export helpers", () => {
+    const input = {
+      "Mage - Fire": { stats: ["Crit", "Haste", "Mast", "Vers"], comps: [">", "=", ">"] },
+    };
+
+    const exported = serializeSpecOverrides(input);
+    const imported = parseSpecOverridesJson(exported);
+
+    expect(imported).toEqual(input);
   });
 });

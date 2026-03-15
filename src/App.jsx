@@ -1,26 +1,44 @@
-import { Fragment, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 import { Download, Search } from "lucide-react";
 import TierText from "./components/TierText";
 import { Badge, Button, Card, CardContent, CardHeader, CardTitle, Input, Textarea } from "./components/ui";
-import { COMPARATOR_OPTIONS, DEFAULT_SPEC_ROWS, SPEC_OPTIONS } from "./data/constants";
+import { COMPARATOR_OPTIONS, DEFAULT_SPEC_ROWS, SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION, SPEC_OPTIONS } from "./data/constants";
 import { useComputed } from "./hooks/useComputed";
-import { defaultSpecMap, primaryStatForSpec, titleStat } from "./utils/lootLogic";
+import { defaultSpecMap, parseSpecOverridesJson, primaryStatForSpec, serializeSpecOverrides, titleStat } from "./utils/lootLogic";
 
 const INITIAL_SELECTED_SPEC_FULL = DEFAULT_SPEC_ROWS[0][0];
 const [INITIAL_SELECTED_CLASS, INITIAL_SELECTED_SPEC_NAME] = INITIAL_SELECTED_SPEC_FULL.split(" - ").map((x) => x.trim());
+const SPEC_OVERRIDES_STORAGE_KEY = "midnight-lootmaster-spec-overrides-v1";
+
+function loadStoredSpecOverrides() {
+  try {
+    if (typeof window === "undefined") return {};
+    const raw = window.localStorage.getItem(SPEC_OVERRIDES_STORAGE_KEY);
+    if (!raw) return {};
+    return parseSpecOverridesJson(raw);
+  } catch {
+    return {};
+  }
+}
 
 export default function LootRankingApp() {
   const [manualItemsText, setManualItemsText] = useState("");
   const [showManualItems, setShowManualItems] = useState(false);
   const [showSpecOverrides, setShowSpecOverrides] = useState(false);
-  const [specOverrides, setSpecOverrides] = useState({});
+  const [specOverrides, setSpecOverrides] = useState(() => loadStoredSpecOverrides());
   const [selectedClass, setSelectedClass] = useState(INITIAL_SELECTED_CLASS);
   const [selectedSpecName, setSelectedSpecName] = useState(INITIAL_SELECTED_SPEC_NAME);
   const [draftOverride, setDraftOverride] = useState(defaultSpecMap()[INITIAL_SELECTED_SPEC_FULL]);
   const [bossFilter, setBossFilter] = useState("All bosses");
   const [query, setQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
+  const importOverridesInputRef = useRef(null);
   const { ranked, defaultItemCount, manualItemCount, overrideCount, effectiveRows, bossOptions } = useComputed(manualItemsText, specOverrides, query, bossFilter);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    window.localStorage.setItem(SPEC_OVERRIDES_STORAGE_KEY, serializeSpecOverrides(specOverrides));
+  }, [specOverrides]);
 
   const classToSpecs = DEFAULT_SPEC_ROWS.reduce((acc, [full]) => {
     const [className, specName] = full.split(" - ").map((x) => x.trim());
@@ -79,6 +97,33 @@ export default function LootRankingApp() {
     setDraftOverride(defaultSpecMap()[selectedSpec]);
   };
 
+  const exportSpecOverrides = () => {
+    const json = serializeSpecOverrides(specOverrides);
+    const blob = new Blob([json], { type: "application/json;charset=utf-8;" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "spec_overrides.json";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
+  const importSpecOverridesFromFile = async (event) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+
+    try {
+      const text = await file.text();
+      const imported = parseSpecOverridesJson(text);
+      setSpecOverrides(imported);
+      setDraftOverride(imported[selectedSpec] || defaultSpecMap()[selectedSpec]);
+    } catch {
+      window.alert("Could not import overrides. Please select a valid JSON file.");
+    } finally {
+      event.target.value = "";
+    }
+  };
+
   const exportCsv = () => {
     const rows = [["Boss", "Item", "S", "A", "Trash"]];
     ranked.forEach((r) => {
@@ -102,6 +147,7 @@ export default function LootRankingApp() {
           <div>
             <h1 className="text-4xl font-bold tracking-tight text-zinc-50">Midnight Loot Master</h1>
             <p className="text-zinc-300 mt-2">Loaded with the Season 1 raid loot table. Manual item input is optional if you want to add one-off entries.</p>
+            <p className="text-zinc-400 text-sm mt-2">Spec data: {SPEC_DATA_VERSION} • Updated: {SPEC_DATA_UPDATED_AT}</p>
             <p className="text-amber-400/80 text-sm mt-2">
               ⚠ This tool ranks specs by <strong>secondary stat priorities only</strong> - trinkets are excluded from the table.
             </p>
@@ -193,6 +239,15 @@ export default function LootRankingApp() {
                     <Button className="bg-sky-600 text-white hover:bg-sky-500" onClick={applySelectedSpecOverride}>Apply override</Button>
                     <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={resetSelectedSpec}>Reset selected spec to default</Button>
                     <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={resetAllSpecs}>Reset all overrides</Button>
+                    <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={exportSpecOverrides}>Export overrides JSON</Button>
+                    <Button variant="secondary" className="bg-zinc-800 text-zinc-100 hover:bg-zinc-700" onClick={() => importOverridesInputRef.current?.click()}>Import overrides JSON</Button>
+                    <input
+                      ref={importOverridesInputRef}
+                      type="file"
+                      accept="application/json,.json"
+                      className="hidden"
+                      onChange={importSpecOverridesFromFile}
+                    />
                   </div>
                   <div className="rounded-xl border border-zinc-800 bg-black px-3 py-3 text-sm text-zinc-300">
                     Effective priority: <span className="text-zinc-100 font-mono">{selectedSpec}	{primaryStatForSpec(selectedSpec)} &gt;&gt; {draftOverride.stats[0]} {draftOverride.comps[0]} {draftOverride.stats[1]} {draftOverride.comps[1]} {draftOverride.stats[2]} {draftOverride.comps[2]} {draftOverride.stats[3]}</span>

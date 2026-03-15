@@ -51,11 +51,13 @@ describe("loot logic helpers", () => {
   it("returns parse errors for malformed manual item rows", () => {
     const rows = parseManualItems("OnlyName");
     expect(rows).toHaveLength(1);
-    expect(rows[0].error).toMatch(/Expected tab-separated fields/i);
+    expect(rows[0].name).toBe("OnlyName");
+    expect(rows[0].boss).toBe("Manual Additions");
+    expect(rows[0].error).toMatch(/Expected comma-separated fields/i);
   });
 
   it("supports optional primary stat in manual rows", () => {
-    const rows = parseManualItems("Custom Wand\tWeapon\tDagger\tInt\tCrit\tVers");
+    const rows = parseManualItems("Custom Wand, Weapon, Dagger, Int, Crit, Vers");
 
     expect(rows[0].error).toBeNull();
     expect(rows[0].primary).toBe("Int");
@@ -63,10 +65,18 @@ describe("loot logic helpers", () => {
   });
 
   it("deduplicates and caps manual secondary stats to two", () => {
-    const rows = parseManualItems("Custom Ring\tRing\tRing\tCrit\tCrit\tVers\tMastery");
+    const rows = parseManualItems("Custom Ring, Ring, Ring, Crit, Crit, Vers, Mastery");
 
     expect(rows[0].error).toBeNull();
     expect(rows[0].stats).toEqual(["crit", "vers"]);
+  });
+
+  it("supports quoted commas in manual item names", () => {
+    const rows = parseManualItems('"Seal, of Echoes", Ring, Ring, Crit, Haste');
+
+    expect(rows[0].error).toBeNull();
+    expect(rows[0].name).toBe("Seal, of Echoes");
+    expect(rows[0].stats).toEqual(["crit", "haste"]);
   });
 });
 

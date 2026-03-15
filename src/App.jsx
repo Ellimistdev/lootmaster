@@ -138,7 +138,7 @@ export default function LootRankingApp() {
               <CardTitle className="text-zinc-50">Manual Item Input</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-sm text-zinc-300 mb-3">Optional. Add extra tab-separated items here. Format: <span className="text-zinc-100 font-mono">Name\tSlot\tType\tStat1\tStat2</span> or <span className="text-zinc-100 font-mono">Name\tSlot\tType\tPrimary\tStat1\tStat2</span></p>
+              <p className="text-sm text-zinc-300 mb-3">Optional. Add extra comma-separated items here. Format: <span className="text-zinc-100 font-mono">Name, Slot, Type, Stat1, Stat2</span> or <span className="text-zinc-100 font-mono">Name, Slot, Type, Primary, Stat1, Stat2</span></p>
               <Textarea value={manualItemsText} onChange={(e) => setManualItemsText(e.target.value)} className="min-h-[180px] bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700 font-mono text-sm leading-6" />
             </CardContent>
           </Card>
@@ -241,7 +241,11 @@ export default function LootRankingApp() {
                     <tr key={row.item.id} className="border-b border-zinc-800 hover:bg-zinc-900/80 cursor-pointer" onClick={() => setSelectedItem(row)}>
                       <td className="p-3 align-top text-zinc-100">
                         <div className="font-semibold text-zinc-50">{row.item.name}</div>
-                        <div className="text-zinc-400 text-xs mt-1">{row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"} • {row.item.stats.map(titleStat).join("/")}</div>
+                        <div className="text-zinc-400 text-xs mt-1">
+                          {row.item.slot} • {row.item.type} • {row.item.primary ? `Primary: ${row.item.primary}` : "No primary stat restriction"}
+                          {row.item.stats.length ? ` • ${row.item.stats.map(titleStat).join("/")}` : ""}
+                        </div>
+                        {row.item.error && <div className="text-amber-400 text-xs mt-1">{row.item.error}</div>}
                       </td>
                       <td className="p-3 align-top"><TierText groups={row.s} item={row.item} /></td>
                       <td className="p-3 align-top"><TierText groups={row.a} item={row.item} /></td>
@@ -286,8 +290,17 @@ export default function LootRankingApp() {
               <CardTitle className="text-zinc-50">{selectedItem.item.name} — Detail</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="mb-4 text-sm text-zinc-300">{selectedItem.item.boss} • {selectedItem.item.slot} • {selectedItem.item.type} • {selectedItem.item.primary ? `Primary: ${selectedItem.item.primary}` : "No primary stat restriction"} • {selectedItem.item.stats.map(titleStat).join("/")}</div>
+              <div className="mb-4 text-sm text-zinc-300">
+                {selectedItem.item.boss} • {selectedItem.item.slot} • {selectedItem.item.type} • {selectedItem.item.primary ? `Primary: ${selectedItem.item.primary}` : "No primary stat restriction"}
+                {selectedItem.item.stats.length ? ` • ${selectedItem.item.stats.map(titleStat).join("/")}` : ""}
+              </div>
+              {selectedItem.item.error && <div className="mb-4 text-sm text-amber-400">{selectedItem.item.error}</div>}
               <div className="space-y-2">
+                {!selectedItem.detail.length && (
+                  <div className="p-3 rounded-xl bg-black border border-zinc-800 text-sm text-zinc-400">
+                    {selectedItem.item.error ? "This manual item could not be ranked until the input is corrected." : "No eligible specs found for this item."}
+                  </div>
+                )}
                 {selectedItem.detail.map((row) => (
                   <div key={row.spec.full} className="flex flex-wrap items-center justify-between gap-3 p-3 rounded-xl bg-black border border-zinc-800">
                     <div className="flex items-center gap-3 flex-wrap">

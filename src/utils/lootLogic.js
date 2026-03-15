@@ -172,23 +172,60 @@ function looksLikePrimaryInput(value) {
   return Boolean(normalizePrimaryInput(value));
 }
 
+function splitCommaSeparatedLine(line) {
+  const parts = [];
+  let current = "";
+  let inQuotes = false;
+
+  for (let index = 0; index < line.length; index += 1) {
+    const char = line[index];
+    const nextChar = line[index + 1];
+
+    if (char === '"') {
+      if (inQuotes && nextChar === '"') {
+        current += '"';
+        index += 1;
+      } else {
+        inQuotes = !inQuotes;
+      }
+      continue;
+    }
+
+    if (char === "," && !inQuotes) {
+      parts.push(current.trim());
+      current = "";
+      continue;
+    }
+
+    current += char;
+  }
+
+  parts.push(current.trim());
+  return parts.filter((part) => part.length > 0);
+}
+
 export function parseManualItems(text, startId = 100000) {
   return text
     .split(/\n+/)
     .map((line) => line.trim())
     .filter(Boolean)
     .map((line, idx) => {
-      const parts = line
-        .split("\t")
-        .map((x) => x.trim())
-        .filter((x) => x.length > 0);
+      const parts = splitCommaSeparatedLine(line);
 
       if (parts.length < 4) {
         return {
           id: startId + idx + 1,
+          boss: "Manual Additions",
           raw: line,
+          name: parts[0] || `Manual Item ${idx + 1}`,
+          slot: parts[1] || "Unknown slot",
+          type: parts[2] || "Unknown type",
+          primary: null,
+          big: null,
+          small: null,
+          stats: [],
           source: "manual",
-          error: "Expected tab-separated fields: Name<TAB>Slot<TAB>Type<TAB>Stat1<TAB>Stat2 (optional: <TAB>Primary before stats).",
+          error: "Expected comma-separated fields: Name, Slot, Type, Stat1, Stat2 (optional: Primary before stats).",
         };
       }
 

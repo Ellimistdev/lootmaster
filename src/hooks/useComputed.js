@@ -15,16 +15,18 @@ export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
   return useMemo(() => {
     const defaultItems = flattenBossLoot(DEFAULT_LOOT_TABLE).filter((i) => i.slot !== "Trinket");
     const manualItems = parseManualItems(manualItemsText);
-    const items = [...defaultItems, ...manualItems.filter((i) => !i.error || i.raw)];
+    const items = [...manualItems, ...defaultItems];
 
     const effectiveRows = buildEffectiveSpecRows(specOverrides);
     const specs = parseSpecs(specRowsToText(effectiveRows));
 
-    const ranked = items.filter((i) => !i.error).map((item) => {
-      const entries = specs
-        .filter((s) => !s.error)
-        .filter((s) => specCanUseItem(s, item))
-        .map((spec) => ({ spec, result: classify(spec, item) }));
+    const ranked = items.map((item) => {
+      const entries = item.error
+        ? []
+        : specs
+            .filter((s) => !s.error)
+            .filter((s) => specCanUseItem(s, item))
+            .map((spec) => ({ spec, result: classify(spec, item) }));
 
       return {
         item,
@@ -42,11 +44,15 @@ export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
       };
     });
 
-    const bossOptions = [...new Set(ranked.map((r) => r.item.boss).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+    const bossOptions = [...new Set(
+      ranked
+        .map((r) => r.item.boss)
+        .filter((boss) => boss && boss !== "Manual Additions"),
+    )].sort((a, b) => a.localeCompare(b));
 
     const filteredByBoss = bossFilter === "All bosses"
       ? ranked
-      : ranked.filter((r) => r.item.boss === bossFilter);
+      : ranked.filter((r) => r.item.source === "manual" || r.item.boss === bossFilter);
 
     const q = query.trim().toLowerCase();
     const filteredRanked = q
@@ -63,7 +69,7 @@ export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
       specs,
       ranked: filteredRanked,
       defaultItemCount: defaultItems.length,
-      manualItemCount: manualItems.filter((i) => !i.error).length,
+      manualItemCount: manualItems.length,
       overrideCount: Object.keys(specOverrides).length,
       effectiveRows,
       bossOptions,

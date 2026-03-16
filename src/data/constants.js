@@ -125,7 +125,7 @@ export const CLASS_LIBRARY = {
     color: "#A330C9",
     armorType: "Leather",
     specs: {
-      Devourer: { primaryStat: "Agi", secondaryPriority: ["Mast", ">", "Haste", ">", "Crit", ">", "Vers"] },
+      Devourer: { primaryStat: "Agi", secondaryPriority: ["Haste", ">", "Mast", ">", "Crit", ">", "Vers"] },
       Havoc: { primaryStat: "Agi", secondaryPriority: ["Crit", ">", "Mast", ">", "Haste", ">", "Vers"] },
       Vengeance: { primaryStat: "Agi", secondaryPriority: ["Crit", "=", "Haste", "=", "Vers", ">", "Mast"] },
     },

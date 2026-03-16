@@ -39,7 +39,7 @@ export default function StickyControlsPanel({
   onExportCsv,
 }) {
   return (
-    <div className="space-y-6 bg-zinc-950/95 py-4 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/80 lg:sticky lg:top-0 lg:z-30">
+    <div className="space-y-6 bg-zinc-950/95 py-4 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/80">
       <Card className="bg-zinc-900 border-zinc-800 shadow-2xl">
         <CardContent className="pt-6">
           <div className="flex flex-wrap items-center gap-3 text-sm text-zinc-300">
@@ -138,30 +138,7 @@ export default function StickyControlsPanel({
         </Card>
       )}
 
-      <Card className="bg-zinc-900 border-zinc-800 shadow-2xl">
-        <CardHeader className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <CardTitle className="text-zinc-50">Ranked Output</CardTitle>
-          <div className="flex w-full flex-col gap-2 md:flex-row md:flex-wrap md:items-center md:justify-end xl:w-auto xl:flex-nowrap">
-            <select
-              value={bossFilter}
-              onChange={(e) => onBossFilterChange(e.target.value)}
-              className="rounded-xl border border-zinc-700 bg-black text-zinc-100 px-3 py-2"
-            >
-              <option value="All bosses">All bosses</option>
-              {bossOptions.map((boss) => (
-                <option key={boss} value={boss}>{boss}</option>
-              ))}
-            </select>
-            <div className="relative flex-1 md:min-w-[16rem] xl:w-72">
-              <Search className="w-4 h-4 absolute left-3 top-3 text-zinc-500" />
-              <Input value={query} onChange={(e) => onQueryChange(e.target.value)} placeholder="Filter items..." className="pl-9 bg-black text-zinc-100 placeholder:text-zinc-500 border-zinc-700" />
-            </div>
-            <Button className="bg-sky-600 text-white hover:bg-sky-500 shrink-0" onClick={onExportCsv}>
-              <Download className="w-4 h-4 mr-2" /> Export CSV
-            </Button>
-          </div>
-        </CardHeader>
-      </Card>
+      {/* Ranked Output controls moved into RankedItemsList to keep filters with the table */}
     </div>
   );
 }

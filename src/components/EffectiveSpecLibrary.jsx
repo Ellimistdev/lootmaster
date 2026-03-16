@@ -7,12 +7,12 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
         <CardTitle className="text-zinc-50">Effective Spec Library</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="max-h-72 overflow-auto rounded-2xl border border-zinc-800 bg-black">
-          <table className="w-full text-sm">
+        <div className="max-h-[60vh] overflow-y-auto rounded-2xl border border-zinc-800 bg-black">
+          <table className="w-full table-fixed text-sm">
             <thead className="bg-zinc-950 sticky top-0 z-10">
               <tr className="text-left border-b border-zinc-800 text-zinc-100">
-                <th className="p-3">Spec</th>
-                <th className="p-3">Priority</th>
+                <th className="p-3 text-center">Spec</th>
+                <th className="p-3 text-center">Priority</th>
               </tr>
             </thead>
             <tbody>

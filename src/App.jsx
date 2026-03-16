@@ -92,7 +92,18 @@ export default function LootRankingApp() {
             onExportCsv={() => exportRankedCsv(ranked)}
           />
 
-          <RankedItemsList ranked={ranked} selectedItem={selectedItem} onSelectItem={handleSelectItem} onSpecPress={openMobileSpecDetail} />
+          <RankedItemsList
+            ranked={ranked}
+            selectedItem={selectedItem}
+            onSelectItem={handleSelectItem}
+            onSpecPress={openMobileSpecDetail}
+            bossFilter={bossFilter}
+            onBossFilterChange={setBossFilter}
+            bossOptions={bossOptions}
+            query={query}
+            onQueryChange={setQuery}
+            onExportCsv={() => exportRankedCsv(ranked)}
+          />
         </div>
 
         <EffectiveSpecLibrary effectiveRows={effectiveRows} />

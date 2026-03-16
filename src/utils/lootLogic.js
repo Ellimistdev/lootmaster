@@ -583,7 +583,7 @@ export function classify(spec, item) {
 
     return {
       tier: "S",
-      rank: item.big === spec.top1 ? 1.0 : 2.0,
+      rank: item.big === spec.top1 ? 0.5 : 1.0,
       reason: `Matches both first and second priority stats; item is weighted toward the ${weightedToward}.`,
     };
   }

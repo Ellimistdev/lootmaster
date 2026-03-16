@@ -169,6 +169,57 @@ describe("classification", () => {
     expect(result.rank).toBe(0.5);
   });
 
+  it("keeps tied top priorities in S regardless of stat order", () => {
+    const spec = {
+      top1: "crit",
+      top2: "haste",
+      top1Tier: new Set(["crit", "haste"]),
+    };
+
+    const critBig = classify(spec, { stats: ["crit", "haste"], big: "crit" });
+    const hasteBig = classify(spec, { stats: ["crit", "haste"], big: "haste" });
+
+    expect(critBig.tier).toBe("S");
+    expect(hasteBig.tier).toBe("S");
+  });
+
+  it("keeps ordered dual-stat matches in S with distribution-based rank", () => {
+    const critThenHaste = {
+      top1: "crit",
+      top2: "haste",
+      top1Tier: new Set(["crit"]),
+    };
+
+    const hasteThenCrit = {
+      top1: "haste",
+      top2: "crit",
+      top1Tier: new Set(["haste"]),
+    };
+
+    const critEqHasteCritBig = classify(
+      { top1: "crit", top2: "haste", top1Tier: new Set(["crit", "haste"]) },
+      { stats: ["crit", "haste"], big: "crit" },
+    );
+
+    const critGreaterHasteCritBig = classify(critThenHaste, { stats: ["crit", "haste"], big: "crit" });
+    const critGreaterHasteHasteBig = classify(critThenHaste, { stats: ["crit", "haste"], big: "haste" });
+    const hasteGreaterCritHasteBig = classify(hasteThenCrit, { stats: ["crit", "haste"], big: "haste" });
+    const hasteGreaterCritCritBig = classify(hasteThenCrit, { stats: ["crit", "haste"], big: "crit" });
+
+    expect(critGreaterHasteCritBig.tier).toBe("S");
+    expect(critGreaterHasteCritBig.rank).toBe(critEqHasteCritBig.rank);
+
+    expect(critGreaterHasteHasteBig.tier).toBe("S");
+    expect(critGreaterHasteHasteBig.rank).toBe(1.0);
+
+    expect(hasteGreaterCritHasteBig.tier).toBe("S");
+    expect(hasteGreaterCritHasteBig.rank).toBe(0.5);
+
+    expect(hasteGreaterCritCritBig.tier).toBe("S");
+    expect(hasteGreaterCritCritBig.rank).toBe(1.0);
+    expect(hasteGreaterCritCritBig.rank).toBeGreaterThan(critEqHasteCritBig.rank);
+  });
+
   it("marks non-matching items as Trash", () => {
     const spec = {
       top1: "crit",

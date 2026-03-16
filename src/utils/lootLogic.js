@@ -413,7 +413,7 @@ export function weaponCategory(item) {
   if (type.includes("gun")) return "gun";
   if (type.includes("bow")) return "bow";
   if (type.includes("crossbow")) return "crossbow";
-  if (type.includes("warglaive")) return primaryOptions.includes("int") ? "int-warglaive" : "warglaive";
+  if (type.includes("warglaive")) return "warglaive";
   if (type.includes("fist")) return "fist";
   if (type.includes("polearm")) return primaryOptions.includes("agi") ? "agi-polearm" : "generic-weapon";
   if (type.includes("staff")) {
@@ -494,8 +494,6 @@ export function specCanUseWeapon(spec, category) {
       return new Set(["Rogue - Outlaw", "Shaman - Enhancement", "Monk - Windwalker"]).has(full);
     case "warglaive":
       return cls === "Demon Hunter";
-    case "int-warglaive":
-      return new Set(["Demon Hunter - Devourer"]).has(full);
     case "agi-polearm":
       return new Set(["Druid - Feral", "Hunter - Survival"]).has(full);
     case "agi-staff":
@@ -506,7 +504,7 @@ export function specCanUseWeapon(spec, category) {
     case "1h-str-mace":
     case "1h-str-axe":
     case "1h-str-sword":
-      return new Set(["Death Knight - Frost"]).has(full);
+      return new Set(["Death Knight - Frost", "Paladin - Protection", "Warrior - Protection"]).has(full);
     case "2h-str-sword":
     case "2h-str-mace":
     case "2h-str-axe":

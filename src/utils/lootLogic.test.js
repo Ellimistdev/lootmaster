@@ -131,16 +131,26 @@ describe("spec and item compatibility", () => {
   });
 
   it("categorizes warglaives based on primary options", () => {
-    expect(weaponCategory({ type: "Warglaive", primary: "Int" })).toBe("int-warglaive");
+    expect(weaponCategory({ type: "Warglaive", primary: "Int" })).toBe("warglaive");
     expect(weaponCategory({ type: "Warglaive", primary: "Agi" })).toBe("warglaive");
   });
 
-  it("limits int-warglaive use to Demon Hunter - Devourer", () => {
+  it("allows warglaives for Demon Hunter specs", () => {
     const devourer = { full: "Demon Hunter - Devourer", className: "Demon Hunter" };
     const havoc = { full: "Demon Hunter - Havoc", className: "Demon Hunter" };
 
-    expect(specCanUseWeapon(devourer, "int-warglaive")).toBe(true);
-    expect(specCanUseWeapon(havoc, "int-warglaive")).toBe(false);
+    expect(specCanUseWeapon(devourer, "warglaive")).toBe(true);
+    expect(specCanUseWeapon(havoc, "warglaive")).toBe(true);
+  });
+
+  it("allows 1h str weapons for prot specs", () => {
+    const dkFrost = { full: "Death Knight - Frost", className: "Death Knight" };
+    const paladinProtection = { full: "Paladin - Protection", className: "Paladin" };
+    const warriorProtection = { full: "Warrior - Protection", className: "Warrior" };
+
+    expect(specCanUseWeapon(dkFrost, "1h-str-mace")).toBe(true);
+    expect(specCanUseWeapon(paladinProtection, "1h-str-mace")).toBe(true);
+    expect(specCanUseWeapon(warriorProtection, "1h-str-mace")).toBe(true);
   });
 });
 

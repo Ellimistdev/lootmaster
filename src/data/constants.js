@@ -38,7 +38,7 @@ export const DEFAULT_LOOT_TABLE = {
   ],
   "Vaelgor & Ezzorak": [
     { item: "Clutchmates' Caress", slot: "Weapon", type: "1h Mace", primary: "Agi", stat1: "Mastery", stat2: "Haste" },
-    { item: "Emblazoned Sungalive", slot: "Weapon", type: "Warglaive", primary: "Agi/Int", stat1: "Crit", stat2: "Mastery" },
+    { item: "Emblazoned Sunglaive", slot: "Weapon", type: "Warglaive", primary: "Agi/Int", stat1: "Crit", stat2: "Mastery" },
     { item: "Slippers of the Midnight Flame", slot: "Feet", type: "Cloth", primary: "Int", stat1: "Crit", stat2: "Haste" },
     { item: "Vaelgor's Fearsome Grasp", slot: "Hands", type: "Leather", primary: "Agi/Int", stat1: "Crit", stat2: "Mastery" },
     { item: "Nullwalker's Dread Epualettes", slot: "Shoulders", type: "Mail", primary: "Agi/Int", stat1: "Crit", stat2: "Mastery" },

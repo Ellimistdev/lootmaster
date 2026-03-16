@@ -31,12 +31,7 @@ export default function StickyControlsPanel({
   onImportSpecOverridesClick,
   importOverridesInputRef,
   onImportSpecOverridesFromFile,
-  bossFilter,
-  onBossFilterChange,
-  bossOptions,
-  query,
-  onQueryChange,
-  onExportCsv,
+  
 }) {
   return (
     <div className="space-y-6 bg-zinc-950/95 py-4 backdrop-blur supports-[backdrop-filter]:bg-zinc-950/80">

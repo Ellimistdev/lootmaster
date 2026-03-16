@@ -21,7 +21,14 @@ export default function TierText({ groups, item, onSpecPress }) {
     <span className="leading-6 text-zinc-100">
       {groups.map((g, idx) => (
         <span key={idx}>
-          {idx > 0 ? " > " : ""}
+          {idx > 0 ? (
+            <>
+              <span className="text-zinc-100"> &gt;</span>
+              <br />
+            </>
+          ) : (
+            ""
+          )}
           {g.specs.map((row, i) => (
             <span key={row.spec.full}>
               {i > 0 ? " = " : ""}

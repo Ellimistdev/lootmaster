@@ -22,7 +22,7 @@ export default function RankingFooter({ githubIssuesUrl }) {
       </div>
 
       <div className="mt-5 border-t border-zinc-800 pt-5">
-        <div className="max-w-4xl space-y-3 text-sm text-zinc-300">
+        <div className="space-y-3 text-sm text-zinc-300">
           <p className="font-semibold text-zinc-100">How an item is ranked</p>
           <ol className="list-decimal space-y-2 pl-5 marker:text-zinc-500">
             <li>Trinkets are excluded from the ranked table. Manual items with invalid input are also skipped until their stats are fixed.</li>

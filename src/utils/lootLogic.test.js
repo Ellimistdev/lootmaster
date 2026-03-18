@@ -143,6 +143,15 @@ describe("spec and item compatibility", () => {
     expect(specCanUseWeapon(havoc, "warglaive")).toBe(true);
   });
 
+  it("prevents warlocks from using 1h maces", () => {
+    const warlock = { full: "Warlock - Affliction", className: "Warlock" };
+    const priest = { full: "Priest - Discipline", className: "Priest" };
+
+    expect(specCanUseWeapon(warlock, "int-mace")).toBe(false);
+    expect(specCanUseWeapon(warlock, "int-dagger")).toBe(true);
+    expect(specCanUseWeapon(priest, "int-mace")).toBe(true);
+  });
+
   it("allows 1h str weapons for prot specs", () => {
     const dkFrost = { full: "Death Knight - Frost", className: "Death Knight" };
     const paladinProtection = { full: "Paladin - Protection", className: "Paladin" };

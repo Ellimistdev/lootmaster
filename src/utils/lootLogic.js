@@ -469,8 +469,13 @@ export function specCanUseWeapon(spec, category) {
     "Monk - Mistweaver",
   ]);
 
+  const intMaceUsers = new Set(
+    [...intUsers].filter((s) => !s.startsWith("Warlock")),
+  );
+
   switch (category) {
     case "int-mace":
+      return intMaceUsers.has(full);
     case "int-dagger":
     case "int-sword":
     case "int-staff":

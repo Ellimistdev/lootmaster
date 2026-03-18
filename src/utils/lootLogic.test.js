@@ -152,6 +152,12 @@ describe("spec and item compatibility", () => {
     expect(specCanUseWeapon(priest, "int-mace")).toBe(true);
   });
 
+  it("allows Brewmaster monks to use agi staves", () => {
+    const brewmaster = { full: "Monk - Brewmaster", className: "Monk" };
+
+    expect(specCanUseWeapon(brewmaster, "agi-staff")).toBe(true);
+  });
+
   it("allows 1h str weapons for prot specs", () => {
     const dkFrost = { full: "Death Knight - Frost", className: "Death Knight" };
     const paladinProtection = { full: "Paladin - Protection", className: "Paladin" };

@@ -502,7 +502,7 @@ export function specCanUseWeapon(spec, category) {
     case "agi-polearm":
       return new Set(["Druid - Feral", "Hunter - Survival"]).has(full);
     case "agi-staff":
-      return new Set(["Druid - Feral", "Druid - Guardian", "Monk - Windwalker"]).has(full);
+      return new Set(["Druid - Feral", "Druid - Guardian", "Monk - Windwalker", "Monk - Brewmaster"]).has(full);
     case "1h-agi-mace":
     case "1h-agi-sword":
       return new Set(["Shaman - Enhancement", "Monk - Windwalker", "Rogue - Outlaw", "Hunter - Survival"]).has(full);

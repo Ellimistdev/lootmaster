@@ -209,7 +209,7 @@ export const CLASS_LIBRARY = {
     specs: {
       Elemental: { primaryStat: "Int", secondaryPriority: ["Mast", ">", "Crit", "=", "Haste", ">", "Vers"] },
       Enhancement: { primaryStat: "Agi", secondaryPriority: ["Mast", ">", "Crit", "=", "Haste", ">", "Vers"] },
-      Restoration: { primaryStat: "Int", secondaryPriority: ["Crit", "=", "Haste", ">", "Mast", "=", "Vers"] },
+      Restoration: { primaryStat: "Int", secondaryPriority: ["Crit", ">", "Mast", "=", "Vers", ">", "Haste"] },
     },
   },
   Warlock: {

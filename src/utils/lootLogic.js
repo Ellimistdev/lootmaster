@@ -112,6 +112,7 @@ export function parsePriority(raw) {
     top1: flat[0] || null,
     top2: flat[1] || null,
     top1Tier: new Set(tiers[0] || []),
+    top2Tier: new Set(tiers[1] || []),
   };
 }
 
@@ -571,6 +572,7 @@ export function specCanUseItem(spec, item) {
 
 export function classify(spec, item) {
   const itemSet = new Set(item.stats);
+  const top2Tier = spec.top2Tier instanceof Set ? spec.top2Tier : new Set();
 
   if (item.stats.length === 2 && item.stats.every((s) => spec.top1Tier.has(s)) && spec.top1Tier.size >= 2) {
     return {
@@ -582,18 +584,21 @@ export function classify(spec, item) {
 
   const hasTop1 = itemSet.has(spec.top1);
   const hasTop2 = itemSet.has(spec.top2);
+  const hasSecondTier = item.stats.some((s) => top2Tier.has(s));
+  const hasPreferredSecond = hasTop2 || hasSecondTier;
 
-  if (hasTop1 && hasTop2) {
+  if (hasTop1 && hasPreferredSecond) {
     const weightedToward = item.big === spec.top1 ? "first-priority stat" : "second-priority stat";
+    const secondStatLabel = hasTop2 ? "second priority" : "tied second-priority tier";
 
     return {
       tier: "S",
       rank: item.big === spec.top1 ? 0.5 : 1.0,
-      reason: `Matches both first and second priority stats; item is weighted toward the ${weightedToward}.`,
+      reason: `Matches first priority and ${secondStatLabel}; item is weighted toward the ${weightedToward}.`,
     };
   }
 
-  if (hasTop1 && !hasTop2) {
+  if (hasTop1 && !hasPreferredSecond) {
     return {
       tier: "A",
       rank: 3.0,

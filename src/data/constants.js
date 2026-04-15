@@ -181,7 +181,7 @@ export const CLASS_LIBRARY = {
     armorType: "Plate",
     specs: {
       Holy: { primaryStat: "Int", secondaryPriority: ["Mast", ">", "Crit", "=", "Haste", ">", "Vers"] },
-      Protection: { primaryStat: "Str", secondaryPriority: ["Haste", "=", "Vers", ">", "Crit", ">", "Mast"] },
+      Protection: { primaryStat: "Str", secondaryPriority: ["Haste", ">", "Crit", ">", "Vers", "=", "Mast"] },
       Retribution: { primaryStat: "Str", secondaryPriority: ["Mast", ">", "Haste", ">", "Crit", ">", "Vers"] },
     },
   },

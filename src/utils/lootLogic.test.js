@@ -170,6 +170,14 @@ describe("spec and item compatibility", () => {
 });
 
 describe("classification", () => {
+  it("treats tied second-tier stats as an S-tier match for top1 plus tied second", () => {
+    const parsed = parsePriority("Crit > Mast = Vers > Haste");
+    const result = classify(parsed, { stats: ["crit", "vers"], big: "crit" });
+
+    expect(result.tier).toBe("S");
+    expect(result.rank).toBe(0.5);
+  });
+
   it("marks top-tier tie items as S with rank 0.5", () => {
     const spec = {
       top1: "crit",

@@ -24,7 +24,10 @@ export default function ItemDetailPanel({ row }) {
               <span style={{ color: detailRow.spec.color }} className="font-semibold">{detailRow.spec.short}</span>
               <span className="text-zinc-400 text-sm">{detailRow.spec.full}</span>
             </div>
-            <div className="text-sm text-zinc-300">Rank {detailRow.result.rank} • {detailRow.result.reason}</div>
+            <div className="text-sm text-zinc-300 text-right">
+              <div>Rank {detailRow.result.rank} • {detailRow.result.reason}</div>
+              <div className="text-zinc-400">Current priority: {detailRow.spec.priority}</div>
+            </div>
           </div>
         ))}
       </div>

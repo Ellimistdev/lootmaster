@@ -167,6 +167,20 @@ describe("spec and item compatibility", () => {
     expect(specCanUseWeapon(paladinProtection, "1h-str-mace")).toBe(true);
     expect(specCanUseWeapon(warriorProtection, "1h-str-mace")).toBe(true);
   });
+
+  it("supports Agi/Str axe categories for 1h and 2h weapon rules", () => {
+    const hunterSurvival = { full: "Hunter - Survival", className: "Hunter" };
+    const warriorArms = { full: "Warrior - Arms", className: "Warrior" };
+    const mageFire = { full: "Mage - Fire", className: "Mage" };
+
+    expect(weaponCategory({ type: "1h Axe", primary: "Agi/Str" })).toBe("1h-agi-str-axe");
+    expect(weaponCategory({ type: "2h Axe", primary: "Agi/Str" })).toBe("2h-agi-str-axe");
+
+    expect(specCanUseWeapon(hunterSurvival, "1h-agi-str-axe")).toBe(true);
+    expect(specCanUseWeapon(warriorArms, "2h-agi-str-axe")).toBe(true);
+    expect(specCanUseWeapon(mageFire, "1h-agi-str-axe")).toBe(false);
+    expect(specCanUseWeapon(mageFire, "2h-agi-str-axe")).toBe(false);
+  });
 });
 
 describe("classification", () => {

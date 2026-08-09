@@ -5,7 +5,7 @@ import RankedItemsList from "./components/RankedItemsList";
 import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
 import RankingFooter from "./components/RankingFooter";
 import EffectiveSpecLibrary from "./components/EffectiveSpecLibrary";
-import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/constants";
+import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/season2Metadata";
 import { useLootRankingState } from "./hooks/useLootRankingState";
 import { exportRankedCsv } from "./utils/exportCsv";
 

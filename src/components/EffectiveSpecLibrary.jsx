@@ -1,4 +1,4 @@
-import { SPEC_UPDATED_AT } from "../data/specPriorityUpdates";
+import { SPEC_UPDATED_AT } from "../data/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui";
 
 export default function EffectiveSpecLibrary({ effectiveRows }) {

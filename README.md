@@ -1,6 +1,6 @@
 # Midnight Loot Master
 
-Midnight Loot Master is a World of Warcraft raid-loot planning tool for comparing boss drops against spec secondary-stat priorities. It is designed to help raid teams quickly see which specs value an item most and provide a consistent starting point for loot discussions.
+Midnight Loot Master is a World of Warcraft raid-loot planning tool for comparing boss drops against spec secondary-stat priorities. It is designed to help raid teams quickly see which specs value an item most, while providing a consistent starting point for loot discussions.
 
 The application is currently loaded with the **Midnight Season 2** raid loot table and a built-in library of class/spec stat priorities.
 
@@ -42,10 +42,10 @@ Equal priorities such as `Crit = Mastery` are supported. The application current
 Weapon rankings are filtered so that only specs capable of using a weapon are included. The compatibility rules account for distinctions such as:
 
 - Strength vs. Agility vs. Intellect weapons
-- one-handed and two-handed weapons
-- daggers, fist weapons, polearms, staves, shields, off-hands, bows, guns, and warglaives
-- dual-primary Agility/Strength weapons
-- spec-specific restrictions such as ranged Hunter weapons and Demon Hunter warglaives
+- One-handed and two-handed weapons
+- Daggers, fist weapons, polearms, staves, shields, off-hands, bows, guns, and warglaives
+- Dual-primary Agility/Strength weapons
+- Spec-specific restrictions such as ranged Hunter weapons and Demon Hunter warglaives
 
 ## Trinkets
 

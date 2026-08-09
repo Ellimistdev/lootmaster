@@ -1,6 +1,5 @@
 import { useMemo } from "react";
 import { SEASON_2_LOOT_TABLE } from "../data/season2Loot";
-import { SEASON_2_SPEC_PRIORITIES } from "../data/specPriorityUpdates";
 import {
   buildEffectiveSpecRows,
   classify,
@@ -18,10 +17,7 @@ export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
     const manualItems = parseManualItems(manualItemsText);
     const items = [...manualItems, ...defaultItems];
 
-    const effectiveRows = buildEffectiveSpecRows(specOverrides).map(([full, parts]) => [
-      full,
-      specOverrides[full] ? parts : (SEASON_2_SPEC_PRIORITIES[full] || parts),
-    ]);
+    const effectiveRows = buildEffectiveSpecRows(specOverrides);
     const specs = parseSpecs(specRowsToText(effectiveRows));
 
     const ranked = items.map((item) => {

@@ -1,4 +1,4 @@
-# Midnight Loot Master
+<img width="1873" height="977" alt="image" src="https://github.com/user-attachments/assets/71e4e10c-6d12-402b-a8e2-cbabe3d3a547" />
 
 Midnight Loot Master is a World of Warcraft raid-loot planning tool for comparing boss drops against spec secondary-stat priorities. It is designed to help raid teams quickly see which specs value an item most, while providing a consistent starting point for loot discussions.
 
@@ -6,14 +6,14 @@ The application is currently loaded with the **Midnight Season 2** raid loot tab
 
 ## Features
 
-- **Boss-by-boss loot rankings** — browse the built-in Season 2 raid loot table and filter results by encounter.
-- **S / A / Trash rankings** — items are classified for each compatible spec based on the ordering of their secondary stats.
-- **Weapon compatibility** — weapon results account for primary stat, weapon type, and spec-specific weapon restrictions.
-- **Spec priority library** — includes default secondary-stat priorities for every spec, along with the date each priority was last updated.
-- **Custom spec overrides** — temporarily replace the built-in priority for any spec and import/export overrides as JSON.
-- **Manual item input** — add one-off items without modifying the built-in loot table.
-- **Search and filtering** — search across item names, slots, types, stats, and bosses.
-- **Sortable Effective Spec Library** — inspect the priorities currently being used, including active overrides and last-updated dates.
+- **Boss-by-boss loot rankings** - browse the built-in Season 2 raid loot table and filter results by encounter.
+- **S / A / Trash rankings** - items are classified for each compatible spec based on the ordering of their secondary stats.
+- **Weapon compatibility** - weapon results account for primary stat, weapon type, and spec-specific weapon restrictions.
+- **Spec priority library** - includes default secondary-stat priorities for every spec, along with the date each priority was last updated.
+- **Custom spec overrides** - temporarily replace the built-in priority for any spec and import/export overrides as JSON.
+- **Manual item input** - add one-off items without modifying the built-in loot table.
+- **Search and filtering** - search across item names, slots, types, stats, and bosses.
+- **Sortable Effective Spec Library** - inspect the priorities currently being used, including active overrides and last-updated dates.
 
 ## How Rankings Work
 

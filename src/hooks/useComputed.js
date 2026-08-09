@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { DEFAULT_LOOT_TABLE } from "../data/constants";
+import { SEASON_2_LOOT_TABLE } from "../data/season2Loot";
 import {
   buildEffectiveSpecRows,
   classify,
@@ -13,7 +13,7 @@ import {
 
 export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
   return useMemo(() => {
-    const defaultItems = flattenBossLoot(DEFAULT_LOOT_TABLE).filter((i) => i.slot !== "Trinket");
+    const defaultItems = flattenBossLoot(SEASON_2_LOOT_TABLE).filter((i) => i.slot !== "Trinket");
     const manualItems = parseManualItems(manualItemsText);
     const items = [...manualItems, ...defaultItems];
 

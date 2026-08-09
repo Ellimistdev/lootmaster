@@ -408,6 +408,7 @@ export function parseSpecs(text) {
 export function weaponCategory(item) {
   const type = item.type.toLowerCase();
   const primaryOptions = parsePrimaryOptions(item.primary);
+  const isAgiStr = primaryOptions.includes("agi") && primaryOptions.includes("str");
 
   if (type.includes("offhand") || type.includes("off hand")) return "int-offhand";
   if (type.includes("shield")) return "shield";
@@ -436,11 +437,12 @@ export function weaponCategory(item) {
     if (primaryOptions.includes("agi")) return "1h-agi-mace";
   }
   if (type.includes("1h axe")) {
+    if (isAgiStr) return "1h-agi-str-axe";
     if (primaryOptions.length === 1 && primaryOptions.includes("str")) return "1h-str-axe";
   }
   if (type.includes("2h sword")) return "2h-str-sword";
   if (type.includes("2h mace")) return primaryOptions.includes("agi") ? "2h-agi-str-mace" : "2h-str-mace";
-  if (type.includes("2h axe")) return "2h-str-axe";
+  if (type.includes("2h axe")) return isAgiStr ? "2h-agi-str-axe" : "2h-str-axe";
 
   return "generic-weapon";
 }
@@ -507,6 +509,16 @@ export function specCanUseWeapon(spec, category) {
     case "1h-agi-mace":
     case "1h-agi-sword":
       return new Set(["Shaman - Enhancement", "Monk - Windwalker", "Rogue - Outlaw", "Hunter - Survival"]).has(full);
+    case "1h-agi-str-axe":
+      return new Set([
+        "Death Knight - Frost",
+        "Paladin - Protection",
+        "Warrior - Protection",
+        "Shaman - Enhancement",
+        "Monk - Windwalker",
+        "Rogue - Outlaw",
+        "Hunter - Survival",
+      ]).has(full);
     case "1h-str-mace":
     case "1h-str-axe":
     case "1h-str-sword":
@@ -520,6 +532,15 @@ export function specCanUseWeapon(spec, category) {
         "Paladin - Retribution",
         "Warrior - Arms",
         "Warrior - Fury",
+      ]).has(full);
+    case "2h-agi-str-axe":
+      return new Set([
+        "Death Knight - Blood",
+        "Death Knight - Unholy",
+        "Paladin - Retribution",
+        "Warrior - Arms",
+        "Warrior - Fury",
+        "Hunter - Survival",
       ]).has(full);
     case "2h-agi-str-mace":
       return new Set([

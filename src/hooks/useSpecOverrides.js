@@ -1,24 +1,10 @@
 import { useEffect, useRef, useState } from "react";
 import { DEFAULT_SPEC_ROWS } from "../data/constants";
-import { SEASON_2_SPEC_PRIORITIES } from "../data/specPriorityUpdates";
 import { defaultSpecMap, parseSpecOverridesJson, serializeSpecOverrides } from "../utils/lootLogic";
 
 const INITIAL_SELECTED_SPEC_FULL = DEFAULT_SPEC_ROWS[0][0];
 const [INITIAL_SELECTED_CLASS, INITIAL_SELECTED_SPEC_NAME] = INITIAL_SELECTED_SPEC_FULL.split(" - ").map((x) => x.trim());
 const SPEC_OVERRIDES_STORAGE_KEY = "midnight-lootmaster-spec-overrides-v1";
-
-function season2DefaultSpecMap() {
-  const base = defaultSpecMap();
-
-  Object.entries(SEASON_2_SPEC_PRIORITIES).forEach(([full, parts]) => {
-    base[full] = {
-      stats: [parts[0], parts[2], parts[4], parts[6]],
-      comps: [parts[1], parts[3], parts[5]],
-    };
-  });
-
-  return base;
-}
 
 function loadStoredSpecOverrides() {
   try {
@@ -36,7 +22,7 @@ export function useSpecOverrides() {
   const [specOverrides, setSpecOverrides] = useState(() => loadStoredSpecOverrides());
   const [selectedClass, setSelectedClass] = useState(INITIAL_SELECTED_CLASS);
   const [selectedSpecName, setSelectedSpecName] = useState(INITIAL_SELECTED_SPEC_NAME);
-  const [draftOverride, setDraftOverride] = useState(season2DefaultSpecMap()[INITIAL_SELECTED_SPEC_FULL]);
+  const [draftOverride, setDraftOverride] = useState(defaultSpecMap()[INITIAL_SELECTED_SPEC_FULL]);
   const importOverridesInputRef = useRef(null);
 
   useEffect(() => {
@@ -60,13 +46,13 @@ export function useSpecOverrides() {
     const nextSpec = `${nextClass} - ${nextSpecName}`;
     setSelectedClass(nextClass);
     setSelectedSpecName(nextSpecName);
-    setDraftOverride(specOverrides[nextSpec] || season2DefaultSpecMap()[nextSpec]);
+    setDraftOverride(specOverrides[nextSpec] || defaultSpecMap()[nextSpec]);
   };
 
   const handleSelectedSpecChange = (nextSpecName) => {
     const nextSpec = `${selectedClass} - ${nextSpecName}`;
     setSelectedSpecName(nextSpecName);
-    setDraftOverride(specOverrides[nextSpec] || season2DefaultSpecMap()[nextSpec]);
+    setDraftOverride(specOverrides[nextSpec] || defaultSpecMap()[nextSpec]);
   };
 
   const updateSelectedSpec = (field, index, value) => {
@@ -93,12 +79,12 @@ export function useSpecOverrides() {
       delete next[selectedSpec];
       return next;
     });
-    setDraftOverride(season2DefaultSpecMap()[selectedSpec]);
+    setDraftOverride(defaultSpecMap()[selectedSpec]);
   };
 
   const resetAllSpecs = () => {
     setSpecOverrides({});
-    setDraftOverride(season2DefaultSpecMap()[selectedSpec]);
+    setDraftOverride(defaultSpecMap()[selectedSpec]);
   };
 
   const exportSpecOverrides = () => {
@@ -120,7 +106,7 @@ export function useSpecOverrides() {
       const text = await file.text();
       const imported = parseSpecOverridesJson(text);
       setSpecOverrides(imported);
-      setDraftOverride(imported[selectedSpec] || season2DefaultSpecMap()[selectedSpec]);
+      setDraftOverride(imported[selectedSpec] || defaultSpecMap()[selectedSpec]);
     } catch {
       window.alert("Could not import overrides. Please select a valid JSON file.");
     } finally {

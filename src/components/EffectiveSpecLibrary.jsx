@@ -76,9 +76,9 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
           <table className="w-full table-fixed text-sm">
             <thead className="bg-zinc-950 sticky top-0 z-10">
               <tr className="text-left border-b border-zinc-800 text-zinc-100">
-                <th className="p-3 text-center">{headerButton("spec", "Spec")}</th>
-                <th className="p-3 text-center">{headerButton("priority", "Priority")}</th>
-                <th className="p-3 text-center">{headerButton("updatedAt", "Last Updated")}</th>
+                <th className="p-3 text-center" aria-sort={sort.key === "spec" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("spec", "Spec")}</th>
+                <th className="p-3 text-center" aria-sort={sort.key === "priority" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("priority", "Priority")}</th>
+                <th className="p-3 text-center" aria-sort={sort.key === "updatedAt" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("updatedAt", "Last Updated")}</th>
               </tr>
             </thead>
             <tbody>

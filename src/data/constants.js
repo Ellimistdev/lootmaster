@@ -1,5 +1,3 @@
-export const DEFAULT_LOOT_TABLE = {};
-
 export const CLASS_LIBRARY = {
   "Death Knight": {
     color: "#C41E3A",

@@ -7,9 +7,9 @@ import {
   groupTier,
   parseManualItems,
   parseSpecs,
+  specCanUseItem,
   specRowsToText,
 } from "../utils/lootLogic";
-import { season2SpecCanUseItem } from "../utils/season2Compatibility";
 
 export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
   return useMemo(() => {
@@ -25,7 +25,7 @@ export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
         ? []
         : specs
             .filter((s) => !s.error)
-            .filter((s) => season2SpecCanUseItem(s, item))
+            .filter((s) => specCanUseItem(s, item))
             .map((spec) => ({ spec, result: classify(spec, item) }));
 
       return {

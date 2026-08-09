@@ -1,3 +1,4 @@
+import { SPEC_UPDATED_AT } from "../data/specPriorityUpdates";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui";
 
 export default function EffectiveSpecLibrary({ effectiveRows }) {
@@ -13,6 +14,7 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
               <tr className="text-left border-b border-zinc-800 text-zinc-100">
                 <th className="p-3 text-center">Spec</th>
                 <th className="p-3 text-center">Priority</th>
+                <th className="p-3 text-center">Last Updated</th>
               </tr>
             </thead>
             <tbody>
@@ -20,6 +22,7 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
                 <tr key={full} className="border-b border-zinc-800">
                   <td className="p-3 text-zinc-200">{full}</td>
                   <td className="p-3 text-zinc-100 font-mono">{parts[0]} {parts[1]} {parts[2]} {parts[3]} {parts[4]} {parts[5]} {parts[6]}</td>
+                  <td className="p-3 text-center text-zinc-400 whitespace-nowrap">{SPEC_UPDATED_AT[full] || "Unknown"}</td>
                 </tr>
               ))}
             </tbody>

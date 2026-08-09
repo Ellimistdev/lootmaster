@@ -123,12 +123,6 @@ export const DEFAULT_SPEC_ROWS = Object.entries(CLASS_LIBRARY).flatMap(([classNa
   Object.entries(classData.specs).map(([specName, specData]) => [`${className} - ${specName}`, [...specData.secondaryPriority]]),
 );
 
-export const SPEC_UPDATED_AT = Object.fromEntries(
-  Object.entries(CLASS_LIBRARY).flatMap(([className, classData]) =>
-    Object.entries(classData.specs).map(([specName, specData]) => [`${className} - ${specName}`, specData.updatedAt]),
-  ),
-);
-
 export const SPEC_DATA_VERSION = "Season 2";
 export const SPEC_DATA_UPDATED_AT = "2026-08-09";
 

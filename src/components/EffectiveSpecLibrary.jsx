@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { CLASS_LIBRARY } from "../data/constants";
+import { CLASS_LIBRARY, SPEC_REFERENCE_LINKS } from "../data/constants";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui";
 
 function getSpecUpdatedAt(full) {
@@ -9,6 +9,10 @@ function getSpecUpdatedAt(full) {
 
 function priorityText(parts) {
   return parts.join(" ");
+}
+
+function referenceText(full) {
+  return (SPEC_REFERENCE_LINKS[full] || []).map((reference) => reference.label).join(", ");
 }
 
 export default function EffectiveSpecLibrary({ effectiveRows }) {
@@ -31,6 +35,9 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
       } else if (sort.key === "updatedAt") {
         valueA = getSpecUpdatedAt(fullA);
         valueB = getSpecUpdatedAt(fullB);
+      } else if (sort.key === "references") {
+        valueA = referenceText(fullA);
+        valueB = referenceText(fullB);
       } else {
         valueA = fullA;
         valueB = fullB;
@@ -72,13 +79,14 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
         <CardTitle className="text-zinc-50">Effective Spec Library</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="max-h-[60vh] overflow-y-auto rounded-2xl border border-zinc-800 bg-black">
-          <table className="w-full table-fixed text-sm">
+        <div className="max-h-[60vh] overflow-auto rounded-2xl border border-zinc-800 bg-black">
+          <table className="w-full min-w-[960px] table-fixed text-sm">
             <thead className="bg-zinc-950 sticky top-0 z-10">
               <tr className="text-left border-b border-zinc-800 text-zinc-100">
-                <th className="p-3 text-center" aria-sort={sort.key === "spec" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("spec", "Spec")}</th>
-                <th className="p-3 text-center" aria-sort={sort.key === "priority" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("priority", "Priority")}</th>
-                <th className="p-3 text-center" aria-sort={sort.key === "updatedAt" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("updatedAt", "Last Updated")}</th>
+                <th className="p-3 text-center w-[28%]" aria-sort={sort.key === "spec" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("spec", "Spec")}</th>
+                <th className="p-3 text-center w-[30%]" aria-sort={sort.key === "priority" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("priority", "Priority")}</th>
+                <th className="p-3 text-center w-[16%]" aria-sort={sort.key === "updatedAt" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("updatedAt", "Last Updated")}</th>
+                <th className="p-3 text-center w-[26%]" aria-sort={sort.key === "references" ? (sort.direction === "asc" ? "ascending" : "descending") : "none"}>{headerButton("references", "Sources / References")}</th>
               </tr>
             </thead>
             <tbody>
@@ -87,6 +95,21 @@ export default function EffectiveSpecLibrary({ effectiveRows }) {
                   <td className="p-3 text-zinc-200">{full}</td>
                   <td className="p-3 text-zinc-100 font-mono">{priorityText(parts)}</td>
                   <td className="p-3 text-center text-zinc-400 whitespace-nowrap">{getSpecUpdatedAt(full)}</td>
+                  <td className="p-3 text-center">
+                    <div className="flex flex-wrap justify-center gap-x-3 gap-y-1">
+                      {(SPEC_REFERENCE_LINKS[full] || []).map((reference) => (
+                        <a
+                          key={reference.label}
+                          href={reference.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-sky-400 hover:text-sky-300 hover:underline whitespace-nowrap"
+                        >
+                          {reference.label}
+                        </a>
+                      ))}
+                    </div>
+                  </td>
                 </tr>
               ))}
             </tbody>

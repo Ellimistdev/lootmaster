@@ -90,10 +90,22 @@ export default function RosterPanel({ roster, setRoster, classOptions }) {
       <div>
         <h3 className="mb-3 font-semibold text-zinc-100">{editing === null ? "Add Roster Member" : "Update Roster Member"}</h3>
         <div className="flex flex-wrap items-end gap-3">
-          <Input value={draft.name} onChange={(e) => setDraft({ ...draft, name: e.target.value })} placeholder="Name" className="min-w-52 flex-1 bg-black border-zinc-700" />
-          <select value={draft.className} onChange={(e) => chooseClass(e.target.value)} className="min-w-52 flex-1 rounded-xl border border-zinc-700 bg-black px-3 py-2 text-zinc-100"><option value="">Class</option>{classOptions.map((c) => <option key={c}>{c}</option>)}</select>
-          {draft.className && <select value={draft.mainSpec} onChange={(e) => chooseMain(e.target.value)} className="min-w-52 flex-1 rounded-xl border border-zinc-700 bg-black px-3 py-2 text-zinc-100"><option value="">Main spec</option>{specs.map((s) => <option key={s}>{s}</option>)}</select>}
-          {draft.mainSpec && <div className="flex flex-wrap items-center gap-2">{specs.filter((s) => s !== draft.mainSpec).map((s) => <label key={s} className={`cursor-pointer rounded-xl border px-3 py-2 text-sm transition ${draft.offSpecs.includes(s) ? "border-sky-500 bg-sky-950/60 text-sky-100" : "border-zinc-700 bg-black text-zinc-300 hover:border-zinc-600"}`}><input type="checkbox" className="sr-only" checked={draft.offSpecs.includes(s)} onChange={() => toggleOff(s)} />{s}</label>)}</div>}
+          <label className="flex min-w-52 flex-1 items-center gap-2 text-sm text-zinc-300">
+            <span className="shrink-0 font-medium text-zinc-200">Name:</span>
+            <Input value={draft.name} onChange={(e) => setDraft({ ...draft, name: e.target.value })} placeholder="Player name" className="min-w-0 flex-1 bg-black border-zinc-700" />
+          </label>
+          <label className="flex min-w-52 flex-1 items-center gap-2 text-sm text-zinc-300">
+            <span className="shrink-0 font-medium text-zinc-200">Class:</span>
+            <select value={draft.className} onChange={(e) => chooseClass(e.target.value)} className="min-w-0 flex-1 rounded-xl border border-zinc-700 bg-black px-3 py-2 text-zinc-100"><option value="">Select class</option>{classOptions.map((c) => <option key={c}>{c}</option>)}</select>
+          </label>
+          {draft.className && <label className="flex min-w-52 flex-1 items-center gap-2 text-sm text-zinc-300">
+            <span className="shrink-0 font-medium text-zinc-200">Main Spec:</span>
+            <select value={draft.mainSpec} onChange={(e) => chooseMain(e.target.value)} className="min-w-0 flex-1 rounded-xl border border-zinc-700 bg-black px-3 py-2 text-zinc-100"><option value="">Select main spec</option>{specs.map((s) => <option key={s}>{s}</option>)}</select>
+          </label>}
+          {draft.mainSpec && <div className="flex flex-wrap items-center gap-2 text-sm text-zinc-300">
+            <span className="shrink-0 font-medium text-zinc-200">Offspecs:</span>
+            {specs.filter((s) => s !== draft.mainSpec).map((s) => <label key={s} className={`cursor-pointer rounded-xl border px-3 py-2 text-sm transition ${draft.offSpecs.includes(s) ? "border-sky-500 bg-sky-950/60 text-sky-100" : "border-zinc-700 bg-black text-zinc-300 hover:border-zinc-600"}`}><input type="checkbox" className="sr-only" checked={draft.offSpecs.includes(s)} onChange={() => toggleOff(s)} />{s}</label>)}
+          </div>}
           <Button onClick={save} className="ml-auto w-auto shrink-0 bg-sky-600 px-4 text-white hover:bg-sky-500">{editing === null ? "Add Player" : "Update"}</Button>
         </div>
       </div>

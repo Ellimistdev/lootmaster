@@ -46,6 +46,7 @@ export function decodeRoster(value) {
   } catch {
     throw new Error("Roster string contains invalid data.");
   }
+}
 
 export function normalizeRoster(value) {
   if (!Array.isArray(value)) throw new Error("Decoded roster must be an array.");

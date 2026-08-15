@@ -36,10 +36,13 @@ export function useRoster() {
     const map = {};
 
     roster.forEach((member) => {
-      if (!member?.name || !member?.className || !member?.mainSpec) return;
+      const name = typeof member?.name === "string" ? member.name.trim() : "";
+      const className = typeof member?.className === "string" ? member.className : "";
+      const mainSpec = typeof member?.mainSpec === "string" ? member.mainSpec : "";
+      if (!name || !className || !mainSpec) return;
 
-      const fullSpec = specKey(member.className, member.mainSpec);
-      (map[fullSpec] ||= []).push(member.name);
+      const fullSpec = specKey(className, mainSpec);
+      (map[fullSpec] ||= []).push(name);
     });
 
     Object.values(map).forEach((names) => {

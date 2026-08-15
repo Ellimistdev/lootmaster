@@ -20,16 +20,16 @@ function ItemSummary({ item }) {
 }
 
 export default function RankedItemsList({
-  ranked,
+  ranked = [],
   selectedItem,
   onSelectItem,
   onSpecPress,
-  bossFilter,
+  bossFilter = "All bosses",
   onBossFilterChange,
   bossOptions = [],
-  query,
+  query = "",
   onQueryChange,
-  onExportCsv,
+  onExportCsv = () => {},
   playerNamesBySpec = {},
 }) {
   return (

@@ -323,6 +323,8 @@ export default function RosterPanel({ roster, setRoster, classOptions }) {
                     </span>
                     <div className="ml-auto flex items-center">
                       <button
+                        type="button"
+                        aria-label="Update member"
                         title="Update member"
                         onClick={() => editMember(member)}
                         className="p-2 text-zinc-400 hover:text-white"

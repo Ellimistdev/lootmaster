@@ -40,8 +40,12 @@ export function decodeRoster(value) {
   );
 
   if (!decoded) throw new Error("Roster string could not be decoded.");
-  return JSON.parse(decoded);
-}
+
+  try {
+    return JSON.parse(decoded);
+  } catch {
+    throw new Error("Roster string contains invalid data.");
+  }
 
 export function normalizeRoster(value) {
   if (!Array.isArray(value)) throw new Error("Decoded roster must be an array.");
@@ -54,11 +58,12 @@ export function normalizeRoster(value) {
     }
 
     const name = typeof member.name === "string" ? titleCaseName(member.name.trim()) : "";
-    const className = member.className;
-    const mainSpec = member.mainSpec;
-    const classData = CLASS_LIBRARY[className];
+    const className = typeof member.className === "string" ? member.className : "";
+    const mainSpec = typeof member.mainSpec === "string" ? member.mainSpec : "";
+    const hasClass = Object.prototype.hasOwnProperty.call(CLASS_LIBRARY, className);
+    const classData = hasClass ? CLASS_LIBRARY[className] : null;
 
-    if (!name || !classData || !classData.specs[mainSpec]) {
+    if (!name || !classData?.specs?.[mainSpec]) {
       throw new Error(`Roster member ${index + 1} has an invalid name, class, or main spec.`);
     }
 

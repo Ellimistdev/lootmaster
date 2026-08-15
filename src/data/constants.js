@@ -125,7 +125,7 @@ export const SPEC_ICONS = {
   "Death Knight - Blood": "spell_deathknight_bloodpresence.jpg",
   "Death Knight - Frost": "spell_deathknight_frostpresence.jpg",
   "Death Knight - Unholy": "spell_deathknight_unholypresence.jpg",
-  "Demon Hunter - Devourer": "inv_ability_devourerdemonhunter_devour.jpg",
+  "Demon Hunter - Devourer": "classicon_demonhunter_void.jpg",
   "Demon Hunter - Havoc": "ability_demonhunter_specdps.jpg",
   "Demon Hunter - Vengeance": "ability_demonhunter_spectank.jpg",
   "Druid - Balance": "spell_nature_starfall.jpg",

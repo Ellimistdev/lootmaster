@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
-import PageIntro from "./components/PageIntro";
-import StickyControlsPanel from "./components/StickyControlsPanel";
-import RankedItemsList from "./components/RankedItemsList";
-import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
-import RankingFooter from "./components/RankingFooter";
 import EffectiveSpecLibrary from "./components/EffectiveSpecLibrary";
+import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
+import PageIntro from "./components/PageIntro";
+import RankedItemsList from "./components/RankedItemsList";
+import RankingFooter from "./components/RankingFooter";
+import RosterPanel from "./components/RosterPanel";
+import StickyControlsPanel from "./components/StickyControlsPanel";
 import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/constants";
 import { useLootRankingState } from "./hooks/useLootRankingState";
+import { useRoster } from "./hooks/useRoster";
 import { exportRankedCsv } from "./utils/exportCsv";
 
 const GITHUB_ISSUES_URL = "https://github.com/Ellimistdev/lootmaster/issues";
@@ -28,132 +30,84 @@ export default function LootRankingApp() {
     if (typeof window === "undefined") return null;
     return window.localStorage.getItem(ANALYTICS_CONSENT_KEY);
   });
-
+  const state = useLootRankingState();
+  const rosterState = useRoster();
   const showConsentBanner = consentChoice !== "granted" && consentChoice !== "denied";
 
   useEffect(() => {
-    if (consentChoice === "granted") {
-      updateAnalyticsConsent(true);
-      return;
-    }
-
-    if (consentChoice === "denied") {
-      updateAnalyticsConsent(false);
-    }
+    if (consentChoice === "granted") updateAnalyticsConsent(true);
+    if (consentChoice === "denied") updateAnalyticsConsent(false);
   }, [consentChoice]);
 
   const setConsent = (value) => {
-    const isGranted = value === "granted";
-    updateAnalyticsConsent(isGranted);
+    updateAnalyticsConsent(value === "granted");
     window.localStorage.setItem(ANALYTICS_CONSENT_KEY, value);
     setConsentChoice(value);
   };
 
-  const {
-    manualItemsText,
-    setManualItemsText,
-    showManualItems,
-    setShowManualItems,
-    bossFilter,
-    setBossFilter,
-    query,
-    setQuery,
-    showSpecOverrides,
-    setShowSpecOverrides,
-    selectedClass,
-    selectedSpecName,
-    draftOverride,
-    importOverridesInputRef,
-    classOptions,
-    specOptionsForClass,
-    selectedSpec,
-    handleSelectedClassChange,
-    handleSelectedSpecChange,
-    updateSelectedSpec,
-    applySelectedSpecOverride,
-    resetSelectedSpec,
-    resetAllSpecs,
-    exportSpecOverrides,
-    importSpecOverridesFromFile,
-    specOverrides,
-    selectedItem,
-    mobileSpecDetail,
-    handleSelectItem,
-    openMobileSpecDetail,
-    closeMobileSpecDetail,
-    ranked,
-    defaultItemCount,
-    manualItemCount,
-    overrideCount,
-    effectiveRows,
-    bossOptions,
-  } = useLootRankingState();
-
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-50 p-6">
-      <div className="w-full max-w-[1800px] mx-auto space-y-6">
-        <PageIntro specDataVersion={SPEC_DATA_VERSION} specDataUpdatedAt={SPEC_DATA_UPDATED_AT} />
+    <div className="min-h-screen bg-zinc-950 p-6 text-zinc-50">
+      <div className="mx-auto w-full max-w-[1800px] space-y-6">
+        <PageIntro
+          specDataVersion={SPEC_DATA_VERSION}
+          specDataUpdatedAt={SPEC_DATA_UPDATED_AT}
+        />
 
         <div className="space-y-6">
           <StickyControlsPanel
-            defaultItemCount={defaultItemCount}
-            manualItemCount={manualItemCount}
-            overrideCount={overrideCount}
-            showManualItems={showManualItems}
-            onToggleManualItems={() => setShowManualItems((v) => !v)}
-            showSpecOverrides={showSpecOverrides}
-            onToggleSpecOverrides={() => setShowSpecOverrides((v) => !v)}
-            manualItemsText={manualItemsText}
-            onManualItemsTextChange={setManualItemsText}
-            classOptions={classOptions}
-            specOptionsForClass={specOptionsForClass}
-            selectedClass={selectedClass}
-            onSelectedClassChange={handleSelectedClassChange}
-            selectedSpecName={selectedSpecName}
-            onSelectedSpecChange={handleSelectedSpecChange}
-            selectedSpec={selectedSpec}
-            specOverrides={specOverrides}
-            draftOverride={draftOverride}
-            onUpdateSelectedSpec={updateSelectedSpec}
-            onApplySelectedSpecOverride={applySelectedSpecOverride}
-            onResetSelectedSpec={resetSelectedSpec}
-            onResetAllSpecs={resetAllSpecs}
-            onExportSpecOverrides={exportSpecOverrides}
-            onImportSpecOverridesClick={() => importOverridesInputRef.current?.click()}
-            importOverridesInputRef={importOverridesInputRef}
-            onImportSpecOverridesFromFile={importSpecOverridesFromFile}
-            bossFilter={bossFilter}
-            onBossFilterChange={setBossFilter}
-            bossOptions={bossOptions}
-            query={query}
-            onQueryChange={setQuery}
-            onExportCsv={() => exportRankedCsv(ranked)}
+            {...state}
+            showRoster={rosterState.showRoster}
+            rosterCount={rosterState.roster.length}
+            onToggleRoster={() => rosterState.setShowRoster((value) => !value)}
+            onToggleManualItems={() => state.setShowManualItems((value) => !value)}
+            onToggleSpecOverrides={() => state.setShowSpecOverrides((value) => !value)}
+            onManualItemsTextChange={state.setManualItemsText}
+            onSelectedClassChange={state.handleSelectedClassChange}
+            onSelectedSpecChange={state.handleSelectedSpecChange}
+            onUpdateSelectedSpec={state.updateSelectedSpec}
+            onApplySelectedSpecOverride={state.applySelectedSpecOverride}
+            onResetSelectedSpec={state.resetSelectedSpec}
+            onResetAllSpecs={state.resetAllSpecs}
+            onExportSpecOverrides={state.exportSpecOverrides}
+            onImportSpecOverridesClick={() => state.importOverridesInputRef.current?.click()}
+            onImportSpecOverridesFromFile={state.importSpecOverridesFromFile}
           />
 
+          {rosterState.showRoster && (
+            <RosterPanel
+              roster={rosterState.roster}
+              setRoster={rosterState.setRoster}
+              classOptions={rosterState.rosterClassOptions}
+            />
+          )}
+
           <RankedItemsList
-            ranked={ranked}
-            selectedItem={selectedItem}
-            onSelectItem={handleSelectItem}
-            onSpecPress={openMobileSpecDetail}
-            bossFilter={bossFilter}
-            onBossFilterChange={setBossFilter}
-            bossOptions={bossOptions}
-            query={query}
-            onQueryChange={setQuery}
-            onExportCsv={() => exportRankedCsv(ranked)}
+            ranked={state.ranked}
+            selectedItem={state.selectedItem}
+            onSelectItem={state.handleSelectItem}
+            onSpecPress={state.openMobileSpecDetail}
+            bossFilter={state.bossFilter}
+            onBossFilterChange={state.setBossFilter}
+            bossOptions={state.bossOptions}
+            query={state.query}
+            onQueryChange={state.setQuery}
+            onExportCsv={() => exportRankedCsv(state.ranked)}
+            playerNamesBySpec={rosterState.playerNamesBySpec}
           />
         </div>
 
-        <EffectiveSpecLibrary effectiveRows={effectiveRows} />
-
-        <MobileSpecDetailSheet detail={mobileSpecDetail} onClose={closeMobileSpecDetail} />
-
+        <EffectiveSpecLibrary effectiveRows={state.effectiveRows} />
+        <MobileSpecDetailSheet
+          detail={state.mobileSpecDetail}
+          onClose={state.closeMobileSpecDetail}
+        />
         <RankingFooter githubIssuesUrl={GITHUB_ISSUES_URL} />
 
         {showConsentBanner && (
           <div className="fixed bottom-4 left-4 right-4 z-50 rounded-2xl border border-zinc-700 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur md:left-auto md:max-w-xl">
             <p className="text-sm text-zinc-200">
-              We use Google Analytics to measure traffic and site usage. You can accept or reject analytics cookies.
+              We use Google Analytics to measure traffic and site usage. You can accept or reject
+              analytics cookies.
             </p>
             <div className="mt-3 flex flex-wrap gap-2">
               <button

@@ -119,8 +119,74 @@ export const CLASS_LIBRARY = {
   },
 };
 
+export const SPEC_ICON_BASE = "https://wow.zamimg.com/images/wow/icons/large";
+
+export const SPEC_ICONS = {
+  "Death Knight - Blood": "spell_deathknight_bloodpresence.jpg",
+  "Death Knight - Frost": "spell_deathknight_frostpresence.jpg",
+  "Death Knight - Unholy": "spell_deathknight_unholypresence.jpg",
+  "Demon Hunter - Devourer": "classicon_demonhunter_void.jpg",
+  "Demon Hunter - Havoc": "ability_demonhunter_specdps.jpg",
+  "Demon Hunter - Vengeance": "ability_demonhunter_spectank.jpg",
+  "Druid - Balance": "spell_nature_starfall.jpg",
+  "Druid - Feral": "ability_druid_catform.jpg",
+  "Druid - Guardian": "ability_racial_cannibalize.jpg",
+  "Druid - Restoration": "spell_nature_healingtouch.jpg",
+  "Evoker - Augmentation": "classicon_evoker_augmentation.jpg",
+  "Evoker - Devastation": "classicon_evoker_devastation.jpg",
+  "Evoker - Preservation": "classicon_evoker_preservation.jpg",
+  "Hunter - Beast Mastery": "ability_hunter_bestialdiscipline.jpg",
+  "Hunter - Marksmanship": "ability_hunter_focusedaim.jpg",
+  "Hunter - Survival": "ability_hunter_camouflage.jpg",
+  "Mage - Arcane": "spell_holy_magicalsentry.jpg",
+  "Mage - Fire": "spell_fire_firebolt02.jpg",
+  "Mage - Frost": "spell_frost_frostbolt02.jpg",
+  "Monk - Brewmaster": "spell_monk_brewmaster_spec.jpg",
+  "Monk - Mistweaver": "spell_monk_mistweaver_spec.jpg",
+  "Monk - Windwalker": "spell_monk_windwalker_spec.jpg",
+  "Paladin - Holy": "spell_holy_holybolt.jpg",
+  "Paladin - Protection": "ability_paladin_shieldofthetemplar.jpg",
+  "Paladin - Retribution": "spell_holy_auraoflight.jpg",
+  "Priest - Discipline": "spell_holy_powerwordshield.jpg",
+  "Priest - Holy": "spell_holy_guardianspirit.jpg",
+  "Priest - Shadow": "spell_shadow_shadowwordpain.jpg",
+  "Rogue - Assassination": "ability_rogue_deadlybrew.jpg",
+  "Rogue - Outlaw": "ability_rogue_waylay.jpg",
+  "Rogue - Subtlety": "ability_stealth.jpg",
+  "Shaman - Elemental": "spell_nature_lightning.jpg",
+  "Shaman - Enhancement": "spell_shaman_improvedreincarnation.jpg",
+  "Shaman - Restoration": "spell_nature_magicimmunity.jpg",
+  "Warlock - Affliction": "spell_shadow_deathcoil.jpg",
+  "Warlock - Demonology": "spell_shadow_metamorphosis.jpg",
+  "Warlock - Destruction": "spell_shadow_rainoffire.jpg",
+  "Warrior - Arms": "ability_warrior_savageblow.jpg",
+  "Warrior - Fury": "ability_warrior_innerrage.jpg",
+  "Warrior - Protection": "ability_warrior_defensivestance.jpg",
+};
+
+export const SPEC_ROLES = {
+  "Death Knight - Blood": "tank",
+  "Demon Hunter - Vengeance": "tank",
+  "Druid - Guardian": "tank",
+  "Monk - Brewmaster": "tank",
+  "Paladin - Protection": "tank",
+  "Warrior - Protection": "tank",
+  "Druid - Restoration": "healer",
+  "Evoker - Preservation": "healer",
+  "Monk - Mistweaver": "healer",
+  "Paladin - Holy": "healer",
+  "Priest - Discipline": "healer",
+  "Priest - Holy": "healer",
+  "Shaman - Restoration": "healer",
+};
+
+export const specKey = (className, specName) => `${className} - ${specName}`;
+export const roleForSpec = (fullSpec) => SPEC_ROLES[fullSpec] || "dps";
+export const specIconUrl = (fullSpec) => SPEC_ICONS[fullSpec] ? `${SPEC_ICON_BASE}/${SPEC_ICONS[fullSpec]}` : null;
+export const CLASS_OPTIONS = Object.keys(CLASS_LIBRARY);
+
 export const DEFAULT_SPEC_ROWS = Object.entries(CLASS_LIBRARY).flatMap(([className, classData]) =>
-  Object.entries(classData.specs).map(([specName, specData]) => [`${className} - ${specName}`, [...specData.secondaryPriority]]),
+  Object.entries(classData.specs).map(([specName, specData]) => [specKey(className, specName), [...specData.secondaryPriority]]),
 );
 
 export const SPEC_DATA_VERSION = "Season 2";
@@ -128,31 +194,13 @@ export const SPEC_DATA_UPDATED_AT = "2026-08-11";
 
 export const LARIAS_GUIDE_URL = "https://docs.google.com/spreadsheets/d/1e2BKxoWEM-aQGpMyqecN8vFkL9iGrTerFr_NXXwJpi0/edit?gid=1180855124#gid=1180855124";
 
-const TANK_SPECS = new Set([
-  "Death Knight - Blood",
-  "Demon Hunter - Vengeance",
-  "Druid - Guardian",
-  "Monk - Brewmaster",
-  "Paladin - Protection",
-  "Warrior - Protection",
-]);
-
-const HEALER_SPECS = new Set([
-  "Druid - Restoration",
-  "Evoker - Preservation",
-  "Monk - Mistweaver",
-  "Paladin - Holy",
-  "Priest - Discipline",
-  "Priest - Holy",
-  "Shaman - Restoration",
-]);
-
 const slugify = (value) => value.toLowerCase().replace(/\s+/g, "-");
 
 const wowheadGuideUrl = (className, specName, fullName) => {
-  const rolePage = TANK_SPECS.has(fullName)
+  const role = roleForSpec(fullName);
+  const rolePage = role === "tank"
     ? "overview-pve-tank"
-    : HEALER_SPECS.has(fullName)
+    : role === "healer"
       ? "overview-pve-healer"
       : "stat-priority-pve-dps";
 
@@ -160,9 +208,10 @@ const wowheadGuideUrl = (className, specName, fullName) => {
 };
 
 const icyVeinsGuideUrl = (className, specName, fullName) => {
-  const rolePage = TANK_SPECS.has(fullName)
+  const role = roleForSpec(fullName);
+  const rolePage = role === "tank"
     ? "pve-tank-stat-priority"
-    : HEALER_SPECS.has(fullName)
+    : role === "healer"
       ? "pve-healing-stat-priority"
       : "pve-dps-stat-priority";
 
@@ -172,7 +221,7 @@ const icyVeinsGuideUrl = (className, specName, fullName) => {
 export const SPEC_REFERENCE_LINKS = Object.fromEntries(
   Object.entries(CLASS_LIBRARY).flatMap(([className, classData]) =>
     Object.keys(classData.specs).map((specName) => {
-      const fullName = `${className} - ${specName}`;
+      const fullName = specKey(className, specName);
       return [
         fullName,
         [
@@ -198,7 +247,7 @@ export const CLASS_COLORS = Object.fromEntries(
 
 export const PRIMARY_STAT_BY_SPEC = Object.fromEntries(
   Object.entries(CLASS_LIBRARY).flatMap(([className, classData]) =>
-    Object.entries(classData.specs).map(([specName, specData]) => [`${className} - ${specName}`, specData.primaryStat]),
+    Object.entries(classData.specs).map(([specName, specData]) => [specKey(className, specName), specData.primaryStat]),
   ),
 );
 

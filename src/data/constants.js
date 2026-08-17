@@ -12,7 +12,7 @@ export const CLASS_LIBRARY = {
     color: "#A330C9",
     armorType: "Leather",
     specs: {
-      Devourer: { primaryStat: "Agi", secondaryPriority: ["Haste", "=", "Mast", ">", "Crit", ">", "Vers"], updatedAt: "2026-08-11" },
+      Devourer: { primaryStat: "Int", secondaryPriority: ["Haste", ">", "Crit", ">", "Mast", ">", "Vers"], updatedAt: "2026-08-16" },
       Havoc: { primaryStat: "Agi", secondaryPriority: ["Crit", ">", "Mast", ">", "Haste", ">", "Vers"], updatedAt: "2026-08-11" },
       Vengeance: { primaryStat: "Agi", secondaryPriority: ["Haste", ">", "Vers", "=", "Crit", ">", "Mast"], updatedAt: "2026-08-11" },
     },

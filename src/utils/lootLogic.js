@@ -452,6 +452,7 @@ export function specCanUseWeapon(spec, category) {
   const cls = spec.className;
 
   const intUsers = new Set([
+    "Demon Hunter - Devourer",
     "Mage - Arcane",
     "Mage - Frost",
     "Mage - Fire",
@@ -473,7 +474,7 @@ export function specCanUseWeapon(spec, category) {
   ]);
 
   const intMaceUsers = new Set(
-    [...intUsers].filter((s) => !s.startsWith("Warlock")),
+    [...intUsers].filter((s) => !s.startsWith("Warlock") && s !== "Demon Hunter - Devourer"),
   );
 
   switch (category) {

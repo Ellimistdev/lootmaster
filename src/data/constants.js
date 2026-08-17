@@ -12,7 +12,7 @@ export const CLASS_LIBRARY = {
     color: "#A330C9",
     armorType: "Leather",
     specs: {
-      Devourer: { primaryStat: "Agi", secondaryPriority: ["Haste", "=", "Mast", ">", "Crit", ">", "Vers"], updatedAt: "2026-08-11" },
+      Devourer: { primaryStat: "Int", secondaryPriority: ["Haste", ">", "Crit", ">", "Mast", ">", "Vers"], updatedAt: "2026-08-16" },
       Havoc: { primaryStat: "Agi", secondaryPriority: ["Crit", ">", "Mast", ">", "Haste", ">", "Vers"], updatedAt: "2026-08-11" },
       Vengeance: { primaryStat: "Agi", secondaryPriority: ["Haste", ">", "Vers", "=", "Crit", ">", "Mast"], updatedAt: "2026-08-11" },
     },
@@ -190,7 +190,7 @@ export const DEFAULT_SPEC_ROWS = Object.entries(CLASS_LIBRARY).flatMap(([classNa
 );
 
 export const SPEC_DATA_VERSION = "Season 2";
-export const SPEC_DATA_UPDATED_AT = "2026-08-11";
+export const SPEC_DATA_UPDATED_AT = "2026-08-16";
 
 export const LARIAS_GUIDE_URL = "https://docs.google.com/spreadsheets/d/1e2BKxoWEM-aQGpMyqecN8vFkL9iGrTerFr_NXXwJpi0/edit?gid=1180855124#gid=1180855124";
 

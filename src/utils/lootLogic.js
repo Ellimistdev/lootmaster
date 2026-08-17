@@ -472,6 +472,7 @@ export function specCanUseWeapon(spec, category) {
     "Monk - Mistweaver",
   ]);
 
+  const intDaggerSwordUsers = new Set([...intUsers, "Demon Hunter - Devourer"]);
   const intMaceUsers = new Set(
     [...intUsers].filter((s) => !s.startsWith("Warlock")),
   );
@@ -481,6 +482,7 @@ export function specCanUseWeapon(spec, category) {
       return intMaceUsers.has(full);
     case "int-dagger":
     case "int-sword":
+      return intDaggerSwordUsers.has(full);
     case "int-staff":
     case "int-offhand":
       return intUsers.has(full);
@@ -594,6 +596,18 @@ export function specCanUseItem(spec, item) {
 export function classify(spec, item) {
   const itemSet = new Set(item.stats);
   const top2Tier = spec.top2Tier instanceof Set ? spec.top2Tier : new Set();
+
+  if (item.stats.length === 1 && spec.top1Tier.has(item.stats[0])) {
+    const isSoleTopPriority = spec.top1Tier.size === 1;
+
+    return {
+      tier: "S",
+      rank: isSoleTopPriority ? 0.5 : 1.0,
+      reason: isSoleTopPriority
+        ? "Single-stat item matches this spec's sole highest-priority stat."
+        : "Single-stat item matches this spec's highest-priority tie group.",
+    };
+  }
 
   if (item.stats.length === 2 && item.stats.every((s) => spec.top1Tier.has(s)) && spec.top1Tier.size >= 2) {
     return {

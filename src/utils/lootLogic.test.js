@@ -184,6 +184,46 @@ describe("spec and item compatibility", () => {
 });
 
 describe("classification", () => {
+  it("treats a single sole top-priority stat as S", () => {
+    const result = classify(parsePriority("Haste > Mast > Crit > Vers"), {
+      stats: ["haste"],
+      big: "haste",
+      small: null,
+    });
+
+    expect(result.tier).toBe("S");
+    expect(result.rank).toBe(0.5);
+  });
+
+  it("treats a single stat in the highest-priority tie group as S", () => {
+    const result = classify(parsePriority("Mast = Crit = Haste > Vers"), {
+      stats: ["haste"],
+      big: "haste",
+      small: null,
+    });
+
+    expect(result.tier).toBe("S");
+    expect(result.rank).toBe(1.0);
+  });
+
+  it("ranks a sole top-priority single stat above a tied top-priority single stat", () => {
+    const item = { stats: ["haste"], big: "haste", small: null };
+    const strictTop = classify(parsePriority("Haste > Mast > Crit > Vers"), item);
+    const tiedTop = classify(parsePriority("Mast = Crit = Haste > Vers"), item);
+
+    expect(strictTop.rank).toBeLessThan(tiedTop.rank);
+  });
+
+  it("does not promote a single stat outside the highest-priority tier", () => {
+    const result = classify(parsePriority("Haste > Mast > Crit > Vers"), {
+      stats: ["mastery"],
+      big: "mastery",
+      small: null,
+    });
+
+    expect(result.tier).toBe("A");
+  });
+
   it("treats tied second-tier stats as an S-tier match for top1 plus tied second", () => {
     const parsed = parsePriority("Crit > Mast = Vers > Haste");
     const result = classify(parsed, { stats: ["crit", "vers"], big: "crit" });

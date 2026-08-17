@@ -452,7 +452,6 @@ export function specCanUseWeapon(spec, category) {
   const cls = spec.className;
 
   const intUsers = new Set([
-    "Demon Hunter - Devourer",
     "Mage - Arcane",
     "Mage - Frost",
     "Mage - Fire",
@@ -473,14 +472,16 @@ export function specCanUseWeapon(spec, category) {
     "Monk - Mistweaver",
   ]);
 
+  const intDaggerUsers = new Set([...intUsers, "Demon Hunter - Devourer"]);
   const intMaceUsers = new Set(
-    [...intUsers].filter((s) => !s.startsWith("Warlock") && s !== "Demon Hunter - Devourer"),
+    [...intUsers].filter((s) => !s.startsWith("Warlock")),
   );
 
   switch (category) {
     case "int-mace":
       return intMaceUsers.has(full);
     case "int-dagger":
+      return intDaggerUsers.has(full);
     case "int-sword":
     case "int-staff":
     case "int-offhand":

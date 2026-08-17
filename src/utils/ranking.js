@@ -10,7 +10,7 @@ export function classify(spec, item) {
 
   return {
     tier: "S",
-    rank: isSoleTopPriority ? 0.25 : 0.5,
+    rank: isSoleTopPriority ? 0.5 : 1.0,
     reason: isSoleTopPriority
       ? "Single-stat item matches this spec's sole highest-priority stat."
       : "Single-stat item matches this spec's highest-priority tie group.",

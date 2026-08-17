@@ -2,7 +2,6 @@ import { useMemo } from "react";
 import { SEASON_2_LOOT_TABLE } from "../data/season2Loot";
 import {
   buildEffectiveSpecRows,
-  classify,
   flattenBossLoot,
   groupTier,
   parseManualItems,
@@ -10,6 +9,7 @@ import {
   specCanUseItem,
   specRowsToText,
 } from "../utils/lootLogic";
+import { classify } from "../utils/ranking";
 
 export function useComputed(manualItemsText, specOverrides, query, bossFilter) {
   return useMemo(() => {

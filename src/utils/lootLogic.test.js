@@ -51,6 +51,27 @@ describe("loot logic helpers", () => {
     expect(rows[0].stats).toEqual(["crit", "mastery"]);
   });
 
+  it("flattens boss loot items with up to four secondaries", () => {
+    const table = {
+      BossA: [
+        {
+          item: "All-Stat Neck",
+          slot: "Neck",
+          type: "Neck",
+          primary: null,
+          stat1: "Crit",
+          stat2: "Haste",
+          stat3: "Vers",
+          stat4: "Mastery",
+        },
+      ],
+    };
+
+    const rows = flattenBossLoot(table);
+
+    expect(rows[0].stats).toEqual(["crit", "haste", "vers", "mastery"]);
+  });
+
   it("returns parse errors for malformed manual item rows", () => {
     const rows = parseManualItems("OnlyName");
     expect(rows).toHaveLength(1);
@@ -67,11 +88,11 @@ describe("loot logic helpers", () => {
     expect(rows[0].stats).toEqual(["crit", "vers"]);
   });
 
-  it("deduplicates and caps manual secondary stats to two", () => {
-    const rows = parseManualItems("Custom Ring, Ring, Ring, Crit, Crit, Vers, Mastery");
+  it("deduplicates and caps manual secondary stats to four", () => {
+    const rows = parseManualItems("Custom Ring, Ring, Ring, Crit, Crit, Vers, Mastery, Haste, Crit");
 
     expect(rows[0].error).toBeNull();
-    expect(rows[0].stats).toEqual(["crit", "vers"]);
+    expect(rows[0].stats).toEqual(["crit", "vers", "mastery", "haste"]);
   });
 
   it("supports quoted commas in manual item names", () => {
@@ -295,6 +316,22 @@ describe("classification", () => {
     expect(hasteGreaterCritCritBig.tier).toBe("S");
     expect(hasteGreaterCritCritBig.rank).toBe(1.0);
     expect(hasteGreaterCritCritBig.rank).toBeGreaterThan(critEqHasteCritBig.rank);
+  });
+
+  it("weights items with more than two secondaries equally instead of favoring the first stat", () => {
+    const spec = {
+      top1: "crit",
+      top2: "haste",
+      top1Tier: new Set(["crit"]),
+      top2Tier: new Set(["haste"]),
+    };
+    const allSecondaries = { stats: ["crit", "haste", "vers", "mastery"], big: "crit" };
+
+    const result = classify(spec, allSecondaries);
+
+    expect(result.tier).toBe("S");
+    expect(result.rank).toBe(0.75);
+    expect(result.reason).toMatch(/weighted equally/i);
   });
 
   it("marks non-matching items as Trash", () => {

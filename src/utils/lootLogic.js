@@ -122,9 +122,10 @@ export function flattenBossLoot(table) {
 
   Object.entries(table).forEach(([boss, items]) => {
     items.forEach((entry) => {
-      const stats = [normStat(entry.stat1), normStat(entry.stat2)]
+      const stats = [normStat(entry.stat1), normStat(entry.stat2), normStat(entry.stat3), normStat(entry.stat4)]
         .filter(Boolean)
-        .filter((s) => SECONDARIES.includes(s));
+        .filter((s) => SECONDARIES.includes(s))
+        .filter((s, idx, arr) => arr.indexOf(s) === idx);
 
       rows.push({
         id: id++,
@@ -247,7 +248,7 @@ export function parseManualItems(text, startId = 100000) {
         if (SECONDARIES.includes(stat) && !stats.includes(stat)) stats.push(stat);
       }
 
-      const secondaryStats = stats.slice(0, 2);
+      const secondaryStats = stats.slice(0, 4);
 
       return {
         id: startId + idx + 1,
@@ -623,8 +624,18 @@ export function classify(spec, item) {
   const hasPreferredSecond = hasTop2 || hasSecondTier;
 
   if (hasTop1 && hasPreferredSecond) {
-    const weightedToward = item.big === spec.top1 ? "first-priority stat" : "second-priority stat";
     const secondStatLabel = hasTop2 ? "second priority" : "tied second-priority tier";
+
+    // Items with more than two secondaries spread their budget evenly rather than favoring the first-listed stat.
+    if (item.stats.length > 2) {
+      return {
+        tier: "S",
+        rank: 0.75,
+        reason: `Matches first priority and ${secondStatLabel}; item's secondary stats are weighted equally.`,
+      };
+    }
+
+    const weightedToward = item.big === spec.top1 ? "first-priority stat" : "second-priority stat";
 
     return {
       tier: "S",

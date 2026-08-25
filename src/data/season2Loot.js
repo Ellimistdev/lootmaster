@@ -90,8 +90,8 @@ export const SEASON_2_LOOT_TABLE = {
     { item: "Jan'thrazet, the Soul Fang", slot: "Weapon", type: "Dagger", primary: "Int", stat1: "Haste", stat2: null },
     { item: "Venomkeeper's Horrific Cowl", slot: "Head", type: "Cloth", primary: "Int", stat1: "Mastery", stat2: null },
     { item: "Gaze of the Coiled Watcher", slot: "Head", type: "Leather", primary: "Agi/Int", stat1: "Haste", stat2: null },
-    { item: "Awoken Dreadfang Cuirass", slot: "Chest", type: "Mail", primary: "Agi/Int", stat1: "Crit", stat2: null },
-    { item: "Chausses of Unbound Rancor", slot: "Legs", type: "Plate", primary: "Int/Str", stat1: "Mastery", stat2: null },
-    { item: "Aqirbane Reliquary", slot: "Neck", type: "Neck", primary: null, stat1: "Crit", stat2: null },
+    { item: "Awoken Dreadfang Cuirass", slot: "Chest", type: "Mail", primary: "Agi/Int", stat1: "Mastery", stat2: null },
+    { item: "Chausses of Unbound Rancor", slot: "Legs", type: "Plate", primary: "Int/Str", stat1: "Crit", stat2: null },
+    { item: "Aqirbane Reliquary", slot: "Neck", type: "Neck", primary: null, stat1: "Crit", stat2: "Haste", stat3: "Vers", stat4: "Mastery" },
   ],
 };

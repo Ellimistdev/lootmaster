@@ -1,15 +1,15 @@
 import { useEffect, useState } from "react";
-import EffectiveSpecLibrary from "./components/EffectiveSpecLibrary";
-import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
-import PageIntro from "./components/PageIntro";
-import RankedItemsList from "./components/RankedItemsList";
-import RankingFooter from "./components/RankingFooter";
-import RosterPanel from "./components/RosterPanel";
-import StickyControlsPanel from "./components/StickyControlsPanel";
-import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/constants";
-import { useLootRankingState } from "./hooks/useLootRankingState";
-import { useRoster } from "./hooks/useRoster";
-import { exportRankedCsv } from "./utils/exportCsv";
+import EffectiveSpecLibrary from "../components/EffectiveSpecLibrary";
+import MobileSpecDetailSheet from "../components/MobileSpecDetailSheet";
+import PageIntro from "../components/PageIntro";
+import RankedItemsList from "../components/RankedItemsList";
+import RankingFooter from "../components/RankingFooter";
+import RosterPanel from "../components/RosterPanel";
+import StickyControlsPanel from "../components/StickyControlsPanel";
+import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "../data/constants";
+import { useLootRankingState } from "../hooks/useLootRankingState";
+import { useRoster } from "../hooks/useRoster";
+import { exportRankedCsv } from "../utils/exportCsv";
 
 const GITHUB_ISSUES_URL = "https://github.com/Ellimistdev/lootmaster/issues";
 const ANALYTICS_CONSENT_KEY = "lootmaster_analytics_consent";

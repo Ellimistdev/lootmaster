@@ -1,4 +1,5 @@
 import { useState } from "react";
+import WowheadItem from "../components/WowheadItem";
 import { parseSimcExport } from "../utils/parseSimcExport";
 import { groupBonusRolls } from "../utils/groupBonusRolls";
 
@@ -38,7 +39,7 @@ export default function SimcPage() {
           <p className="mb-3 text-sm text-zinc-400">Spec {pool.specId} · Context {pool.context} · Key level {pool.keyLevel} · {pool.rollCount} rolls</p>
           <p className="mb-3 text-sm text-amber-300">Pool completion unknown — full eligible loot list not yet resolved.</p>
           <ul className="space-y-2">{pool.rolls.map((roll, i) => <li key={i} className="rounded-lg bg-zinc-950 p-3 text-sm">
-            <a className="text-sky-400 hover:underline" href={`https://www.wowhead.com/item=${roll.itemId}`} target="_blank" rel="noreferrer">Item {roll.itemId}</a>
+            <WowheadItem itemId={roll.itemId} />
           </li>)}</ul>
         </article>)}
       </section>}

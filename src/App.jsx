@@ -1,133 +1,37 @@
 import { useEffect, useState } from "react";
-import EffectiveSpecLibrary from "./components/EffectiveSpecLibrary";
-import MobileSpecDetailSheet from "./components/MobileSpecDetailSheet";
-import PageIntro from "./components/PageIntro";
-import RankedItemsList from "./components/RankedItemsList";
-import RankingFooter from "./components/RankingFooter";
-import RosterPanel from "./components/RosterPanel";
-import StickyControlsPanel from "./components/StickyControlsPanel";
-import { SPEC_DATA_UPDATED_AT, SPEC_DATA_VERSION } from "./data/constants";
-import { useLootRankingState } from "./hooks/useLootRankingState";
-import { useRoster } from "./hooks/useRoster";
-import { exportRankedCsv } from "./utils/exportCsv";
+import LootTablePage from "./pages/LootTablePage";
+import SimcPage from "./pages/SimcPage";
 
-const GITHUB_ISSUES_URL = "https://github.com/Ellimistdev/lootmaster/issues";
-const ANALYTICS_CONSENT_KEY = "lootmaster_analytics_consent";
+const links = [{ href: "/", label: "Loot Table" }, { href: "/simc", label: "SimC Analyzer" }];
 
-function updateAnalyticsConsent(isGranted) {
-  if (typeof window === "undefined" || typeof window.gtag !== "function") return;
-
-  window.gtag("consent", "update", {
-    ad_storage: isGranted ? "granted" : "denied",
-    analytics_storage: isGranted ? "granted" : "denied",
-    ad_user_data: isGranted ? "granted" : "denied",
-    ad_personalization: isGranted ? "granted" : "denied",
-  });
-}
-
-export default function LootRankingApp() {
-  const [consentChoice, setConsentChoice] = useState(() => {
-    if (typeof window === "undefined") return null;
-    return window.localStorage.getItem(ANALYTICS_CONSENT_KEY);
-  });
-  const state = useLootRankingState();
-  const rosterState = useRoster();
-  const showConsentBanner = consentChoice !== "granted" && consentChoice !== "denied";
-
+export default function App() {
+  const [path, setPath] = useState(window.location.pathname);
   useEffect(() => {
-    if (consentChoice === "granted") updateAnalyticsConsent(true);
-    if (consentChoice === "denied") updateAnalyticsConsent(false);
-  }, [consentChoice]);
-
-  const setConsent = (value) => {
-    updateAnalyticsConsent(value === "granted");
-    window.localStorage.setItem(ANALYTICS_CONSENT_KEY, value);
-    setConsentChoice(value);
+    const onPopState = () => setPath(window.location.pathname);
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+  }, []);
+  const navigate = (event, href) => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    window.history.pushState({}, "", href);
+    setPath(href);
+    window.scrollTo(0, 0);
   };
-
   return (
-    <div className="min-h-screen bg-zinc-950 p-6 text-zinc-50">
-      <div className="mx-auto w-full max-w-[1800px] space-y-6">
-        <PageIntro
-          specDataVersion={SPEC_DATA_VERSION}
-          specDataUpdatedAt={SPEC_DATA_UPDATED_AT}
-        />
-
-        <div className="space-y-6">
-          <StickyControlsPanel
-            {...state}
-            showRoster={rosterState.showRoster}
-            rosterCount={rosterState.roster.length}
-            onToggleRoster={() => rosterState.setShowRoster((value) => !value)}
-            onToggleManualItems={() => state.setShowManualItems((value) => !value)}
-            onToggleSpecOverrides={() => state.setShowSpecOverrides((value) => !value)}
-            onManualItemsTextChange={state.setManualItemsText}
-            onSelectedClassChange={state.handleSelectedClassChange}
-            onSelectedSpecChange={state.handleSelectedSpecChange}
-            onUpdateSelectedSpec={state.updateSelectedSpec}
-            onApplySelectedSpecOverride={state.applySelectedSpecOverride}
-            onResetSelectedSpec={state.resetSelectedSpec}
-            onResetAllSpecs={state.resetAllSpecs}
-            onExportSpecOverrides={state.exportSpecOverrides}
-            onImportSpecOverridesClick={() => state.importOverridesInputRef.current?.click()}
-            onImportSpecOverridesFromFile={state.importSpecOverridesFromFile}
-          />
-
-          {rosterState.showRoster && (
-            <RosterPanel
-              roster={rosterState.roster}
-              setRoster={rosterState.setRoster}
-              classOptions={rosterState.rosterClassOptions}
-            />
-          )}
-
-          <RankedItemsList
-            ranked={state.ranked}
-            selectedItem={state.selectedItem}
-            onSelectItem={state.handleSelectItem}
-            onSpecPress={state.openMobileSpecDetail}
-            bossFilter={state.bossFilter}
-            onBossFilterChange={state.setBossFilter}
-            bossOptions={state.bossOptions}
-            query={state.query}
-            onQueryChange={state.setQuery}
-            onExportCsv={() => exportRankedCsv(state.ranked)}
-            playerNamesBySpec={rosterState.playerNamesBySpec}
-          />
+    <>
+      <nav aria-label="Main navigation" className="border-b border-zinc-800 bg-zinc-950 px-6 py-3 text-zinc-100">
+        <div className="mx-auto flex max-w-[1800px] flex-wrap items-center gap-6">
+          <a className="font-bold text-sky-400" href="/" onClick={(event) => navigate(event, "/")}>Lootmaster</a>
+          {links.map(({ href, label }) => (
+            <a key={href} href={href} onClick={(event) => navigate(event, href)}
+              aria-current={path === href ? "page" : undefined}
+              className={path === href ? "font-semibold text-sky-400" : "text-zinc-300 hover:text-white"}>{label}</a>
+          ))}
         </div>
-
-        <EffectiveSpecLibrary effectiveRows={state.effectiveRows} />
-        <MobileSpecDetailSheet
-          detail={state.mobileSpecDetail}
-          onClose={state.closeMobileSpecDetail}
-        />
-        <RankingFooter githubIssuesUrl={GITHUB_ISSUES_URL} />
-
-        {showConsentBanner && (
-          <div className="fixed bottom-4 left-4 right-4 z-50 rounded-2xl border border-zinc-700 bg-zinc-900/95 p-4 shadow-2xl backdrop-blur md:left-auto md:max-w-xl">
-            <p className="text-sm text-zinc-200">
-              We use Google Analytics to measure traffic and site usage. You can accept or reject
-              analytics cookies.
-            </p>
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button
-                type="button"
-                onClick={() => setConsent("granted")}
-                className="rounded-xl bg-sky-600 px-3 py-2 text-sm font-medium text-white hover:bg-sky-500"
-              >
-                Accept analytics
-              </button>
-              <button
-                type="button"
-                onClick={() => setConsent("denied")}
-                className="rounded-xl border border-zinc-600 bg-zinc-800 px-3 py-2 text-sm font-medium text-zinc-100 hover:bg-zinc-700"
-              >
-                Reject analytics
-              </button>
-            </div>
-          </div>
-        )}
-      </div>
-    </div>
+      </nav>
+      {path === "/simc" ? <SimcPage /> : path === "/" ? <LootTablePage /> :
+        <main className="min-h-screen bg-zinc-950 p-8 text-zinc-100"><h1 className="text-2xl font-bold">Page not found</h1><a href="/" className="text-sky-400">Return to Loot Table</a></main>}
+    </>
   );
 }

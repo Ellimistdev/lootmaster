@@ -1,37 +1,27 @@
-import { useEffect, useState } from "react";
 import LootTablePage from "./pages/LootTablePage";
 import SimcPage from "./pages/SimcPage";
 
-const links = [{ href: "/", label: "Loot Table" }, { href: "/simc", label: "SimC Analyzer" }];
+const SIMC_HOST = "simc.elli.gg";
+const LOOT_HOST = "lootmaster.elli.gg";
 
 export default function App() {
-  const [path, setPath] = useState(window.location.pathname);
-  useEffect(() => {
-    const onPopState = () => setPath(window.location.pathname);
-    window.addEventListener("popstate", onPopState);
-    return () => window.removeEventListener("popstate", onPopState);
-  }, []);
-  const navigate = (event, href) => {
-    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    event.preventDefault();
-    window.history.pushState({}, "", href);
-    setPath(href);
-    window.scrollTo(0, 0);
-  };
+  const isSimc = window.location.hostname.toLowerCase() === SIMC_HOST;
+  const links = [
+    { href: `https://${LOOT_HOST}/`, label: "Loot Table", active: !isSimc },
+    { href: `https://${SIMC_HOST}/`, label: "SimC Analyzer", active: isSimc },
+  ];
   return (
     <>
       <nav aria-label="Main navigation" className="border-b border-zinc-800 bg-zinc-950 px-6 py-3 text-zinc-100">
         <div className="mx-auto flex max-w-[1800px] flex-wrap items-center gap-6">
-          <a className="font-bold text-sky-400" href="/" onClick={(event) => navigate(event, "/")}>Lootmaster</a>
-          {links.map(({ href, label }) => (
-            <a key={href} href={href} onClick={(event) => navigate(event, href)}
-              aria-current={path === href ? "page" : undefined}
-              className={path === href ? "font-semibold text-sky-400" : "text-zinc-300 hover:text-white"}>{label}</a>
+          <a className="font-bold text-sky-400" href={`https://${LOOT_HOST}/`}>Lootmaster</a>
+          {links.map(({ href, label, active }) => (
+            <a key={href} href={href} aria-current={active ? "page" : undefined}
+              className={active ? "font-semibold text-sky-400" : "text-zinc-300 hover:text-white"}>{label}</a>
           ))}
         </div>
       </nav>
-      {path === "/simc" ? <SimcPage /> : path === "/" ? <LootTablePage /> :
-        <main className="min-h-screen bg-zinc-950 p-8 text-zinc-100"><h1 className="text-2xl font-bold">Page not found</h1><a href="/" className="text-sky-400">Return to Loot Table</a></main>}
+      {isSimc ? <SimcPage /> : <LootTablePage />}
     </>
   );
 }

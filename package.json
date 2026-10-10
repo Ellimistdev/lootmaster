@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build:harvest && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "build:harvest": "node scripts/harvest/build.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",

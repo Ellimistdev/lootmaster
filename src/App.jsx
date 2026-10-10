@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import LootTablePage from "./pages/LootTablePage";
 import SimcPage from "./pages/SimcPage";
+import DataPage from "./pages/DataPage";
 
-const links = [{ href: "/", label: "Loot Table" }, { href: "/simc", label: "SimC Analyzer" }];
+const links = [{ href: "/", label: "Loot Table" }, { href: "/simc", label: "SimC Analyzer" }, { href: "/data", label: "Data" }];
 
 export default function App() {
   const [path, setPath] = useState(window.location.pathname);
@@ -30,7 +31,7 @@ export default function App() {
           ))}
         </div>
       </nav>
-      {path === "/simc" ? <SimcPage /> : path === "/" ? <LootTablePage /> :
+      {path === "/simc" ? <SimcPage /> : path === "/data" ? <DataPage /> : path === "/" ? <LootTablePage /> :
         <main className="min-h-screen bg-zinc-950 p-8 text-zinc-100"><h1 className="text-2xl font-bold">Page not found</h1><a href="/" className="text-sky-400">Return to Loot Table</a></main>}
     </>
   );

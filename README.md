@@ -102,7 +102,7 @@ When updating spec priorities, update both the priority and that spec's `updated
 
 ## Encounter Journal harvest pipeline
 
-Each instance can now be committed independently under `data/harvests/instances/<Instance Name> - <journalInstanceID>.json`. The original raw Lua file remains a fallback until per-instance files have been imported. Do not edit generated public JSON manually.
+Each instance can now be committed independently under `data/harvests/instances/<Instance Name> - <journalInstanceID>.json`. The build reads only committed per-instance JSON exports; the Lua SavedVariables file is used locally by the importer and is not a build input. Do not edit generated public JSON manually.
 
 1. Finish harvesting in WoW and run `/reload` (or log out) to flush SavedVariables.
 2. Copy `.env.example` to `.env` and set `LOOTMASTER_HARVEST_PATH` to your local SavedVariables file. Run `npm run import:harvest` to import all instances, or `npm run import:harvest -- 1296` for a single instance. You can still override the path with `npm run import:harvest -- "<path>/LootmasterHarvester.lua" [instanceIDs...]`. For example, `npm run import:harvest -- "<path>/LootmasterHarvester.lua" 1296`. The command writes `data/harvests/instances/The Tidebound Grotto - 1317.json` and **does not delete other instance files**. When importing all instances, incomplete instances are skipped with a short warning; specifying an incomplete instance ID explicitly produces a bounded error.

@@ -3,7 +3,7 @@ import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
 import { parseSavedVariables } from './parse.mjs'
 
-const sourcePath = resolve(process.argv[2] || 'data/harvests/season-2.lua')
+const sourcePath = resolve(process.argv[2] || 'data/harvests/tidebound-grotto.lua')
 const outputPath = resolve(process.argv[3] || 'public/data/encounter-loot.json')
 const raw = readFileSync(sourcePath, 'utf8')
 const data = parseSavedVariables(raw)

@@ -50,62 +50,58 @@ export default function DataPage() {
         <p className="mb-10 max-w-3xl text-base leading-relaxed text-zinc-400">
           Public, versioned game data used by Lootmaster and available for other tools. Published datasets are served as static JSON files; no API key is required.
         </p>
-        <section aria-labelledby="published-heading" className="mb-12">
-          <div className="mb-5 flex flex-wrap items-center gap-3">
+        <section aria-labelledby="published-heading" className="mb-10">
+          <div className="mb-4 flex flex-wrap items-center gap-3">
             <h2 id="published-heading" className="text-2xl font-semibold text-white">Available datasets</h2>
-            <span className="text-sm text-zinc-500">{published.length}</span>
+            <span className="text-sm text-zinc-500">{published.length + 1 + instances.length}</span>
           </div>
-          <div className="grid gap-5 md:grid-cols-2">
-            {published.map((dataset) => <DatasetCard key={dataset.id} dataset={dataset} />)}
+          <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/40">
+            {[
+              ...published,
+              {
+                id: "specializations",
+                title: "Specialization Reference",
+                description: "Shared specialization IDs and metadata for all harvested instances.",
+                category: "Reference",
+                status: "published",
+                format: "JSON",
+                url: "/data/specializations.json",
+                sourceUrl: "https://github.com/Ellimistdev/lootmaster/blob/master/data/harvests/specializations.json",
+              },
+              ...instances.map((instance) => ({
+                id: "instance-" + instance.instanceId,
+                title: instance.name,
+                description: `Instance ${instance.instanceId} · ${instance.jobs} jobs`,
+                category: instance.instanceType === "dungeon" ? "Dungeon" : instance.instanceType === "raid" ? "Raid" : "Instance",
+                status: "published",
+                format: "JSON",
+                url: instance.url,
+                sourceUrl: "https://github.com/Ellimistdev/lootmaster/tree/master/data/harvests/instances",
+              })),
+            ].map((dataset) => (
+              <div key={dataset.id} className="flex flex-col gap-2 border-b border-zinc-800 p-4 last:border-b-0 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <h3 className="font-semibold text-zinc-100">{dataset.title}</h3>
+                    <span className="rounded bg-zinc-800 px-2 py-0.5 text-xs text-zinc-400">{dataset.category}</span>
+                  </div>
+                  <p className="mt-1 text-sm text-zinc-400">{dataset.description}</p>
+                </div>
+                <div className="flex shrink-0 flex-wrap items-center gap-4 text-sm">
+                  <a className="font-medium text-sky-400 hover:text-sky-300" href={dataset.url} target="_blank" rel="noreferrer">View JSON ↗</a>
+                  <a className="text-zinc-300 hover:text-white" href={dataset.url} download>Download</a>
+                  {dataset.sourceUrl && <a className="text-zinc-400 hover:text-white" href={dataset.sourceUrl} target="_blank" rel="noreferrer">Source ↗</a>}
+                </div>
+              </div>
+            ))}
           </div>
           {metadata && (
-            <div className="mt-4 rounded-lg border border-zinc-800 bg-zinc-900/40 p-4 text-sm text-zinc-400">
-              <span className="font-medium text-zinc-200">Encounter loot build:</span>{" "}
-              {metadata.game?.version || "Unknown"}{metadata.game?.build ? " (" + metadata.game.build + ")" : ""}
+            <p className="mt-3 text-sm text-zinc-500">
+              Encounter loot build: {metadata.game?.version || "Unknown"}
+              {metadata.game?.build ? " (" + metadata.game.build + ")" : ""}
               {metadata.harvest?.status ? " · Harvest " + metadata.harvest.status : ""}
-            </div>
+            </p>
           )}
-        </section>
-        <section aria-labelledby="harvest-heading" className="mb-12">
-          <div className="mb-5 flex flex-wrap items-center gap-3">
-            <h2 id="harvest-heading" className="text-2xl font-semibold text-white">Harvest datasets</h2>
-          </div>
-          <p className="mb-5 max-w-3xl text-sm leading-relaxed text-zinc-400">
-            Download the complete seasonal dataset above, or use the shared specialization reference
-            and individual instance exports below. All files are public static JSON.
-          </p>
-          <div className="mb-8 grid gap-5 md:grid-cols-2">
-            <DatasetCard dataset={{
-              id: "specializations",
-              title: "Specialization Reference",
-              description: "Shared specialization IDs and metadata used across every harvested instance.",
-              category: "Reference data",
-              status: "published",
-              format: "JSON",
-              url: "/data/specializations.json",
-              sourceUrl: "https://github.com/Ellimistdev/lootmaster/blob/master/data/harvests/specializations.json",
-            }} />
-          </div>
-          <div className="mb-4 flex items-center gap-3">
-            <h3 className="text-xl font-semibold text-white">Individual instances</h3>
-            <span className="text-sm text-zinc-500">{instances.length}</span>
-          </div>
-          {instances.length ? (
-            <div className="grid gap-5 md:grid-cols-2">
-              {instances.map((instance) => (
-                <DatasetCard key={instance.instanceId} dataset={{
-                  id: String(instance.instanceId),
-                  title: instance.name,
-                  description: `Encounter Journal harvest for instance ${instance.instanceId} · ${instance.jobs} jobs`,
-                  category: instance.instanceType === "dungeon" ? "Dungeon" : instance.instanceType === "raid" ? "Raid" : "Instance",
-                  status: "published",
-                  format: "JSON",
-                  url: instance.url,
-                  sourceUrl: "https://github.com/Ellimistdev/lootmaster/tree/master/data/harvests/instances",
-                }} />
-              ))}
-            </div>
-          ) : <p className="text-sm text-zinc-500">No individual instance exports available.</p>}
         </section>
         <section aria-labelledby="planned-heading">
           <div className="mb-5 flex flex-wrap items-center gap-3">

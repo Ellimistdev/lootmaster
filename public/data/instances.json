@@ -1,5 +1,12 @@
 [
   {
+    "instanceId": 1322,
+    "name": "Altar of Fangs",
+    "instanceType": "dungeon",
+    "jobs": 123,
+    "url": "/data/instances/1322%20-%20Altar%20of%20Fangs.json"
+  },
+  {
     "instanceId": 1311,
     "name": "Den of Nalorakk",
     "instanceType": "dungeon",
@@ -14,11 +21,39 @@
     "url": "/data/instances/1300%20-%20Magisters'%20Terrace.json"
   },
   {
+    "instanceId": 1315,
+    "name": "Maisara Caverns",
+    "instanceType": "dungeon",
+    "jobs": 123,
+    "url": "/data/instances/1315%20-%20Maisara%20Caverns.json"
+  },
+  {
     "instanceId": 1312,
     "name": "Midnight",
     "instanceType": "raid",
     "jobs": 164,
     "url": "/data/instances/1312%20-%20Midnight.json"
+  },
+  {
+    "instanceId": 1304,
+    "name": "Murder Row",
+    "instanceType": "dungeon",
+    "jobs": 164,
+    "url": "/data/instances/1304%20-%20Murder%20Row.json"
+  },
+  {
+    "instanceId": 1316,
+    "name": "Nexus-Point Xenas",
+    "instanceType": "dungeon",
+    "jobs": 123,
+    "url": "/data/instances/1316%20-%20Nexus-Point%20Xenas.json"
+  },
+  {
+    "instanceId": 1309,
+    "name": "The Blinding Vale",
+    "instanceType": "dungeon",
+    "jobs": 164,
+    "url": "/data/instances/1309%20-%20The%20Blinding%20Vale.json"
   },
   {
     "instanceId": 1317,
@@ -33,5 +68,19 @@
     "instanceType": "raid",
     "jobs": 328,
     "url": "/data/instances/1320%20-%20The%20Venomous%20Abyss.json"
+  },
+  {
+    "instanceId": 1313,
+    "name": "Voidscar Arena",
+    "instanceType": "dungeon",
+    "jobs": 123,
+    "url": "/data/instances/1313%20-%20Voidscar%20Arena.json"
+  },
+  {
+    "instanceId": 1299,
+    "name": "Windrunner Spire",
+    "instanceType": "dungeon",
+    "jobs": 164,
+    "url": "/data/instances/1299%20-%20Windrunner%20Spire.json"
   }
 ]

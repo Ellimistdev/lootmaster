@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "c3c32c0e3b9b2037036abb90b65d944186ec1750c4f5dc759f73dc46e99c2415",
+  "sourceSha256": "9f8e276253d9c373c3c1973ef100f76a58164f5c0676f825cce4938a57fef2ec",
   "game": {
     "locale": "enUS",
     "version": "12.1.0",
@@ -492,16 +492,16 @@
     "268199": {
       "armorType": "Staff",
       "stats": {
-        "ITEM_MOD_CRIT_RATING_SHORT": 128,
-        "ITEM_MOD_STAMINA_SHORT": 3254,
-        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 122.2222213745117,
-        "ITEM_MOD_VERSATILITY": 60,
-        "ITEM_MOD_AGILITY_SHORT": 162
+        "ITEM_MOD_CRIT_RATING_SHORT": 129,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 125.6944427490234,
+        "ITEM_MOD_VERSATILITY": 61,
+        "ITEM_MOD_AGILITY_SHORT": 167
       },
       "itemClass": "Weapon",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7552246,
       "journalFilterType": 10,
       "itemSubclass": "Staves",
@@ -512,17 +512,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -538,45 +538,45 @@
         {
           "rightText": "Speed 3.60",
           "type": 0,
-          "leftText": "374 - 506 Damage"
+          "leftText": "384 - 521 Damage"
         },
         {
-          "type": 0,
-          "leftText": "(122.2 damage per second)"
+          "leftText": "(125.7 damage per second)",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+162 Agility"
+          "leftText": "+167 Agility",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+3,254 Stamina"
+          "leftText": "+3,369 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+128 Critical Strike"
+          "leftText": "+129 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+60 Versatility"
+          "leftText": "+61 Versatility",
+          "type": 0
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 37,
-          "leftText": "\"Pop, pop, pop.\""
+          "leftText": "\"Pop, pop, pop.\"",
+          "type": 37
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Tidepiercer's Bubble Popper",
@@ -588,20 +588,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 128,
-          "share": 0.6808510638297872
+          "value": 129,
+          "share": 0.6789473684210526
         },
         {
           "stat": "Vers",
-          "value": 60,
-          "share": 0.3191489361702128
+          "value": 61,
+          "share": 0.32105263157894737
         }
       ],
-      "secondaryStatBudget": 188,
+      "secondaryStatBudget": 190,
       "primaryStats": [
         {
           "stat": "Agility",
-          "value": 162
+          "value": 167
         }
       ],
       "sockets": [],
@@ -727,15 +727,15 @@
       "armorType": "Mail",
       "stats": {
         "ITEM_MOD_CRIT_RATING_SHORT": 33,
-        "ITEM_MOD_STAMINA_SHORT": 1830,
-        "RESISTANCE0_NAME": 130,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 73,
-        "ITEM_MOD_AGILITY_SHORT": 91
+        "ITEM_MOD_STAMINA_SHORT": 1895,
+        "ITEM_MOD_AGILITY_SHORT": 94,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 74,
+        "RESISTANCE0_NAME": 132
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7554475,
       "journalFilterType": 5,
       "itemSubclass": "Mail",
@@ -746,17 +746,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -770,42 +770,42 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "130 Armor"
+          "leftText": "132 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+91 Agility"
+          "leftText": "+94 Agility",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+1,830 Stamina"
+          "leftText": "+1,895 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+33 Critical Strike"
+          "leftText": "+33 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+73 Mastery"
+          "leftText": "+74 Mastery",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+91 Intellect"
+          "leftText": "+94 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Rising Tide Wristguards",
@@ -817,20 +817,20 @@
       "secondaryStats": [
         {
           "stat": "Mastery",
-          "value": 73,
-          "share": 0.6886792452830188
+          "value": 74,
+          "share": 0.6915887850467289
         },
         {
           "stat": "Crit",
           "value": 33,
-          "share": 0.3113207547169811
+          "share": 0.308411214953271
         }
       ],
-      "secondaryStatBudget": 106,
+      "secondaryStatBudget": 107,
       "primaryStats": [
         {
           "stat": "Agility",
-          "value": 91
+          "value": 94
         }
       ],
       "sockets": [],
@@ -864,16 +864,16 @@
     "268221": {
       "armorType": "Cloth",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 162,
-        "ITEM_MOD_CRIT_RATING_SHORT": 126,
-        "ITEM_MOD_STAMINA_SHORT": 3254,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 62,
-        "RESISTANCE0_NAME": 103
+        "ITEM_MOD_INTELLECT_SHORT": 167,
+        "ITEM_MOD_CRIT_RATING_SHORT": 127,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 63,
+        "RESISTANCE0_NAME": 105
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7520906,
       "journalFilterType": 4,
       "itemSubclass": "Cloth",
@@ -884,17 +884,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -908,34 +908,34 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "103 Armor"
+          "leftText": "105 Armor",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+162 Intellect"
+          "leftText": "+167 Intellect",
+          "type": 42
         },
         {
-          "type": 0,
-          "leftText": "+3,254 Stamina"
+          "leftText": "+3,369 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+126 Critical Strike"
+          "leftText": "+127 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+62 Mastery"
+          "leftText": "+63 Mastery",
+          "type": 0
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         }
       ],
       "name": "Tidebound Sorcereress's Robes",
@@ -947,20 +947,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 126,
-          "share": 0.6702127659574468
+          "value": 127,
+          "share": 0.6684210526315789
         },
         {
           "stat": "Mastery",
-          "value": 62,
-          "share": 0.32978723404255317
+          "value": 63,
+          "share": 0.33157894736842103
         }
       ],
-      "secondaryStatBudget": 188,
+      "secondaryStatBudget": 190,
       "primaryStats": [
         {
           "stat": "Intellect",
-          "value": 162
+          "value": 167
         }
       ],
       "sockets": [],
@@ -1001,16 +1001,16 @@
     "268226": {
       "armorType": "Plate",
       "stats": {
-        "ITEM_MOD_STRENGTH_SHORT": 122,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 41,
-        "ITEM_MOD_STAMINA_SHORT": 2440,
-        "ITEM_MOD_CRIT_RATING_SHORT": 100,
-        "RESISTANCE0_NAME": 268
+        "ITEM_MOD_STRENGTH_SHORT": 125,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 42,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "RESISTANCE0_NAME": 274
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7730305,
       "journalFilterType": 2,
       "itemSubclass": "Plate",
@@ -1021,17 +1021,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1045,42 +1045,42 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "268 Armor"
+          "leftText": "274 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+122 Strength"
+          "leftText": "+125 Strength",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+2,440 Stamina"
+          "leftText": "+2,527 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+100 Critical Strike"
+          "leftText": "+101 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+41 Mastery"
+          "leftText": "+42 Mastery",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+122 Intellect"
+          "leftText": "+125 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Swelling Sea Spaulders",
@@ -1092,20 +1092,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 100,
-          "share": 0.7092198581560284
+          "value": 101,
+          "share": 0.7062937062937062
         },
         {
           "stat": "Mastery",
-          "value": 41,
-          "share": 0.2907801418439716
+          "value": 42,
+          "share": 0.2937062937062937
         }
       ],
-      "secondaryStatBudget": 141,
+      "secondaryStatBudget": 143,
       "primaryStats": [
         {
           "stat": "Strength",
-          "value": 122
+          "value": 125
         }
       ],
       "sockets": [],
@@ -1153,16 +1153,16 @@
     "268232": {
       "armorType": "Cloth",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 122,
-        "ITEM_MOD_CRIT_RATING_SHORT": 100,
-        "ITEM_MOD_STAMINA_SHORT": 2440,
-        "ITEM_MOD_VERSATILITY": 41,
-        "RESISTANCE0_NAME": 58
+        "ITEM_MOD_INTELLECT_SHORT": 125,
+        "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_VERSATILITY": 42,
+        "RESISTANCE0_NAME": 59
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7807649,
       "journalFilterType": 7,
       "itemSubclass": "Cloth",
@@ -1173,17 +1173,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1197,38 +1197,38 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "58 Armor"
+          "leftText": "59 Armor",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+122 Intellect"
+          "leftText": "+125 Intellect",
+          "type": 42
         },
         {
-          "type": 0,
-          "leftText": "+2,440 Stamina"
+          "leftText": "+2,527 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+100 Critical Strike"
+          "leftText": "+101 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+41 Versatility"
+          "leftText": "+42 Versatility",
+          "type": 0
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Cincture of the Abyssal Grotto",
@@ -1240,20 +1240,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 100,
-          "share": 0.7092198581560284
+          "value": 101,
+          "share": 0.7062937062937062
         },
         {
           "stat": "Vers",
-          "value": 41,
-          "share": 0.2907801418439716
+          "value": 42,
+          "share": 0.2937062937062937
         }
       ],
-      "secondaryStatBudget": 141,
+      "secondaryStatBudget": 143,
       "primaryStats": [
         {
           "stat": "Intellect",
-          "value": 122
+          "value": 125
         }
       ],
       "sockets": [],
@@ -1301,16 +1301,16 @@
     "268238": {
       "armorType": "Mail",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 49,
-        "ITEM_MOD_CRIT_RATING_SHORT": 92,
-        "ITEM_MOD_STAMINA_SHORT": 2440,
-        "RESISTANCE0_NAME": 146,
-        "ITEM_MOD_AGILITY_SHORT": 122
+        "ITEM_MOD_HASTE_RATING_SHORT": 50,
+        "ITEM_MOD_CRIT_RATING_SHORT": 93,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_AGILITY_SHORT": 125,
+        "RESISTANCE0_NAME": 149
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7789857,
       "journalFilterType": 6,
       "itemSubclass": "Mail",
@@ -1321,17 +1321,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1345,42 +1345,42 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "146 Armor"
+          "leftText": "149 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+122 Agility"
+          "leftText": "+125 Agility",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+2,440 Stamina"
+          "leftText": "+2,527 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+92 Critical Strike"
+          "leftText": "+93 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+49 Haste"
+          "leftText": "+50 Haste",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+122 Intellect"
+          "leftText": "+125 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Grips of Swirling Fury",
@@ -1392,20 +1392,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 92,
-          "share": 0.6524822695035462
+          "value": 93,
+          "share": 0.6503496503496503
         },
         {
           "stat": "Haste",
-          "value": 49,
-          "share": 0.3475177304964539
+          "value": 50,
+          "share": 0.34965034965034963
         }
       ],
-      "secondaryStatBudget": 141,
+      "secondaryStatBudget": 143,
       "primaryStats": [
         {
           "stat": "Agility",
-          "value": 122
+          "value": 125
         }
       ],
       "sockets": [],
@@ -1453,16 +1453,16 @@
     "268244": {
       "armorType": "Plate",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 100,
-        "ITEM_MOD_VERSATILITY": 41,
-        "ITEM_MOD_STAMINA_SHORT": 2440,
-        "ITEM_MOD_STRENGTH_SHORT": 122,
-        "RESISTANCE0_NAME": 220
+        "ITEM_MOD_HASTE_RATING_SHORT": 101,
+        "ITEM_MOD_VERSATILITY": 42,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_STRENGTH_SHORT": 125,
+        "RESISTANCE0_NAME": 224
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7739383,
       "journalFilterType": 7,
       "itemSubclass": "Plate",
@@ -1473,17 +1473,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1497,42 +1497,42 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "220 Armor"
+          "leftText": "224 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+122 Strength"
+          "leftText": "+125 Strength",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+2,440 Stamina"
+          "leftText": "+2,527 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+100 Haste"
+          "leftText": "+101 Haste",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+41 Versatility"
+          "leftText": "+42 Versatility",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+122 Intellect"
+          "leftText": "+125 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Forgotten Grotto Girdle",
@@ -1544,20 +1544,20 @@
       "secondaryStats": [
         {
           "stat": "Haste",
-          "value": 100,
-          "share": 0.7092198581560284
+          "value": 101,
+          "share": 0.7062937062937062
         },
         {
           "stat": "Vers",
-          "value": 41,
-          "share": 0.2907801418439716
+          "value": 42,
+          "share": 0.2937062937062937
         }
       ],
-      "secondaryStatBudget": 141,
+      "secondaryStatBudget": 143,
       "primaryStats": [
         {
           "stat": "Strength",
-          "value": 122
+          "value": 125
         }
       ],
       "sockets": [],
@@ -1584,16 +1584,16 @@
     "268247": {
       "armorType": "Leather",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 93,
-        "ITEM_MOD_VERSATILITY": 48,
-        "ITEM_MOD_STAMINA_SHORT": 2440,
-        "RESISTANCE0_NAME": 110,
-        "ITEM_MOD_AGILITY_SHORT": 122
+        "ITEM_MOD_HASTE_RATING_SHORT": 94,
+        "ITEM_MOD_VERSATILITY": 49,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_AGILITY_SHORT": 125,
+        "RESISTANCE0_NAME": 112
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7679650,
       "journalFilterType": 9,
       "itemSubclass": "Leather",
@@ -1604,17 +1604,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1628,42 +1628,42 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "110 Armor"
+          "leftText": "112 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+122 Agility"
+          "leftText": "+125 Agility",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+2,440 Stamina"
+          "leftText": "+2,527 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+93 Haste"
+          "leftText": "+94 Haste",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+48 Versatility"
+          "leftText": "+49 Versatility",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+122 Intellect"
+          "leftText": "+125 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Breakwater Boots",
@@ -1675,20 +1675,20 @@
       "secondaryStats": [
         {
           "stat": "Haste",
-          "value": 93,
-          "share": 0.6595744680851063
+          "value": 94,
+          "share": 0.6573426573426573
         },
         {
           "stat": "Vers",
-          "value": 48,
-          "share": 0.3404255319148936
+          "value": 49,
+          "share": 0.34265734265734266
         }
       ],
-      "secondaryStatBudget": 141,
+      "secondaryStatBudget": 143,
       "primaryStats": [
         {
           "stat": "Agility",
-          "value": 122
+          "value": 125
         }
       ],
       "sockets": [],
@@ -1799,17 +1799,17 @@
     "268262": {
       "armorType": "Shield",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 249,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
         "ITEM_MOD_HASTE_RATING_SHORT": 31,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 63,
-        "ITEM_MOD_STAMINA_SHORT": 1627,
-        "ITEM_MOD_STRENGTH_SHORT": 81,
-        "RESISTANCE0_NAME": 1144
+        "ITEM_MOD_MASTERY_RATING_SHORT": 64,
+        "ITEM_MOD_STAMINA_SHORT": 1684,
+        "ITEM_MOD_STRENGTH_SHORT": 84,
+        "RESISTANCE0_NAME": 1167
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7553253,
       "journalFilterType": 11,
       "itemSubclass": "Shields",
@@ -1820,17 +1820,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1844,46 +1844,46 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "1,144 Armor"
+          "leftText": "1,167 Armor",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "2,860 Block"
+          "leftText": "2,917 Block",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+1,627 Stamina"
+          "leftText": "+1,684 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+31 Haste"
+          "leftText": "+31 Haste",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+63 Mastery"
+          "leftText": "+64 Mastery",
+          "type": 0
         },
         {
-          "type": 42,
-          "leftText": "+81 Strength"
+          "leftText": "+84 Strength",
+          "type": 42
         },
         {
-          "type": 42,
-          "leftText": "+249 Intellect"
+          "leftText": "+256 Intellect",
+          "type": 42
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         },
         {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "name": "Bubblefin Splash Guard",
@@ -1895,24 +1895,24 @@
       "secondaryStats": [
         {
           "stat": "Mastery",
-          "value": 63,
-          "share": 0.6702127659574468
+          "value": 64,
+          "share": 0.6736842105263158
         },
         {
           "stat": "Haste",
           "value": 31,
-          "share": 0.32978723404255317
+          "share": 0.3263157894736842
         }
       ],
-      "secondaryStatBudget": 94,
+      "secondaryStatBudget": 95,
       "primaryStats": [
         {
           "stat": "Intellect",
-          "value": 249
+          "value": 256
         },
         {
           "stat": "Strength",
-          "value": 81
+          "value": 84
         }
       ],
       "sockets": [],
@@ -1925,15 +1925,15 @@
     "268263": {
       "armorType": "",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 249,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
+        "ITEM_MOD_CRIT_RATING_SHORT": 64,
         "ITEM_MOD_MASTERY_RATING_SHORT": 31,
-        "ITEM_MOD_CRIT_RATING_SHORT": 63,
-        "ITEM_MOD_STAMINA_SHORT": 1627
+        "ITEM_MOD_STAMINA_SHORT": 1684
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 7500005,
       "journalFilterType": 11,
       "itemSubclass": "Miscellaneous",
@@ -1944,17 +1944,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -1967,30 +1967,30 @@
           "isValidInvSlot": true
         },
         {
-          "type": 42,
-          "leftText": "+249 Intellect"
+          "leftText": "+256 Intellect",
+          "type": 42
         },
         {
-          "type": 0,
-          "leftText": "+1,627 Stamina"
+          "leftText": "+1,684 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+63 Critical Strike"
+          "leftText": "+64 Critical Strike",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+31 Mastery"
+          "leftText": "+31 Mastery",
+          "type": 0
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         }
       ],
       "name": "Frostscale's Mystic Frond",
@@ -2002,20 +2002,20 @@
       "secondaryStats": [
         {
           "stat": "Crit",
-          "value": 63,
-          "share": 0.6702127659574468
+          "value": 64,
+          "share": 0.6736842105263158
         },
         {
           "stat": "Mastery",
           "value": 31,
-          "share": 0.32978723404255317
+          "share": 0.3263157894736842
         }
       ],
-      "secondaryStatBudget": 94,
+      "secondaryStatBudget": 95,
       "primaryStats": [
         {
           "stat": "Intellect",
-          "value": 249
+          "value": 256
         }
       ],
       "sockets": [],
@@ -2042,15 +2042,15 @@
     "268266": {
       "armorType": "",
       "stats": {
-        "ITEM_MOD_STAMINA_SHORT": 1830,
-        "ITEM_MOD_HASTE_RATING_SHORT": 288,
-        "ITEM_MOD_VERSATILITY": 81,
-        "EMPTY_SOCKET_PRISMATIC": 1
+        "EMPTY_SOCKET_PRISMATIC": 1,
+        "ITEM_MOD_HASTE_RATING_SHORT": 293,
+        "ITEM_MOD_VERSATILITY": 83,
+        "ITEM_MOD_STAMINA_SHORT": 1895
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 1391765,
       "journalFilterType": 12,
       "itemSubclass": "Miscellaneous",
@@ -2061,17 +2061,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -2079,8 +2079,8 @@
           "leftText": "Binds when picked up"
         },
         {
-          "type": 0,
-          "leftText": "Unique-Equipped"
+          "leftText": "Unique-Equipped",
+          "type": 0
         },
         {
           "type": 21,
@@ -2088,38 +2088,38 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "+1,830 Stamina"
+          "leftText": "+1,895 Stamina",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+288 Haste"
+          "leftText": "+293 Haste",
+          "type": 0
         },
         {
-          "type": 0,
-          "leftText": "+81 Versatility"
+          "leftText": "+83 Versatility",
+          "type": 0
         },
         {
-          "type": 1,
-          "leftText": " "
+          "leftText": " ",
+          "type": 1
         },
         {
-          "type": 3,
-          "leftText": "Prismatic Socket"
+          "leftText": "Prismatic Socket",
+          "type": 3
         },
         {
-          "type": 1,
-          "leftText": " "
+          "leftText": " ",
+          "type": 1
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         }
       ],
       "name": "Alluring Bubbleband",
@@ -2131,16 +2131,16 @@
       "secondaryStats": [
         {
           "stat": "Haste",
-          "value": 288,
-          "share": 0.7804878048780488
+          "value": 293,
+          "share": 0.7792553191489362
         },
         {
           "stat": "Vers",
-          "value": 81,
-          "share": 0.21951219512195122
+          "value": 83,
+          "share": 0.22074468085106383
         }
       ],
-      "secondaryStatBudget": 369,
+      "secondaryStatBudget": 376,
       "primaryStats": [],
       "sockets": [
         {
@@ -2206,12 +2206,12 @@
     "270167": {
       "armorType": "",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 134
+        "ITEM_MOD_HASTE_RATING_SHORT": 136
       },
       "itemClass": "Armor",
       "itemQuality": "ffa335ee",
       "metadataVersion": 1,
-      "itemLevel": 318,
+      "itemLevel": 321,
       "iconFileId": 1020350,
       "journalFilterType": 13,
       "itemSubclass": "Miscellaneous",
@@ -2222,17 +2222,17 @@
           "quality": 4
         },
         {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
         },
         {
           "type": 31,
-          "itemLevel": 318,
-          "leftText": "Item Level 318"
+          "itemLevel": 321,
+          "leftText": "Item Level 321"
         },
         {
-          "type": 32,
-          "leftText": "Upgrade Level: Myth 1/6"
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
         },
         {
           "bonding": 6,
@@ -2240,8 +2240,8 @@
           "leftText": "Binds when picked up"
         },
         {
-          "type": 0,
-          "leftText": "Unique-Equipped"
+          "leftText": "Unique-Equipped",
+          "type": 0
         },
         {
           "type": 21,
@@ -2249,31 +2249,31 @@
           "isValidInvSlot": true
         },
         {
-          "type": 0,
-          "leftText": "+134 Haste"
+          "leftText": "+136 Haste",
+          "type": 0
         },
         {
-          "type": 1,
-          "leftText": " "
+          "leftText": " ",
+          "type": 1
         },
         {
           "type": 45,
-          "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 55 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
           "spellID": 1295058
         },
         {
-          "type": 1,
-          "leftText": " "
+          "leftText": " ",
+          "type": 1
         },
         {
           "requirementType": 5,
           "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
+          "level": 90,
+          "leftText": "Requires Level 90"
         },
         {
-          "type": 11,
-          "leftText": ""
+          "leftText": "",
+          "type": 11
         }
       ],
       "name": "Wavecaller's Seastone",
@@ -2285,17 +2285,17 @@
       "secondaryStats": [
         {
           "stat": "Haste",
-          "value": 134,
+          "value": 136,
           "share": 1
         }
       ],
-      "secondaryStatBudget": 134,
+      "secondaryStatBudget": 136,
       "primaryStats": [],
       "sockets": [],
       "effects": [
         {
           "spellID": 1295058,
-          "text": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 55 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "text": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
           "tooltipType": 45
         }
       ],
@@ -2596,8 +2596,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 41,
-          "leftText": "Retrieving item information"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Clumped Asteroidea",

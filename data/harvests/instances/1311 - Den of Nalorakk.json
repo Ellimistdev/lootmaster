@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "14dc026864447be400b4c93470dd96093c7955c0fa6db3311259553f694e1a1c",
+  "sourceSha256": "54f1bc0ed1205b8444bd21b705476491cc1b4154614a32d726533454bce84652",
   "instanceId": 1311,
   "game": {
     "locale": "enUS",
@@ -12,7 +12,8 @@
   },
   "harvest": {
     "status": "complete",
-    "jobs": 123
+    "jobs": 123,
+    "importedAt": 1791664285
   },
   "items": {
     "250229": {
@@ -29,63 +30,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Idol of the War Loa",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 0,
-          "leftText": "Unique-Equipped"
-        },
-        {
-          "type": 21,
-          "leftText": "Trinket",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "+119 Critical Strike"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "type": 45,
-          "leftText": "Equip: You have proven your worth to Nalorakk. Your abilities have a chance to echo with the war god's furious roar, granting you 234 Strength for 15 sec.\r\n\r\nNearby allies with Nalorakk's favor are rallied, gaining 25% movement speed for 10 sec.",
-          "spellID": 1250567
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Idol of the War Loa",
@@ -107,51 +53,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Permafrost Essence",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 0,
-          "leftText": "Unique-Equipped"
-        },
-        {
-          "type": 21,
-          "leftText": "Trinket",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 45,
-          "leftText": "Equip: You gain Nalorakk's Favor of Enduring. Taking damage has a chance to grant a Mark of Frost, increasing your Critical Strike by 70 for 15 sec. Stacks up to 10 times.\r\n\r\nIf your health falls below 25%, the reservoir ruptures, consuming all marks to form a Frost Barrier that absorbs 48,227 damage per mark for 10 sec.",
-          "spellID": 1250588
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Permafrost Essence",
@@ -175,67 +78,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Mycolic Medicine",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 0,
-          "leftText": "Unique-Equipped"
-        },
-        {
-          "type": 21,
-          "leftText": "Trinket",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 42,
-          "leftText": "+121 Intellect"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "type": 45,
-          "leftText": "Equip: You gain Nalorakk's Favor of Growth. Your healing spells and abilities have a chance to instantly heal your target for 60,315 and spawn a glowing mushroom near them that lasts for 10 sec.\r\n\r\nIf an ally steps on and consumes the mushroom, they are healed for an additional 34,465.",
-          "spellID": 1250591
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 37,
-          "leftText": "\"A draught from a species long lost everywhere but in dreams.\""
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Mycolic Medicine",
@@ -263,72 +107,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Grim Harvest Gloves",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Fist Weapon",
-          "type": 21,
-          "leftText": "One-Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "rightText": "Speed 2.60",
-          "type": 0,
-          "leftText": "155 - 221 Damage"
-        },
-        {
-          "type": 0,
-          "leftText": "(72.3 damage per second)"
-        },
-        {
-          "type": 0,
-          "leftText": "+64 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,203 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+49 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+35 Versatility"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Grim Harvest Gloves",
@@ -356,67 +136,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Autumn's Boon Belt",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Plate",
-          "type": 21,
-          "leftText": "Waist",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "186 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Strength"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+49 Versatility"
-        },
-        {
-          "type": 0,
-          "leftText": "+76 Mastery"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Autumn's Boon Belt",
@@ -444,71 +165,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Forgotten Tribe Footguards",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Feet",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "138 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+73 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+52 Versatility"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 37,
-          "leftText": "\"From a tribe forgotten everywhere but Nalorakk's dreams.\""
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Forgotten Tribe Footguards",
@@ -536,67 +194,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Scavenger's Spaulders",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Leather",
-          "type": 21,
-          "leftText": "Shoulder",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "103 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+52 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+73 Versatility"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Scavenger's Spaulders",
@@ -624,63 +223,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Hoarded Harvest Wrap",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Cloth",
-          "type": 21,
-          "leftText": "Chest",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "87 Armor"
-        },
-        {
-          "type": 42,
-          "leftText": "+128 Intellect"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+66 Versatility"
-        },
-        {
-          "type": 0,
-          "leftText": "+101 Mastery"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Hoarded Harvest Wrap",
@@ -707,74 +251,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Pilfered Precious Band",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 0,
-          "leftText": "Unique-Equipped"
-        },
-        {
-          "type": 21,
-          "leftText": "Finger",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "+1,353 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+124 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+186 Versatility"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "type": 3,
-          "leftText": "Prismatic Socket"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 37,
-          "leftText": "\"The Hoardmonger was strangely attached to this 'precious' ring.\""
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Pilfered Precious Band",
@@ -802,72 +280,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Victor's Flashfrozen Blade",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Polearm",
-          "type": 21,
-          "leftText": "Two-Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "rightText": "Speed 3.60",
-          "type": 0,
-          "leftText": "241 - 449 Damage"
-        },
-        {
-          "type": 0,
-          "leftText": "(95.8 damage per second)"
-        },
-        {
-          "type": 0,
-          "leftText": "+128 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+69 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+98 Mastery"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Victor's Flashfrozen Blade",
@@ -896,75 +310,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Tempest's Shelter",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Shield",
-          "type": 21,
-          "leftText": "Off Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "971 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "2,427 Block"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,203 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+52 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+31 Mastery"
-        },
-        {
-          "type": 42,
-          "leftText": "+64 Strength"
-        },
-        {
-          "type": 42,
-          "leftText": "+196 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Tempest's Shelter",
@@ -992,71 +339,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Sentinel Challenger's Prize",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Plate",
-          "type": 21,
-          "leftText": "Chest",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "331 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+128 Strength"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+109 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+58 Mastery"
-        },
-        {
-          "type": 42,
-          "leftText": "+128 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Sentinel Challenger's Prize",
@@ -1084,67 +368,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Season's Turn Gauntlets",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Hands",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "124 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+73 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+52 Versatility"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Season's Turn Gauntlets",
@@ -1172,67 +397,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Arctic Explorer's Legwraps",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Leather",
-          "type": 21,
-          "leftText": "Feet",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "93 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+47 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+79 Haste"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Arctic Explorer's Legwraps",
@@ -1260,63 +426,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Winter's Embrace Bracers",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Cloth",
-          "type": 21,
-          "leftText": "Wrist",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "43 Armor"
-        },
-        {
-          "type": 42,
-          "leftText": "+72 Intellect"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,353 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+59 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+35 Mastery"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Winter's Embrace Bracers",
@@ -1344,67 +455,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Tribal Defender's Cord",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Waist",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "124 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+79 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+47 Mastery"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Tribal Defender's Cord",
@@ -1432,68 +484,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Fallen Speaker's Staff",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Staff",
-          "type": 21,
-          "leftText": "Two-Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "rightText": "Speed 3.60",
-          "type": 0,
-          "leftText": "146 - 199 Damage"
-        },
-        {
-          "type": 0,
-          "leftText": "(47.9 damage per second)"
-        },
-        {
-          "type": 42,
-          "leftText": "+567 Intellect"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+105 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+62 Versatility"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Fallen Speaker's Staff",
@@ -1521,71 +513,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Nalorakk's Nightmare",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Head",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "165 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+128 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+69 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+98 Versatility"
-        },
-        {
-          "type": 42,
-          "leftText": "+128 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Nalorakk's Nightmare",
@@ -1613,67 +542,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "War Trial Vestments",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Leather",
-          "type": 21,
-          "leftText": "Chest",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "149 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+128 Agility"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+62 Haste"
-        },
-        {
-          "type": 0,
-          "leftText": "+105 Mastery"
-        },
-        {
-          "type": 42,
-          "leftText": "+128 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "War Trial Vestments",
@@ -1701,63 +571,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Forest Dream Leg-guards",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Cloth",
-          "type": 21,
-          "leftText": "Legs",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "76 Armor"
-        },
-        {
-          "type": 42,
-          "leftText": "+128 Intellect"
-        },
-        {
-          "type": 0,
-          "leftText": "+2,406 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+62 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+105 Haste"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Forest Dream Leg-guards",
@@ -1784,66 +599,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Yoke of the Charging Bear",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 21,
-          "leftText": "Neck",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "+1,353 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+106 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+204 Haste"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "type": 3,
-          "leftText": "Prismatic Socket"
-        },
-        {
-          "type": 1,
-          "leftText": " "
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Yoke of the Charging Bear",
@@ -1871,67 +628,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Bonds of the Hash'ura",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Plate",
-          "type": 21,
-          "leftText": "Hands",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 0,
-          "leftText": "186 Armor"
-        },
-        {
-          "type": 0,
-          "leftText": "+96 Strength"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,805 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+49 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+76 Haste"
-        },
-        {
-          "type": 42,
-          "leftText": "+96 Intellect"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Bonds of the Hash'ura",
@@ -1953,23 +651,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Formula: Enchant Chest - Mark of Nalorakk",
-          "quality": 3
-        },
-        {
-          "type": 38,
-          "leftText": "Use: Teaches you how to perform the Mark of Nalorakk enchantment.",
-          "spellID": 1236054
-        },
-        {
-          "requirementType": 2,
-          "type": 43,
-          "leftText": "Requires Midnight Enchanting (50)"
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Formula: Enchant Chest - Mark of Nalorakk",
@@ -1991,32 +674,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "rightText": "|A:House-Decor-budget-icon:21:21|a 3",
-          "type": 22,
-          "leftText": "Amani Ritual Altar",
-          "quality": 2
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF66BBFFHousing Decor|r"
-        },
-        {
-          "bonding": 5,
-          "type": 20,
-          "leftText": "Binds to Warband"
-        },
-        {
-          "type": 0,
-          "leftText": "Total Owned: |cnHIGHLIGHT_FONT_COLOR:5 (Placed: 0, Storage: 5)|r"
-        },
-        {
-          "type": 44,
-          "leftText": "Use: Add this Decor to your House Chest.",
-          "spellID": 1271719
-        },
-        {
-          "type": 11,
-          "leftText": ""
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Amani Ritual Altar",
@@ -2043,62 +702,8 @@
       "metadataVersion": 1,
       "tooltipLines": [
         {
-          "type": 22,
-          "leftText": "Perennial Frostbound Charm",
-          "quality": 4
-        },
-        {
-          "type": 0,
-          "leftText": "|cFF 0FF 0Mythic|r"
-        },
-        {
-          "type": 31,
-          "itemLevel": 292,
-          "leftText": "Item Level 292"
-        },
-        {
-          "type": 32,
-          "leftText": "Upgrade Level: Champion 1/6"
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 21,
-          "leftText": "Held In Off-hand",
-          "isValidInvSlot": true
-        },
-        {
-          "type": 42,
-          "leftText": "+196 Intellect"
-        },
-        {
-          "type": 0,
-          "leftText": "+1,203 Stamina"
-        },
-        {
-          "type": 0,
-          "leftText": "+35 Critical Strike"
-        },
-        {
-          "type": 0,
-          "leftText": "+49 Mastery"
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "leftText": "Requires Level 90",
-          "level": 90
-        },
-        {
-          "type": 11,
-          "leftText": ""
-        },
-        {
-          "type": 0,
-          "leftText": "You haven't collected this appearance"
+          "leftText": "Retrieving item information",
+          "type": 41
         }
       ],
       "name": "Perennial Frostbound Charm",

@@ -124,16 +124,16 @@ for (const [id, instance] of instances) {
     skipped++
     continue
   }
-  const items = Object.fromEntries(Object.entries(db.items || {}).filter(([itemId]) => referenced.has(itemId)))
+  // Keep performance diagnostics in SavedVariables, not versioned data exports.\n  // Avoid mutating the parsed source, which may be reused by another instance.\n  const stripJobDiagnostics = (job) => {\n    if (!job) return job\n    const { completedAt, startedAt, durationSeconds, lastAttemptSeconds, ...stable } = job\n    return stable\n  }\n  const stableInstance = { ...exportedInstance, encounters: Object.fromEntries(\n    Object.entries(exportedInstance.encounters || {}).map(([encounterId, encounter]) => [encounterId, {\n      ...encounter, difficulties: Object.fromEntries(\n        Object.entries(encounter.difficulties || {}).map(([difficultyId, difficulty]) => [difficultyId, {\n          ...difficulty,\n          baseline: stripJobDiagnostics(difficulty.baseline),\n          specializations: Object.fromEntries(Object.entries(difficulty.specializations || {})\n            .map(([specId, job]) => [specId, stripJobDiagnostics(job)])),\n        }]),\n      ),\n    }]),\n  ) }\n  const items = Object.fromEntries(Object.entries(db.items || {}).filter(([itemId]) => referenced.has(itemId)))
   const document = {
     schemaVersion: 1,
     source: db.source,
     sourceSha256: createHash('sha256').update(raw).digest('hex'),
     instanceId: Number(id),
     game: db.game,
-    harvest: { status: 'complete', jobs, importedAt: db.harvest?.completedAt },
+    harvest: { status: 'complete', jobs },
     items,
-    instance: exportedInstance,
+    instance: stableInstance,
     validation: { warnings: [] },
   }
   const filename = fileName(instance.name, id)

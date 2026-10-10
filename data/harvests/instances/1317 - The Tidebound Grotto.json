@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "30eebfcb49eaeb2f37f6bdc5b9cb59267a3ac89e0034baa69b36a4fdbf14136d",
+  "sourceSha256": "171462ae132c69ba5bacca026a88e52602af9d7e1d4ff086f247a400073564c9",
   "instanceId": 1317,
   "game": {
     "locale": "enUS",
@@ -12,8 +12,7 @@
   },
   "harvest": {
     "status": "complete",
-    "jobs": 164,
-    "importedAt": 1791609001
+    "jobs": 164
   },
   "items": {
     "268199": {
@@ -111,8 +110,10 @@
   "instance": {
     "encounters": {
       "2849": {
+        "encounterId": 2849,
         "difficulties": {
           "14": {
+            "difficultyId": 14,
             "baseline": {
               "unresolvedEntries": [],
               "duplicateCount": 0,
@@ -165,7 +166,6 @@
               ],
               "attempts": 1
             },
-            "difficultyId": 14,
             "specializations": {
               "62": {
                 "unresolvedEntries": [],
@@ -1264,6 +1264,7 @@
             "difficultyName": "Normal"
           },
           "15": {
+            "difficultyId": 15,
             "baseline": {
               "unresolvedEntries": [],
               "duplicateCount": 0,
@@ -1316,7 +1317,6 @@
               ],
               "attempts": 1
             },
-            "difficultyId": 15,
             "specializations": {
               "62": {
                 "unresolvedEntries": [],
@@ -2415,6 +2415,7 @@
             "difficultyName": "Heroic"
           },
           "16": {
+            "difficultyId": 16,
             "baseline": {
               "unresolvedEntries": [],
               "duplicateCount": 0,
@@ -2467,7 +2468,6 @@
               ],
               "attempts": 1
             },
-            "difficultyId": 16,
             "specializations": {
               "62": {
                 "unresolvedEntries": [],
@@ -3566,6 +3566,7 @@
             "difficultyName": "Mythic"
           },
           "17": {
+            "difficultyId": 17,
             "baseline": {
               "items": [
                 {
@@ -3616,7 +3617,6 @@
               "reportedCount": 13,
               "attempts": 1
             },
-            "difficultyId": 17,
             "specializations": {
               "62": {
                 "items": [
@@ -4713,7 +4713,6 @@
             "difficultyName": "Looking For Raid"
           }
         },
-        "encounterId": 2849,
         "name": "Nymrissa Wavecaller",
         "dungeonEncounterId": 3379
       }

@@ -1,8 +1,15 @@
 [
   {
+    "instanceId": 1312,
+    "name": "Midnight",
+    "instanceType": "raid",
+    "jobs": 164,
+    "url": "/data/instances/1312%20-%20Midnight.json"
+  },
+  {
     "instanceId": 1317,
     "name": "The Tidebound Grotto",
-    "instanceType": null,
+    "instanceType": "raid",
     "jobs": 164,
     "url": "/data/instances/1317%20-%20The%20Tidebound%20Grotto.json"
   },

@@ -103,7 +103,7 @@ for (const [id, instance] of instances) {
           if (!baselineIds.has(itemId)) errors.push(label + ': filtered item absent from baseline ' + itemId)
         }
       }
-      for (const specId of manifest ? Object.keys(db.specializations || {}) : Object.keys(db.specializations || {})) {
+      for (const specId of Object.keys(db.specializations || {})) {
         if (!Object.hasOwn(difficulty.specializations || {}, specId)) {
           errors.push(label + ': missing spec ' + specId)
         }
@@ -111,6 +111,7 @@ for (const [id, instance] of instances) {
     }
   }
   if (!jobs) errors.push('No jobs for instance ' + id)
+  if (manifest && jobs !== manifest.length) errors.push('Manifest job count mismatch for instance ' + id)
   if (errors.length) {
     if (selected.size) {
       throw new Error('Refusing to import incomplete instance ' + id + ':\n' +

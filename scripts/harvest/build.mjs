@@ -10,6 +10,14 @@ const instanceFiles = existsSync(instanceDir)
 if (!instanceFiles.length) {
   throw new Error('No per-instance JSON harvests found in data/harvests/instances/. Run npm run import:harvest first.')
 }
+const sharedSpecsPath = resolve('data/harvests/specializations.json')
+const sharedSpecs = existsSync(sharedSpecsPath)
+  ? JSON.parse(readFileSync(sharedSpecsPath, 'utf8'))
+  : null
+if (sharedSpecs !== null && (typeof sharedSpecs !== 'object' ||
+    Array.isArray(sharedSpecs) || !Object.keys(sharedSpecs).length)) {
+  throw new Error('Invalid shared specialization metadata: data/harvests/specializations.json')
+}
 const data = (() => {
   const docs = instanceFiles.map((name) => JSON.parse(readFileSync(resolve(instanceDir, name), 'utf8')))
   const merged = {

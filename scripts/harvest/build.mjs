@@ -1,4 +1,4 @@
-import { readFileSync, mkdirSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
+import { readFileSync, mkdirSync, writeFileSync, readdirSync, existsSync, copyFileSync, rmSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
 
@@ -149,3 +149,30 @@ if (errors.length) {
 mkdirSync(dirname(outputPath), { recursive: true })
 writeFileSync(outputPath, JSON.stringify(normalized, null, 2) + '\n')
 console.log('Validated ' + jobs + ' jobs across ' + specs.length + ' specs; wrote ' + outputPath)
+
+
+// Publish the original, per-instance harvests alongside the normalized seasonal dataset.
+const publicDataDir = resolve('public/data')
+const publicInstancesDir = resolve(publicDataDir, 'instances')
+mkdirSync(publicDataDir, { recursive: true })
+rmSync(publicInstancesDir, { recursive: true, force: true })
+mkdirSync(publicInstancesDir, { recursive: true })
+const index = instanceFiles.map((filename) => {
+  const doc = JSON.parse(readFileSync(resolve(instanceDir, filename), 'utf8'))
+  copyFileSync(resolve(instanceDir, filename), resolve(publicInstancesDir, filename))
+  return {
+    instanceId: doc.instanceId,
+    name: doc.instance.name,
+    instanceType: doc.instance.instanceType || null,
+    jobs: doc.harvest?.jobs || 0,
+    url: '/data/instances/' + encodeURIComponent(filename),
+  }
+}).sort((a, b) => a.name.localeCompare(b.name) || a.instanceId - b.instanceId)
+writeFileSync(resolve(publicDataDir, 'instances.json'), JSON.stringify(index, null, 2) + '\n')
+if (sharedSpecs) {
+  copyFileSync(sharedSpecsPath, resolve(publicDataDir, 'specializations.json'))
+} else {
+  writeFileSync(resolve(publicDataDir, 'specializations.json'),
+    JSON.stringify(data.specializations, null, 2) + '\n')
+}
+console.log('Published ' + index.length + ' individual instance datasets and shared specialization metadata')

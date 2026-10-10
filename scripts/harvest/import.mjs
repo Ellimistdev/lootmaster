@@ -27,7 +27,7 @@ const fileName = (name, id) => {
   const safe = String(name || '').normalize('NFKC')
     .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim()
   if (!safe) throw new Error('Missing valid name for instance ' + id)
-  return safe + ' - ' + id + '.json'
+  return id + ' - ' + safe + '.json'
 }
 let written = 0
 let skipped = 0
@@ -101,7 +101,7 @@ for (const [id, instance] of instances) {
   const path = resolve(directory, filename)
   const obsolete = readdirSync(directory).filter((name) =>
     name === 'instance-' + id + '.json' ||
-    (name.endsWith(' - ' + id + '.json') && name !== filename))
+    ((name.endsWith(' - ' + id + '.json') || name.startsWith(id + ' - ')) && name !== filename))
   const existed = existsSync(path) || obsolete.length > 0
   writeFileSync(path, JSON.stringify(document, null, 2) + '\n')
   for (const oldName of obsolete) unlinkSync(resolve(directory, oldName))

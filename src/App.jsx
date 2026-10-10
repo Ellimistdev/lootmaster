@@ -6,9 +6,9 @@ import DataPage from "./pages/DataPage";
 const links = [{ href: "/", label: "Loot Table" }, { href: "/simc", label: "SimC Analyzer" }, { href: "/data", label: "Data" }];
 
 export default function App() {
-  const [path, setPath] = useState(window.location.pathname);
+  const [path, setPath] = useState(window.location.pathname.replace(/\/$/, "") || "/");
   useEffect(() => {
-    const onPopState = () => setPath(window.location.pathname);
+    const onPopState = () => setPath(window.location.pathname.replace(/\/$/, "") || "/");
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
   }, []);

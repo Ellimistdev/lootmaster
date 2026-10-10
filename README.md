@@ -102,12 +102,12 @@ When updating spec priorities, update both the priority and that spec's `updated
 
 ## Encounter Journal harvest pipeline
 
-The raw WoW addon SavedVariables export at `data/harvests/tidebound-grotto.lua` is the committed source of truth. Do not edit the generated JSON manually.
+Each instance can now be committed independently under `data/harvests/instances/instance-<journalInstanceID>.json`. The original raw Lua file remains a fallback until per-instance files have been imported. Do not edit generated public JSON manually.
 
 1. Finish harvesting in WoW and run `/reload` (or log out) to flush SavedVariables.
-2. Replace `data/harvests/tidebound-grotto.lua` with the addon export from `_retail_/WTF/Account/<account>/SavedVariables/LootmasterHarvester.lua`.
-3. Run `npm run build:harvest` to validate and normalize the export.
+2. Run `npm run import:harvest -- "<path>/LootmasterHarvester.lua"` to import all instances from the SavedVariables file, or append instance IDs to import only specific instances. For example, `npm run import:harvest -- "<path>/LootmasterHarvester.lua" 1296`. The command writes `data/harvests/instances/instance-1296.json` and **does not delete other instance files**.
+3. Run `npm run build:harvest` to validate and merge committed instance exports into the combined dataset.
 4. Open a PR. The Validate harvest workflow rejects malformed/incomplete data and uploads normalized JSON as a CI artifact.
 5. Merge after review. The existing GitHub Pages deployment runs `npm run build`, which regenerates `public/data/encounter-loot.json` and serves it at `/data/encounter-loot.json`.
 
-Validation checks completed jobs, expected specialization coverage, duplicate IDs, unresolved entries, reported counts, baseline membership, and addon-reported errors. Unclaimed baseline items are warnings. The importer parses Lua tables as data without executing Lua code. Normalized JSON is build output and is not committed.
+Validation checks completed jobs, expected specialization coverage, duplicate IDs, unresolved entries, reported counts, baseline membership, and addon-reported errors. Unclaimed baseline items are warnings. The importer parses Lua tables as data without executing Lua code. Per-instance JSON is committed; the merged JSON is build output and is not committed. Once any per-instance JSON exists, the build uses the instance directory as its source instead of the legacy Lua file. Commit all desired instances before switching. Missing instances are never deleted by the import command.

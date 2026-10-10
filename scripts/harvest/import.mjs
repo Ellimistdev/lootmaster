@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
+import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, unlinkSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
 import { loadEnvFile } from 'node:process'
@@ -23,6 +23,12 @@ const instances = Object.entries(db.instances || {}).filter(([id]) => !selected.
 if (!instances.length) throw new Error('No matching instances in export')
 const directory = resolve('data/harvests/instances')
 mkdirSync(directory, { recursive: true })
+const fileName = (name, id) => {
+  const safe = String(name || '').normalize('NFKC')
+    .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim()
+  if (!safe) throw new Error('Missing valid name for instance ' + id)
+  return safe + ' - ' + id + '.json'
+}
 let written = 0
 let skipped = 0
 for (const [id, instance] of instances) {
@@ -91,9 +97,14 @@ for (const [id, instance] of instances) {
     instance,
     validation: { warnings: [] },
   }
-  const path = resolve(directory, 'instance-' + id + '.json')
-  const existed = existsSync(path)
+  const filename = fileName(instance.name, id)
+  const path = resolve(directory, filename)
+  const obsolete = readdirSync(directory).filter((name) =>
+    name === 'instance-' + id + '.json' ||
+    (name.endsWith(' - ' + id + '.json') && name !== filename))
+  const existed = existsSync(path) || obsolete.length > 0
   writeFileSync(path, JSON.stringify(document, null, 2) + '\n')
+  for (const oldName of obsolete) unlinkSync(resolve(directory, oldName))
   console.log((existed ? 'Updated ' : 'Created ') + path + ' (' + jobs + ' jobs)')
   written++
 }

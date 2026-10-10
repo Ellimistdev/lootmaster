@@ -151,6 +151,47 @@ writeFileSync(outputPath, JSON.stringify(normalized, null, 2) + '\n')
 console.log('Validated ' + jobs + ' jobs across ' + specs.length + ' specs; wrote ' + outputPath)
 
 
+// Classify using explicit journal metadata where present, then the collected
+// difficulty IDs. Older exports (e.g. 1317) have no instanceType.
+const classifyInstance = (instance) => {
+  const explicit = String(instance.instanceType || '').toLowerCase()
+  if (explicit === 'raid' || explicit === 'dungeon') return explicit
+  const difficulties = new Set(Object.values(instance.encounters || {})
+    .flatMap((encounter) => Object.keys(encounter.difficulties || {}).map(Number)))
+  if ([14, 15, 16, 17].some((id) => difficulties.has(id))) return 'raid'
+  if ([1, 2, 8, 23, 24, 33].some((id) => difficulties.has(id))) return 'dungeon'
+  throw new Error('Cannot classify instance ' + instance.instanceId + ' (' + instance.name +
+    '): missing instanceType and unrecognized difficulties')
+}
+const instanceTypes = Object.fromEntries(
+  Object.entries(data.instances).map(([id, instance]) => [id, classifyInstance(instance)]))
+const publishPool = (type, filename) => {
+  const selected = Object.fromEntries(Object.entries(normalized.instances)
+    .filter(([id]) => instanceTypes[id] === type))
+  const itemIds = new Set()
+  for (const instance of Object.values(selected)) {
+    for (const encounter of Object.values(instance.encounters || {})) {
+      for (const difficulty of Object.values(encounter.difficulties || {})) {
+        for (const id of difficulty.baselineItemIds || []) itemIds.add(String(id))
+        for (const ids of Object.values(difficulty.specializations || {})) {
+          for (const id of ids) itemIds.add(String(id))
+        }
+      }
+    }
+  }
+  const subset = {
+    ...normalized,
+    items: Object.fromEntries(Object.entries(normalized.items).filter(([id]) => itemIds.has(id))),
+    instances: selected,
+  }
+  writeFileSync(resolve('public/data', filename), JSON.stringify(subset, null, 2) + '\n')
+  return Object.keys(selected).length
+}
+mkdirSync(resolve('public/data'), { recursive: true })
+const raidCount = publishPool('raid', 'season-2-raids.json')
+const dungeonCount = publishPool('dungeon', 'season-2-dungeons.json')
+console.log('Published seasonal pools: ' + raidCount + ' raids, ' + dungeonCount + ' dungeons')
+
 // Publish the original, per-instance harvests alongside the normalized seasonal dataset.
 const publicDataDir = resolve('public/data')
 const publicInstancesDir = resolve(publicDataDir, 'instances')
@@ -163,7 +204,7 @@ const index = instanceFiles.map((filename) => {
   return {
     instanceId: doc.instanceId,
     name: doc.instance.name,
-    instanceType: doc.instance.instanceType || null,
+    instanceType: instanceTypes[String(doc.instanceId)],
     jobs: doc.harvest?.jobs || 0,
     url: '/data/instances/' + encodeURIComponent(filename),
   }

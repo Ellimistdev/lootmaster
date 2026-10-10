@@ -121,3 +121,7 @@ Per-instance exports use the Encounter Journal instance name and ID, for example
 ### Public harvest downloads
 
 `npm run build:harvest` publishes the merged seasonal dataset at `/data/encounter-loot.json`, the shared specialization reference at `/data/specializations.json`, and each raw instance export at `/data/instances/<encoded filename>`. It also generates `/data/instances.json`, which powers the automatic individual-instance listing on `/data`. Newly committed instance harvests appear without catalog code changes. The build refreshes the published instance directory to remove stale files.
+
+### Seasonal dataset splits
+
+The harvest build also publishes `/data/season-2-raids.json` and `/data/season-2-dungeons.json` alongside the full `/data/encounter-loot.json` and shared `/data/specializations.json`. Both split files use the normalized encounter-loot schema and contain only their respective instances and referenced items. Instance type is taken from harvest metadata when available or inferred from Encounter Journal difficulty IDs for older exports. The data catalog lists shared metadata, full season, type-specific pools, individual raids, then individual dungeons. A pool with no imported instances is an empty dataset until those instances are harvested.

@@ -29,14 +29,52 @@ const fileName = (name, id) => {
   if (!safe) throw new Error('Missing valid name for instance ' + id)
   return id + ' - ' + safe + '.json'
 }
+// The active manifest is authoritative for instances in the most recent run.
+const activeJobs = new Map()
+for (const job of db.harvest?.manifest || []) {
+  const id = String(job.instanceId)
+  if (!activeJobs.has(id)) activeJobs.set(id, [])
+  activeJobs.get(id).push(job)
+}
 let written = 0
 let skipped = 0
 for (const [id, instance] of instances) {
   if (!/^\d+$/.test(id)) throw new Error('Invalid instance ID: ' + id)
   const errors = []
+  const manifest = activeJobs.get(id)
+  const exportedInstance = manifest ? {
+    ...instance,
+    encounters: {},
+  } : instance
+  if (manifest) {
+    for (const job of manifest) {
+      const encounterId = String(job.encounterId)
+      const difficultyId = String(job.difficultyId)
+      const originalEncounter = instance.encounters?.[encounterId]
+      const originalDifficulty = originalEncounter?.difficulties?.[difficultyId]
+      if (!originalDifficulty) {
+        errors.push(id + '/' + encounterId + '/' + difficultyId + ': missing manifest difficulty')
+        continue
+      }
+      if (!exportedInstance.encounters[encounterId]) {
+        exportedInstance.encounters[encounterId] = { ...originalEncounter, difficulties: {} }
+      }
+      const difficulties = exportedInstance.encounters[encounterId].difficulties
+      if (!difficulties[difficultyId]) {
+        difficulties[difficultyId] = { ...originalDifficulty, baseline: undefined, specializations: {} }
+      }
+      const target = difficulties[difficultyId]
+      if (job.specId != null) {
+        const specId = String(job.specId)
+        target.specializations[specId] = originalDifficulty.specializations?.[specId]
+      } else {
+        target.baseline = originalDifficulty.baseline
+      }
+    }
+  }
   let jobs = 0
   const referenced = new Set()
-  for (const [encounterId, encounter] of Object.entries(instance.encounters || {})) {
+  for (const [encounterId, encounter] of Object.entries(exportedInstance.encounters || {})) {
     for (const [difficultyId, difficulty] of Object.entries(encounter.difficulties || {})) {
       const label = id + '/' + encounterId + '/' + difficultyId
       const baseline = difficulty.baseline
@@ -65,7 +103,7 @@ for (const [id, instance] of instances) {
           if (!baselineIds.has(itemId)) errors.push(label + ': filtered item absent from baseline ' + itemId)
         }
       }
-      for (const specId of Object.keys(db.specializations || {})) {
+      for (const specId of manifest ? Object.keys(db.specializations || {}) : Object.keys(db.specializations || {})) {
         if (!Object.hasOwn(difficulty.specializations || {}, specId)) {
           errors.push(label + ': missing spec ' + specId)
         }
@@ -94,7 +132,7 @@ for (const [id, instance] of instances) {
     harvest: { status: 'complete', jobs, importedAt: db.harvest?.completedAt },
     specializations: db.specializations,
     items,
-    instance,
+    instance: exportedInstance,
     validation: { warnings: [] },
   }
   const filename = fileName(instance.name, id)

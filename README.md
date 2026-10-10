@@ -105,7 +105,7 @@ When updating spec priorities, update both the priority and that spec's `updated
 Each instance can now be committed independently under `data/harvests/instances/instance-<journalInstanceID>.json`. The original raw Lua file remains a fallback until per-instance files have been imported. Do not edit generated public JSON manually.
 
 1. Finish harvesting in WoW and run `/reload` (or log out) to flush SavedVariables.
-2. Run `npm run import:harvest -- "<path>/LootmasterHarvester.lua"` to import all instances from the SavedVariables file, or append instance IDs to import only specific instances. For example, `npm run import:harvest -- "<path>/LootmasterHarvester.lua" 1296`. The command writes `data/harvests/instances/instance-1296.json` and **does not delete other instance files**.
+2. Copy `.env.example` to `.env` and set `LOOTMASTER_HARVEST_PATH` to your local SavedVariables file. Run `npm run import:harvest` to import all instances, or `npm run import:harvest -- 1296` for a single instance. You can still override the path with `npm run import:harvest -- "<path>/LootmasterHarvester.lua" [instanceIDs...]`. For example, `npm run import:harvest -- "<path>/LootmasterHarvester.lua" 1296`. The command writes `data/harvests/instances/instance-1296.json` and **does not delete other instance files**.
 3. Run `npm run build:harvest` to validate and merge committed instance exports into the combined dataset.
 4. Open a PR. The Validate harvest workflow rejects malformed/incomplete data and uploads normalized JSON as a CI artifact.
 5. Merge after review. The existing GitHub Pages deployment runs `npm run build`, which regenerates `public/data/encounter-loot.json` and serves it at `/data/encounter-loot.json`.

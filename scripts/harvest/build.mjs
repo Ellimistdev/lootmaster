@@ -3,6 +3,7 @@ import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
 import { normalizeItem } from './normalize-item.mjs'
 import { compactLootPools } from './loot-pools.mjs'
+import { stringifyPublishedLoot } from './published-json.mjs'
 
 const outputPath = resolve(process.argv[2] || 'public/data/encounter-loot.json')
 const instanceDir = resolve('data/harvests/instances')
@@ -149,7 +150,7 @@ if (errors.length) {
   process.exit(1)
 }
 mkdirSync(dirname(outputPath), { recursive: true })
-writeFileSync(outputPath, JSON.stringify(compactLootPools(normalized), null, 2) + '\n')
+writeFileSync(outputPath, stringifyPublishedLoot(compactLootPools(normalized)))
 console.log('Validated ' + jobs + ' jobs across ' + specs.length + ' specs; wrote ' + outputPath)
 
 
@@ -186,7 +187,7 @@ const publishPool = (type, filename) => {
     items: Object.fromEntries(Object.entries(normalized.items).filter(([id]) => itemIds.has(id))),
     instances: selected,
   }
-  writeFileSync(resolve('public/data', filename), JSON.stringify(compactLootPools(subset), null, 2) + '\n')
+  writeFileSync(resolve('public/data', filename), stringifyPublishedLoot(compactLootPools(subset)))
   return Object.keys(selected).length
 }
 mkdirSync(resolve('public/data'), { recursive: true })

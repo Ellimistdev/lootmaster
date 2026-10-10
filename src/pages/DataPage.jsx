@@ -27,8 +27,13 @@ function DatasetCard({ dataset }) {
 
 export default function DataPage() {
   const [metadata, setMetadata] = useState(null);
+  const [instances, setInstances] = useState([]);
   useEffect(() => {
     let active = true;
+    fetch("/data/instances.json")
+      .then((response) => { if (!response.ok) throw new Error("Not available"); return response.json(); })
+      .then((data) => { if (active && Array.isArray(data)) setInstances(data); })
+      .catch(() => { if (active) setInstances([]); });
     fetch("/data/encounter-loot.json")
       .then((response) => { if (!response.ok) throw new Error("Not available"); return response.json(); })
       .then((data) => { if (active) setMetadata(data); })
@@ -60,6 +65,47 @@ export default function DataPage() {
               {metadata.harvest?.status ? " · Harvest " + metadata.harvest.status : ""}
             </div>
           )}
+        </section>
+        <section aria-labelledby="harvest-heading" className="mb-12">
+          <div className="mb-5 flex flex-wrap items-center gap-3">
+            <h2 id="harvest-heading" className="text-2xl font-semibold text-white">Harvest datasets</h2>
+          </div>
+          <p className="mb-5 max-w-3xl text-sm leading-relaxed text-zinc-400">
+            Download the complete seasonal dataset above, or use the shared specialization reference
+            and individual instance exports below. All files are public static JSON.
+          </p>
+          <div className="mb-8 grid gap-5 md:grid-cols-2">
+            <DatasetCard dataset={{
+              id: "specializations",
+              title: "Specialization Reference",
+              description: "Shared specialization IDs and metadata used across every harvested instance.",
+              category: "Reference data",
+              status: "published",
+              format: "JSON",
+              url: "/data/specializations.json",
+              sourceUrl: "https://github.com/Ellimistdev/lootmaster/blob/master/data/harvests/specializations.json",
+            }} />
+          </div>
+          <div className="mb-4 flex items-center gap-3">
+            <h3 className="text-xl font-semibold text-white">Individual instances</h3>
+            <span className="text-sm text-zinc-500">{instances.length}</span>
+          </div>
+          {instances.length ? (
+            <div className="grid gap-5 md:grid-cols-2">
+              {instances.map((instance) => (
+                <DatasetCard key={instance.instanceId} dataset={{
+                  id: String(instance.instanceId),
+                  title: instance.name,
+                  description: `Encounter Journal harvest for instance ${instance.instanceId} · ${instance.jobs} jobs`,
+                  category: instance.instanceType === "dungeon" ? "Dungeon" : instance.instanceType === "raid" ? "Raid" : "Instance",
+                  status: "published",
+                  format: "JSON",
+                  url: instance.url,
+                  sourceUrl: "https://github.com/Ellimistdev/lootmaster/tree/master/data/harvests/instances",
+                }} />
+              ))}
+            </div>
+          ) : <p className="text-sm text-zinc-500">No individual instance exports available.</p>}
         </section>
         <section aria-labelledby="planned-heading">
           <div className="mb-5 flex flex-wrap items-center gap-3">

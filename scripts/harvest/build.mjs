@@ -7,7 +7,7 @@ const sourcePath = resolve(process.argv[2] || 'data/harvests/tidebound-grotto.lu
 const outputPath = resolve(process.argv[3] || 'public/data/encounter-loot.json')
 const instanceDir = resolve('data/harvests/instances')
 const instanceFiles = existsSync(instanceDir)
-  ? readdirSync(instanceDir).filter((name) => /^instance-[0-9]+\.json$/.test(name)).sort()
+  ? readdirSync(instanceDir).filter((name) => /(?:^instance-| - )[0-9]+\.json$/.test(name)).sort()
   : []
 const raw = instanceFiles.length ? null : readFileSync(sourcePath, 'utf8')
 const data = instanceFiles.length ? (() => {
@@ -23,7 +23,9 @@ const data = instanceFiles.length ? (() => {
     const filename = instanceFiles[i]
     if (doc.schemaVersion !== 1 || doc.source !== merged.source ||
         !Number.isSafeInteger(doc.instanceId) ||
-        filename !== 'instance-' + doc.instanceId + '.json' ||
+        !(filename === 'instance-' + doc.instanceId + '.json' ||
+          filename === String(doc.instance?.name || '').normalize('NFKC')
+            .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim() + ' - ' + doc.instanceId + '.json') ||
         !doc.instance || doc.harvest?.status !== 'complete') {
       throw new Error('Invalid instance export: ' + filename)
     }

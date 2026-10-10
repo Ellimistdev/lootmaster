@@ -15,7 +15,7 @@ describe('published loot serialization', () => {
     } } } } } }
     const compact = compactLootPools(data)
     const published = stringifyPublishedLoot(compact)
-    expect(published.split('\\n').length).toBeLessThan(JSON.stringify(compact, null, 2).split('\\n').length)
+    expect(published.split('\n').length).toBeLessThan(JSON.stringify(compact, null, 2).split('\n').length)
     expect(expandLootPools(JSON.parse(published))).toEqual(data)
   })
 })

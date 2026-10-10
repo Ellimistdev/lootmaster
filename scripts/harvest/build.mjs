@@ -24,7 +24,7 @@ const data = instanceFiles.length ? (() => {
     if (doc.schemaVersion !== 1 || doc.source !== merged.source ||
         !Number.isSafeInteger(doc.instanceId) ||
         !(filename === 'instance-' + doc.instanceId + '.json' ||
-          filename === String(doc.instance.name || '').normalize('NFKC')
+          filename === String(doc.instance?.name || '').normalize('NFKC')
             .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim() + ' - ' + doc.instanceId + '.json') ||
         !doc.instance || doc.harvest?.status !== 'complete') {
       throw new Error('Invalid instance export: ' + filename)

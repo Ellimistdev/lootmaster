@@ -131,7 +131,6 @@ for (const [id, instance] of instances) {
     instanceId: Number(id),
     game: db.game,
     harvest: { status: 'complete', jobs, importedAt: db.harvest?.completedAt },
-    specializations: db.specializations,
     items,
     instance: exportedInstance,
     validation: { warnings: [] },
@@ -146,6 +145,13 @@ for (const [id, instance] of instances) {
   for (const oldName of obsolete) unlinkSync(resolve(directory, oldName))
   console.log((existed ? 'Updated ' : 'Created ') + path + ' (' + jobs + ' jobs)')
   written++
+}
+if (written) {
+  const sharedPath = resolve('data/harvests/specializations.json')
+  const specs = db.specializations || {}
+  if (!Object.keys(specs).length) throw new Error('No specialization metadata in SavedVariables')
+  writeFileSync(sharedPath, JSON.stringify(specs, null, 2) + '\n')
+  console.log('Updated ' + sharedPath + ' (' + Object.keys(specs).length + ' specs)')
 }
 console.log('Imported ' + written + ' instance(s); skipped ' + skipped + ' incomplete instance(s). Other instance files were left untouched.')
 if (!written) {

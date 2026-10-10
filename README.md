@@ -102,10 +102,10 @@ When updating spec priorities, update both the priority and that spec's `updated
 
 ## Encounter Journal harvest pipeline
 
-The raw WoW addon SavedVariables export at `data/harvests/season-2.lua` is the committed source of truth. Do not edit the generated JSON manually.
+The raw WoW addon SavedVariables export at `data/harvests/tidebound-grotto.lua` is the committed source of truth. Do not edit the generated JSON manually.
 
 1. Finish harvesting in WoW and run `/reload` (or log out) to flush SavedVariables.
-2. Replace `data/harvests/season-2.lua` with the addon export from `_retail_/WTF/Account/<account>/SavedVariables/LootmasterHarvester.lua`.
+2. Replace `data/harvests/tidebound-grotto.lua` with the addon export from `_retail_/WTF/Account/<account>/SavedVariables/LootmasterHarvester.lua`.
 3. Run `npm run build:harvest` to validate and normalize the export.
 4. Open a PR. The Validate harvest workflow rejects malformed/incomplete data and uploads normalized JSON as a CI artifact.
 5. Merge after review. The existing GitHub Pages deployment runs `npm run build`, which regenerates `public/data/encounter-loot.json` and serves it at `/data/encounter-loot.json`.

@@ -1,6 +1,7 @@
 import { readFileSync, mkdirSync, writeFileSync, readdirSync, existsSync, copyFileSync, rmSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
+import { normalizeItem } from './normalize-item.mjs'
 
 const outputPath = resolve(process.argv[2] || 'public/data/encounter-loot.json')
 const instanceDir = resolve('data/harvests/instances')
@@ -101,7 +102,7 @@ const normalized = {
     status: data.harvest?.status,
   },
   specializations: Object.fromEntries(specs),
-  items: Object.fromEntries(entries(data.items)),
+  items: Object.fromEntries(entries(data.items).map(([id, item]) => [id, normalizeItem(item)])),
   instances: {},
 }
 let jobs = 0

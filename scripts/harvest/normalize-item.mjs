@@ -33,6 +33,11 @@ export function normalizeItem(item) {
   const stats = item.stats || {}
   const secondaryStats = consolidate(statEntries(stats, secondaryKeys))
     .sort((a, b) => b.value - a.value || a.stat.localeCompare(b.stat))
+  // Budget counts secondary ratings only: no primary stats, stamina, armor or sockets.
+  const secondaryStatBudget = secondaryStats.reduce((sum, { value }) => sum + value, 0)
+  const weightedSecondaryStats = secondaryStats.map(({ stat, value }) => ({
+    stat, value, share: value / secondaryStatBudget,
+  }))
   const primaryStats = consolidate(statEntries(stats, primaryKeys))
     .sort((a, b) => b.value - a.value || a.stat.localeCompare(b.stat))
   const sockets = Object.entries(stats)
@@ -55,7 +60,8 @@ export function normalizeItem(item) {
   return {
     ...item,
     ...(item.metadataVersion != null ? {
-      secondaryStats, primaryStats, sockets, effects, isEquipment, itemCategory,
+      secondaryStats: weightedSecondaryStats, secondaryStatBudget,
+      primaryStats, sockets, effects, isEquipment, itemCategory,
       // The highest numeric secondary stat is Stat 1; ties remain explicitly visible.
       stat1: secondaryStats[0]?.stat ?? null,
       stat2: secondaryStats[1]?.stat ?? null,

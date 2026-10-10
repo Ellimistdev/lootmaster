@@ -1,11 +1,16 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
+import { loadEnvFile } from 'node:process'
 import { parseSavedVariables } from './parse.mjs'
 
-const input = process.argv[2]
+if (existsSync(resolve('.env'))) loadEnvFile(resolve('.env'))
+const args = process.argv.slice(2)
+const explicitPath = args.length > 0 && /\.lua$/i.test(args[0])
+const input = explicitPath ? args.shift() : process.env.LOOTMASTER_HARVEST_PATH
 if (!input) {
-  console.error('Usage: npm run import:harvest -- <path/to/LootmasterHarvester.lua> [instanceID...]')
+  console.error('Set LOOTMASTER_HARVEST_PATH in .env or pass a Lua file path.')
+  console.error('Usage: npm run import:harvest -- [path/to/LootmasterHarvester.lua] [instanceID...]')
   process.exit(1)
 }
 const raw = readFileSync(resolve(input), 'utf8')
@@ -13,7 +18,7 @@ const db = parseSavedVariables(raw)
 if (db.schemaVersion !== 1 || db.source !== 'wow-encounter-journal') {
   throw new Error('Unsupported SavedVariables export')
 }
-const selected = new Set(process.argv.slice(3).map(String))
+const selected = new Set(args.map(String))
 const instances = Object.entries(db.instances || {}).filter(([id]) => !selected.size || selected.has(id))
 if (!instances.length) throw new Error('No matching instances in export')
 const directory = resolve('data/harvests/instances')

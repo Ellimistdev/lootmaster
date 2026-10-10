@@ -28,6 +28,13 @@
     "url": "/data/instances/1315%20-%20Maisara%20Caverns.json"
   },
   {
+    "instanceId": 1308,
+    "name": "March on Quel'Danas",
+    "instanceType": "raid",
+    "jobs": 82,
+    "url": "/data/instances/1308%20-%20March%20on%20Quel'Danas.json"
+  },
+  {
     "instanceId": 1312,
     "name": "Midnight",
     "instanceType": "raid",
@@ -49,11 +56,25 @@
     "url": "/data/instances/1316%20-%20Nexus-Point%20Xenas.json"
   },
   {
+    "instanceId": 1305,
+    "name": "Sporefall",
+    "instanceType": "raid",
+    "jobs": 41,
+    "url": "/data/instances/1305%20-%20Sporefall.json"
+  },
+  {
     "instanceId": 1309,
     "name": "The Blinding Vale",
     "instanceType": "dungeon",
     "jobs": 164,
     "url": "/data/instances/1309%20-%20The%20Blinding%20Vale.json"
+  },
+  {
+    "instanceId": 1314,
+    "name": "The Dreamrift",
+    "instanceType": "raid",
+    "jobs": 41,
+    "url": "/data/instances/1314%20-%20The%20Dreamrift.json"
   },
   {
     "instanceId": 1317,
@@ -68,6 +89,13 @@
     "instanceType": "raid",
     "jobs": 328,
     "url": "/data/instances/1320%20-%20The%20Venomous%20Abyss.json"
+  },
+  {
+    "instanceId": 1307,
+    "name": "The Voidspire",
+    "instanceType": "raid",
+    "jobs": 246,
+    "url": "/data/instances/1307%20-%20The%20Voidspire.json"
   },
   {
     "instanceId": 1313,

@@ -7,7 +7,6 @@
     "version": "12.1.0"
   },
   "harvest": {
-    "importedAt": 1791666140,
     "jobs": 123,
     "status": "complete"
   },
@@ -18,10 +17,7 @@
           "23": {
             "baseline": {
               "attempts": 1,
-              "changedOnRerun": false,
-              "completedAt": 1791665440,
               "duplicateCount": 0,
-              "durationSeconds": 1.005999999819323,
               "items": [
                 {
                   "itemID": 251201
@@ -42,9 +38,7 @@
                   "itemID": 251206
                 }
               ],
-              "lastAttemptSeconds": 1.005999999819323,
               "reportedCount": 6,
-              "startedAt": 1791665439,
               "status": "complete",
               "unresolvedEntries": []
             },
@@ -53,10 +47,7 @@
             "specializations": {
               "62": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665441,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251201
@@ -68,18 +59,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665440,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "63": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665442,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251201
@@ -91,18 +77,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 3,
-                "startedAt": 1791665441,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "64": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665443,
                 "duplicateCount": 0,
-                "durationSeconds": 1.010999999940395,
                 "items": [
                   {
                     "itemID": 251201
@@ -114,18 +95,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.010999999940395,
                 "reportedCount": 3,
-                "startedAt": 1791665442,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "65": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665444,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251202
@@ -137,18 +113,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 3,
-                "startedAt": 1791665443,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "66": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665445,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251202
@@ -160,18 +131,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 3,
-                "startedAt": 1791665444,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "70": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665446,
                 "duplicateCount": 0,
-                "durationSeconds": 1.002000000094995,
                 "items": [
                   {
                     "itemID": 251203
@@ -180,18 +146,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.002000000094995,
                 "reportedCount": 2,
-                "startedAt": 1791665445,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "71": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665447,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251203
@@ -200,18 +161,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 2,
-                "startedAt": 1791665446,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "72": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665448,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251203
@@ -220,18 +176,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 2,
-                "startedAt": 1791665447,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "73": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665449,
                 "duplicateCount": 0,
-                "durationSeconds": 1.002000000094995,
                 "items": [
                   {
                     "itemID": 251202
@@ -243,18 +194,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.002000000094995,
                 "reportedCount": 3,
-                "startedAt": 1791665448,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "102": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665450,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251201
@@ -266,18 +212,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 3,
-                "startedAt": 1791665449,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "103": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665451,
                 "duplicateCount": 0,
-                "durationSeconds": 1.01300000003539,
                 "items": [
                   {
                     "itemID": 251204
@@ -286,18 +227,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.01300000003539,
                 "reportedCount": 2,
-                "startedAt": 1791665450,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "104": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665452,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251204
@@ -306,18 +242,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665451,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "105": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665453,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251201
@@ -329,18 +260,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665452,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "250": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665454,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251203
@@ -349,18 +275,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665453,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "251": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665455,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251203
@@ -369,18 +290,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665454,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "252": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665456,
                 "duplicateCount": 0,
-                "durationSeconds": 1.011000000173226,
                 "items": [
                   {
                     "itemID": 251203
@@ -389,69 +305,49 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.011000000173226,
                 "reportedCount": 2,
-                "startedAt": 1791665455,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "253": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665457,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 1,
-                "startedAt": 1791665456,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "254": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665458,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 1,
-                "startedAt": 1791665457,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "255": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665459,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 1,
-                "startedAt": 1791665458,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "256": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665460,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 251201
@@ -463,18 +359,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 3,
-                "startedAt": 1791665459,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "257": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665461,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251201
@@ -486,18 +377,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 3,
-                "startedAt": 1791665460,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "258": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665462,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251201
@@ -509,18 +395,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 3,
-                "startedAt": 1791665461,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "259": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665463,
                 "duplicateCount": 0,
-                "durationSeconds": 1.00400000018999,
                 "items": [
                   {
                     "itemID": 251204
@@ -529,18 +410,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.00400000018999,
                 "reportedCount": 2,
-                "startedAt": 1791665462,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "260": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665464,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251204
@@ -549,18 +425,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665463,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "261": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665465,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251204
@@ -569,18 +440,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665464,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "262": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665466,
                 "duplicateCount": 0,
-                "durationSeconds": 1.010000000009313,
                 "items": [
                   {
                     "itemID": 251201
@@ -592,35 +458,25 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.010000000009313,
                 "reportedCount": 3,
-                "startedAt": 1791665465,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "263": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665467,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 1,
-                "startedAt": 1791665466,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "264": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665468,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251201
@@ -632,18 +488,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 3,
-                "startedAt": 1791665467,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "265": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665469,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251201
@@ -655,18 +506,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 3,
-                "startedAt": 1791665468,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "266": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665470,
                 "duplicateCount": 0,
-                "durationSeconds": 1.010000000009313,
                 "items": [
                   {
                     "itemID": 251201
@@ -678,18 +524,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.010000000009313,
                 "reportedCount": 3,
-                "startedAt": 1791665469,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "267": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665471,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251201
@@ -701,18 +542,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665470,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "268": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665472,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251204
@@ -721,18 +557,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665471,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "269": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665473,
                 "duplicateCount": 0,
-                "durationSeconds": 1.01300000003539,
                 "items": [
                   {
                     "itemID": 251204
@@ -741,18 +572,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.01300000003539,
                 "reportedCount": 2,
-                "startedAt": 1791665472,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "270": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665474,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251201
@@ -764,18 +590,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665473,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "577": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665475,
                 "duplicateCount": 0,
-                "durationSeconds": 1.008999999845401,
                 "items": [
                   {
                     "itemID": 251204
@@ -784,18 +605,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.008999999845401,
                 "reportedCount": 2,
-                "startedAt": 1791665474,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "581": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665476,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251204
@@ -804,18 +620,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 2,
-                "startedAt": 1791665475,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1467": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665477,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251201
@@ -824,18 +635,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665476,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1468": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665478,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251201
@@ -844,18 +650,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665477,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1473": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665479,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251201
@@ -864,18 +665,13 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 2,
-                "startedAt": 1791665478,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1480": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665480,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251204
@@ -884,9 +680,7 @@
                     "itemID": 251206
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665479,
                 "status": "complete",
                 "unresolvedEntries": []
               }
@@ -902,10 +696,7 @@
           "23": {
             "baseline": {
               "attempts": 1,
-              "changedOnRerun": false,
-              "completedAt": 1791665481,
               "duplicateCount": 0,
-              "durationSeconds": 1.004999999888241,
               "items": [
                 {
                   "itemID": 250253
@@ -929,9 +720,7 @@
                   "itemID": 251213
                 }
               ],
-              "lastAttemptSeconds": 1.004999999888241,
               "reportedCount": 7,
-              "startedAt": 1791665480,
               "status": "complete",
               "unresolvedEntries": []
             },
@@ -940,10 +729,7 @@
             "specializations": {
               "62": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665482,
                 "duplicateCount": 0,
-                "durationSeconds": 1.010999999940395,
                 "items": [
                   {
                     "itemID": 251093
@@ -952,18 +738,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.010999999940395,
                 "reportedCount": 2,
-                "startedAt": 1791665481,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "63": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665483,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -972,18 +753,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665482,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "64": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665484,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251093
@@ -992,18 +768,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665483,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "65": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665485,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 250253
@@ -1015,18 +786,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 3,
-                "startedAt": 1791665484,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "66": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665486,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251093
@@ -1035,18 +801,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665485,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "70": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665487,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251093
@@ -1055,18 +816,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 2,
-                "startedAt": 1791665486,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "71": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665488,
                 "duplicateCount": 0,
-                "durationSeconds": 1.008000000147149,
                 "items": [
                   {
                     "itemID": 251093
@@ -1075,18 +831,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.008000000147149,
                 "reportedCount": 2,
-                "startedAt": 1791665487,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "72": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665489,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1095,18 +846,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665488,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "73": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665490,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251093
@@ -1115,18 +861,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665489,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "102": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665491,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251093
@@ -1135,18 +876,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665490,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "103": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665492,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1155,18 +891,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665491,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "104": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665493,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 251093
@@ -1175,18 +906,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 2,
-                "startedAt": 1791665492,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "105": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665494,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 250253
@@ -1198,18 +924,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 3,
-                "startedAt": 1791665493,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "250": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665495,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251093
@@ -1218,18 +939,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 2,
-                "startedAt": 1791665494,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "251": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665496,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251093
@@ -1238,18 +954,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 2,
-                "startedAt": 1791665495,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "252": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665497,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251093
@@ -1258,18 +969,13 @@
                     "itemID": 251208
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 2,
-                "startedAt": 1791665496,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "253": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665498,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251093
@@ -1278,18 +984,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665497,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "254": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665499,
                 "duplicateCount": 0,
-                "durationSeconds": 1.00400000018999,
                 "items": [
                   {
                     "itemID": 251093
@@ -1298,18 +999,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.00400000018999,
                 "reportedCount": 2,
-                "startedAt": 1791665498,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "255": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665500,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251093
@@ -1318,18 +1014,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 2,
-                "startedAt": 1791665499,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "256": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665501,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 250253
@@ -1341,18 +1032,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665500,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "257": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665502,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005999999819323,
                 "items": [
                   {
                     "itemID": 250253
@@ -1364,18 +1050,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.005999999819323,
                 "reportedCount": 3,
-                "startedAt": 1791665501,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "258": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665503,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251093
@@ -1384,18 +1065,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665502,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "259": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665504,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251093
@@ -1404,18 +1080,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 2,
-                "startedAt": 1791665503,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "260": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665505,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1427,18 +1098,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 3,
-                "startedAt": 1791665504,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "261": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665506,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251093
@@ -1447,18 +1113,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 2,
-                "startedAt": 1791665505,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "262": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665507,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251093
@@ -1467,18 +1128,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 2,
-                "startedAt": 1791665506,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "263": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665508,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251093
@@ -1490,18 +1146,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665507,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "264": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665509,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 250253
@@ -1513,18 +1164,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 3,
-                "startedAt": 1791665508,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "265": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665510,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 251093
@@ -1533,18 +1179,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 2,
-                "startedAt": 1791665509,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "266": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665511,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251093
@@ -1553,18 +1194,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 2,
-                "startedAt": 1791665510,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "267": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665512,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251093
@@ -1573,18 +1209,13 @@
                     "itemID": 251213
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 2,
-                "startedAt": 1791665511,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "268": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665513,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251093
@@ -1596,18 +1227,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 3,
-                "startedAt": 1791665512,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "269": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665514,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251093
@@ -1619,18 +1245,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 3,
-                "startedAt": 1791665513,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "270": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665515,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 250253
@@ -1642,18 +1263,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 3,
-                "startedAt": 1791665514,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "577": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665516,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1662,18 +1278,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665515,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "581": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665517,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1682,18 +1293,13 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665516,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1467": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665518,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1702,18 +1308,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665517,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1468": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665519,
                 "duplicateCount": 0,
-                "durationSeconds": 1.010999999940395,
                 "items": [
                   {
                     "itemID": 250253
@@ -1725,18 +1326,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.010999999940395,
                 "reportedCount": 3,
-                "startedAt": 1791665518,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1473": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665520,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251093
@@ -1745,18 +1341,13 @@
                     "itemID": 251209
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 2,
-                "startedAt": 1791665519,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1480": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665521,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251093
@@ -1765,9 +1356,7 @@
                     "itemID": 251210
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 2,
-                "startedAt": 1791665520,
                 "status": "complete",
                 "unresolvedEntries": []
               }
@@ -1783,10 +1372,7 @@
           "23": {
             "baseline": {
               "attempts": 1,
-              "changedOnRerun": false,
-              "completedAt": 1791665522,
               "duplicateCount": 0,
-              "durationSeconds": 1.007000000216067,
               "items": [
                 {
                   "itemID": 250241
@@ -1816,9 +1402,7 @@
                   "itemID": 264338
                 }
               ],
-              "lastAttemptSeconds": 1.007000000216067,
               "reportedCount": 9,
-              "startedAt": 1791665521,
               "status": "complete",
               "unresolvedEntries": []
             },
@@ -1827,10 +1411,7 @@
             "specializations": {
               "62": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665523,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251211
@@ -1845,18 +1426,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 4,
-                "startedAt": 1791665522,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "63": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665524,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251211
@@ -1871,18 +1447,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 4,
-                "startedAt": 1791665523,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "64": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665525,
                 "duplicateCount": 0,
-                "durationSeconds": 1.002000000094995,
                 "items": [
                   {
                     "itemID": 251211
@@ -1897,18 +1468,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.002000000094995,
                 "reportedCount": 4,
-                "startedAt": 1791665524,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "65": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665526,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251157
@@ -1923,18 +1489,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 4,
-                "startedAt": 1791665525,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "66": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665527,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 250241
@@ -1952,18 +1513,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 5,
-                "startedAt": 1791665526,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "70": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665528,
                 "duplicateCount": 0,
-                "durationSeconds": 1.001000000163913,
                 "items": [
                   {
                     "itemID": 250241
@@ -1981,18 +1537,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.001000000163913,
                 "reportedCount": 5,
-                "startedAt": 1791665527,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "71": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665529,
                 "duplicateCount": 0,
-                "durationSeconds": 1.001999999862164,
                 "items": [
                   {
                     "itemID": 250241
@@ -2010,18 +1561,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.001999999862164,
                 "reportedCount": 5,
-                "startedAt": 1791665528,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "72": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665530,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 250241
@@ -2039,18 +1585,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 5,
-                "startedAt": 1791665529,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "73": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665531,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 250241
@@ -2068,18 +1609,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 5,
-                "startedAt": 1791665530,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "102": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665532,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251216
@@ -2094,18 +1630,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665531,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "103": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665533,
                 "duplicateCount": 0,
-                "durationSeconds": 1.001999999862164,
                 "items": [
                   {
                     "itemID": 251216
@@ -2120,18 +1651,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.001999999862164,
                 "reportedCount": 4,
-                "startedAt": 1791665532,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "104": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665534,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251216
@@ -2146,18 +1672,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665533,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "105": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665535,
                 "duplicateCount": 0,
-                "durationSeconds": 1.002000000094995,
                 "items": [
                   {
                     "itemID": 251216
@@ -2172,18 +1693,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.002000000094995,
                 "reportedCount": 4,
-                "startedAt": 1791665534,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "250": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665536,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 250241
@@ -2201,18 +1717,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 5,
-                "startedAt": 1791665535,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "251": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665537,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 250241
@@ -2230,18 +1741,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 5,
-                "startedAt": 1791665536,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "252": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665538,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 250241
@@ -2259,18 +1765,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 5,
-                "startedAt": 1791665537,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "253": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665539,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251215
@@ -2285,18 +1786,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 4,
-                "startedAt": 1791665538,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "254": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665540,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251215
@@ -2311,18 +1807,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665539,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "255": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665541,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251212
@@ -2340,18 +1831,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 5,
-                "startedAt": 1791665540,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "256": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665542,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251211
@@ -2366,18 +1852,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 4,
-                "startedAt": 1791665541,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "257": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665543,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251211
@@ -2392,18 +1873,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 4,
-                "startedAt": 1791665542,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "258": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665544,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251211
@@ -2418,18 +1894,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665543,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "259": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665545,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251212
@@ -2447,18 +1918,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 5,
-                "startedAt": 1791665544,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "260": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665546,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006999999983236,
                 "items": [
                   {
                     "itemID": 251216
@@ -2473,18 +1939,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006999999983236,
                 "reportedCount": 4,
-                "startedAt": 1791665545,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "261": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665547,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251212
@@ -2502,18 +1963,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 5,
-                "startedAt": 1791665546,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "262": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665548,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251215
@@ -2528,18 +1984,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665547,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "263": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665549,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003000000026077,
                 "items": [
                   {
                     "itemID": 251215
@@ -2554,18 +2005,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003000000026077,
                 "reportedCount": 4,
-                "startedAt": 1791665548,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "264": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665550,
                 "duplicateCount": 0,
-                "durationSeconds": 1.008000000147149,
                 "items": [
                   {
                     "itemID": 251215
@@ -2580,18 +2026,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.008000000147149,
                 "reportedCount": 4,
-                "startedAt": 1791665549,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "265": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665551,
                 "duplicateCount": 0,
-                "durationSeconds": 1.008999999845401,
                 "items": [
                   {
                     "itemID": 251211
@@ -2606,18 +2047,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.008999999845401,
                 "reportedCount": 4,
-                "startedAt": 1791665550,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "266": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665552,
                 "duplicateCount": 0,
-                "durationSeconds": 1.003999999957159,
                 "items": [
                   {
                     "itemID": 251211
@@ -2632,18 +2068,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.003999999957159,
                 "reportedCount": 4,
-                "startedAt": 1791665551,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "267": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665553,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005000000121072,
                 "items": [
                   {
                     "itemID": 251211
@@ -2658,18 +2089,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.005000000121072,
                 "reportedCount": 4,
-                "startedAt": 1791665552,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "268": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665554,
                 "duplicateCount": 0,
-                "durationSeconds": 1.009000000078231,
                 "items": [
                   {
                     "itemID": 251216
@@ -2684,18 +2110,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.009000000078231,
                 "reportedCount": 4,
-                "startedAt": 1791665553,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "269": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665555,
                 "duplicateCount": 0,
-                "durationSeconds": 1.005999999819323,
                 "items": [
                   {
                     "itemID": 251216
@@ -2710,18 +2131,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.005999999819323,
                 "reportedCount": 4,
-                "startedAt": 1791665554,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "270": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665556,
                 "duplicateCount": 0,
-                "durationSeconds": 1.002000000094995,
                 "items": [
                   {
                     "itemID": 251216
@@ -2736,18 +2152,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.002000000094995,
                 "reportedCount": 4,
-                "startedAt": 1791665555,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "577": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665557,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251216
@@ -2762,18 +2173,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 4,
-                "startedAt": 1791665556,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "581": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665558,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251216
@@ -2788,18 +2194,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665557,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1467": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665559,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251215
@@ -2814,18 +2215,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665558,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1468": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665560,
                 "duplicateCount": 0,
-                "durationSeconds": 1.007999999914318,
                 "items": [
                   {
                     "itemID": 251215
@@ -2840,18 +2236,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.007999999914318,
                 "reportedCount": 4,
-                "startedAt": 1791665559,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1473": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665561,
                 "duplicateCount": 0,
-                "durationSeconds": 1.006000000052154,
                 "items": [
                   {
                     "itemID": 251215
@@ -2866,18 +2257,13 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.006000000052154,
                 "reportedCount": 4,
-                "startedAt": 1791665560,
                 "status": "complete",
                 "unresolvedEntries": []
               },
               "1480": {
                 "attempts": 1,
-                "changedOnRerun": false,
-                "completedAt": 1791665562,
                 "duplicateCount": 0,
-                "durationSeconds": 1.004999999888241,
                 "items": [
                   {
                     "itemID": 251216
@@ -2892,9 +2278,7 @@
                     "itemID": 264338
                   }
                 ],
-                "lastAttemptSeconds": 1.004999999888241,
                 "reportedCount": 4,
-                "startedAt": 1791665561,
                 "status": "complete",
                 "unresolvedEntries": []
               }
@@ -2920,7 +2304,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250241::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mark of Light]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250241::::::::10:259::23:1:3524:1:28:3025:::::|h[Mark of Light]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -3020,7 +2404,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250253::::::::10:1453::23:1:3524:1:28:3025:::::|h[Whisper of the Duskwraith]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250253::::::::10:259::23:1:3524:1:28:3025:::::|h[Whisper of the Duskwraith]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -3120,7 +2504,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251093::::::::10:1453::23:1:3524:1:28:3025:::::|h[Omission of Light]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251093::::::::10:259::23:1:3524:1:28:3025:::::|h[Omission of Light]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -3259,7 +2643,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251157::::::::10:1453::23:1:3524:1:28:3025:::::|h[Searing Spaulders]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251157::::::::10:259::23:1:3524:1:28:3025:::::|h[Searing Spaulders]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -3376,7 +2760,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251201::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corespark Multitool]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251201::::::::10:259::23:1:3524:1:28:3025:::::|h[Corespark Multitool]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -3490,7 +2874,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251202::::::::10:1453::23:1:3524:1:28:3025:::::|h[Reflux Reflector]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251202::::::::10:259::23:1:3524:1:28:3025:::::|h[Reflux Reflector]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Shields",
       "itemSubclassID": 6,
@@ -3612,7 +2996,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251203::::::::10:1453::23:1:3524:1:28:3025:::::|h[Kasreth's Bindings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251203::::::::10:259::23:1:3524:1:28:3025:::::|h[Kasreth's Bindings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -3729,7 +3113,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251204::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corewright's Zappers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251204::::::::10:259::23:1:3524:1:28:3025:::::|h[Corewright's Zappers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -3842,7 +3226,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251205::::::::10:1453::23:1:3524:1:28:3025:::::|h[Leyline Leggings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251205::::::::10:259::23:1:3524:1:28:3025:::::|h[Leyline Leggings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -3951,7 +3335,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251206::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fluxweave Cloak]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251206::::::::10:259::23:1:3524:1:28:3025:::::|h[Fluxweave Cloak]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -4067,7 +3451,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251207::::::::10:1453::23:1:3524:1:28:3025:::::|h[Dreadflail Bludgeon]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251207::::::::10:259::23:1:3524:1:28:3025:::::|h[Dreadflail Bludgeon]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Maces",
       "itemSubclassID": 4,
@@ -4185,7 +3569,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251208::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightscarred Cuisses]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251208::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightscarred Cuisses]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -4298,7 +3682,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251209::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corewarden Cuffs]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251209::::::::10:259::23:1:3524:1:28:3025:::::|h[Corewarden Cuffs]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -4411,7 +3795,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251210::::::::10:1453::23:1:3524:1:28:3025:::::|h[Eclipse Espadrilles]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251210::::::::10:259::23:1:3524:1:28:3025:::::|h[Eclipse Espadrilles]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -4524,7 +3908,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251211::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fractured Fingerguards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251211::::::::10:259::23:1:3524:1:28:3025:::::|h[Fractured Fingerguards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -4637,7 +4021,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251212::::::::10:1453::23:1:3524:1:28:3025:::::|h[Radiant Slicer]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251212::::::::10:259::23:1:3524:1:28:3025:::::|h[Radiant Slicer]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -4751,7 +4135,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251213::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nysarra's Mantle]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251213::::::::10:259::23:1:3524:1:28:3025:::::|h[Nysarra's Mantle]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -4860,7 +4244,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251215::::::::10:1453::23:1:3524:1:28:3025:::::|h[Greaves of the Divine Guile]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251215::::::::10:259::23:1:3524:1:28:3025:::::|h[Greaves of the Divine Guile]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -4973,7 +4357,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251216::::::::10:1453::23:1:3524:1:28:3025:::::|h[Maledict Vest]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251216::::::::10:259::23:1:3524:1:28:3025:::::|h[Maledict Vest]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -5086,7 +4470,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251217::::::::10:1453::23:1:3524:1:28:3025:::::|h[Occlusion of Void]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251217::::::::10:259::23:1:3524:1:28:3025:::::|h[Occlusion of Void]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -5225,7 +4609,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256716::::::::10:1453::23:1:3524:1:28:3025:::::|h[Design: Prismatic Focusing Iris]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256716::::::::10:259::23:1:3524:1:28:3025:::::|h[Design: Prismatic Focusing Iris]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Jewelcrafting",
       "itemSubclassID": 10,
@@ -5244,8 +4628,41 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nPrismatic Focusing Iris",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Optional Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "|cff19ff19+15 Recipe Difficulty|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Provides the following property: Your spells and abilities have a chance to activate the Iris, firing a focused beam of light at your target and dealing 3 Arcane damage every second for 4 sec.\r\n\r\nEach unique gem color you have socketed empowers the Iris, causing it to deal 1% additional damage per.",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Usable with: |cffffffffMidnight recipes for most unembellished equipment.|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "\"Can be bought and sold on the Auction House.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to craft Prismatic Focusing Iris.",
@@ -5290,7 +4707,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:264338::::::::10:1453::23:1:3524:1:28:3025:::::|h[Domanaar Control Console]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:264338::::::::10:259::23:1:3524:1:28:3025:::::|h[Domanaar Control Console]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -5347,7 +4764,7 @@
   },
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "2c8a68fb2a1178d23028f4c9a0f9c94c21e0b183ec0b79fbd914d6c03b392cdf",
+  "sourceSha256": "858a7dcda9e1da8a28f46cde7c61a85eb95484744cceb589696067995a22b5b7",
   "validation": {
     "warnings": []
   }

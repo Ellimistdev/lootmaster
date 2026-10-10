@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "source": "wow-encounter-journal",
-  "sourceSha256": "6fecfc07d99120d24ebf4bd6513cd2a83c2bebab473695788bded5e8e4ddafd5",
+  "sourceSha256": "ac2e97ba2e2544ca53883aec387dd5ca9005eccf08ac05ae2291e07095ffa60c",
   "game": {
     "build": 69933,
     "interface": 120100,
@@ -343,7 +343,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250144::::::::10:1453::23:1:3524:1:28:3025:::::|h[Emberwing Feather]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250144::::::::10:259::23:1:3524:1:28:3025:::::|h[Emberwing Feather]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -447,7 +447,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250214::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightspire Core]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250214::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightspire Core]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -562,7 +562,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250215::::::::10:1453::23:1:3524:1:28:3025:::::|h[Freightrunner's Flask]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250215::::::::10:259::23:1:3524:1:28:3025:::::|h[Freightrunner's Flask]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -666,7 +666,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250223::::::::10:1453::23:1:3524:1:28:3025:::::|h[Soulcatcher's Charm]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250223::::::::10:259::23:1:3524:1:28:3025:::::|h[Soulcatcher's Charm]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -770,7 +770,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250224::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mindpiercer's Sigil]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250224::::::::10:259::23:1:3524:1:28:3025:::::|h[Mindpiercer's Sigil]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -851,7 +851,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250225::::::::10:1453::23:1:3524:1:28:3025:::::|h[Void Execution Mandate]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250225::::::::10:259::23:1:3524:1:28:3025:::::|h[Void Execution Mandate]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -951,7 +951,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250226::::::::10:1453::23:1:3524:1:28:3025:::::|h[Latch's Crooked Hook]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250226::::::::10:259::23:1:3524:1:28:3025:::::|h[Latch's Crooked Hook]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1055,7 +1055,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250227::::::::10:1453::23:1:3524:1:28:3025:::::|h[Kroluk's Warbanner]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250227::::::::10:259::23:1:3524:1:28:3025:::::|h[Kroluk's Warbanner]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1159,7 +1159,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250228::::::::10:1453::23:1:3524:1:28:3025:::::|h[Resonant Bellowstone]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250228::::::::10:259::23:1:3524:1:28:3025:::::|h[Resonant Bellowstone]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1263,7 +1263,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250229::::::::10:1453::23:1:3524:1:28:3025:::::|h[Idol of the War Loa]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250229::::::::10:259::23:1:3524:1:28:3025:::::|h[Idol of the War Loa]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1275,8 +1275,50 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Idol of the War Loa",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Trinket",
+          "type": 21
+        },
+        {
+          "leftText": "+119 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -1303,7 +1345,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250238::::::::10:1453::23:1:3524:1:28:3025:::::|h[Seed of the Devouring Wild]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250238::::::::10:259::23:1:3524:1:28:3025:::::|h[Seed of the Devouring Wild]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1403,7 +1445,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250241::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mark of Light]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250241::::::::10:259::23:1:3524:1:28:3025:::::|h[Mark of Light]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1503,7 +1545,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250242::::::::10:1453::23:1:3524:1:28:3025:::::|h[Jelly Replicator]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250242::::::::10:259::23:1:3524:1:28:3025:::::|h[Jelly Replicator]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1555,6 +1597,19 @@
           "type": 42
         },
         {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: \r\n\r\n\r\n",
+          "spellID": 1250584,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
           "leftText": "Requires Level 90",
           "level": 90,
           "requirementType": 5,
@@ -1574,7 +1629,13 @@
         }
       ],
       "sockets": [],
-      "effects": [],
+      "effects": [
+        {
+          "spellID": 1250584,
+          "text": "Equip: \r\n\r\n\r\n",
+          "tooltipType": 45
+        }
+      ],
       "isEquipment": true,
       "itemCategory": "equipment",
       "stat1": null,
@@ -1588,7 +1649,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250243::::::::10:1453::23:1:3524:1:28:3025:::::|h[Manaheart's Binding Flame]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250243::::::::10:259::23:1:3524:1:28:3025:::::|h[Manaheart's Binding Flame]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1692,7 +1753,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250244::::::::10:1453::23:1:3524:1:28:3025:::::|h[Permafrost Essence]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250244::::::::10:259::23:1:3524:1:28:3025:::::|h[Permafrost Essence]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1702,8 +1763,46 @@
       "stats": [],
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Permafrost Essence",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Trinket",
+          "type": 21
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [],
@@ -1724,7 +1823,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250245::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tumor of the Swarm]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250245::::::::10:259::23:1:3524:1:28:3025:::::|h[Tumor of the Swarm]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1828,7 +1927,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250246::::::::10:1453::23:1:3524:1:28:3025:::::|h[Refueling Orb]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250246::::::::10:259::23:1:3524:1:28:3025:::::|h[Refueling Orb]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1876,19 +1975,6 @@
           "type": 42
         },
         {
-          "leftText": " ",
-          "type": 1
-        },
-        {
-          "leftText": "Equip: Your spells and abilities have a chance to release an energy orb that bounces between up to 5 nearby allies, increasing their Versatility by 64 for 12 sec. If an ally is below 50% health, the orb heals them for 8,286 instead.",
-          "spellID": 1254752,
-          "type": 45
-        },
-        {
-          "leftText": " ",
-          "type": 1
-        },
-        {
           "leftText": "Requires Level 90",
           "level": 90,
           "requirementType": 5,
@@ -1908,13 +1994,7 @@
         }
       ],
       "sockets": [],
-      "effects": [
-        {
-          "spellID": 1254752,
-          "text": "Equip: Your spells and abilities have a chance to release an energy orb that bounces between up to 5 nearby allies, increasing their Versatility by 64 for 12 sec. If an ally is below 50% health, the orb heals them for 8,286 instead.",
-          "tooltipType": 45
-        }
-      ],
+      "effects": [],
       "isEquipment": true,
       "itemCategory": "equipment",
       "stat1": null,
@@ -1928,7 +2008,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250248::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mycolic Medicine]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250248::::::::10:259::23:1:3524:1:28:3025:::::|h[Mycolic Medicine]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -1940,8 +2020,54 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Mycolic Medicine",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Trinket",
+          "type": 21
+        },
+        {
+          "leftText": "+121 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "\"A draught from a species long lost everywhere but in dreams.\"",
+          "type": 37
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [],
@@ -1967,7 +2093,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250253::::::::10:1453::23:1:3524:1:28:3025:::::|h[Whisper of the Duskwraith]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250253::::::::10:259::23:1:3524:1:28:3025:::::|h[Whisper of the Duskwraith]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2067,7 +2193,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250254::::::::10:1453::23:1:3524:1:28:3025:::::|h[Seed of Radiant Hope]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250254::::::::10:259::23:1:3524:1:28:3025:::::|h[Seed of Radiant Hope]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2167,7 +2293,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250255::::::::10:1453::23:1:3524:1:28:3025:::::|h[Unstable Felheart Crystal]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250255::::::::10:259::23:1:3524:1:28:3025:::::|h[Unstable Felheart Crystal]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2267,7 +2393,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250256::::::::10:1453::23:1:3524:1:28:3025:::::|h[Heart of Wind]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250256::::::::10:259::23:1:3524:1:28:3025:::::|h[Heart of Wind]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2375,7 +2501,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250257::::::::10:1453::23:1:3524:1:28:3025:::::|h[Eye of the Drowning Void]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250257::::::::10:259::23:1:3524:1:28:3025:::::|h[Eye of the Drowning Void]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2427,6 +2553,19 @@
           "type": 42
         },
         {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your damaging spells and abilities have a chance to tear open a rift of the Void within your target, erupting for 20,030 Shadow damage split among nearby enemies.",
+          "spellID": 1250601,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
           "leftText": "Requires Level 90",
           "level": 90,
           "requirementType": 5,
@@ -2446,7 +2585,13 @@
         }
       ],
       "sockets": [],
-      "effects": [],
+      "effects": [
+        {
+          "spellID": 1250601,
+          "text": "Equip: Your damaging spells and abilities have a chance to tear open a rift of the Void within your target, erupting for 20,030 Shadow damage split among nearby enemies.",
+          "tooltipType": 45
+        }
+      ],
       "isEquipment": true,
       "itemCategory": "equipment",
       "stat1": null,
@@ -2460,7 +2605,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250258::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vessel of Tortured Souls]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250258::::::::10:259::23:1:3524:1:28:3025:::::|h[Vessel of Tortured Souls]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2565,7 +2710,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:250259::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sapling of the Dawnroot]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:250259::::::::10:259::23:1:3524:1:28:3025:::::|h[Sapling of the Dawnroot]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -2673,7 +2818,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251077::::::::10:1453::23:1:3524:1:28:3025:::::|h[Roostwarden's Bough]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251077::::::::10:259::23:1:3524:1:28:3025:::::|h[Roostwarden's Bough]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -2791,7 +2936,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251078::::::::10:1453::23:1:3524:1:28:3025:::::|h[Emberdawn Defender]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251078::::::::10:259::23:1:3524:1:28:3025:::::|h[Emberdawn Defender]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Two-Handed Swords",
       "itemSubclassID": 8,
@@ -2909,7 +3054,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251079::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amberfrond Bracers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251079::::::::10:259::23:1:3524:1:28:3025:::::|h[Amberfrond Bracers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -3022,7 +3167,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251080::::::::10:1453::23:1:3524:1:28:3025:::::|h[Brambledawn Halo]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251080::::::::10:259::23:1:3524:1:28:3025:::::|h[Brambledawn Halo]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -3131,7 +3276,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251081::::::::10:1453::23:1:3524:1:28:3025:::::|h[Embergrove Grasps]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251081::::::::10:259::23:1:3524:1:28:3025:::::|h[Embergrove Grasps]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -3244,7 +3389,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251082::::::::10:1453::23:1:3524:1:28:3025:::::|h[Snapvine Cinch]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251082::::::::10:259::23:1:3524:1:28:3025:::::|h[Snapvine Cinch]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -3357,7 +3502,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251083::::::::10:1453::23:1:3524:1:28:3025:::::|h[Excavating Cudgel]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251083::::::::10:259::23:1:3524:1:28:3025:::::|h[Excavating Cudgel]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Maces",
       "itemSubclassID": 4,
@@ -3471,7 +3616,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251084::::::::10:1453::23:1:3524:1:28:3025:::::|h[Whipcoil Sabatons]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251084::::::::10:259::23:1:3524:1:28:3025:::::|h[Whipcoil Sabatons]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -3584,7 +3729,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251085::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mantle of Dark Devotion]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251085::::::::10:259::23:1:3524:1:28:3025:::::|h[Mantle of Dark Devotion]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -3693,7 +3838,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251086::::::::10:1453::23:1:3524:1:28:3025:::::|h[Riphook Defender]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251086::::::::10:259::23:1:3524:1:28:3025:::::|h[Riphook Defender]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -3806,7 +3951,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251087::::::::10:1453::23:1:3524:1:28:3025:::::|h[Legwraps of Lingering Legacies]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251087::::::::10:259::23:1:3524:1:28:3025:::::|h[Legwraps of Lingering Legacies]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -3919,7 +4064,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251088::::::::10:1453::23:1:3524:1:28:3025:::::|h[Warworn Cleaver]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251088::::::::10:259::23:1:3524:1:28:3025:::::|h[Warworn Cleaver]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Axes",
       "itemSubclassID": 0,
@@ -4037,7 +4182,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251089::::::::10:1453::23:1:3524:1:28:3025:::::|h[Grips of Forgotten Honor]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251089::::::::10:259::23:1:3524:1:28:3025:::::|h[Grips of Forgotten Honor]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -4150,7 +4295,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251090::::::::10:1453::23:1:3524:1:28:3025:::::|h[Commander's Faded Breeches]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251090::::::::10:259::23:1:3524:1:28:3025:::::|h[Commander's Faded Breeches]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -4259,7 +4404,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251091::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sabatons of Furious Revenge]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251091::::::::10:259::23:1:3524:1:28:3025:::::|h[Sabatons of Furious Revenge]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -4376,7 +4521,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251092::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fallen Grunt's Mantle]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251092::::::::10:259::23:1:3524:1:28:3025:::::|h[Fallen Grunt's Mantle]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -4489,7 +4634,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251093::::::::10:1453::23:1:3524:1:28:3025:::::|h[Omission of Light]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251093::::::::10:259::23:1:3524:1:28:3025:::::|h[Omission of Light]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -4628,7 +4773,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251094::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sigil of the Restless Heart]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251094::::::::10:259::23:1:3524:1:28:3025:::::|h[Sigil of the Restless Heart]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -4731,7 +4876,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251095::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hurricane's Heart]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251095::::::::10:259::23:1:3524:1:28:3025:::::|h[Hurricane's Heart]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Bows",
       "itemSubclassID": 2,
@@ -4849,7 +4994,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251096::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pendant of Aching Grief]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251096::::::::10:259::23:1:3524:1:28:3025:::::|h[Pendant of Aching Grief]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -4960,7 +5105,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251097::::::::10:1453::23:1:3524:1:28:3025:::::|h[Spaulders of Arrow's Flight]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251097::::::::10:259::23:1:3524:1:28:3025:::::|h[Spaulders of Arrow's Flight]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -5073,7 +5218,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251098::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fletcher's Faded Faceplate]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251098::::::::10:259::23:1:3524:1:28:3025:::::|h[Fletcher's Faded Faceplate]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -5186,7 +5331,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251099::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vest of the Howling Gale]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251099::::::::10:259::23:1:3524:1:28:3025:::::|h[Vest of the Howling Gale]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -5299,7 +5444,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251100::::::::10:1453::23:1:3524:1:28:3025:::::|h[Malfeasance Mallet]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251100::::::::10:259::23:1:3524:1:28:3025:::::|h[Malfeasance Mallet]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Maces",
       "itemSubclassID": 4,
@@ -5417,7 +5562,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251101::::::::10:1453::23:1:3524:1:28:3025:::::|h[Arcane Guardian's Shell]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251101::::::::10:259::23:1:3524:1:28:3025:::::|h[Arcane Guardian's Shell]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -5534,7 +5679,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251102::::::::10:1453::23:1:3524:1:28:3025:::::|h[Clasp of Compliance]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251102::::::::10:259::23:1:3524:1:28:3025:::::|h[Clasp of Compliance]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -5643,7 +5788,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251103::::::::10:1453::23:1:3524:1:28:3025:::::|h[Custodial Cuffs]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251103::::::::10:259::23:1:3524:1:28:3025:::::|h[Custodial Cuffs]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -5756,7 +5901,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251104::::::::10:1453::23:1:3524:1:28:3025:::::|h[Leggings of Orderly Conduct]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251104::::::::10:259::23:1:3524:1:28:3025:::::|h[Leggings of Orderly Conduct]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -5869,7 +6014,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251105::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ward of the Spellbreaker]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251105::::::::10:259::23:1:3524:1:28:3025:::::|h[Ward of the Spellbreaker]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Shields",
       "itemSubclassID": 6,
@@ -5995,7 +6140,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251106::::::::10:1453::23:1:3524:1:28:3025:::::|h[Resolute Runeglaive]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251106::::::::10:259::23:1:3524:1:28:3025:::::|h[Resolute Runeglaive]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Warglaives",
       "itemSubclassID": 9,
@@ -6122,7 +6267,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251107::::::::10:1453::23:1:3524:1:28:3025:::::|h[Oathsworn Stompers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251107::::::::10:259::23:1:3524:1:28:3025:::::|h[Oathsworn Stompers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -6239,7 +6384,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251108::::::::10:1453::23:1:3524:1:28:3025:::::|h[Wraps of Watchful Wrath]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251108::::::::10:259::23:1:3524:1:28:3025:::::|h[Wraps of Watchful Wrath]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -6348,7 +6493,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251109::::::::10:1453::23:1:3524:1:28:3025:::::|h[Spellsnap Shadowmask]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251109::::::::10:259::23:1:3524:1:28:3025:::::|h[Spellsnap Shadowmask]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -6461,7 +6606,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251110::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sunlash's Sunsash]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251110::::::::10:259::23:1:3524:1:28:3025:::::|h[Sunlash's Sunsash]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -6574,7 +6719,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251111::::::::10:1453::23:1:3524:1:28:3025:::::|h[Splitshroud Stinger]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251111::::::::10:259::23:1:3524:1:28:3025:::::|h[Splitshroud Stinger]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -6688,7 +6833,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251112::::::::10:1453::23:1:3524:1:28:3025:::::|h[Shadowsplit Girdle]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251112::::::::10:259::23:1:3524:1:28:3025:::::|h[Shadowsplit Girdle]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -6801,7 +6946,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251113::::::::10:1453::23:1:3524:1:28:3025:::::|h[Gloves of Viscous Goo]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251113::::::::10:259::23:1:3524:1:28:3025:::::|h[Gloves of Viscous Goo]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -6914,7 +7059,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251114::::::::10:1453::23:1:3524:1:28:3025:::::|h[Voidwarped Oozemail]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251114::::::::10:259::23:1:3524:1:28:3025:::::|h[Voidwarped Oozemail]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -7027,7 +7172,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251115::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bifurcation Band]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251115::::::::10:259::23:1:3524:1:28:3025:::::|h[Bifurcation Band]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -7142,7 +7287,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251117::::::::10:1453::23:1:3524:1:28:3025:::::|h[Whirling Voidcleaver]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251117::::::::10:259::23:1:3524:1:28:3025:::::|h[Whirling Voidcleaver]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Two-Handed Axes",
       "itemSubclassID": 1,
@@ -7260,7 +7405,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251118::::::::10:1453::23:1:3524:1:28:3025:::::|h[Legplates of Lingering Dusk]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251118::::::::10:259::23:1:3524:1:28:3025:::::|h[Legplates of Lingering Dusk]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -7373,7 +7518,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251119::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vortex Visage]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251119::::::::10:259::23:1:3524:1:28:3025:::::|h[Vortex Visage]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -7490,7 +7635,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251120::::::::10:1453::23:1:3524:1:28:3025:::::|h[Wraps of Umbral Descent]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251120::::::::10:259::23:1:3524:1:28:3025:::::|h[Wraps of Umbral Descent]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -7599,7 +7744,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251121::::::::10:1453::23:1:3524:1:28:3025:::::|h[Domanaar's Dire Treads]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251121::::::::10:259::23:1:3524:1:28:3025:::::|h[Domanaar's Dire Treads]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -7712,7 +7857,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251122::::::::10:1453::23:1:3524:1:28:3025:::::|h[Shadowslash Slicer]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251122::::::::10:259::23:1:3524:1:28:3025:::::|h[Shadowslash Slicer]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Swords",
       "itemSubclassID": 7,
@@ -7830,7 +7975,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251123::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nibbles' Training Rod]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251123::::::::10:259::23:1:3524:1:28:3025:::::|h[Nibbles' Training Rod]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -7948,7 +8093,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251124::::::::10:1453::23:1:3524:1:28:3025:::::|h[Gauntlets of Fevered Defense]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251124::::::::10:259::23:1:3524:1:28:3025:::::|h[Gauntlets of Fevered Defense]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -8061,7 +8206,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251125::::::::10:1453::23:1:3524:1:28:3025:::::|h[Felsoaked Soles]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251125::::::::10:259::23:1:3524:1:28:3025:::::|h[Felsoaked Soles]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -8174,7 +8319,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251126::::::::10:1453::23:1:3524:1:28:3025:::::|h[Greathelm of Temptation]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251126::::::::10:259::23:1:3524:1:28:3025:::::|h[Greathelm of Temptation]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -8287,7 +8432,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251127::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nibbling Armbands]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251127::::::::10:259::23:1:3524:1:28:3025:::::|h[Nibbling Armbands]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -8396,7 +8541,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251128::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bladesorrow]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251128::::::::10:259::23:1:3524:1:28:3025:::::|h[Bladesorrow]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -8510,7 +8655,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251129::::::::10:1453::23:1:3524:1:28:3025:::::|h[Counterfeit Clutches]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251129::::::::10:259::23:1:3524:1:28:3025:::::|h[Counterfeit Clutches]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -8623,7 +8768,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251130::::::::10:1453::23:1:3524:1:28:3025:::::|h[Breeches of Deft Deals]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251130::::::::10:259::23:1:3524:1:28:3025:::::|h[Breeches of Deft Deals]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -8736,7 +8881,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251131::::::::10:1453::23:1:3524:1:28:3025:::::|h[Jangling Felpaulets]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251131::::::::10:259::23:1:3524:1:28:3025:::::|h[Jangling Felpaulets]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -8849,7 +8994,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251132::::::::10:1453::23:1:3524:1:28:3025:::::|h[Speakeasy Shroud]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251132::::::::10:259::23:1:3524:1:28:3025:::::|h[Speakeasy Shroud]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -8965,7 +9110,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251133::::::::10:1453::23:1:3524:1:28:3025:::::|h[Overseer's Vambraces]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251133::::::::10:259::23:1:3524:1:28:3025:::::|h[Overseer's Vambraces]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -9082,7 +9227,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251134::::::::10:1453::23:1:3524:1:28:3025:::::|h[Xathuux's Cleave]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251134::::::::10:259::23:1:3524:1:28:3025:::::|h[Xathuux's Cleave]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Two-Handed Axes",
       "itemSubclassID": 1,
@@ -9200,7 +9345,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251135::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fury-fletched Armlets]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251135::::::::10:259::23:1:3524:1:28:3025:::::|h[Fury-fletched Armlets]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -9313,7 +9458,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251136::::::::10:1453::23:1:3524:1:28:3025:::::|h[Signet of Snarling Servitude]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251136::::::::10:259::23:1:3524:1:28:3025:::::|h[Signet of Snarling Servitude]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -9428,7 +9573,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251137::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tempestuous Sandals]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251137::::::::10:259::23:1:3524:1:28:3025:::::|h[Tempestuous Sandals]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -9537,7 +9682,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251138::::::::10:1453::23:1:3524:1:28:3025:::::|h[Cinderfury Shoulderguards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251138::::::::10:259::23:1:3524:1:28:3025:::::|h[Cinderfury Shoulderguards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -9654,7 +9799,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251139::::::::10:1453::23:1:3524:1:28:3025:::::|h[Summoner's Searing Shirt]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251139::::::::10:259::23:1:3524:1:28:3025:::::|h[Summoner's Searing Shirt]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -9763,7 +9908,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251140::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vilefiend's Guise]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251140::::::::10:259::23:1:3524:1:28:3025:::::|h[Vilefiend's Guise]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -9876,7 +10021,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251141::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lithiel's Linked Leggings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251141::::::::10:259::23:1:3524:1:28:3025:::::|h[Lithiel's Linked Leggings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -9989,7 +10134,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251142::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pendant of Malefic Fury]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251142::::::::10:259::23:1:3524:1:28:3025:::::|h[Pendant of Malefic Fury]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -10100,7 +10245,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251143::::::::10:1453::23:1:3524:1:28:3025:::::|h[Grim Harvest Gloves]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251143::::::::10:259::23:1:3524:1:28:3025:::::|h[Grim Harvest Gloves]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Fist Weapons",
       "itemSubclassID": 13,
@@ -10116,8 +10261,72 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Grim Harvest Gloves",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "One-Hand",
+          "rightText": "Fist Weapon",
+          "type": 21
+        },
+        {
+          "leftText": "155 - 221 Damage",
+          "rightText": "Speed 2.60",
+          "type": 0
+        },
+        {
+          "leftText": "(72.3 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+35 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -10154,7 +10363,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251144::::::::10:1453::23:1:3524:1:28:3025:::::|h[Autumn's Boon Belt]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251144::::::::10:259::23:1:3524:1:28:3025:::::|h[Autumn's Boon Belt]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -10170,8 +10379,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Autumn's Boon Belt",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "186 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+76 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10208,7 +10476,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251145::::::::10:1453::23:1:3524:1:28:3025:::::|h[Forgotten Tribe Footguards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251145::::::::10:259::23:1:3524:1:28:3025:::::|h[Forgotten Tribe Footguards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -10224,8 +10492,71 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Forgotten Tribe Footguards",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Feet",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "138 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+73 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "\"From a tribe forgotten everywhere but Nalorakk's dreams.\"",
+          "type": 37
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10262,7 +10593,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251146::::::::10:1453::23:1:3524:1:28:3025:::::|h[Scavenger's Spaulders]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251146::::::::10:259::23:1:3524:1:28:3025:::::|h[Scavenger's Spaulders]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -10278,8 +10609,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Scavenger's Spaulders",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Shoulder",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "103 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+73 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10316,7 +10706,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251147::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hoarded Harvest Wrap]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251147::::::::10:259::23:1:3524:1:28:3025:::::|h[Hoarded Harvest Wrap]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -10332,8 +10722,63 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Hoarded Harvest Wrap",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "87 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+66 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10370,7 +10815,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251148::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pilfered Precious Band]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251148::::::::10:259::23:1:3524:1:28:3025:::::|h[Pilfered Precious Band]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -10385,8 +10830,74 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Pilfered Precious Band",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Finger",
+          "type": 21
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+124 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+186 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Prismatic Socket",
+          "type": 3
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "\"The Hoardmonger was strangely attached to this 'precious' ring.\"",
+          "type": 37
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10423,7 +10934,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251149::::::::10:1453::23:1:3524:1:28:3025:::::|h[Victor's Flashfrozen Blade]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251149::::::::10:259::23:1:3524:1:28:3025:::::|h[Victor's Flashfrozen Blade]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Polearms",
       "itemSubclassID": 6,
@@ -10439,8 +10950,72 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Victor's Flashfrozen Blade",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Two-Hand",
+          "rightText": "Polearm",
+          "type": 21
+        },
+        {
+          "leftText": "241 - 449 Damage",
+          "rightText": "Speed 3.60",
+          "type": 0
+        },
+        {
+          "leftText": "(95.8 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+69 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+98 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -10477,7 +11052,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251150::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tempest's Shelter]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251150::::::::10:259::23:1:3524:1:28:3025:::::|h[Tempest's Shelter]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Shields",
       "itemSubclassID": 6,
@@ -10494,8 +11069,75 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Tempest's Shelter",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Off Hand",
+          "rightText": "Shield",
+          "type": 21
+        },
+        {
+          "leftText": "971 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "2,427 Block",
+          "type": 0
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+31 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Strength",
+          "type": 42
+        },
+        {
+          "leftText": "+196 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -10536,7 +11178,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251151::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sentinel Challenger's Prize]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251151::::::::10:259::23:1:3524:1:28:3025:::::|h[Sentinel Challenger's Prize]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -10552,8 +11194,71 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Sentinel Challenger's Prize",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "331 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+109 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+58 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -10590,7 +11295,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251152::::::::10:1453::23:1:3524:1:28:3025:::::|h[Season's Turn Gauntlets]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251152::::::::10:259::23:1:3524:1:28:3025:::::|h[Season's Turn Gauntlets]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -10606,8 +11311,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Season's Turn Gauntlets",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Hands",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "124 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+73 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10644,7 +11408,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251153::::::::10:1453::23:1:3524:1:28:3025:::::|h[Arctic Explorer's Legwraps]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251153::::::::10:259::23:1:3524:1:28:3025:::::|h[Arctic Explorer's Legwraps]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -10660,8 +11424,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Arctic Explorer's Legwraps",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Feet",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "93 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+47 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+79 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10698,7 +11521,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251154::::::::10:1453::23:1:3524:1:28:3025:::::|h[Winter's Embrace Bracers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251154::::::::10:259::23:1:3524:1:28:3025:::::|h[Winter's Embrace Bracers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -10714,8 +11537,63 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Winter's Embrace Bracers",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Wrist",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "43 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+59 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+35 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10752,7 +11630,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251155::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tribal Defender's Cord]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251155::::::::10:259::23:1:3524:1:28:3025:::::|h[Tribal Defender's Cord]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -10768,8 +11646,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Tribal Defender's Cord",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "124 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+79 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+47 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10806,7 +11743,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251156::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fallen Speaker's Staff]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251156::::::::10:259::23:1:3524:1:28:3025:::::|h[Fallen Speaker's Staff]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -10822,8 +11759,68 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Fallen Speaker's Staff",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Two-Hand",
+          "rightText": "Staff",
+          "type": 21
+        },
+        {
+          "leftText": "146 - 199 Damage",
+          "rightText": "Speed 3.60",
+          "type": 0
+        },
+        {
+          "leftText": "(47.9 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+567 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -10860,7 +11857,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251157::::::::10:1453::23:1:3524:1:28:3025:::::|h[Searing Spaulders]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251157::::::::10:259::23:1:3524:1:28:3025:::::|h[Searing Spaulders]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -10977,7 +11974,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251158::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nalorakk's Nightmare]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251158::::::::10:259::23:1:3524:1:28:3025:::::|h[Nalorakk's Nightmare]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -10993,8 +11990,71 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Nalorakk's Nightmare",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Head",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "165 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+69 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+98 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -11031,7 +12091,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251159::::::::10:1453::23:1:3524:1:28:3025:::::|h[War Trial Vestments]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251159::::::::10:259::23:1:3524:1:28:3025:::::|h[War Trial Vestments]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -11047,8 +12107,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "War Trial Vestments",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "149 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -11085,7 +12204,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251160::::::::10:1453::23:1:3524:1:28:3025:::::|h[Forest Dream Leg-guards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251160::::::::10:259::23:1:3524:1:28:3025:::::|h[Forest Dream Leg-guards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -11101,8 +12220,63 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Forest Dream Leg-guards",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Legs",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "76 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -11139,7 +12313,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251161::::::::10:1453::23:1:3524:1:28:3025:::::|h[Shroud of the Soulhunter]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251161::::::::10:259::23:1:3524:1:28:3025:::::|h[Shroud of the Soulhunter]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -11263,7 +12437,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251162::::::::10:1453::23:1:3524:1:28:3025:::::|h[Traitor's Talon]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251162::::::::10:259::23:1:3524:1:28:3025:::::|h[Traitor's Talon]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Polearms",
       "itemSubclassID": 6,
@@ -11381,7 +12555,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251163::::::::10:1453::23:1:3524:1:28:3025:::::|h[Berserker's Hexclaws]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251163::::::::10:259::23:1:3524:1:28:3025:::::|h[Berserker's Hexclaws]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Fist Weapons",
       "itemSubclassID": 13,
@@ -11495,7 +12669,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251164::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amalgamation's Harness]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251164::::::::10:259::23:1:3524:1:28:3025:::::|h[Amalgamation's Harness]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -11612,7 +12786,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251165::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pulverizing Pads]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251165::::::::10:259::23:1:3524:1:28:3025:::::|h[Pulverizing Pads]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -11725,7 +12899,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251166::::::::10:1453::23:1:3524:1:28:3025:::::|h[Falconer's Cinch]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251166::::::::10:259::23:1:3524:1:28:3025:::::|h[Falconer's Cinch]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -11838,7 +13012,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251167::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nightprey Stalkers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251167::::::::10:259::23:1:3524:1:28:3025:::::|h[Nightprey Stalkers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -11951,7 +13125,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251168::::::::10:1453::23:1:3524:1:28:3025:::::|h[Liferipper's Cutlass]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251168::::::::10:259::23:1:3524:1:28:3025:::::|h[Liferipper's Cutlass]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Two-Handed Swords",
       "itemSubclassID": 8,
@@ -12069,7 +13243,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251169::::::::10:1453::23:1:3524:1:28:3025:::::|h[Footwraps of Ill-Fate]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251169::::::::10:259::23:1:3524:1:28:3025:::::|h[Footwraps of Ill-Fate]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -12190,7 +13364,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251170::::::::10:1453::23:1:3524:1:28:3025:::::|h[Wickedweave Trousers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251170::::::::10:259::23:1:3524:1:28:3025:::::|h[Wickedweave Trousers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -12303,7 +13477,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251171::::::::10:1453::23:1:3524:1:28:3025:::::|h[Enthralled Bonespines]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251171::::::::10:259::23:1:3524:1:28:3025:::::|h[Enthralled Bonespines]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -12416,7 +13590,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251172::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vilehex Bonds]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251172::::::::10:259::23:1:3524:1:28:3025:::::|h[Vilehex Bonds]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -12529,7 +13703,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251173::::::::10:1453::23:1:3524:1:28:3025:::::|h[Yoke of the Charging Bear]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251173::::::::10:259::23:1:3524:1:28:3025:::::|h[Yoke of the Charging Bear]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -12544,8 +13718,66 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Yoke of the Charging Bear",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Neck",
+          "type": 21
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+106 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+204 Haste",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Prismatic Socket",
+          "type": 3
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -12582,7 +13814,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251174::::::::10:1453::23:1:3524:1:28:3025:::::|h[Deceiver's Rotbow]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251174::::::::10:259::23:1:3524:1:28:3025:::::|h[Deceiver's Rotbow]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Bows",
       "itemSubclassID": 2,
@@ -12700,7 +13932,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251175::::::::10:1453::23:1:3524:1:28:3025:::::|h[Soulblight Cleaver]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251175::::::::10:259::23:1:3524:1:28:3025:::::|h[Soulblight Cleaver]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Axes",
       "itemSubclassID": 0,
@@ -12814,7 +14046,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251176::::::::10:1453::23:1:3524:1:28:3025:::::|h[Reanimator's Weight]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251176::::::::10:259::23:1:3524:1:28:3025:::::|h[Reanimator's Weight]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -12931,7 +14163,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251177::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fetid Vilecrown]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251177::::::::10:259::23:1:3524:1:28:3025:::::|h[Fetid Vilecrown]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -13048,7 +14280,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251178::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ceremonial Hexblade]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251178::::::::10:259::23:1:3524:1:28:3025:::::|h[Ceremonial Hexblade]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -13166,7 +14398,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251179::::::::10:1453::23:1:3524:1:28:3025:::::|h[Decaying Cuirass]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251179::::::::10:259::23:1:3524:1:28:3025:::::|h[Decaying Cuirass]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -13279,7 +14511,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251180::::::::10:1453::23:1:3524:1:28:3025:::::|h[Thornblade]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251180::::::::10:259::23:1:3524:1:28:3025:::::|h[Thornblade]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -13397,7 +14629,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251181::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pruning Lance]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251181::::::::10:259::23:1:3524:1:28:3025:::::|h[Pruning Lance]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Polearms",
       "itemSubclassID": 6,
@@ -13515,7 +14747,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251182::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bedrock Breeches]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251182::::::::10:259::23:1:3524:1:28:3025:::::|h[Bedrock Breeches]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -13628,7 +14860,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251183::::::::10:1453::23:1:3524:1:28:3025:::::|h[Rootwarden Wraps]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251183::::::::10:259::23:1:3524:1:28:3025:::::|h[Rootwarden Wraps]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -13741,7 +14973,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251184::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ironroot Collar]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251184::::::::10:259::23:1:3524:1:28:3025:::::|h[Ironroot Collar]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -13854,7 +15086,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251185::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightblossom Cinch]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251185::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightblossom Cinch]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -13963,7 +15195,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251186::::::::10:1453::23:1:3524:1:28:3025:::::|h[Thorntalon Edge]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251186::::::::10:259::23:1:3524:1:28:3025:::::|h[Thorntalon Edge]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Fist Weapons",
       "itemSubclassID": 13,
@@ -14081,7 +15313,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251187::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amirdrassil's Reach]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251187::::::::10:259::23:1:3524:1:28:3025:::::|h[Amirdrassil's Reach]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Crossbows",
       "itemSubclassID": 18,
@@ -14199,7 +15431,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251188::::::::10:1453::23:1:3524:1:28:3025:::::|h[Doompetal]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251188::::::::10:259::23:1:3524:1:28:3025:::::|h[Doompetal]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Wands",
       "itemSubclassID": 19,
@@ -14317,7 +15549,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251189::::::::10:1453::23:1:3524:1:28:3025:::::|h[Rootwalker Harness]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251189::::::::10:259::23:1:3524:1:28:3025:::::|h[Rootwalker Harness]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -14430,7 +15662,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251190::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bloodthorn Burnous]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251190::::::::10:259::23:1:3524:1:28:3025:::::|h[Bloodthorn Burnous]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -14546,7 +15778,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251191::::::::10:1453::23:1:3524:1:28:3025:::::|h[Luminescent Sprout]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251191::::::::10:259::23:1:3524:1:28:3025:::::|h[Luminescent Sprout]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -14649,7 +15881,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251192::::::::10:1453::23:1:3524:1:28:3025:::::|h[Branch of Pride]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251192::::::::10:259::23:1:3524:1:28:3025:::::|h[Branch of Pride]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -14767,7 +15999,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251193::::::::10:1453::23:1:3524:1:28:3025:::::|h[Taproot Ribs]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251193::::::::10:259::23:1:3524:1:28:3025:::::|h[Taproot Ribs]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -14884,7 +16116,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251194::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightwarden's Bind]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251194::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightwarden's Bind]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -14999,7 +16231,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251195::::::::10:1453::23:1:3524:1:28:3025:::::|h[Thorned Reply]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251195::::::::10:259::23:1:3524:1:28:3025:::::|h[Thorned Reply]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Swords",
       "itemSubclassID": 7,
@@ -15117,7 +16349,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251196::::::::10:1453::23:1:3524:1:28:3025:::::|h[Teldrassil's Sacrifice]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251196::::::::10:259::23:1:3524:1:28:3025:::::|h[Teldrassil's Sacrifice]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Shields",
       "itemSubclassID": 6,
@@ -15243,7 +16475,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251197::::::::10:1453::23:1:3524:1:28:3025:::::|h[Thornspike Gauntlets]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251197::::::::10:259::23:1:3524:1:28:3025:::::|h[Thornspike Gauntlets]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -15356,7 +16588,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251198::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightspore Leggings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251198::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightspore Leggings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -15469,7 +16701,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251199::::::::10:1453::23:1:3524:1:28:3025:::::|h[Worldroot Canopy]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251199::::::::10:259::23:1:3524:1:28:3025:::::|h[Worldroot Canopy]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -15578,7 +16810,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251200::::::::10:1453::23:1:3524:1:28:3025:::::|h[Saptorbane Guards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251200::::::::10:259::23:1:3524:1:28:3025:::::|h[Saptorbane Guards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -15691,7 +16923,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251201::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corespark Multitool]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251201::::::::10:259::23:1:3524:1:28:3025:::::|h[Corespark Multitool]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -15805,7 +17037,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251202::::::::10:1453::23:1:3524:1:28:3025:::::|h[Reflux Reflector]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251202::::::::10:259::23:1:3524:1:28:3025:::::|h[Reflux Reflector]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Shields",
       "itemSubclassID": 6,
@@ -15927,7 +17159,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251203::::::::10:1453::23:1:3524:1:28:3025:::::|h[Kasreth's Bindings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251203::::::::10:259::23:1:3524:1:28:3025:::::|h[Kasreth's Bindings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -16044,7 +17276,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251204::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corewright's Zappers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251204::::::::10:259::23:1:3524:1:28:3025:::::|h[Corewright's Zappers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -16157,7 +17389,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251205::::::::10:1453::23:1:3524:1:28:3025:::::|h[Leyline Leggings]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251205::::::::10:259::23:1:3524:1:28:3025:::::|h[Leyline Leggings]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -16266,7 +17498,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251206::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fluxweave Cloak]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251206::::::::10:259::23:1:3524:1:28:3025:::::|h[Fluxweave Cloak]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -16382,7 +17614,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251207::::::::10:1453::23:1:3524:1:28:3025:::::|h[Dreadflail Bludgeon]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251207::::::::10:259::23:1:3524:1:28:3025:::::|h[Dreadflail Bludgeon]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Maces",
       "itemSubclassID": 4,
@@ -16500,7 +17732,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251208::::::::10:1453::23:1:3524:1:28:3025:::::|h[Lightscarred Cuisses]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251208::::::::10:259::23:1:3524:1:28:3025:::::|h[Lightscarred Cuisses]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -16613,7 +17845,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251209::::::::10:1453::23:1:3524:1:28:3025:::::|h[Corewarden Cuffs]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251209::::::::10:259::23:1:3524:1:28:3025:::::|h[Corewarden Cuffs]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -16726,7 +17958,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251210::::::::10:1453::23:1:3524:1:28:3025:::::|h[Eclipse Espadrilles]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251210::::::::10:259::23:1:3524:1:28:3025:::::|h[Eclipse Espadrilles]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -16839,7 +18071,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251211::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fractured Fingerguards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251211::::::::10:259::23:1:3524:1:28:3025:::::|h[Fractured Fingerguards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -16952,7 +18184,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251212::::::::10:1453::23:1:3524:1:28:3025:::::|h[Radiant Slicer]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251212::::::::10:259::23:1:3524:1:28:3025:::::|h[Radiant Slicer]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -17066,7 +18298,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251213::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nysarra's Mantle]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251213::::::::10:259::23:1:3524:1:28:3025:::::|h[Nysarra's Mantle]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -17175,7 +18407,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251214::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bonds of the Hash'ura]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251214::::::::10:259::23:1:3524:1:28:3025:::::|h[Bonds of the Hash'ura]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -17191,8 +18423,67 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Bonds of the Hash'ura",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Hands",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "186 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+76 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [
@@ -17229,7 +18520,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251215::::::::10:1453::23:1:3524:1:28:3025:::::|h[Greaves of the Divine Guile]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251215::::::::10:259::23:1:3524:1:28:3025:::::|h[Greaves of the Divine Guile]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -17342,7 +18633,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251216::::::::10:1453::23:1:3524:1:28:3025:::::|h[Maledict Vest]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251216::::::::10:259::23:1:3524:1:28:3025:::::|h[Maledict Vest]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -17455,7 +18746,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251217::::::::10:1453::23:1:3524:1:28:3025:::::|h[Occlusion of Void]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251217::::::::10:259::23:1:3524:1:28:3025:::::|h[Occlusion of Void]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -17594,7 +18885,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251218::::::::10:1453::23:1:3524:1:28:3025:::::|h[Taz'Rah's Cosmic Edge]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251218::::::::10:259::23:1:3524:1:28:3025:::::|h[Taz'Rah's Cosmic Edge]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Swords",
       "itemSubclassID": 7,
@@ -17712,7 +19003,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251219::::::::10:1453::23:1:3524:1:28:3025:::::|h[Riftworn Stompers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251219::::::::10:259::23:1:3524:1:28:3025:::::|h[Riftworn Stompers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -17821,7 +19112,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251220::::::::10:1453::23:1:3524:1:28:3025:::::|h[Voidscarred Crown]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251220::::::::10:259::23:1:3524:1:28:3025:::::|h[Voidscarred Crown]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -17938,7 +19229,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251221::::::::10:1453::23:1:3524:1:28:3025:::::|h[Despondent's Gauntlets]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251221::::::::10:259::23:1:3524:1:28:3025:::::|h[Despondent's Gauntlets]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -18051,7 +19342,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251222::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ethereal Netherwrap]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251222::::::::10:259::23:1:3524:1:28:3025:::::|h[Ethereal Netherwrap]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -18160,7 +19451,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251223::::::::10:1453::23:1:3524:1:28:3025:::::|h[Somber Spaulders]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251223::::::::10:259::23:1:3524:1:28:3025:::::|h[Somber Spaulders]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -18273,7 +19564,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251224::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hulking Handaxe]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251224::::::::10:259::23:1:3524:1:28:3025:::::|h[Hulking Handaxe]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Axes",
       "itemSubclassID": 0,
@@ -18391,7 +19682,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251225::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fang of Contagion]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251225::::::::10:259::23:1:3524:1:28:3025:::::|h[Fang of Contagion]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -18505,7 +19796,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251226::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hide of Pestilence]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251226::::::::10:259::23:1:3524:1:28:3025:::::|h[Hide of Pestilence]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -18618,7 +19909,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251227::::::::10:1453::23:1:3524:1:28:3025:::::|h[Poisoner's Pauldrons]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251227::::::::10:259::23:1:3524:1:28:3025:::::|h[Poisoner's Pauldrons]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -18727,7 +20018,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251228::::::::10:1453::23:1:3524:1:28:3025:::::|h[Behemoth Waistband]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251228::::::::10:259::23:1:3524:1:28:3025:::::|h[Behemoth Waistband]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -18840,7 +20131,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251229::::::::10:1453::23:1:3524:1:28:3025:::::|h[Visor of the Predator]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251229::::::::10:259::23:1:3524:1:28:3025:::::|h[Visor of the Predator]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -18957,7 +20248,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251230::::::::10:1453::23:1:3524:1:28:3025:::::|h[Charonic Crescent]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251230::::::::10:259::23:1:3524:1:28:3025:::::|h[Charonic Crescent]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Polearms",
       "itemSubclassID": 6,
@@ -19075,7 +20366,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251231::::::::10:1453::23:1:3524:1:28:3025:::::|h[Singularity Slicer]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251231::::::::10:259::23:1:3524:1:28:3025:::::|h[Singularity Slicer]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Warglaives",
       "itemSubclassID": 9,
@@ -19202,7 +20493,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251232::::::::10:1453::23:1:3524:1:28:3025:::::|h[Overseer's Diadem]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251232::::::::10:259::23:1:3524:1:28:3025:::::|h[Overseer's Diadem]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -19311,7 +20602,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251233::::::::10:1453::23:1:3524:1:28:3025:::::|h[Manipulator's Vest]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251233::::::::10:259::23:1:3524:1:28:3025:::::|h[Manipulator's Vest]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -19424,7 +20715,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251234::::::::10:1453::23:1:3524:1:28:3025:::::|h[Graft of the Domanaar]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251234::::::::10:259::23:1:3524:1:28:3025:::::|h[Graft of the Domanaar]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -19535,7 +20826,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:251235::::::::10:1453::23:1:3524:1:28:3025:::::|h[Gravitic Girdle]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:251235::::::::10:259::23:1:3524:1:28:3025:::::|h[Gravitic Girdle]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -19648,7 +20939,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:252258::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sickening Signet of Atroxus]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:252258::::::::10:259::23:1:3524:1:28:3025:::::|h[Sickening Signet of Atroxus]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -19763,7 +21054,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:253451::::::::10:1453::23:1:3524:1:28:3025:::::|h[Veilroot Fountain]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:253451::::::::10:259::23:1:3524:1:28:3025:::::|h[Veilroot Fountain]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -19825,7 +21116,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ4:|Hitem:256625::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Hexwoven Strand]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:256625::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Hexwoven Strand]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leatherworking",
       "itemSubclassID": 1,
@@ -19844,8 +21135,76 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nHexwoven Strand",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "65 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,039 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+56 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your damaging spells and abilities have a chance to afflict your target with a Necrotic Hex, inflicting 1,612 Nature damage over 10 sec.\r\n\r\nThis hex spreads to enemies near your original victim every time it deals damage, up to 5 times.",
+          "spellID": 1243883,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft Hexwoven Strand.",
@@ -19853,7 +21212,7 @@
           "type": 38
         },
         {
-          "leftText": "Tormented Tantalum, Mote of Wild Magic (20), Void-Tempered Leather (175), Void-Tempered Scales (100), Infused Scalewoven Hide, Spark (2)",
+          "leftText": "Tormented Tantalum, Mote of Wild Magic (20), Void-Tempered Leather (175), Void-Tempered Scales (100), Sin'dorei Armor Banding, Infused Scalewoven Hide, Spark (2)",
           "type": 0
         },
         {
@@ -19871,6 +21230,11 @@
       "primaryStats": [],
       "sockets": [],
       "effects": [
+        {
+          "spellID": 1243883,
+          "text": "Equip: Your damaging spells and abilities have a chance to afflict your target with a Necrotic Hex, inflicting 1,612 Nature damage over 10 sec.\r\n\r\nThis hex spreads to enemies near your original victim every time it deals damage, up to 5 times.",
+          "tooltipType": 45
+        },
         {
           "spellID": 1237489,
           "text": "Use: Teaches you how to craft Hexwoven Strand.",
@@ -19890,7 +21254,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ4:|Hitem:256640::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Row Walker's Insurance]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:256640::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Row Walker's Insurance]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leatherworking",
       "itemSubclassID": 1,
@@ -19909,8 +21273,95 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nRow Walker's Insurance",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "115 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+83 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,385 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+74 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+56 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+83 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Murder Row Materials (0/3)",
+          "type": 0
+        },
+        {
+          "leftText": "  Row Walker's Insurance",
+          "type": 42
+        },
+        {
+          "leftText": "  Row Walker's Swiftgrips",
+          "type": 42
+        },
+        {
+          "leftText": "  Row Walker's Deflectors",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "(2) Set: Every 30 seconds during combat, you capitalize on your next critical strike to gain the Upper Hand. Every situation is different, as is your Upper Hand at the time. Healing tonics, poisoned daggers, and other magical contraband are all on the table.",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft Row Walker's Insurance.",
@@ -19918,7 +21369,7 @@
           "type": 38
         },
         {
-          "leftText": "Tormented Tantalum, Void-Tempered Leather (200), Infused Scalewoven Hide, Spark (2)",
+          "leftText": "Tormented Tantalum, Void-Tempered Leather (200), Sin'dorei Armor Banding (2), Infused Scalewoven Hide, Smuggler's Enchanted Edge (2), Spark (2)",
           "type": 0
         },
         {
@@ -19955,7 +21406,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256642::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Primal Spore Binding]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256642::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Primal Spore Binding]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Leatherworking",
       "itemSubclassID": 1,
@@ -19974,8 +21425,47 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nPrimal Spore Binding",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Requires Level 71",
+          "level": 71,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "Optional Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "|cff19ff19+15 Recipe Difficulty|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Provides the following property: Your spells and abilities can launch Explosive Spores at your targets, healing allies or damaging enemies based on who your target is.\r\n\r\nUnique-Equipped: Embellished (2).",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Usable with: |cffffffffMidnight recipes for most unembellished weapons and armor.|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "\"Can be bought and sold on the Auction House.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to craft Primal Spore Binding.",
@@ -19983,7 +21473,7 @@
           "type": 38
         },
         {
-          "leftText": "Mote of Primal Energy (10), Fantastic Fur",
+          "leftText": "Mote of Primal Energy (10), Fantastic Fur, Scalewoven Hide",
           "type": 0
         },
         {
@@ -20020,7 +21510,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ4:|Hitem:256652::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: World Tender's Trunkplate]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:256652::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: World Tender's Trunkplate]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leatherworking",
       "itemSubclassID": 1,
@@ -20039,8 +21529,95 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nWorld Tender's Trunkplate",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "170 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+83 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,385 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+56 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+74 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+83 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Root Warden's Regalia (0/3)",
+          "type": 0
+        },
+        {
+          "leftText": "  World Tender's Trunkplate",
+          "type": 42
+        },
+        {
+          "leftText": "  World Tender's Rootslippers",
+          "type": 42
+        },
+        {
+          "leftText": "  World Tender's Barkclasp",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "(2) Set: Your spells and abilities can beseech the World Trees for a fragment of their power, granting you 5 of a random secondary stat for 15 sec.",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft World Tender's Trunkplate.",
@@ -20048,7 +21625,7 @@
           "type": 38
         },
         {
-          "leftText": "Tormented Tantalum, Mote of Primal Energy (20), Void-Tempered Scales (150), Void-Tempered Leather (75), Infused Scalewoven Hide, Spark (2)",
+          "leftText": "Tormented Tantalum, Mote of Primal Energy (20), Void-Tempered Scales (150), Void-Tempered Leather (75), Sin'dorei Armor Banding (2), Infused Scalewoven Hide, Spark (2)",
           "type": 0
         },
         {
@@ -20085,7 +21662,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ4:|Hitem:256653::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Ranger-General's Grips]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:256653::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Ranger-General's Grips]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leatherworking",
       "itemSubclassID": 1,
@@ -20104,8 +21681,76 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nRanger-General's Grips",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Hands",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "96 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,039 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+56 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Dealing damage to a target has a chance to mark them, causing an Elven Ranger to launch a Surprise Attack from afar! This surprise attack deals 6,530 Physical damage to the target.",
+          "spellID": 1243876,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft Ranger-General's Grips.",
@@ -20113,7 +21758,7 @@
           "type": 38
         },
         {
-          "leftText": "Tormented Tantalum, Mote of Light (20), Void-Tempered Scales (125), Void-Tempered Leather (65), Infused Scalewoven Hide, Spark (2)",
+          "leftText": "Tormented Tantalum, Mote of Light (20), Void-Tempered Scales (125), Void-Tempered Leather (65), Sin'dorei Armor Banding (2), Infused Scalewoven Hide, Spark (2)",
           "type": 0
         },
         {
@@ -20131,6 +21776,11 @@
       "primaryStats": [],
       "sockets": [],
       "effects": [
+        {
+          "spellID": 1243876,
+          "text": "Equip: Dealing damage to a target has a chance to mark them, causing an Elven Ranger to launch a Surprise Attack from afar! This surprise attack deals 6,530 Physical damage to the target.",
+          "tooltipType": 45
+        },
         {
           "spellID": 1237515,
           "text": "Use: Teaches you how to craft Ranger-General's Grips.",
@@ -20150,7 +21800,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:256683::::::::10:1453::23:1:3524:1:28:3025:::::|h[Silvermoon Training Dummy]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:256683::::::::10:259::23:1:3524:1:28:3025:::::|h[Silvermoon Training Dummy]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -20212,7 +21862,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256716::::::::10:1453::23:1:3524:1:28:3025:::::|h[Design: Prismatic Focusing Iris]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256716::::::::10:259::23:1:3524:1:28:3025:::::|h[Design: Prismatic Focusing Iris]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Jewelcrafting",
       "itemSubclassID": 10,
@@ -20231,8 +21881,41 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nPrismatic Focusing Iris",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Optional Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "|cff19ff19+15 Recipe Difficulty|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Provides the following property: Your spells and abilities have a chance to activate the Iris, firing a focused beam of light at your target and dealing 3 Arcane damage every second for 4 sec.\r\n\r\nEach unique gem color you have socketed empowers the Iris, causing it to deal 1% additional damage per.",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Usable with: |cffffffffMidnight recipes for most unembellished equipment.|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "\"Can be bought and sold on the Auction House.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to craft Prismatic Focusing Iris.",
@@ -20277,7 +21960,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256721::::::::10:1453::23:1:3524:1:28:3025:::::|h[Design: Voidstone Shielding Array]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256721::::::::10:259::23:1:3524:1:28:3025:::::|h[Design: Voidstone Shielding Array]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Jewelcrafting",
       "itemSubclassID": 10,
@@ -20296,8 +21979,67 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nVoidstone Shielding Array",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Neck",
+          "type": 21
+        },
+        {
+          "leftText": "+779 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+82 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+123 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Prismatic Socket",
+          "type": 3
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "On Use: Activate the array and generate a Voidstone Barrier, absorbing 71,596 damage for the next 10 sec.\r\n\r\nThe barrier is further empowered by 1% per unique gem color you have socketed. (3 |4Min:Min; Cooldown)",
+          "spellID": 1251903,
+          "type": 44
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "Use: Teaches you how to craft Voidstone Shielding Array.",
@@ -20324,6 +22066,11 @@
       "sockets": [],
       "effects": [
         {
+          "spellID": 1251903,
+          "text": "On Use: Activate the array and generate a Voidstone Barrier, absorbing 71,596 damage for the next 10 sec.\r\n\r\nThe barrier is further empowered by 1% per unique gem color you have socketed. (3 |4Min:Min; Cooldown)",
+          "tooltipType": 44
+        },
+        {
           "spellID": 1251983,
           "text": "Use: Teaches you how to craft Voidstone Shielding Array.",
           "tooltipType": 38
@@ -20342,7 +22089,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256737::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of Nalorakk]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256737::::::::10:259::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of Nalorakk]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Enchanting",
       "itemSubclassID": 8,
@@ -20352,15 +22099,36 @@
       "stats": [],
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Formula: Enchant Chest - Mark of Nalorakk",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Use: Teaches you how to perform the Mark of Nalorakk enchantment.",
+          "spellID": 1236054,
+          "type": 38
+        },
+        {
+          "leftText": "Requires Midnight Enchanting (50)",
+          "requirementType": 2,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [],
       "secondaryStatBudget": 0,
       "primaryStats": [],
       "sockets": [],
-      "effects": [],
+      "effects": [
+        {
+          "spellID": 1236054,
+          "text": "Use: Teaches you how to perform the Mark of Nalorakk enchantment.",
+          "tooltipType": 38
+        }
+      ],
       "isEquipment": false,
       "itemCategory": "other",
       "stat1": null,
@@ -20374,7 +22142,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256746::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Smuggler's Enchanted Edge]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256746::::::::10:259::23:1:3524:1:28:3025:::::|h[Formula: Smuggler's Enchanted Edge]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Enchanting",
       "itemSubclassID": 8,
@@ -20393,8 +22161,28 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nSmuggler's Enchanted Edge",
+          "quality": 2,
+          "type": 22
+        },
+        {
+          "leftText": "Use: Coat your weapon with Smuggler's Enchanted Edge. This oil has a chance to activate whenever you deal damage, inflicting 4 Arcane damage to the target. \r\n\r\nLasts 120 min.\r\n\r\nCannot be applied to items lower than level 120.",
+          "spellID": 1237004,
+          "type": 44
+        },
+        {
+          "leftText": "Requires Level 78",
+          "level": 78,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "\"More of a magical toxic sludge than an oil, really.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to craft Smuggler's Enchanted Edge.",
@@ -20421,6 +22209,11 @@
       "sockets": [],
       "effects": [
         {
+          "spellID": 1237004,
+          "text": "Use: Coat your weapon with Smuggler's Enchanted Edge. This oil has a chance to activate whenever you deal damage, inflicting 4 Arcane damage to the target. \r\n\r\nLasts 120 min.\r\n\r\nCannot be applied to items lower than level 120.",
+          "tooltipType": 44
+        },
+        {
           "spellID": 1236493,
           "text": "Use: Teaches you how to craft Smuggler's Enchanted Edge.",
           "tooltipType": 38
@@ -20439,7 +22232,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256755::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of the Magister]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256755::::::::10:259::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of the Magister]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Enchanting",
       "itemSubclassID": 8,
@@ -20492,7 +22285,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:256759::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Weapon - Flames of the Sin'dorei]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:256759::::::::10:259::23:1:3524:1:28:3025:::::|h[Formula: Enchant Weapon - Flames of the Sin'dorei]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Enchanting",
       "itemSubclassID": 8,
@@ -20545,7 +22338,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:258033::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Arcanoweave Lining]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:258033::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Arcanoweave Lining]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Tailoring",
       "itemSubclassID": 2,
@@ -20564,8 +22357,41 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nArcanoweave Lining",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Optional Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "|cff19ff19+15 Recipe Difficulty|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Provides the following property: Your spells and abilities have a chance to draw in a mana wyrm that will empower you and an ally with Arcanoweave Insight. Arcanoweave Insight increases both your and your ally's Primary Stat.",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Usable with: |cffffffffMidnight recipes for most unembellished armor.|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "\"Can be bought and sold on the Auction House.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to craft Arcanoweave Lining.",
@@ -20573,7 +22399,7 @@
           "type": 38
         },
         {
-          "leftText": "Embroidery Floss, Arcanoweave (6)",
+          "leftText": "Embroidery Floss, Arcanoweave Bolt (2), Arcanoweave (6)",
           "type": 0
         },
         {
@@ -20610,7 +22436,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:258045::::::::10:1453::23:1:3524:1:28:3025:::::|h[Dawnblade's Glaives]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:258045::::::::10:259::23:1:3524:1:28:3025:::::|h[Dawnblade's Glaives]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Warglaives",
       "itemSubclassID": 9,
@@ -20686,7 +22512,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ4:|Hitem:258125::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Sunfire Sash]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:258125::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Sunfire Sash]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Tailoring",
       "itemSubclassID": 2,
@@ -20705,8 +22531,68 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nSunfire Sash",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "38 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,039 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Haste",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your spells and abilities have a chance to deal 3,707 Radiant damage to your current target.",
+          "spellID": 1241503,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "Use: Teaches you how to craft Sunfire Sash.",
@@ -20714,7 +22600,7 @@
           "type": 38
         },
         {
-          "leftText": "Embroidery Floss (5), Mote of Primal Energy (12), Tormented Tantalum, Sunfire Silk Bolt (8), Radiant Shard (6), Spark (2)",
+          "leftText": "Embroidery Floss (5), Mote of Primal Energy (12), Tormented Tantalum, Sunfire Silk Bolt (8), Radiant Shard (6), Sunfire Silk (15), Spark (2)",
           "type": 0
         },
         {
@@ -20732,6 +22618,11 @@
       "primaryStats": [],
       "sockets": [],
       "effects": [
+        {
+          "spellID": 1241503,
+          "text": "Equip: Your spells and abilities have a chance to deal 3,707 Radiant damage to your current target.",
+          "tooltipType": 45
+        },
         {
           "spellID": 1228987,
           "text": "Use: Teaches you how to craft Sunfire Sash.",
@@ -20751,7 +22642,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:258487::::::::10:1453::23:1:3524:1:28:3025:::::|h[Plans: Murder Row Fleet Feet]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:258487::::::::10:259::23:1:3524:1:28:3025:::::|h[Plans: Murder Row Fleet Feet]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Blacksmithing",
       "itemSubclassID": 4,
@@ -20770,8 +22661,76 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nMurder Row Fleet Feet",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Feet",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "160 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+1,039 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Random Stat 1",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Random Stat 2",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your harmful spells and abilities have a chance to increase your Avoidance by 80 for 10 sec.",
+          "spellID": 1237362,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft Murder Row Fleet Feet.",
@@ -20779,7 +22738,7 @@
           "type": 38
         },
         {
-          "leftText": "Dazzling Thorium, Tormented Tantalum, Sterling Alloy (10), Spark (2)",
+          "leftText": "Dazzling Thorium, Tormented Tantalum, Gloaming Alloy (10), Sterling Alloy (10), Silvermoon Weapon Wrap, Spark (2)",
           "type": 0
         },
         {
@@ -20797,6 +22756,11 @@
       "primaryStats": [],
       "sockets": [],
       "effects": [
+        {
+          "spellID": 1237362,
+          "text": "Equip: Your harmful spells and abilities have a chance to increase your Avoidance by 80 for 10 sec.",
+          "tooltipType": 45
+        },
         {
           "spellID": 1230766,
           "text": "Use: Teaches you how to craft Murder Row Fleet Feet.",
@@ -20816,7 +22780,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:258518::::::::10:1453::23:1:3524:1:28:3025:::::|h[Plans: Murder Row Fishhook]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:258518::::::::10:259::23:1:3524:1:28:3025:::::|h[Plans: Murder Row Fishhook]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Blacksmithing",
       "itemSubclassID": 4,
@@ -20835,8 +22799,77 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nMurder Row Fishhook",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "itemLevel": 246,
+          "leftText": "Item Level 246",
+          "type": 31
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped: Embellished (2)",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "One-Hand",
+          "rightText": "Dagger",
+          "type": 21
+        },
+        {
+          "leftText": "63 - 106 Damage",
+          "rightText": "Speed 1.80",
+          "type": 0
+        },
+        {
+          "leftText": "(46.9 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+692 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+32 Random Stat 1",
+          "type": 0
+        },
+        {
+          "leftText": "+32 Random Stat 2",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your harmful spells and abilities have a chance to bleed your target for 846 Physical damage every 1.9 over 10 sec.",
+          "spellID": 1250529,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         },
         {
           "leftText": "Use: Teaches you how to craft Murder Row Fishhook.",
@@ -20844,7 +22877,7 @@
           "type": 38
         },
         {
-          "leftText": "Dazzling Thorium, Tormented Tantalum, Sterling Alloy (10), Spark (2)",
+          "leftText": "Dazzling Thorium, Tormented Tantalum, Gloaming Alloy (10), Sterling Alloy (10), Silvermoon Weapon Wrap, Spark (2)",
           "type": 0
         },
         {
@@ -20862,6 +22895,11 @@
       "primaryStats": [],
       "sockets": [],
       "effects": [
+        {
+          "spellID": 1250529,
+          "text": "Equip: Your harmful spells and abilities have a chance to bleed your target for 846 Physical damage every 1.9 over 10 sec.",
+          "tooltipType": 45
+        },
         {
           "spellID": 1230768,
           "text": "Use: Teaches you how to craft Murder Row Fishhook.",
@@ -20881,7 +22919,7 @@
       "itemClass": "Miscellaneous",
       "itemClassID": 15,
       "itemLevel": 10,
-      "itemLink": "|cnIQ4:|Hitem:260231::::::::10:1453::23:1:3524:1:28:872:::::|h[Lucent Hawkstrider]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:260231::::::::10:259::23:1:3524:1:28:872:::::|h[Lucent Hawkstrider]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mount",
       "itemSubclassID": 5,
@@ -20934,7 +22972,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:260312::::::::10:1453::23:1:3524:1:28:3025:::::|h[Defiant Defender's Drape]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:260312::::::::10:259::23:1:3524:1:28:3025:::::|h[Defiant Defender's Drape]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -21050,7 +23088,7 @@
       "itemClass": "Miscellaneous",
       "itemClassID": 15,
       "itemLevel": 10,
-      "itemLink": "|cnIQ4:|Hitem:262914::::::::10:1453::23:1:3524:1:28:872:::::|h[Spectral Hawkstrider]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:262914::::::::10:259::23:1:3524:1:28:872:::::|h[Spectral Hawkstrider]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mount",
       "itemSubclassID": 5,
@@ -21108,7 +23146,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:263193::::::::10:1453::23:1:3524:1:28:3025:::::|h[Trollhunter's Bands]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:263193::::::::10:259::23:1:3524:1:28:3025:::::|h[Trollhunter's Bands]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -21229,7 +23267,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:263230::::::::10:1453::23:1:3524:1:28:3025:::::|h[Magister's Bookshelf]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:263230::::::::10:259::23:1:3524:1:28:3025:::::|h[Magister's Bookshelf]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21258,6 +23296,11 @@
           "type": 0
         },
         {
+          "leftText": "Use: Add this Decor to your House Chest.",
+          "spellID": 1270131,
+          "type": 44
+        },
+        {
           "leftText": "",
           "type": 11
         }
@@ -21266,7 +23309,13 @@
       "secondaryStatBudget": 0,
       "primaryStats": [],
       "sockets": [],
-      "effects": [],
+      "effects": [
+        {
+          "spellID": 1270131,
+          "text": "Use: Add this Decor to your House Chest.",
+          "tooltipType": 44
+        }
+      ],
       "isEquipment": false,
       "itemCategory": "housing-decor",
       "stat1": null,
@@ -21280,7 +23329,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:263238::::::::10:1453::23:1:3524:1:28:3025:::::|h[Illicit Long Table]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:263238::::::::10:259::23:1:3524:1:28:3025:::::|h[Illicit Long Table]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21342,7 +23391,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:264332::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amani Ritual Altar]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:264332::::::::10:259::23:1:3524:1:28:3025:::::|h[Amani Ritual Altar]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21352,8 +23401,27 @@
       "stats": [],
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Amani Ritual Altar",
+          "quality": 2,
+          "rightText": "|A:House-Decor-budget-icon:21:21|a 3",
+          "type": 22
+        },
+        {
+          "leftText": "|cFF66BBFFHousing Decor|r",
+          "type": 0
+        },
+        {
+          "bonding": 5,
+          "leftText": "Binds to Warband",
+          "type": 20
+        },
+        {
+          "leftText": "Total Owned: |cnHIGHLIGHT_FONT_COLOR:5 (Placed: 0, Storage: 5)|r",
+          "type": 0
+        },
+        {
+          "leftText": "",
+          "type": 11
         }
       ],
       "secondaryStats": [],
@@ -21374,7 +23442,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:264336::::::::10:1453::23:1:3524:1:28:3025:::::|h[Voidlight Brazier]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:264336::::::::10:259::23:1:3524:1:28:3025:::::|h[Voidlight Brazier]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21436,7 +23504,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:264338::::::::10:1453::23:1:3524:1:28:3025:::::|h[Domanaar Control Console]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:264338::::::::10:259::23:1:3524:1:28:3025:::::|h[Domanaar Control Console]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21498,7 +23566,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:264717::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amani Warding Hex]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:264717::::::::10:259::23:1:3524:1:28:3025:::::|h[Amani Warding Hex]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,
@@ -21560,7 +23628,7 @@
       "itemClass": "Miscellaneous",
       "itemClassID": 15,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:268728::::::::10:1453::23:1:3524:1:28:3025:::::|h[Saptor Salve]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:268728::::::::10:259::23:1:3524:1:28:3025:::::|h[Saptor Salve]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Other",
       "itemSubclassID": 4,
@@ -21625,7 +23693,7 @@
       "itemClass": "Recipe",
       "itemClassID": 9,
       "itemLevel": 1,
-      "itemLink": "|cnIQ3:|Hitem:270900::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Snakeskin Lining]|h|r",
+      "itemLink": "|cnIQ3:|Hitem:270900::::::::10:259::23:1:3524:1:28:3025:::::|h[Pattern: Snakeskin Lining]|h|r",
       "itemQuality": "ff0070dd",
       "itemSubclass": "Tailoring",
       "itemSubclassID": 2,
@@ -21644,13 +23712,50 @@
           "type": 19
         },
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "\nSnakeskin Lining",
+          "quality": 3,
+          "type": 22
+        },
+        {
+          "leftText": "Optional Crafting Reagent",
+          "type": 0
+        },
+        {
+          "leftText": "|cff19ff19+15 Recipe Difficulty|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Provides the following property: Your damaging abilities can apply Corrosive Acid to a target, dealing damage over time. Damaging the target again has a chance to detonate the venom and splash damage to surrounding enemies.",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Usable with: |cffffffffMidnight recipes for most unembellished armor.|r",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "\"Can be bought and sold on the Auction House.\"",
+          "type": 37
         },
         {
           "leftText": "Use: Teaches you how to create Snakeskin Lining.",
           "spellID": 1288335,
           "type": 38
+        },
+        {
+          "leftText": "Embroidery Floss, Cursebound Globe (6), Neutralized Venom Clot (4), Arcanoweave Bolt (2), Sunfire Silk Bolt (2)",
+          "type": 0
         },
         {
           "leftText": "Requires Midnight Tailoring (50)",
@@ -21682,7 +23787,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:271680::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sinseared Repeater]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:271680::::::::10:259::23:1:3524:1:28:3025:::::|h[Sinseared Repeater]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Guns",
       "itemSubclassID": 3,
@@ -21796,7 +23901,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:271681::::::::10:1453::23:1:3524:1:28:3025:::::|h[Perennial Frostbound Charm]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:271681::::::::10:259::23:1:3524:1:28:3025:::::|h[Perennial Frostbound Charm]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -21811,8 +23916,62 @@
       },
       "tooltipLines": [
         {
-          "leftText": "Retrieving item information",
-          "type": 41
+          "leftText": "Perennial Frostbound Charm",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 292,
+          "leftText": "Item Level 292",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Held In Off-hand",
+          "type": 21
+        },
+        {
+          "leftText": "+196 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+35 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
         }
       ],
       "secondaryStats": [
@@ -21849,7 +24008,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273773::::::::10:1453::23:1:3524:1:28:3025:::::|h[Handwraps of Blasphemous Rites]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273773::::::::10:259::23:1:3524:1:28:3025:::::|h[Handwraps of Blasphemous Rites]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -21958,7 +24117,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273774::::::::10:1453::23:1:3524:1:28:3025:::::|h[Snakeskin Spaulders]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273774::::::::10:259::23:1:3524:1:28:3025:::::|h[Snakeskin Spaulders]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -22075,7 +24234,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273775::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hydra Scale Wristguards]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273775::::::::10:259::23:1:3524:1:28:3025:::::|h[Hydra Scale Wristguards]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -22192,7 +24351,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273776::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ancient General's Obsidian Pillars]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273776::::::::10:259::23:1:3524:1:28:3025:::::|h[Ancient General's Obsidian Pillars]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -22309,7 +24468,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273777::::::::10:1453::23:1:3524:1:28:3025:::::|h[Poison-Proof Stompers]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273777::::::::10:259::23:1:3524:1:28:3025:::::|h[Poison-Proof Stompers]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -22426,7 +24585,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273778::::::::10:1453::23:1:3524:1:28:3025:::::|h[Polished Lightwood Channeler]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273778::::::::10:259::23:1:3524:1:28:3025:::::|h[Polished Lightwood Channeler]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -22500,7 +24659,7 @@
           "type": 1
         },
         {
-          "leftText": "Equip: Your damaging spells have a chance to launch a mote of light towards your target, inflicting 7,807 Holy damage split among nearby enemies. Damage increased by 30% per additional enemy, up to 150%.",
+          "leftText": "Equip: Your damaging spells have a chance to launch a mote of light towards your target, inflicting 7,807 Holy damage split among nearby enemies. ",
           "spellID": 1296874,
           "type": 45
         },
@@ -22542,7 +24701,7 @@
       "effects": [
         {
           "spellID": 1296874,
-          "text": "Equip: Your damaging spells have a chance to launch a mote of light towards your target, inflicting 7,807 Holy damage split among nearby enemies. Damage increased by 30% per additional enemy, up to 150%.",
+          "text": "Equip: Your damaging spells have a chance to launch a mote of light towards your target, inflicting 7,807 Holy damage split among nearby enemies. ",
           "tooltipType": 45
         }
       ],
@@ -22559,7 +24718,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273779::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nocuous Focal Fang]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273779::::::::10:259::23:1:3524:1:28:3025:::::|h[Nocuous Focal Fang]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -22666,7 +24825,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273780::::::::10:1453::23:1:3524:1:28:3025:::::|h[Venom-Etched Crescent]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273780::::::::10:259::23:1:3524:1:28:3025:::::|h[Venom-Etched Crescent]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "One-Handed Axes",
       "itemSubclassID": 0,
@@ -22784,7 +24943,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273781::::::::10:1453::23:1:3524:1:28:3025:::::|h[Strand of Warding Fangs]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273781::::::::10:259::23:1:3524:1:28:3025:::::|h[Strand of Warding Fangs]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -22895,7 +25054,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273782::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vile Writhefang Glaive]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273782::::::::10:259::23:1:3524:1:28:3025:::::|h[Vile Writhefang Glaive]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Polearms",
       "itemSubclassID": 6,
@@ -23013,7 +25172,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273783::::::::10:1453::23:1:3524:1:28:3025:::::|h[Toxin-Coated Warstaff]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273783::::::::10:259::23:1:3524:1:28:3025:::::|h[Toxin-Coated Warstaff]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
       "itemSubclassID": 10,
@@ -23127,7 +25286,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273784::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ancestral Amani Recurve]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273784::::::::10:259::23:1:3524:1:28:3025:::::|h[Ancestral Amani Recurve]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Bows",
       "itemSubclassID": 2,
@@ -23245,7 +25404,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273785::::::::10:1453::23:1:3524:1:28:3025:::::|h[Primordial Robe of Rites]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273785::::::::10:259::23:1:3524:1:28:3025:::::|h[Primordial Robe of Rites]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -23354,7 +25513,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273786::::::::10:1453::23:1:3524:1:28:3025:::::|h[Leggings of Entwined Serpents]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273786::::::::10:259::23:1:3524:1:28:3025:::::|h[Leggings of Entwined Serpents]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Cloth",
       "itemSubclassID": 1,
@@ -23467,7 +25626,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273787::::::::10:1453::23:1:3524:1:28:3025:::::|h[Aged Interwoven Scaleplate]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273787::::::::10:259::23:1:3524:1:28:3025:::::|h[Aged Interwoven Scaleplate]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Plate",
       "itemSubclassID": 4,
@@ -23580,7 +25739,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273789::::::::10:1453::23:1:3524:1:28:3025:::::|h[Chestguard of Corroded Scales]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273789::::::::10:259::23:1:3524:1:28:3025:::::|h[Chestguard of Corroded Scales]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mail",
       "itemSubclassID": 3,
@@ -23693,7 +25852,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273791::::::::10:1453::23:1:3524:1:28:3025:::::|h[Spare Speaker's Hood]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273791::::::::10:259::23:1:3524:1:28:3025:::::|h[Spare Speaker's Hood]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Leather",
       "itemSubclassID": 2,
@@ -23810,7 +25969,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273792::::::::10:1453::23:1:3524:1:28:3025:::::|h[Band of the Amani Warlord]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273792::::::::10:259::23:1:3524:1:28:3025:::::|h[Band of the Amani Warlord]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -23929,7 +26088,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273793::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hydraspine Twinblade]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273793::::::::10:259::23:1:3524:1:28:3025:::::|h[Hydraspine Twinblade]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Warglaives",
       "itemSubclassID": 9,
@@ -24056,7 +26215,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273794::::::::10:1453::23:1:3524:1:28:3025:::::|h[Knot of Writhing Serpents]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273794::::::::10:259::23:1:3524:1:28:3025:::::|h[Knot of Writhing Serpents]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -24108,7 +26267,7 @@
           "type": 1
         },
         {
-          "leftText": "Equip: Your harmful spells have a chance to ensorcell a serpent into spewing venom at your target, inflicting 11,505 Nature damage split between nearby enemies. Damage increased by 30% per additional enemy, up to 150%.\r\n\r\nThe primary target also suffers an additional 11,505 Nature damage over 15 sec. ",
+          "leftText": "Equip: Your harmful spells have a chance to ensorcell a serpent into spewing venom at your target, inflicting 11,505 Nature damage split between nearby enemies. \r\n\r\nThe primary target also suffers an additional 11,505 Nature damage over 15 sec. ",
           "spellID": 1293304,
           "type": 45
         },
@@ -24139,7 +26298,7 @@
       "effects": [
         {
           "spellID": 1293304,
-          "text": "Equip: Your harmful spells have a chance to ensorcell a serpent into spewing venom at your target, inflicting 11,505 Nature damage split between nearby enemies. Damage increased by 30% per additional enemy, up to 150%.\r\n\r\nThe primary target also suffers an additional 11,505 Nature damage over 15 sec. ",
+          "text": "Equip: Your harmful spells have a chance to ensorcell a serpent into spewing venom at your target, inflicting 11,505 Nature damage split between nearby enemies. \r\n\r\nThe primary target also suffers an additional 11,505 Nature damage over 15 sec. ",
           "tooltipType": 45
         }
       ],
@@ -24156,7 +26315,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273795::::::::10:1453::23:1:3524:1:28:3025:::::|h[Coiled Fangstone]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273795::::::::10:259::23:1:3524:1:28:3025:::::|h[Coiled Fangstone]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -24208,7 +26367,7 @@
           "type": 1
         },
         {
-          "leftText": "Use: Unleash 3 Envenomed Bites centered on your target, inflicting a total of 161,467 Nature damage split between nearby enemies. Damage increased by 30% per additional enemy, up to 150%.\r\n (1 |4Min:Min; Cooldown)",
+          "leftText": "Use: Unleash 3 Envenomed Bites centered on your target, inflicting a total of 161,467 Nature damage split between nearby enemies. \r\n (1 |4Min:Min; Cooldown)",
           "spellID": 1293311,
           "type": 44
         },
@@ -24239,7 +26398,7 @@
       "effects": [
         {
           "spellID": 1293311,
-          "text": "Use: Unleash 3 Envenomed Bites centered on your target, inflicting a total of 161,467 Nature damage split between nearby enemies. Damage increased by 30% per additional enemy, up to 150%.\r\n (1 |4Min:Min; Cooldown)",
+          "text": "Use: Unleash 3 Envenomed Bites centered on your target, inflicting a total of 161,467 Nature damage split between nearby enemies. \r\n (1 |4Min:Min; Cooldown)",
           "tooltipType": 44
         }
       ],
@@ -24256,7 +26415,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273796::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vile Vial of Volatile Venom]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273796::::::::10:259::23:1:3524:1:28:3025:::::|h[Vile Vial of Volatile Venom]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -24368,7 +26527,7 @@
       "itemClass": "Armor",
       "itemClassID": 4,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:273797::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tattered Amani War Banner]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:273797::::::::10:259::23:1:3524:1:28:3025:::::|h[Tattered Amani War Banner]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Miscellaneous",
       "itemSubclassID": 0,
@@ -24476,7 +26635,7 @@
       "itemClass": "Weapon",
       "itemClassID": 2,
       "itemLevel": 292,
-      "itemLink": "|cnIQ4:|Hitem:275070::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sharpened Lightwood Slasher]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:275070::::::::10:259::23:1:3524:1:28:3025:::::|h[Sharpened Lightwood Slasher]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Daggers",
       "itemSubclassID": 15,
@@ -24609,7 +26768,7 @@
       "itemClass": "Miscellaneous",
       "itemClassID": 15,
       "itemLevel": 10,
-      "itemLink": "|cnIQ4:|Hitem:276804::::::::10:1453::23:1:3524:1:28:872:::::|h[The Writhing Brood]|h|r",
+      "itemLink": "|cnIQ4:|Hitem:276804::::::::10:259::23:1:3524:1:28:872:::::|h[The Writhing Brood]|h|r",
       "itemQuality": "ffa335ee",
       "itemSubclass": "Mount",
       "itemSubclassID": 5,
@@ -24662,7 +26821,7 @@
       "itemClass": "Housing",
       "itemClassID": 20,
       "itemLevel": 1,
-      "itemLink": "|cnIQ2:|Hitem:279211::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pillar of the Fanged Altar]|h|r",
+      "itemLink": "|cnIQ2:|Hitem:279211::::::::10:259::23:1:3524:1:28:3025:::::|h[Pillar of the Fanged Altar]|h|r",
       "itemQuality": "ff1eff00",
       "itemSubclass": "Decor",
       "itemSubclassID": 0,

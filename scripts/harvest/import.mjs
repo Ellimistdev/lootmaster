@@ -124,7 +124,27 @@ for (const [id, instance] of instances) {
     skipped++
     continue
   }
-  // Keep performance diagnostics in SavedVariables, not versioned data exports.\n  // Avoid mutating the parsed source, which may be reused by another instance.\n  const stripJobDiagnostics = (job) => {\n    if (!job) return job\n    const { completedAt, startedAt, durationSeconds, lastAttemptSeconds, ...stable } = job\n    return stable\n  }\n  const stableInstance = { ...exportedInstance, encounters: Object.fromEntries(\n    Object.entries(exportedInstance.encounters || {}).map(([encounterId, encounter]) => [encounterId, {\n      ...encounter, difficulties: Object.fromEntries(\n        Object.entries(encounter.difficulties || {}).map(([difficultyId, difficulty]) => [difficultyId, {\n          ...difficulty,\n          baseline: stripJobDiagnostics(difficulty.baseline),\n          specializations: Object.fromEntries(Object.entries(difficulty.specializations || {})\n            .map(([specId, job]) => [specId, stripJobDiagnostics(job)])),\n        }]),\n      ),\n    }]),\n  ) }\n  const items = Object.fromEntries(Object.entries(db.items || {}).filter(([itemId]) => referenced.has(itemId)))
+
+    // Keep performance diagnostics in SavedVariables, not versioned data exports.
+    // Avoid mutating the parsed source, which may be reused by another instance.
+    const stripJobDiagnostics = (job) => {
+      if (!job) return job
+      const { completedAt, startedAt, durationSeconds, lastAttemptSeconds, ...stable } = job
+      return stable
+    }
+    const stableInstance = { ...exportedInstance, encounters: Object.fromEntries(
+      Object.entries(exportedInstance.encounters || {}).map(([encounterId, encounter]) => [encounterId, {
+        ...encounter, difficulties: Object.fromEntries(
+          Object.entries(encounter.difficulties || {}).map(([difficultyId, difficulty]) => [difficultyId, {
+            ...difficulty,
+            baseline: stripJobDiagnostics(difficulty.baseline),
+            specializations: Object.fromEntries(Object.entries(difficulty.specializations || {})
+              .map(([specId, job]) => [specId, stripJobDiagnostics(job)])),
+          }]),
+        ),
+      }]),
+    ) }
+    const items = Object.fromEntries(Object.entries(db.items || {}).filter(([itemId]) => referenced.has(itemId)))
   const document = {
     schemaVersion: 1,
     source: db.source,

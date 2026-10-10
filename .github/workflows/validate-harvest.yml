@@ -1,0 +1,28 @@
+name: Validate harvest
+on:
+  pull_request:
+    paths:
+      - 'data/harvests/**'
+      - 'scripts/harvest/**'
+      - 'package.json'
+      - '.github/workflows/validate-harvest.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Validate and normalize
+        run: npm run build:harvest
+      - name: Upload normalized JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: encounter-loot
+          path: public/data/encounter-loot.json

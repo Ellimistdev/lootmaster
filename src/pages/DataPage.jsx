@@ -42,6 +42,22 @@ export default function DataPage() {
   }, []);
   const published = dataCatalog.filter((dataset) => dataset.status === "published");
   const planned = dataCatalog.filter((dataset) => dataset.status !== "published");
+  const raids = instances.filter((instance) => instance.instanceType === "raid");
+  const dungeons = instances.filter((instance) => instance.instanceType === "dungeon");
+  const seasonal = [
+    { id: "specs", title: "Specs", description: "Shared specialization reference metadata.", category: "Reference", url: "/data/specializations.json" },
+    { ...published[0], title: "All Season 2", description: "All harvested Season 2 raid and dungeon loot.", category: "Seasonal" },
+    { id: "season-raids", title: "All Season 2 Raids", description: "Combined raid encounters and their eligible items.", category: "Seasonal", url: "/data/season-2-raids.json" },
+    { id: "season-dungeons", title: "All Season 2 Dungeons", description: "Combined dungeon encounters and their eligible items.", category: "Seasonal", url: "/data/season-2-dungeons.json" },
+    ...raids.map((instance) => ({
+      id: "instance-" + instance.instanceId, title: instance.name,
+      description: `Raid · ${instance.jobs} jobs`, category: "Raid", url: instance.url,
+    })),
+    ...dungeons.map((instance) => ({
+      id: "instance-" + instance.instanceId, title: instance.name,
+      description: `Dungeon · ${instance.jobs} jobs`, category: "Dungeon", url: instance.url,
+    })),
+  ];
   return (
     <main className="min-h-screen bg-zinc-950 px-6 py-10 text-zinc-100">
       <div className="mx-auto max-w-6xl text-left">
@@ -53,44 +69,29 @@ export default function DataPage() {
         <section aria-labelledby="published-heading" className="mb-10">
           <div className="mb-4 flex flex-wrap items-center gap-3">
             <h2 id="published-heading" className="text-2xl font-semibold text-white">Available datasets</h2>
-            <span className="text-sm text-zinc-500">{published.length + 1 + instances.length}</span>
+            <span className="text-sm text-zinc-500">{seasonal.length}</span>
           </div>
           <div className="overflow-hidden rounded-xl border border-zinc-800 bg-zinc-900/40">
-            {[
-              ...published,
-              {
-                id: "specializations",
-                title: "Specialization Reference",
-                description: "Shared specialization IDs and metadata for all harvested instances.",
-                category: "Reference",
-                status: "published",
-                format: "JSON",
-                url: "/data/specializations.json",
-                sourceUrl: "https://github.com/Ellimistdev/lootmaster/blob/master/data/harvests/specializations.json",
-              },
-              ...instances.map((instance) => ({
-                id: "instance-" + instance.instanceId,
-                title: instance.name,
-                description: `Instance ${instance.instanceId} · ${instance.jobs} jobs`,
-                category: instance.instanceType === "dungeon" ? "Dungeon" : instance.instanceType === "raid" ? "Raid" : "Instance",
-                status: "published",
-                format: "JSON",
-                url: instance.url,
-                sourceUrl: "https://github.com/Ellimistdev/lootmaster/tree/master/data/harvests/instances",
-              })),
-            ].map((dataset) => (
-              <div key={dataset.id} className="flex flex-col gap-2 border-b border-zinc-800 p-4 last:border-b-0 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
-                <div className="min-w-0">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <h3 className="font-semibold text-zinc-100">{dataset.title}</h3>
-                    <span className="rounded bg-zinc-800 px-2 py-0.5 text-xs text-zinc-400">{dataset.category}</span>
+            {seasonal.map((dataset, index) => (
+              <div key={dataset.id}>
+                {dungeons.length > 0 && index === 4 + raids.length && (
+                  <div className="border-b border-zinc-800 bg-zinc-900/70 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-zinc-400">
+                    Individual Dungeons
                   </div>
-                  <p className="mt-1 text-sm text-zinc-400">{dataset.description}</p>
-                </div>
-                <div className="flex shrink-0 flex-wrap items-center gap-4 text-sm">
-                  <a className="font-medium text-sky-400 hover:text-sky-300" href={dataset.url} target="_blank" rel="noreferrer">View JSON ↗</a>
-                  <a className="text-zinc-300 hover:text-white" href={dataset.url} download>Download</a>
-                  {dataset.sourceUrl && <a className="text-zinc-400 hover:text-white" href={dataset.sourceUrl} target="_blank" rel="noreferrer">Source ↗</a>}
+                )}
+                <div className="flex flex-col gap-2 border-b border-zinc-800 p-4 last:border-b-0 sm:flex-row sm:items-center sm:justify-between sm:gap-6">
+                  <div className="min-w-0">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="font-semibold text-zinc-100">{dataset.title}</h3>
+                      <span className="rounded bg-zinc-800 px-2 py-0.5 text-xs text-zinc-400">{dataset.category}</span>
+                    </div>
+                    <p className="mt-1 text-sm text-zinc-400">{dataset.description}</p>
+                  </div>
+                  <div className="flex shrink-0 flex-wrap items-center gap-4 text-sm">
+                    <a className="font-medium text-sky-400 hover:text-sky-300" href={dataset.url} target="_blank" rel="noreferrer">View JSON ↗</a>
+                    <a className="text-zinc-300 hover:text-white" href={dataset.url} download>Download</a>
+                    <a className="text-zinc-400 hover:text-white" href="https://github.com/Ellimistdev/lootmaster/tree/master/data/harvests" target="_blank" rel="noreferrer">Source ↗</a>
+                  </div>
                 </div>
               </div>
             ))}

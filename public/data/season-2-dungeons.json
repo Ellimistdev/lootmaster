@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "da5cfa4b70a48f612b35069ba03030fabdb2b532ebab897dc84f6a6a84fd4e86",
+  "sourceSha256": "c3c32c0e3b9b2037036abb90b65d944186ec1750c4f5dc759f73dc46e99c2415",
   "game": {
     "locale": "enUS",
     "version": "12.1.0",
@@ -334,6 +334,7445 @@
       "specName": "Devourer"
     }
   },
-  "items": {},
-  "instances": {}
+  "items": {
+    "250229": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 119
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 13,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Idol of the War Loa",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "+119 Critical Strike"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 45,
+          "leftText": "Equip: You have proven your worth to Nalorakk. Your abilities have a chance to echo with the war god's furious roar, granting you 234 Strength for 15 sec.\r\n\r\nNearby allies with Nalorakk's favor are rallied, gaining 25% movement speed for 10 sec.",
+          "spellID": 1250567
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Idol of the War Loa",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7578259,
+      "itemLink": "|cnIQ4:|Hitem:250229::::::::10:1453::23:1:3524:1:28:3025:::::|h[Idol of the War Loa]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 119,
+          "share": 1
+        }
+      ],
+      "secondaryStatBudget": 119,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1250567,
+          "text": "Equip: You have proven your worth to Nalorakk. Your abilities have a chance to echo with the war god's furious roar, granting you 234 Strength for 15 sec.\r\n\r\nNearby allies with Nalorakk's favor are rallied, gaining 25% movement speed for 10 sec.",
+          "tooltipType": 45
+        }
+      ],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": null
+    },
+    "250242": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 121
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 13,
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Trinket",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Jelly Replicator",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "+121 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+121 Strength",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Jelly Replicator",
+      "iconFileId": 7578264,
+      "metadataVersion": 1,
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:250242::::::::10:1453::23:1:3524:1:28:3025:::::|h[Jelly Replicator]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 121
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": null,
+      "stat2": null
+    },
+    "250244": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 13,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Permafrost Essence",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 45,
+          "leftText": "Equip: You gain Nalorakk's Favor of Enduring. Taking damage has a chance to grant a Mark of Frost, increasing your Critical Strike by 70 for 15 sec. Stacks up to 10 times.\r\n\r\nIf your health falls below 25%, the reservoir ruptures, consuming all marks to form a Frost Barrier that absorbs 48,227 damage per mark for 10 sec.",
+          "spellID": 1250588
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Permafrost Essence",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7578261,
+      "itemLink": "|cnIQ4:|Hitem:250244::::::::10:1453::23:1:3524:1:28:3025:::::|h[Permafrost Essence]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1250588,
+          "text": "Equip: You gain Nalorakk's Favor of Enduring. Taking damage has a chance to grant a Mark of Frost, increasing your Critical Strike by 70 for 15 sec. Stacks up to 10 times.\r\n\r\nIf your health falls below 25%, the reservoir ruptures, consuming all marks to form a Frost Barrier that absorbs 48,227 damage per mark for 10 sec.",
+          "tooltipType": 45
+        }
+      ],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": null,
+      "stat2": null
+    },
+    "250246": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 121
+      },
+      "itemClass": "Armor",
+      "metadataVersion": 1,
+      "inventorySlot": "Trinket",
+      "itemLevel": 292,
+      "itemClassID": 4,
+      "journalFilterType": 13,
+      "itemSubclassID": 0,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Refueling Orb",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "+121 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Refueling Orb",
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemSubclass": "Miscellaneous",
+      "iconFileId": 4914670,
+      "itemLink": "|cnIQ4:|Hitem:250246::::::::10:1453::23:1:3524:1:28:3025:::::|h[Refueling Orb]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 121
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": null,
+      "stat2": null
+    },
+    "250248": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 121
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 13,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Mycolic Medicine",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 42,
+          "leftText": "+121 Intellect"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 45,
+          "leftText": "Equip: You gain Nalorakk's Favor of Growth. Your healing spells and abilities have a chance to instantly heal your target for 60,315 and spawn a glowing mushroom near them that lasts for 10 sec.\r\n\r\nIf an ally steps on and consumes the mushroom, they are healed for an additional 34,465.",
+          "spellID": 1250591
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 37,
+          "leftText": "\"A draught from a species long lost everywhere but in dreams.\""
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Mycolic Medicine",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Trinket",
+      "iconFileId": 1029746,
+      "itemLink": "|cnIQ4:|Hitem:250248::::::::10:1453::23:1:3524:1:28:3025:::::|h[Mycolic Medicine]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 121
+        }
+      ],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1250591,
+          "text": "Equip: You gain Nalorakk's Favor of Growth. Your healing spells and abilities have a chance to instantly heal your target for 60,315 and spawn a glowing mushroom near them that lasts for 10 sec.\r\n\r\nIf an ally steps on and consumes the mushroom, they are healed for an additional 34,465.",
+          "tooltipType": 45
+        }
+      ],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": null,
+      "stat2": null
+    },
+    "250257": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 121
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_TRINKET",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 13,
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Trinket",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Eye of the Drowning Void",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "+121 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+121 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Eye of the Drowning Void",
+      "iconFileId": 237298,
+      "metadataVersion": 1,
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:250257::::::::10:1453::23:1:3524:1:28:3025:::::|h[Eye of the Drowning Void]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 121
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": null,
+      "stat2": null
+    },
+    "251100": {
+      "armorType": "Mace",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 33,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 51,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 72.30769348144531,
+        "ITEM_MOD_STRENGTH_SHORT": 64
+      },
+      "itemClass": "Weapon",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WEAPON",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 10,
+      "itemSubclass": "One-Handed Maces",
+      "inventorySlot": "One-Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Malfeasance Mallet",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mace",
+          "type": 21,
+          "leftText": "One-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 2.60",
+          "type": 0,
+          "leftText": "164 - 212 Damage"
+        },
+        {
+          "leftText": "(72.3 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Strength",
+          "type": 42
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+33 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+51 Mastery",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Malfeasance Mallet",
+      "iconFileId": 7267173,
+      "metadataVersion": 1,
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:251100::::::::10:1453::23:1:3524:1:28:3025:::::|h[Malfeasance Mallet]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 51,
+          "share": 0.6071428571428571
+        },
+        {
+          "stat": "Haste",
+          "value": 33,
+          "share": 0.39285714285714285
+        }
+      ],
+      "secondaryStatBudget": 84,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "251101": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_STRENGTH_SHORT": 128,
+        "ITEM_MOD_CRIT_RATING_SHORT": 69,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_VERSATILITY": 98,
+        "RESISTANCE0_NAME": 331
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 4,
+      "itemSubclass": "Plate",
+      "inventorySlot": "Chest",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Arcane Guardian's Shell",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "331 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+69 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+98 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Arcane Guardian's Shell",
+      "iconFileId": 7135735,
+      "metadataVersion": 1,
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:251101::::::::10:1453::23:1:3524:1:28:3025:::::|h[Arcane Guardian's Shell]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 98,
+          "share": 0.5868263473053892
+        },
+        {
+          "stat": "Crit",
+          "value": 69,
+          "share": 0.41317365269461076
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Crit"
+    },
+    "251102": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 96,
+        "ITEM_MOD_HASTE_RATING_SHORT": 49,
+        "ITEM_MOD_VERSATILITY": 76,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 49
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WAIST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 7,
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Waist",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Clasp of Compliance",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "49 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+76 Versatility",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Clasp of Compliance",
+      "iconFileId": 7252741,
+      "metadataVersion": 1,
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:251102::::::::10:1453::23:1:3524:1:28:3025:::::|h[Clasp of Compliance]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 76,
+          "share": 0.608
+        },
+        {
+          "stat": "Haste",
+          "value": 49,
+          "share": 0.392
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Haste"
+    },
+    "251103": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 39,
+        "ITEM_MOD_VERSATILITY": 55,
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_AGILITY_SHORT": 72,
+        "RESISTANCE0_NAME": 75
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WRIST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 5,
+      "itemSubclass": "Leather",
+      "inventorySlot": "Wrist",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Custodial Cuffs",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Wrist",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "75 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+39 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+55 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Custodial Cuffs",
+      "iconFileId": 7232469,
+      "metadataVersion": 1,
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ4:|Hitem:251103::::::::10:1453::23:1:3524:1:28:3025:::::|h[Custodial Cuffs]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 55,
+          "share": 0.5851063829787234
+        },
+        {
+          "stat": "Haste",
+          "value": 39,
+          "share": 0.4148936170212766
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 72
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Haste"
+    },
+    "251104": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_MASTERY_RATING_SHORT": 58,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_AGILITY_SHORT": 128,
+        "ITEM_MOD_VERSATILITY": 109,
+        "RESISTANCE0_NAME": 193
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_LEGS",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 8,
+      "itemSubclass": "Mail",
+      "inventorySlot": "Legs",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Leggings of Orderly Conduct",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Legs",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "193 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+109 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+58 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Leggings of Orderly Conduct",
+      "iconFileId": 7259237,
+      "metadataVersion": 1,
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:251104::::::::10:1453::23:1:3524:1:28:3025:::::|h[Leggings of Orderly Conduct]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 109,
+          "share": 0.6526946107784432
+        },
+        {
+          "stat": "Mastery",
+          "value": 58,
+          "share": 0.3473053892215569
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Mastery"
+    },
+    "251105": {
+      "armorType": "Shield",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 196,
+        "ITEM_MOD_STRENGTH_SHORT": 64,
+        "ITEM_MOD_CRIT_RATING_SHORT": 35,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 49,
+        "RESISTANCE0_NAME": 971
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_SHIELD",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 11,
+      "itemSubclass": "Shields",
+      "inventorySlot": "Off Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Ward of the Spellbreaker",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Shield",
+          "type": 21,
+          "leftText": "Off Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "971 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "2,427 Block",
+          "type": 0
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+35 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Strength",
+          "type": 42
+        },
+        {
+          "leftText": "+196 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Ward of the Spellbreaker",
+      "iconFileId": 7392266,
+      "metadataVersion": 1,
+      "itemSubclassID": 6,
+      "itemLink": "|cnIQ4:|Hitem:251105::::::::10:1453::23:1:3524:1:28:3025:::::|h[Ward of the Spellbreaker]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 49,
+          "share": 0.5833333333333334
+        },
+        {
+          "stat": "Crit",
+          "value": 35,
+          "share": 0.4166666666666667
+        }
+      ],
+      "secondaryStatBudget": 84,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 196
+        },
+        {
+          "stat": "Strength",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "251106": {
+      "armorType": "Warglaives",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 308,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 54,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 72.5,
+        "ITEM_MOD_VERSATILITY": 29,
+        "ITEM_MOD_AGILITY_SHORT": 64
+      },
+      "itemClass": "Weapon",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WEAPON",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 10,
+      "itemSubclass": "Warglaives",
+      "inventorySlot": "One-Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Resolute Runeglaive",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Warglaives",
+          "type": 21,
+          "leftText": "One-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 2.60",
+          "type": 0,
+          "leftText": "146 - 231 Damage"
+        },
+        {
+          "leftText": "(72.5 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+29 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+54 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+372 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Resolute Runeglaive",
+      "iconFileId": 2398172,
+      "metadataVersion": 1,
+      "itemSubclassID": 9,
+      "itemLink": "|cnIQ4:|Hitem:251106::::::::10:1453::23:1:3524:1:28:3025:::::|h[Resolute Runeglaive]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 54,
+          "share": 0.6506024096385542
+        },
+        {
+          "stat": "Vers",
+          "value": 29,
+          "share": 0.3493975903614458
+        }
+      ],
+      "secondaryStatBudget": 83,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 308
+        },
+        {
+          "stat": "Agility",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Vers"
+    },
+    "251107": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 47,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 79,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_STRENGTH_SHORT": 96,
+        "RESISTANCE0_NAME": 207
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_FEET",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 9,
+      "itemSubclass": "Plate",
+      "inventorySlot": "Feet",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Oathsworn Stompers",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Feet",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "207 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+47 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+79 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Oathsworn Stompers",
+      "iconFileId": 7135732,
+      "metadataVersion": 1,
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:251107::::::::10:1453::23:1:3524:1:28:3025:::::|h[Oathsworn Stompers]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 79,
+          "share": 0.626984126984127
+        },
+        {
+          "stat": "Haste",
+          "value": 47,
+          "share": 0.373015873015873
+        }
+      ],
+      "secondaryStatBudget": 126,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "251108": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 72,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 59,
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_VERSATILITY": 35,
+        "RESISTANCE0_NAME": 43
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WRIST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 5,
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Wrist",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Wraps of Watchful Wrath",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Wrist",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "43 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+35 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+59 Mastery",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Wraps of Watchful Wrath",
+      "iconFileId": 7252743,
+      "metadataVersion": 1,
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:251108::::::::10:1453::23:1:3524:1:28:3025:::::|h[Wraps of Watchful Wrath]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 59,
+          "share": 0.6276595744680851
+        },
+        {
+          "stat": "Vers",
+          "value": 35,
+          "share": 0.3723404255319149
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 72
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Vers"
+    },
+    "251109": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 66,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_AGILITY_SHORT": 128,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 101,
+        "RESISTANCE0_NAME": 112
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_HEAD",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 0,
+      "itemSubclass": "Leather",
+      "inventorySlot": "Head",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Spellsnap Shadowmask",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Head",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "112 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+66 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Spellsnap Shadowmask",
+      "iconFileId": 7232473,
+      "metadataVersion": 1,
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ4:|Hitem:251109::::::::10:1453::23:1:3524:1:28:3025:::::|h[Spellsnap Shadowmask]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 101,
+          "share": 0.6047904191616766
+        },
+        {
+          "stat": "Crit",
+          "value": 66,
+          "share": 0.39520958083832336
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "251110": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 52,
+        "ITEM_MOD_VERSATILITY": 73,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_AGILITY_SHORT": 96,
+        "RESISTANCE0_NAME": 124
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WAIST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 7,
+      "itemSubclass": "Mail",
+      "inventorySlot": "Waist",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Sunlash's Sunsash",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "124 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+73 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Sunlash's Sunsash",
+      "iconFileId": 7259230,
+      "metadataVersion": 1,
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:251110::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sunlash's Sunsash]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 73,
+          "share": 0.584
+        },
+        {
+          "stat": "Haste",
+          "value": 52,
+          "share": 0.416
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Haste"
+    },
+    "251111": {
+      "armorType": "Dagger",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 372,
+        "ITEM_MOD_HASTE_RATING_SHORT": 29,
+        "ITEM_MOD_CRIT_RATING_SHORT": 54,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 36.11111068725586
+      },
+      "itemClass": "Weapon",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WEAPON",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 10,
+      "itemSubclass": "Daggers",
+      "inventorySlot": "One-Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Splitshroud Stinger",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Dagger",
+          "type": 21,
+          "leftText": "One-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 1.80",
+          "type": 0,
+          "leftText": "48 - 82 Damage"
+        },
+        {
+          "leftText": "(36.1 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+372 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+54 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+29 Haste",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Splitshroud Stinger",
+      "iconFileId": 7065189,
+      "metadataVersion": 1,
+      "itemSubclassID": 15,
+      "itemLink": "|cnIQ4:|Hitem:251111::::::::10:1453::23:1:3524:1:28:3025:::::|h[Splitshroud Stinger]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 54,
+          "share": 0.6506024096385542
+        },
+        {
+          "stat": "Haste",
+          "value": 29,
+          "share": 0.3493975903614458
+        }
+      ],
+      "secondaryStatBudget": 83,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 372
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Haste"
+    },
+    "251112": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 47,
+        "ITEM_MOD_VERSATILITY": 79,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_STRENGTH_SHORT": 96,
+        "RESISTANCE0_NAME": 186
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WAIST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 7,
+      "itemSubclass": "Plate",
+      "inventorySlot": "Waist",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Shadowsplit Girdle",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "186 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+47 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+79 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Shadowsplit Girdle",
+      "iconFileId": 7135731,
+      "metadataVersion": 1,
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:251112::::::::10:1453::23:1:3524:1:28:3025:::::|h[Shadowsplit Girdle]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 79,
+          "share": 0.626984126984127
+        },
+        {
+          "stat": "Haste",
+          "value": 47,
+          "share": 0.373015873015873
+        }
+      ],
+      "secondaryStatBudget": 126,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Haste"
+    },
+    "251113": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 47,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_AGILITY_SHORT": 96,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 79,
+        "RESISTANCE0_NAME": 84
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_HAND",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 6,
+      "itemSubclass": "Leather",
+      "inventorySlot": "Hands",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Gloves of Viscous Goo",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Hands",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "84 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+47 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+79 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Gloves of Viscous Goo",
+      "iconFileId": 7232472,
+      "metadataVersion": 1,
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ4:|Hitem:251113::::::::10:1453::23:1:3524:1:28:3025:::::|h[Gloves of Viscous Goo]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 79,
+          "share": 0.626984126984127
+        },
+        {
+          "stat": "Crit",
+          "value": 47,
+          "share": 0.373015873015873
+        }
+      ],
+      "secondaryStatBudget": 126,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "251114": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_MASTERY_RATING_SHORT": 62,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_AGILITY_SHORT": 128,
+        "ITEM_MOD_VERSATILITY": 105,
+        "RESISTANCE0_NAME": 220
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 4,
+      "itemSubclass": "Mail",
+      "inventorySlot": "Chest",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Voidwarped Oozemail",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "220 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Voidwarped Oozemail",
+      "iconFileId": 7259234,
+      "metadataVersion": 1,
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:251114::::::::10:1453::23:1:3524:1:28:3025:::::|h[Voidwarped Oozemail]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Mastery",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Mastery"
+    },
+    "251115": {
+      "armorType": "",
+      "stats": {
+        "EMPTY_SOCKET_PRISMATIC": 1,
+        "ITEM_MOD_HASTE_RATING_SHORT": 115,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 195,
+        "ITEM_MOD_STAMINA_SHORT": 1353
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_FINGER",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 12,
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Finger",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Bifurcation Band",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "type": 21,
+          "leftText": "Finger",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+115 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+195 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Prismatic Socket",
+          "type": 3
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Bifurcation Band",
+      "iconFileId": 7636681,
+      "metadataVersion": 1,
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:251115::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bifurcation Band]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 195,
+          "share": 0.6290322580645161
+        },
+        {
+          "stat": "Haste",
+          "value": 115,
+          "share": 0.3709677419354839
+        }
+      ],
+      "secondaryStatBudget": 310,
+      "primaryStats": [],
+      "sockets": [
+        {
+          "type": "Prismatic",
+          "count": 1
+        }
+      ],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "251117": {
+      "armorType": "Axe",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 101,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 66,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 95.83333587646484,
+        "ITEM_MOD_STRENGTH_SHORT": 128
+      },
+      "itemClass": "Weapon",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_2HWEAPON",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 10,
+      "itemSubclass": "Two-Handed Axes",
+      "inventorySlot": "Two-Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Whirling Voidcleaver",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Axe",
+          "type": 21,
+          "leftText": "Two-Hand",
+          "isValidInvSlot": false
+        },
+        {
+          "rightText": "Speed 3.60",
+          "type": 0,
+          "leftText": "224 - 466 Damage"
+        },
+        {
+          "leftText": "(95.8 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Strength",
+          "type": 42
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+66 Mastery",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Whirling Voidcleaver",
+      "iconFileId": 6994475,
+      "metadataVersion": 1,
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:251117::::::::10:1453::23:1:3524:1:28:3025:::::|h[Whirling Voidcleaver]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 101,
+          "share": 0.6047904191616766
+        },
+        {
+          "stat": "Mastery",
+          "value": 66,
+          "share": 0.39520958083832336
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Mastery"
+    },
+    "251118": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_STRENGTH_SHORT": 128,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 105,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_CRIT_RATING_SHORT": 62,
+        "RESISTANCE0_NAME": 290
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_LEGS",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 8,
+      "itemSubclass": "Plate",
+      "inventorySlot": "Legs",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Legplates of Lingering Dusk",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Legs",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "290 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Legplates of Lingering Dusk",
+      "iconFileId": 7135738,
+      "metadataVersion": 1,
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:251118::::::::10:1453::23:1:3524:1:28:3025:::::|h[Legplates of Lingering Dusk]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Crit",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "251119": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 66,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_AGILITY_SHORT": 128,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 101,
+        "RESISTANCE0_NAME": 165
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_HEAD",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 0,
+      "itemSubclass": "Mail",
+      "inventorySlot": "Head",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Vortex Visage",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Head",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "165 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+66 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Vortex Visage",
+      "iconFileId": 7259236,
+      "metadataVersion": 1,
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:251119::::::::10:1453::23:1:3524:1:28:3025:::::|h[Vortex Visage]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 101,
+          "share": 0.6047904191616766
+        },
+        {
+          "stat": "Crit",
+          "value": 66,
+          "share": 0.39520958083832336
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "251120": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 128,
+        "ITEM_MOD_CRIT_RATING_SHORT": 62,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_VERSATILITY": 105,
+        "RESISTANCE0_NAME": 87
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 4,
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Chest",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Wraps of Umbral Descent",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "87 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+128 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+2,406 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+62 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+105 Versatility",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Wraps of Umbral Descent",
+      "iconFileId": 7252745,
+      "metadataVersion": 1,
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:251120::::::::10:1453::23:1:3524:1:28:3025:::::|h[Wraps of Umbral Descent]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Crit",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Crit"
+    },
+    "251121": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_MASTERY_RATING_SHORT": 81,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_AGILITY_SHORT": 96,
+        "ITEM_MOD_VERSATILITY": 44,
+        "RESISTANCE0_NAME": 93
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_FEET",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 9,
+      "itemSubclass": "Leather",
+      "inventorySlot": "Feet",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Domanaar's Dire Treads",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Feet",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "93 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,805 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+44 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+81 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+96 Intellect",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Domanaar's Dire Treads",
+      "iconFileId": 7232468,
+      "metadataVersion": 1,
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ4:|Hitem:251121::::::::10:1453::23:1:3524:1:28:3025:::::|h[Domanaar's Dire Treads]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 81,
+          "share": 0.648
+        },
+        {
+          "stat": "Vers",
+          "value": 44,
+          "share": 0.352
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Vers"
+    },
+    "251122": {
+      "armorType": "Sword",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 52,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 31,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 72.5,
+        "ITEM_MOD_AGILITY_SHORT": 64
+      },
+      "itemClass": "Weapon",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_WEAPON",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 10,
+      "itemSubclass": "One-Handed Swords",
+      "inventorySlot": "One-Hand",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Shadowslash Slicer",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Sword",
+          "type": 21,
+          "leftText": "One-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 2.60",
+          "type": 0,
+          "leftText": "141 - 236 Damage"
+        },
+        {
+          "leftText": "(72.5 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,203 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+52 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+31 Mastery",
+          "type": 0
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "name": "Shadowslash Slicer",
+      "iconFileId": 6994479,
+      "metadataVersion": 1,
+      "itemSubclassID": 7,
+      "itemLink": "|cnIQ4:|Hitem:251122::::::::10:1453::23:1:3524:1:28:3025:::::|h[Shadowslash Slicer]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 52,
+          "share": 0.6265060240963856
+        },
+        {
+          "stat": "Mastery",
+          "value": 31,
+          "share": 0.37349397590361444
+        }
+      ],
+      "secondaryStatBudget": 83,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Mastery"
+    },
+    "251143": {
+      "armorType": "Fist Weapon",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 49,
+        "ITEM_MOD_VERSATILITY": 35,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 72.30769348144531,
+        "ITEM_MOD_AGILITY_SHORT": 64
+      },
+      "itemClass": "Weapon",
+      "itemClassID": 2,
+      "equipLocation": "INVTYPE_WEAPON",
+      "itemLevel": 292,
+      "itemSubclassID": 13,
+      "journalFilterType": 10,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Grim Harvest Gloves",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Fist Weapon",
+          "type": 21,
+          "leftText": "One-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 2.60",
+          "type": 0,
+          "leftText": "155 - 221 Damage"
+        },
+        {
+          "type": 0,
+          "leftText": "(72.3 damage per second)"
+        },
+        {
+          "type": 0,
+          "leftText": "+64 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,203 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+49 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+35 Versatility"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Grim Harvest Gloves",
+      "itemSubclass": "Fist Weapons",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7065188,
+      "itemLink": "|cnIQ4:|Hitem:251143::::::::10:1453::23:1:3524:1:28:3025:::::|h[Grim Harvest Gloves]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 49,
+          "share": 0.5833333333333334
+        },
+        {
+          "stat": "Vers",
+          "value": 35,
+          "share": 0.4166666666666667
+        }
+      ],
+      "secondaryStatBudget": 84,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "251144": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_STRENGTH_SHORT": 96,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 76,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_VERSATILITY": 49,
+        "RESISTANCE0_NAME": 186
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_WAIST",
+      "itemLevel": 292,
+      "itemSubclassID": 4,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Autumn's Boon Belt",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "186 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Strength"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+49 Versatility"
+        },
+        {
+          "type": 0,
+          "leftText": "+76 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Autumn's Boon Belt",
+      "itemSubclass": "Plate",
+      "inventorySlot": "Waist",
+      "iconFileId": 7135731,
+      "itemLink": "|cnIQ4:|Hitem:251144::::::::10:1453::23:1:3524:1:28:3025:::::|h[Autumn's Boon Belt]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 76,
+          "share": 0.608
+        },
+        {
+          "stat": "Vers",
+          "value": 49,
+          "share": 0.392
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Vers"
+    },
+    "251145": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 73,
+        "ITEM_MOD_VERSATILITY": 52,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 138,
+        "ITEM_MOD_AGILITY_SHORT": 96
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_FEET",
+      "itemLevel": 292,
+      "itemSubclassID": 3,
+      "journalFilterType": 9,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Forgotten Tribe Footguards",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Feet",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "138 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+73 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+52 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 37,
+          "leftText": "\"From a tribe forgotten everywhere but Nalorakk's dreams.\""
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Forgotten Tribe Footguards",
+      "itemSubclass": "Mail",
+      "inventorySlot": "Feet",
+      "iconFileId": 7259231,
+      "itemLink": "|cnIQ4:|Hitem:251145::::::::10:1453::23:1:3524:1:28:3025:::::|h[Forgotten Tribe Footguards]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 73,
+          "share": 0.584
+        },
+        {
+          "stat": "Vers",
+          "value": 52,
+          "share": 0.416
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "251146": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 52,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 103,
+        "ITEM_MOD_VERSATILITY": 73,
+        "ITEM_MOD_AGILITY_SHORT": 96
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_SHOULDER",
+      "itemLevel": 292,
+      "itemSubclassID": 2,
+      "journalFilterType": 2,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Scavenger's Spaulders",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Shoulder",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "103 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+52 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+73 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Scavenger's Spaulders",
+      "itemSubclass": "Leather",
+      "inventorySlot": "Shoulder",
+      "iconFileId": 7232475,
+      "itemLink": "|cnIQ4:|Hitem:251146::::::::10:1453::23:1:3524:1:28:3025:::::|h[Scavenger's Spaulders]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 73,
+          "share": 0.584
+        },
+        {
+          "stat": "Crit",
+          "value": 52,
+          "share": 0.416
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Crit"
+    },
+    "251147": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 128,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 101,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_VERSATILITY": 66,
+        "RESISTANCE0_NAME": 87
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemLevel": 292,
+      "itemSubclassID": 1,
+      "journalFilterType": 4,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Hoarded Harvest Wrap",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "87 Armor"
+        },
+        {
+          "type": 42,
+          "leftText": "+128 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+66 Versatility"
+        },
+        {
+          "type": 0,
+          "leftText": "+101 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Hoarded Harvest Wrap",
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Chest",
+      "iconFileId": 7252745,
+      "itemLink": "|cnIQ4:|Hitem:251147::::::::10:1453::23:1:3524:1:28:3025:::::|h[Hoarded Harvest Wrap]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 101,
+          "share": 0.6047904191616766
+        },
+        {
+          "stat": "Vers",
+          "value": 66,
+          "share": 0.39520958083832336
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Vers"
+    },
+    "251148": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_VERSATILITY": 186,
+        "ITEM_MOD_CRIT_RATING_SHORT": 124,
+        "EMPTY_SOCKET_PRISMATIC": 1
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_FINGER",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 12,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Pilfered Precious Band",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Finger",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "+1,353 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+124 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+186 Versatility"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 3,
+          "leftText": "Prismatic Socket"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 37,
+          "leftText": "\"The Hoardmonger was strangely attached to this 'precious' ring.\""
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Pilfered Precious Band",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Finger",
+      "iconFileId": 7636660,
+      "itemLink": "|cnIQ4:|Hitem:251148::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pilfered Precious Band]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 186,
+          "share": 0.6
+        },
+        {
+          "stat": "Crit",
+          "value": 124,
+          "share": 0.4
+        }
+      ],
+      "secondaryStatBudget": 310,
+      "primaryStats": [],
+      "sockets": [
+        {
+          "type": "Prismatic",
+          "count": 1
+        }
+      ],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Crit"
+    },
+    "251149": {
+      "armorType": "Polearm",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 69,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 98,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 95.83333587646484,
+        "ITEM_MOD_AGILITY_SHORT": 128
+      },
+      "itemClass": "Weapon",
+      "itemClassID": 2,
+      "equipLocation": "INVTYPE_2HWEAPON",
+      "itemLevel": 292,
+      "itemSubclassID": 6,
+      "journalFilterType": 10,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Victor's Flashfrozen Blade",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Polearm",
+          "type": 21,
+          "leftText": "Two-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 3.60",
+          "type": 0,
+          "leftText": "241 - 449 Damage"
+        },
+        {
+          "type": 0,
+          "leftText": "(95.8 damage per second)"
+        },
+        {
+          "type": 0,
+          "leftText": "+128 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+69 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+98 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Victor's Flashfrozen Blade",
+      "itemSubclass": "Polearms",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 6929479,
+      "itemLink": "|cnIQ4:|Hitem:251149::::::::10:1453::23:1:3524:1:28:3025:::::|h[Victor's Flashfrozen Blade]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 98,
+          "share": 0.5868263473053892
+        },
+        {
+          "stat": "Haste",
+          "value": 69,
+          "share": 0.41317365269461076
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "251150": {
+      "armorType": "Shield",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 196,
+        "ITEM_MOD_HASTE_RATING_SHORT": 52,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 31,
+        "ITEM_MOD_STAMINA_SHORT": 1203,
+        "ITEM_MOD_STRENGTH_SHORT": 64,
+        "RESISTANCE0_NAME": 971
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_SHIELD",
+      "itemLevel": 292,
+      "itemSubclassID": 6,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Tempest's Shelter",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Shield",
+          "type": 21,
+          "leftText": "Off Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "971 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "2,427 Block"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,203 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+52 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+31 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+64 Strength"
+        },
+        {
+          "type": 42,
+          "leftText": "+196 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Tempest's Shelter",
+      "itemSubclass": "Shields",
+      "inventorySlot": "Off Hand",
+      "iconFileId": 7392266,
+      "itemLink": "|cnIQ4:|Hitem:251150::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tempest's Shelter]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 52,
+          "share": 0.6265060240963856
+        },
+        {
+          "stat": "Mastery",
+          "value": 31,
+          "share": 0.37349397590361444
+        }
+      ],
+      "secondaryStatBudget": 83,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 196
+        },
+        {
+          "stat": "Strength",
+          "value": 64
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Mastery"
+    },
+    "251151": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_STRENGTH_SHORT": 128,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 58,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_CRIT_RATING_SHORT": 109,
+        "RESISTANCE0_NAME": 331
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemLevel": 292,
+      "itemSubclassID": 4,
+      "journalFilterType": 4,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Sentinel Challenger's Prize",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "331 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+128 Strength"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+109 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+58 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+128 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Sentinel Challenger's Prize",
+      "itemSubclass": "Plate",
+      "inventorySlot": "Chest",
+      "iconFileId": 7135735,
+      "itemLink": "|cnIQ4:|Hitem:251151::::::::10:1453::23:1:3524:1:28:3025:::::|h[Sentinel Challenger's Prize]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 109,
+          "share": 0.6526946107784432
+        },
+        {
+          "stat": "Mastery",
+          "value": 58,
+          "share": 0.3473053892215569
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "251152": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 73,
+        "ITEM_MOD_VERSATILITY": 52,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 124,
+        "ITEM_MOD_AGILITY_SHORT": 96
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_HAND",
+      "itemLevel": 292,
+      "itemSubclassID": 3,
+      "journalFilterType": 6,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Season's Turn Gauntlets",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Hands",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "124 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+73 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+52 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Season's Turn Gauntlets",
+      "itemSubclass": "Mail",
+      "inventorySlot": "Hands",
+      "iconFileId": 7259235,
+      "itemLink": "|cnIQ4:|Hitem:251152::::::::10:1453::23:1:3524:1:28:3025:::::|h[Season's Turn Gauntlets]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 73,
+          "share": 0.584
+        },
+        {
+          "stat": "Vers",
+          "value": 52,
+          "share": 0.416
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "251153": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 79,
+        "ITEM_MOD_CRIT_RATING_SHORT": 47,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 93,
+        "ITEM_MOD_AGILITY_SHORT": 96
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_FEET",
+      "itemLevel": 292,
+      "itemSubclassID": 2,
+      "journalFilterType": 9,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Arctic Explorer's Legwraps",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Feet",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "93 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+47 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+79 Haste"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Arctic Explorer's Legwraps",
+      "itemSubclass": "Leather",
+      "inventorySlot": "Feet",
+      "iconFileId": 7232468,
+      "itemLink": "|cnIQ4:|Hitem:251153::::::::10:1453::23:1:3524:1:28:3025:::::|h[Arctic Explorer's Legwraps]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 79,
+          "share": 0.626984126984127
+        },
+        {
+          "stat": "Crit",
+          "value": 47,
+          "share": 0.373015873015873
+        }
+      ],
+      "secondaryStatBudget": 126,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Crit"
+    },
+    "251154": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 72,
+        "ITEM_MOD_CRIT_RATING_SHORT": 59,
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 35,
+        "RESISTANCE0_NAME": 43
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_WRIST",
+      "itemLevel": 292,
+      "itemSubclassID": 1,
+      "journalFilterType": 5,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Winter's Embrace Bracers",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Wrist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "43 Armor"
+        },
+        {
+          "type": 42,
+          "leftText": "+72 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,353 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+59 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+35 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Winter's Embrace Bracers",
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Wrist",
+      "iconFileId": 7252743,
+      "itemLink": "|cnIQ4:|Hitem:251154::::::::10:1453::23:1:3524:1:28:3025:::::|h[Winter's Embrace Bracers]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 59,
+          "share": 0.6276595744680851
+        },
+        {
+          "stat": "Mastery",
+          "value": 35,
+          "share": 0.3723404255319149
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 72
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "251155": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 79,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "RESISTANCE0_NAME": 124,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 47,
+        "ITEM_MOD_AGILITY_SHORT": 96
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_WAIST",
+      "itemLevel": 292,
+      "itemSubclassID": 3,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Tribal Defender's Cord",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "124 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+79 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+47 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Tribal Defender's Cord",
+      "itemSubclass": "Mail",
+      "inventorySlot": "Waist",
+      "iconFileId": 7259230,
+      "itemLink": "|cnIQ4:|Hitem:251155::::::::10:1453::23:1:3524:1:28:3025:::::|h[Tribal Defender's Cord]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 79,
+          "share": 0.626984126984127
+        },
+        {
+          "stat": "Mastery",
+          "value": 47,
+          "share": 0.373015873015873
+        }
+      ],
+      "secondaryStatBudget": 126,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "251156": {
+      "armorType": "Staff",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 567,
+        "ITEM_MOD_HASTE_RATING_SHORT": 105,
+        "ITEM_MOD_VERSATILITY": 62,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 47.91666793823242
+      },
+      "itemClass": "Weapon",
+      "itemClassID": 2,
+      "equipLocation": "INVTYPE_2HWEAPON",
+      "itemLevel": 292,
+      "itemSubclassID": 10,
+      "journalFilterType": 10,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Fallen Speaker's Staff",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Staff",
+          "type": 21,
+          "leftText": "Two-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 3.60",
+          "type": 0,
+          "leftText": "146 - 199 Damage"
+        },
+        {
+          "type": 0,
+          "leftText": "(47.9 damage per second)"
+        },
+        {
+          "type": 42,
+          "leftText": "+567 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+105 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+62 Versatility"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Fallen Speaker's Staff",
+      "itemSubclass": "Staves",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 6989931,
+      "itemLink": "|cnIQ4:|Hitem:251156::::::::10:1453::23:1:3524:1:28:3025:::::|h[Fallen Speaker's Staff]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Vers",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 567
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "251158": {
+      "armorType": "Mail",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 69,
+        "ITEM_MOD_VERSATILITY": 98,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "RESISTANCE0_NAME": 165,
+        "ITEM_MOD_AGILITY_SHORT": 128
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_HEAD",
+      "itemLevel": 292,
+      "itemSubclassID": 3,
+      "journalFilterType": 0,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Nalorakk's Nightmare",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Head",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "165 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+128 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+69 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+98 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+128 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Nalorakk's Nightmare",
+      "itemSubclass": "Mail",
+      "inventorySlot": "Head",
+      "iconFileId": 7259236,
+      "itemLink": "|cnIQ4:|Hitem:251158::::::::10:1453::23:1:3524:1:28:3025:::::|h[Nalorakk's Nightmare]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Vers",
+          "value": 98,
+          "share": 0.5868263473053892
+        },
+        {
+          "stat": "Haste",
+          "value": 69,
+          "share": 0.41317365269461076
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Vers",
+      "stat2": "Haste"
+    },
+    "251159": {
+      "armorType": "Leather",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 62,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 105,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "RESISTANCE0_NAME": 149,
+        "ITEM_MOD_AGILITY_SHORT": 128
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_CHEST",
+      "itemLevel": 292,
+      "itemSubclassID": 2,
+      "journalFilterType": 4,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "War Trial Vestments",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "149 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+128 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+62 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+105 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+128 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "War Trial Vestments",
+      "itemSubclass": "Leather",
+      "inventorySlot": "Chest",
+      "iconFileId": 7232471,
+      "itemLink": "|cnIQ4:|Hitem:251159::::::::10:1453::23:1:3524:1:28:3025:::::|h[War Trial Vestments]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Haste",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "251160": {
+      "armorType": "Cloth",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 128,
+        "ITEM_MOD_HASTE_RATING_SHORT": 105,
+        "ITEM_MOD_CRIT_RATING_SHORT": 62,
+        "ITEM_MOD_STAMINA_SHORT": 2406,
+        "RESISTANCE0_NAME": 76
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_LEGS",
+      "itemLevel": 292,
+      "itemSubclassID": 1,
+      "journalFilterType": 8,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Forest Dream Leg-guards",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Legs",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "76 Armor"
+        },
+        {
+          "type": 42,
+          "leftText": "+128 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,406 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+62 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+105 Haste"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Forest Dream Leg-guards",
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Legs",
+      "iconFileId": 7252748,
+      "itemLink": "|cnIQ4:|Hitem:251160::::::::10:1453::23:1:3524:1:28:3025:::::|h[Forest Dream Leg-guards]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 105,
+          "share": 0.6287425149700598
+        },
+        {
+          "stat": "Crit",
+          "value": 62,
+          "share": 0.3712574850299401
+        }
+      ],
+      "secondaryStatBudget": 167,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 128
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Crit"
+    },
+    "251173": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_HASTE_RATING_SHORT": 204,
+        "ITEM_MOD_CRIT_RATING_SHORT": 106,
+        "EMPTY_SOCKET_PRISMATIC": 1
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_NECK",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 1,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Yoke of the Charging Bear",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 21,
+          "leftText": "Neck",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "+1,353 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+106 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+204 Haste"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 3,
+          "leftText": "Prismatic Socket"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Yoke of the Charging Bear",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Neck",
+      "iconFileId": 7636649,
+      "itemLink": "|cnIQ4:|Hitem:251173::::::::10:1453::23:1:3524:1:28:3025:::::|h[Yoke of the Charging Bear]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 204,
+          "share": 0.6580645161290323
+        },
+        {
+          "stat": "Crit",
+          "value": 106,
+          "share": 0.3419354838709677
+        }
+      ],
+      "secondaryStatBudget": 310,
+      "primaryStats": [],
+      "sockets": [
+        {
+          "type": "Prismatic",
+          "count": 1
+        }
+      ],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Crit"
+    },
+    "251214": {
+      "armorType": "Plate",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 76,
+        "ITEM_MOD_CRIT_RATING_SHORT": 49,
+        "ITEM_MOD_STAMINA_SHORT": 1805,
+        "ITEM_MOD_STRENGTH_SHORT": 96,
+        "RESISTANCE0_NAME": 186
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_HAND",
+      "itemLevel": 292,
+      "itemSubclassID": 4,
+      "journalFilterType": 6,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Bonds of the Hash'ura",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Hands",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "186 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+96 Strength"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,805 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+49 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+76 Haste"
+        },
+        {
+          "type": 42,
+          "leftText": "+96 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Bonds of the Hash'ura",
+      "itemSubclass": "Plate",
+      "inventorySlot": "Hands",
+      "iconFileId": 7135736,
+      "itemLink": "|cnIQ4:|Hitem:251214::::::::10:1453::23:1:3524:1:28:3025:::::|h[Bonds of the Hash'ura]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 76,
+          "share": 0.608
+        },
+        {
+          "stat": "Crit",
+          "value": 49,
+          "share": 0.392
+        }
+      ],
+      "secondaryStatBudget": 125,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 96
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Crit"
+    },
+    "256737": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Recipe",
+      "itemClassID": 9,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemLevel": 1,
+      "itemSubclassID": 8,
+      "journalFilterType": 14,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Formula: Enchant Chest - Mark of Nalorakk",
+          "quality": 3
+        },
+        {
+          "type": 38,
+          "leftText": "Use: Teaches you how to perform the Mark of Nalorakk enchantment.",
+          "spellID": 1236054
+        },
+        {
+          "requirementType": 2,
+          "type": 43,
+          "leftText": "Requires Midnight Enchanting (50)"
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Formula: Enchant Chest - Mark of Nalorakk",
+      "itemSubclass": "Enchanting",
+      "inventorySlot": "",
+      "iconFileId": 237019,
+      "itemLink": "|cnIQ3:|Hitem:256737::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of Nalorakk]|h|r",
+      "itemQuality": "ff0070dd",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1236054,
+          "text": "Use: Teaches you how to perform the Mark of Nalorakk enchantment.",
+          "tooltipType": 38
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "other",
+      "stat1": null,
+      "stat2": null
+    },
+    "256755": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Recipe",
+      "itemLevel": 1,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemQuality": "ff0070dd",
+      "journalFilterType": 14,
+      "itemSubclass": "Enchanting",
+      "inventorySlot": "",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Formula: Enchant Chest - Mark of the Magister",
+          "quality": 3
+        },
+        {
+          "type": 38,
+          "leftText": "Use: Teaches you how to perform the Mark of the Magister enchantment.",
+          "spellID": 1236082
+        },
+        {
+          "requirementType": 2,
+          "type": 43,
+          "leftText": "Requires Midnight Enchanting (50)"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Formula: Enchant Chest - Mark of the Magister",
+      "iconFileId": 237019,
+      "metadataVersion": 1,
+      "itemSubclassID": 8,
+      "itemLink": "|cnIQ3:|Hitem:256755::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Chest - Mark of the Magister]|h|r",
+      "itemClassID": 9,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1236082,
+          "text": "Use: Teaches you how to perform the Mark of the Magister enchantment.",
+          "tooltipType": 38
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "other",
+      "stat1": null,
+      "stat2": null
+    },
+    "256759": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Recipe",
+      "itemLevel": 1,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemQuality": "ff0070dd",
+      "journalFilterType": 14,
+      "itemSubclass": "Enchanting",
+      "inventorySlot": "",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Formula: Enchant Weapon - Flames of the Sin'dorei",
+          "quality": 3
+        },
+        {
+          "type": 38,
+          "leftText": "Use: Teaches you how to perform the Flames of the Sin'dorei enchantment.",
+          "spellID": 1236094
+        },
+        {
+          "requirementType": 2,
+          "type": 43,
+          "leftText": "Requires Midnight Enchanting (50)"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Formula: Enchant Weapon - Flames of the Sin'dorei",
+      "iconFileId": 237019,
+      "metadataVersion": 1,
+      "itemSubclassID": 8,
+      "itemLink": "|cnIQ3:|Hitem:256759::::::::10:1453::23:1:3524:1:28:3025:::::|h[Formula: Enchant Weapon - Flames of the Sin'dorei]|h|r",
+      "itemClassID": 9,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1236094,
+          "text": "Use: Teaches you how to perform the Flames of the Sin'dorei enchantment.",
+          "tooltipType": 38
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "other",
+      "stat1": null,
+      "stat2": null
+    },
+    "258033": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Recipe",
+      "itemLevel": 1,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemQuality": "ff0070dd",
+      "journalFilterType": 14,
+      "itemSubclass": "Tailoring",
+      "inventorySlot": "",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Pattern: Arcanoweave Lining",
+          "quality": 3
+        },
+        {
+          "leftText": "",
+          "type": 19
+        },
+        {
+          "leftText": "Retrieving item information",
+          "type": 41
+        },
+        {
+          "type": 38,
+          "leftText": "Use: Teaches you how to craft Arcanoweave Lining.",
+          "spellID": 1228961
+        },
+        {
+          "leftText": "Embroidery Floss, Arcanoweave (6)",
+          "type": 0
+        },
+        {
+          "requirementType": 2,
+          "type": 43,
+          "leftText": "Requires Midnight Tailoring (50)"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Pattern: Arcanoweave Lining",
+      "iconFileId": 4549190,
+      "metadataVersion": 1,
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ3:|Hitem:258033::::::::10:1453::23:1:3524:1:28:3025:::::|h[Pattern: Arcanoweave Lining]|h|r",
+      "itemClassID": 9,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1228961,
+          "text": "Use: Teaches you how to craft Arcanoweave Lining.",
+          "tooltipType": 38
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "other",
+      "stat1": null,
+      "stat2": null
+    },
+    "260231": {
+      "armorType": "Mount",
+      "stats": [],
+      "itemClass": "Miscellaneous",
+      "itemLevel": 10,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 14,
+      "itemSubclass": "Mount",
+      "inventorySlot": "",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Lucent Hawkstrider",
+          "quality": 4
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "leftText": "Ground Mount",
+          "type": 0
+        },
+        {
+          "type": 38,
+          "leftText": "Use: Teaches you how to summon this mount.",
+          "spellID": 1265784
+        }
+      ],
+      "name": "Lucent Hawkstrider",
+      "iconFileId": 7454937,
+      "metadataVersion": 1,
+      "itemSubclassID": 5,
+      "itemLink": "|cnIQ4:|Hitem:260231::::::::10:1453::23:1:3524:1:28:872:::::|h[Lucent Hawkstrider]|h|r",
+      "itemClassID": 15,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1265784,
+          "text": "Use: Teaches you how to summon this mount.",
+          "tooltipType": 38
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "other",
+      "stat1": null,
+      "stat2": null
+    },
+    "260312": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 51,
+        "ITEM_MOD_CRIT_RATING_SHORT": 43,
+        "ITEM_MOD_STAMINA_SHORT": 1353,
+        "ITEM_MOD_AGILITY_SHORT": 72,
+        "RESISTANCE0_NAME": 60
+      },
+      "itemClass": "Armor",
+      "itemLevel": 292,
+      "equipLocation": "INVTYPE_CLOAK",
+      "itemQuality": "ffa335ee",
+      "journalFilterType": 3,
+      "itemSubclass": "Cloth",
+      "inventorySlot": "Back",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Defiant Defender's Drape",
+          "quality": 4
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "leftText": "Upgrade Level: Champion 1/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 21,
+          "leftText": "Back",
+          "isValidInvSlot": true
+        },
+        {
+          "leftText": "60 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,353 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+43 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+51 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+72 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+72 Strength",
+          "type": 42
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "level": 90,
+          "leftText": "Requires Level 90"
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Defiant Defender's Drape",
+      "iconFileId": 7135734,
+      "metadataVersion": 1,
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:260312::::::::10:1453::23:1:3524:1:28:3025:::::|h[Defiant Defender's Drape]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 51,
+          "share": 0.5425531914893617
+        },
+        {
+          "stat": "Crit",
+          "value": 43,
+          "share": 0.4574468085106383
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 72
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Crit"
+    },
+    "263230": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Housing",
+      "itemLevel": 1,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemQuality": "ff1eff00",
+      "journalFilterType": 14,
+      "itemSubclass": "Decor",
+      "inventorySlot": "",
+      "tooltipLines": [
+        {
+          "rightText": "|A:House-Decor-budget-icon:21:21|a 3",
+          "type": 22,
+          "leftText": "Magister's Bookshelf",
+          "quality": 2
+        },
+        {
+          "leftText": "|cFF66BBFFHousing Decor|r",
+          "type": 0
+        },
+        {
+          "bonding": 5,
+          "type": 20,
+          "leftText": "Binds to Warband"
+        },
+        {
+          "leftText": "Total Owned: |cnHIGHLIGHT_FONT_COLOR:2 (Placed: 0, Storage: 2)|r",
+          "type": 0
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "name": "Magister's Bookshelf",
+      "iconFileId": 7494535,
+      "metadataVersion": 1,
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ2:|Hitem:263230::::::::10:1453::23:1:3524:1:28:3025:::::|h[Magister's Bookshelf]|h|r",
+      "itemClassID": 20,
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": false,
+      "itemCategory": "housing-decor",
+      "stat1": null,
+      "stat2": null
+    },
+    "264332": {
+      "armorType": "",
+      "stats": [],
+      "itemClass": "Housing",
+      "itemClassID": 20,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemLevel": 1,
+      "itemSubclassID": 0,
+      "journalFilterType": 14,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "rightText": "|A:House-Decor-budget-icon:21:21|a 3",
+          "type": 22,
+          "leftText": "Amani Ritual Altar",
+          "quality": 2
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF66BBFFHousing Decor|r"
+        },
+        {
+          "bonding": 5,
+          "type": 20,
+          "leftText": "Binds to Warband"
+        },
+        {
+          "type": 0,
+          "leftText": "Total Owned: |cnHIGHLIGHT_FONT_COLOR:5 (Placed: 0, Storage: 5)|r"
+        },
+        {
+          "type": 44,
+          "leftText": "Use: Add this Decor to your House Chest.",
+          "spellID": 1271719
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Amani Ritual Altar",
+      "itemSubclass": "Decor",
+      "inventorySlot": "",
+      "iconFileId": 7509044,
+      "itemLink": "|cnIQ2:|Hitem:264332::::::::10:1453::23:1:3524:1:28:3025:::::|h[Amani Ritual Altar]|h|r",
+      "itemQuality": "ff1eff00",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1271719,
+          "text": "Use: Add this Decor to your House Chest.",
+          "tooltipType": 44
+        }
+      ],
+      "isEquipment": false,
+      "itemCategory": "housing-decor",
+      "stat1": null,
+      "stat2": null
+    },
+    "271681": {
+      "armorType": "",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 196,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 49,
+        "ITEM_MOD_CRIT_RATING_SHORT": 35,
+        "ITEM_MOD_STAMINA_SHORT": 1203
+      },
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "equipLocation": "INVTYPE_HOLDABLE",
+      "itemLevel": 292,
+      "itemSubclassID": 0,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Perennial Frostbound Charm",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 292,
+          "leftText": "Item Level 292"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Champion 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 21,
+          "leftText": "Held In Off-hand",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 42,
+          "leftText": "+196 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,203 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+35 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+49 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Perennial Frostbound Charm",
+      "itemSubclass": "Miscellaneous",
+      "inventorySlot": "Held In Off-hand",
+      "iconFileId": 7431122,
+      "itemLink": "|cnIQ4:|Hitem:271681::::::::10:1453::23:1:3524:1:28:3025:::::|h[Perennial Frostbound Charm]|h|r",
+      "itemQuality": "ffa335ee",
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 49,
+          "share": 0.5833333333333334
+        },
+        {
+          "stat": "Crit",
+          "value": 35,
+          "share": 0.4166666666666667
+        }
+      ],
+      "secondaryStatBudget": 84,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 196
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    }
+  },
+  "instances": {
+    "1300": {
+      "name": "Magisters' Terrace",
+      "encounters": {
+        "2659": {
+          "name": "Arcanotron Custos",
+          "dungeonEncounterId": 3071,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250246,
+                251100,
+                251101,
+                251102,
+                251103,
+                251104
+              ],
+              "specializations": {
+                "62": [
+                  251102
+                ],
+                "63": [
+                  251102
+                ],
+                "64": [
+                  251102
+                ],
+                "65": [
+                  250246,
+                  251101
+                ],
+                "66": [
+                  251100,
+                  251101
+                ],
+                "70": [
+                  251101
+                ],
+                "71": [
+                  251101
+                ],
+                "72": [
+                  251101
+                ],
+                "73": [
+                  251100,
+                  251101
+                ],
+                "102": [
+                  251103
+                ],
+                "103": [
+                  251103
+                ],
+                "104": [
+                  251103
+                ],
+                "105": [
+                  250246,
+                  251103
+                ],
+                "250": [
+                  251101
+                ],
+                "251": [
+                  251100,
+                  251101
+                ],
+                "252": [
+                  251101
+                ],
+                "253": [
+                  251104
+                ],
+                "254": [
+                  251104
+                ],
+                "255": [
+                  251104
+                ],
+                "256": [
+                  250246,
+                  251102
+                ],
+                "257": [
+                  250246,
+                  251102
+                ],
+                "258": [
+                  251102
+                ],
+                "259": [
+                  251103
+                ],
+                "260": [
+                  251103
+                ],
+                "261": [
+                  251103
+                ],
+                "262": [
+                  251104
+                ],
+                "263": [
+                  251104
+                ],
+                "264": [
+                  250246,
+                  251104
+                ],
+                "265": [
+                  251102
+                ],
+                "266": [
+                  251102
+                ],
+                "267": [
+                  251102
+                ],
+                "268": [
+                  251103
+                ],
+                "269": [
+                  251103
+                ],
+                "270": [
+                  250246,
+                  251103
+                ],
+                "577": [
+                  251103
+                ],
+                "581": [
+                  251103
+                ],
+                "1467": [
+                  251104
+                ],
+                "1468": [
+                  250246,
+                  251104
+                ],
+                "1473": [
+                  251104
+                ],
+                "1480": [
+                  251103
+                ]
+              }
+            }
+          }
+        },
+        "2660": {
+          "name": "Gemellus",
+          "dungeonEncounterId": 3073,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250242,
+                251111,
+                251112,
+                251113,
+                251114,
+                251115
+              ],
+              "specializations": {
+                "62": [
+                  251111,
+                  251115
+                ],
+                "63": [
+                  251111,
+                  251115
+                ],
+                "64": [
+                  251111,
+                  251115
+                ],
+                "65": [
+                  251112,
+                  251115
+                ],
+                "66": [
+                  250242,
+                  251112,
+                  251115
+                ],
+                "70": [
+                  251112,
+                  251115
+                ],
+                "71": [
+                  251112,
+                  251115
+                ],
+                "72": [
+                  251112,
+                  251115
+                ],
+                "73": [
+                  250242,
+                  251112,
+                  251115
+                ],
+                "102": [
+                  251111,
+                  251113,
+                  251115
+                ],
+                "103": [
+                  251113,
+                  251115
+                ],
+                "104": [
+                  250242,
+                  251113,
+                  251115
+                ],
+                "105": [
+                  251111,
+                  251113,
+                  251115
+                ],
+                "250": [
+                  250242,
+                  251112,
+                  251115
+                ],
+                "251": [
+                  251112,
+                  251115
+                ],
+                "252": [
+                  251112,
+                  251115
+                ],
+                "253": [
+                  251114,
+                  251115
+                ],
+                "254": [
+                  251114,
+                  251115
+                ],
+                "255": [
+                  251114,
+                  251115
+                ],
+                "256": [
+                  251111,
+                  251115
+                ],
+                "257": [
+                  251111,
+                  251115
+                ],
+                "258": [
+                  251111,
+                  251115
+                ],
+                "259": [
+                  251113,
+                  251115
+                ],
+                "260": [
+                  251113,
+                  251115
+                ],
+                "261": [
+                  251113,
+                  251115
+                ],
+                "262": [
+                  251111,
+                  251114,
+                  251115
+                ],
+                "263": [
+                  251114,
+                  251115
+                ],
+                "264": [
+                  251111,
+                  251114,
+                  251115
+                ],
+                "265": [
+                  251111,
+                  251115
+                ],
+                "266": [
+                  251111,
+                  251115
+                ],
+                "267": [
+                  251111,
+                  251115
+                ],
+                "268": [
+                  250242,
+                  251113,
+                  251115
+                ],
+                "269": [
+                  251113,
+                  251115
+                ],
+                "270": [
+                  251113,
+                  251115
+                ],
+                "577": [
+                  251113,
+                  251115
+                ],
+                "581": [
+                  250242,
+                  251113,
+                  251115
+                ],
+                "1467": [
+                  251111,
+                  251114,
+                  251115
+                ],
+                "1468": [
+                  251111,
+                  251114,
+                  251115
+                ],
+                "1473": [
+                  251111,
+                  251114,
+                  251115
+                ],
+                "1480": [
+                  251111,
+                  251113,
+                  251115
+                ]
+              }
+            }
+          }
+        },
+        "2661": {
+          "name": "Seranel Sunlash",
+          "dungeonEncounterId": 3072,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                251105,
+                251106,
+                251107,
+                251108,
+                251109,
+                251110,
+                260312
+              ],
+              "specializations": {
+                "62": [
+                  251108,
+                  260312
+                ],
+                "63": [
+                  251108,
+                  260312
+                ],
+                "64": [
+                  251108,
+                  260312
+                ],
+                "65": [
+                  251105,
+                  251107,
+                  260312
+                ],
+                "66": [
+                  251105,
+                  251107,
+                  260312
+                ],
+                "70": [
+                  251107,
+                  260312
+                ],
+                "71": [
+                  251107,
+                  260312
+                ],
+                "72": [
+                  251107,
+                  260312
+                ],
+                "73": [
+                  251105,
+                  251107,
+                  260312
+                ],
+                "102": [
+                  251109,
+                  260312
+                ],
+                "103": [
+                  251109,
+                  260312
+                ],
+                "104": [
+                  251109,
+                  260312
+                ],
+                "105": [
+                  251109,
+                  260312
+                ],
+                "250": [
+                  251107,
+                  260312
+                ],
+                "251": [
+                  251107,
+                  260312
+                ],
+                "252": [
+                  251107,
+                  260312
+                ],
+                "253": [
+                  251110,
+                  260312
+                ],
+                "254": [
+                  251110,
+                  260312
+                ],
+                "255": [
+                  251110,
+                  260312
+                ],
+                "256": [
+                  251108,
+                  260312
+                ],
+                "257": [
+                  251108,
+                  260312
+                ],
+                "258": [
+                  251108,
+                  260312
+                ],
+                "259": [
+                  251109,
+                  260312
+                ],
+                "260": [
+                  251109,
+                  260312
+                ],
+                "261": [
+                  251109,
+                  260312
+                ],
+                "262": [
+                  251105,
+                  251110,
+                  260312
+                ],
+                "263": [
+                  251110,
+                  260312
+                ],
+                "264": [
+                  251105,
+                  251110,
+                  260312
+                ],
+                "265": [
+                  251108,
+                  260312
+                ],
+                "266": [
+                  251108,
+                  260312
+                ],
+                "267": [
+                  251108,
+                  260312
+                ],
+                "268": [
+                  251109,
+                  260312
+                ],
+                "269": [
+                  251109,
+                  260312
+                ],
+                "270": [
+                  251109,
+                  260312
+                ],
+                "577": [
+                  251106,
+                  251109,
+                  260312
+                ],
+                "581": [
+                  251106,
+                  251109,
+                  260312
+                ],
+                "1467": [
+                  251110,
+                  260312
+                ],
+                "1468": [
+                  251110,
+                  260312
+                ],
+                "1473": [
+                  251110,
+                  260312
+                ],
+                "1480": [
+                  251106,
+                  251109,
+                  260312
+                ]
+              }
+            }
+          }
+        },
+        "2662": {
+          "name": "Degentrius",
+          "dungeonEncounterId": 3074,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250257,
+                251117,
+                251118,
+                251119,
+                251120,
+                251121,
+                251122,
+                256755,
+                256759,
+                258033,
+                260231,
+                263230
+              ],
+              "specializations": {
+                "62": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "63": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "64": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "65": [
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "66": [
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "70": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "71": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "72": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "73": [
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "102": [
+                  250257,
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "103": [
+                  250257,
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "104": [
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "105": [
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "250": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "251": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "252": [
+                  251117,
+                  251118,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "253": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "254": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "255": [
+                  250257,
+                  251119,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "256": [
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "257": [
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "258": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "259": [
+                  250257,
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "260": [
+                  250257,
+                  251121,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "261": [
+                  250257,
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "262": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "263": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "264": [
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "265": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "266": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "267": [
+                  250257,
+                  251120,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "268": [
+                  251121,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "269": [
+                  250257,
+                  251121,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "270": [
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "577": [
+                  250257,
+                  251121,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "581": [
+                  251121,
+                  251122,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "1467": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "1468": [
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "1473": [
+                  250257,
+                  251119,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ],
+                "1480": [
+                  250257,
+                  251121,
+                  256755,
+                  256759,
+                  258033,
+                  260231,
+                  263230
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "1311": {
+      "name": "Den of Nalorakk",
+      "encounters": {
+        "2776": {
+          "name": "The Hoardmonger",
+          "dungeonEncounterId": 3207,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250248,
+                251143,
+                251144,
+                251145,
+                251146,
+                251147,
+                251148
+              ],
+              "specializations": {
+                "62": [
+                  251147,
+                  251148
+                ],
+                "63": [
+                  251147,
+                  251148
+                ],
+                "64": [
+                  251147,
+                  251148
+                ],
+                "65": [
+                  250248,
+                  251144,
+                  251148
+                ],
+                "66": [
+                  251144,
+                  251148
+                ],
+                "70": [
+                  251144,
+                  251148
+                ],
+                "71": [
+                  251144,
+                  251148
+                ],
+                "72": [
+                  251144,
+                  251148
+                ],
+                "73": [
+                  251144,
+                  251148
+                ],
+                "102": [
+                  251146,
+                  251148
+                ],
+                "103": [
+                  251146,
+                  251148
+                ],
+                "104": [
+                  251146,
+                  251148
+                ],
+                "105": [
+                  250248,
+                  251146,
+                  251148
+                ],
+                "250": [
+                  251144,
+                  251148
+                ],
+                "251": [
+                  251144,
+                  251148
+                ],
+                "252": [
+                  251144,
+                  251148
+                ],
+                "253": [
+                  251145,
+                  251148
+                ],
+                "254": [
+                  251145,
+                  251148
+                ],
+                "255": [
+                  251145,
+                  251148
+                ],
+                "256": [
+                  250248,
+                  251147,
+                  251148
+                ],
+                "257": [
+                  250248,
+                  251147,
+                  251148
+                ],
+                "258": [
+                  251147,
+                  251148
+                ],
+                "259": [
+                  251146,
+                  251148
+                ],
+                "260": [
+                  251143,
+                  251146,
+                  251148
+                ],
+                "261": [
+                  251146,
+                  251148
+                ],
+                "262": [
+                  251145,
+                  251148
+                ],
+                "263": [
+                  251143,
+                  251145,
+                  251148
+                ],
+                "264": [
+                  250248,
+                  251145,
+                  251148
+                ],
+                "265": [
+                  251147,
+                  251148
+                ],
+                "266": [
+                  251147,
+                  251148
+                ],
+                "267": [
+                  251147,
+                  251148
+                ],
+                "268": [
+                  251143,
+                  251146,
+                  251148
+                ],
+                "269": [
+                  251143,
+                  251146,
+                  251148
+                ],
+                "270": [
+                  250248,
+                  251146,
+                  251148
+                ],
+                "577": [
+                  251143,
+                  251146,
+                  251148
+                ],
+                "581": [
+                  251143,
+                  251146,
+                  251148
+                ],
+                "1467": [
+                  251145,
+                  251148
+                ],
+                "1468": [
+                  250248,
+                  251145,
+                  251148
+                ],
+                "1473": [
+                  251145,
+                  251148
+                ],
+                "1480": [
+                  251146,
+                  251148
+                ]
+              }
+            }
+          }
+        },
+        "2777": {
+          "name": "Sentinel of Winter",
+          "dungeonEncounterId": 3208,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250244,
+                251149,
+                251150,
+                251151,
+                251152,
+                251153,
+                251154,
+                251155,
+                271681
+              ],
+              "specializations": {
+                "62": [
+                  251154,
+                  271681
+                ],
+                "63": [
+                  251154,
+                  271681
+                ],
+                "64": [
+                  251154,
+                  271681
+                ],
+                "65": [
+                  251150,
+                  251151
+                ],
+                "66": [
+                  250244,
+                  251150,
+                  251151
+                ],
+                "70": [
+                  251151
+                ],
+                "71": [
+                  251151
+                ],
+                "72": [
+                  251151
+                ],
+                "73": [
+                  250244,
+                  251150,
+                  251151
+                ],
+                "102": [
+                  251153,
+                  271681
+                ],
+                "103": [
+                  251149,
+                  251153
+                ],
+                "104": [
+                  250244,
+                  251149,
+                  251153
+                ],
+                "105": [
+                  251153,
+                  271681
+                ],
+                "250": [
+                  250244,
+                  251151
+                ],
+                "251": [
+                  251151
+                ],
+                "252": [
+                  251151
+                ],
+                "253": [
+                  251152,
+                  251155
+                ],
+                "254": [
+                  251152,
+                  251155
+                ],
+                "255": [
+                  251149,
+                  251152,
+                  251155
+                ],
+                "256": [
+                  251154,
+                  271681
+                ],
+                "257": [
+                  251154,
+                  271681
+                ],
+                "258": [
+                  251154,
+                  271681
+                ],
+                "259": [
+                  251153
+                ],
+                "260": [
+                  251153
+                ],
+                "261": [
+                  251153
+                ],
+                "262": [
+                  251150,
+                  251152,
+                  251155
+                ],
+                "263": [
+                  251152,
+                  251155
+                ],
+                "264": [
+                  251150,
+                  251152,
+                  251155
+                ],
+                "265": [
+                  251154,
+                  271681
+                ],
+                "266": [
+                  251154,
+                  271681
+                ],
+                "267": [
+                  251154,
+                  271681
+                ],
+                "268": [
+                  250244,
+                  251149,
+                  251153
+                ],
+                "269": [
+                  251149,
+                  251153
+                ],
+                "270": [
+                  251153,
+                  271681
+                ],
+                "577": [
+                  251153
+                ],
+                "581": [
+                  250244,
+                  251153
+                ],
+                "1467": [
+                  251152,
+                  251155,
+                  271681
+                ],
+                "1468": [
+                  251152,
+                  251155,
+                  271681
+                ],
+                "1473": [
+                  251152,
+                  251155,
+                  271681
+                ],
+                "1480": [
+                  251153
+                ]
+              }
+            }
+          }
+        },
+        "2778": {
+          "name": "Nalorakk",
+          "dungeonEncounterId": 3209,
+          "difficulties": {
+            "23": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                250229,
+                251156,
+                251158,
+                251159,
+                251160,
+                251173,
+                251214,
+                256737,
+                264332
+              ],
+              "specializations": {
+                "62": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "63": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "64": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "65": [
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "66": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "70": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "71": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "72": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "73": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "102": [
+                  251156,
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "103": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "104": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "105": [
+                  251156,
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "250": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "251": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "252": [
+                  250229,
+                  251173,
+                  251214,
+                  256737,
+                  264332
+                ],
+                "253": [
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "254": [
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "255": [
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "256": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "257": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "258": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "259": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "260": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "261": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "262": [
+                  251156,
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "263": [
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "264": [
+                  251156,
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "265": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "266": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "267": [
+                  251156,
+                  251160,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "268": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "269": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "270": [
+                  251156,
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "577": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "581": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "1467": [
+                  251156,
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "1468": [
+                  251156,
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "1473": [
+                  251156,
+                  251158,
+                  251173,
+                  256737,
+                  264332
+                ],
+                "1480": [
+                  251159,
+                  251173,
+                  256737,
+                  264332
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

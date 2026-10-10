@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "da5cfa4b70a48f612b35069ba03030fabdb2b532ebab897dc84f6a6a84fd4e86",
+  "sourceSha256": "c3c32c0e3b9b2037036abb90b65d944186ec1750c4f5dc759f73dc46e99c2415",
   "game": {
     "locale": "enUS",
     "version": "12.1.0",
@@ -491,10 +491,125 @@
     },
     "268199": {
       "armorType": "Staff",
-      "name": "Tidepiercer's Bubble Popper",
-      "inventorySlot": "Two-Hand",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 128,
+        "ITEM_MOD_STAMINA_SHORT": 3254,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 122.2222213745117,
+        "ITEM_MOD_VERSATILITY": 60,
+        "ITEM_MOD_AGILITY_SHORT": 162
+      },
+      "itemClass": "Weapon",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7552246,
-      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r"
+      "journalFilterType": 10,
+      "itemSubclass": "Staves",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Tidepiercer's Bubble Popper",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Staff",
+          "type": 21,
+          "leftText": "Two-Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "rightText": "Speed 3.60",
+          "type": 0,
+          "leftText": "374 - 506 Damage"
+        },
+        {
+          "type": 0,
+          "leftText": "(122.2 damage per second)"
+        },
+        {
+          "type": 0,
+          "leftText": "+162 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+3,254 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+128 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+60 Versatility"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 37,
+          "leftText": "\"Pop, pop, pop.\""
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Tidepiercer's Bubble Popper",
+      "equipLocation": "INVTYPE_2HWEAPON",
+      "inventorySlot": "Two-Hand",
+      "itemSubclassID": 10,
+      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r",
+      "itemClassID": 2,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 128,
+          "share": 0.6808510638297872
+        },
+        {
+          "stat": "Vers",
+          "value": 60,
+          "share": 0.3191489361702128
+        }
+      ],
+      "secondaryStatBudget": 188,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 162
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Vers"
     },
     "268200": {
       "armorType": "Gun",
@@ -610,10 +725,120 @@
     },
     "268217": {
       "armorType": "Mail",
-      "name": "Rising Tide Wristguards",
-      "inventorySlot": "Wrist",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 33,
+        "ITEM_MOD_STAMINA_SHORT": 1830,
+        "RESISTANCE0_NAME": 130,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 73,
+        "ITEM_MOD_AGILITY_SHORT": 91
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7554475,
-      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r"
+      "journalFilterType": 5,
+      "itemSubclass": "Mail",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Rising Tide Wristguards",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Wrist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "130 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+91 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,830 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+33 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+73 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+91 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Rising Tide Wristguards",
+      "equipLocation": "INVTYPE_WRIST",
+      "inventorySlot": "Wrist",
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 73,
+          "share": 0.6886792452830188
+        },
+        {
+          "stat": "Crit",
+          "value": 33,
+          "share": 0.3113207547169811
+        }
+      ],
+      "secondaryStatBudget": 106,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 91
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
     },
     "268218": {
       "armorType": "Cloth",
@@ -638,10 +863,112 @@
     },
     "268221": {
       "armorType": "Cloth",
-      "name": "Tidebound Sorcereress's Robes",
-      "inventorySlot": "Chest",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 162,
+        "ITEM_MOD_CRIT_RATING_SHORT": 126,
+        "ITEM_MOD_STAMINA_SHORT": 3254,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 62,
+        "RESISTANCE0_NAME": 103
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7520906,
-      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r"
+      "journalFilterType": 4,
+      "itemSubclass": "Cloth",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Tidebound Sorcereress's Robes",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Chest",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "103 Armor"
+        },
+        {
+          "type": 42,
+          "leftText": "+162 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+3,254 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+126 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+62 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Tidebound Sorcereress's Robes",
+      "equipLocation": "INVTYPE_ROBE",
+      "inventorySlot": "Chest",
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 126,
+          "share": 0.6702127659574468
+        },
+        {
+          "stat": "Mastery",
+          "value": 62,
+          "share": 0.32978723404255317
+        }
+      ],
+      "secondaryStatBudget": 188,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 162
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
     },
     "268222": {
       "armorType": "Plate",
@@ -673,10 +1000,120 @@
     },
     "268226": {
       "armorType": "Plate",
-      "name": "Swelling Sea Spaulders",
-      "inventorySlot": "Shoulder",
+      "stats": {
+        "ITEM_MOD_STRENGTH_SHORT": 122,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 41,
+        "ITEM_MOD_STAMINA_SHORT": 2440,
+        "ITEM_MOD_CRIT_RATING_SHORT": 100,
+        "RESISTANCE0_NAME": 268
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7730305,
-      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r"
+      "journalFilterType": 2,
+      "itemSubclass": "Plate",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Swelling Sea Spaulders",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Shoulder",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "268 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+122 Strength"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,440 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+100 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+41 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+122 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Swelling Sea Spaulders",
+      "equipLocation": "INVTYPE_SHOULDER",
+      "inventorySlot": "Shoulder",
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 100,
+          "share": 0.7092198581560284
+        },
+        {
+          "stat": "Mastery",
+          "value": 41,
+          "share": 0.2907801418439716
+        }
+      ],
+      "secondaryStatBudget": 141,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 122
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
     },
     "268227": {
       "armorType": "Leather",
@@ -715,10 +1152,116 @@
     },
     "268232": {
       "armorType": "Cloth",
-      "name": "Cincture of the Abyssal Grotto",
-      "inventorySlot": "Waist",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 122,
+        "ITEM_MOD_CRIT_RATING_SHORT": 100,
+        "ITEM_MOD_STAMINA_SHORT": 2440,
+        "ITEM_MOD_VERSATILITY": 41,
+        "RESISTANCE0_NAME": 58
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7807649,
-      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r"
+      "journalFilterType": 7,
+      "itemSubclass": "Cloth",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Cincture of the Abyssal Grotto",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Cloth",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "58 Armor"
+        },
+        {
+          "type": 42,
+          "leftText": "+122 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,440 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+100 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+41 Versatility"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Cincture of the Abyssal Grotto",
+      "equipLocation": "INVTYPE_WAIST",
+      "inventorySlot": "Waist",
+      "itemSubclassID": 1,
+      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 100,
+          "share": 0.7092198581560284
+        },
+        {
+          "stat": "Vers",
+          "value": 41,
+          "share": 0.2907801418439716
+        }
+      ],
+      "secondaryStatBudget": 141,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 122
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Vers"
     },
     "268233": {
       "armorType": "Mail",
@@ -757,10 +1300,120 @@
     },
     "268238": {
       "armorType": "Mail",
-      "name": "Grips of Swirling Fury",
-      "inventorySlot": "Hands",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 49,
+        "ITEM_MOD_CRIT_RATING_SHORT": 92,
+        "ITEM_MOD_STAMINA_SHORT": 2440,
+        "RESISTANCE0_NAME": 146,
+        "ITEM_MOD_AGILITY_SHORT": 122
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7789857,
-      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r"
+      "journalFilterType": 6,
+      "itemSubclass": "Mail",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Grips of Swirling Fury",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Mail",
+          "type": 21,
+          "leftText": "Hands",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "146 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+122 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,440 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+92 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+49 Haste"
+        },
+        {
+          "type": 42,
+          "leftText": "+122 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Grips of Swirling Fury",
+      "equipLocation": "INVTYPE_HAND",
+      "inventorySlot": "Hands",
+      "itemSubclassID": 3,
+      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 92,
+          "share": 0.6524822695035462
+        },
+        {
+          "stat": "Haste",
+          "value": 49,
+          "share": 0.3475177304964539
+        }
+      ],
+      "secondaryStatBudget": 141,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 122
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Haste"
     },
     "268239": {
       "armorType": "Plate",
@@ -799,10 +1452,120 @@
     },
     "268244": {
       "armorType": "Plate",
-      "name": "Forgotten Grotto Girdle",
-      "inventorySlot": "Waist",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 100,
+        "ITEM_MOD_VERSATILITY": 41,
+        "ITEM_MOD_STAMINA_SHORT": 2440,
+        "ITEM_MOD_STRENGTH_SHORT": 122,
+        "RESISTANCE0_NAME": 220
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7739383,
-      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r"
+      "journalFilterType": 7,
+      "itemSubclass": "Plate",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Forgotten Grotto Girdle",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Plate",
+          "type": 21,
+          "leftText": "Waist",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "220 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+122 Strength"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,440 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+100 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+41 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+122 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Forgotten Grotto Girdle",
+      "equipLocation": "INVTYPE_WAIST",
+      "inventorySlot": "Waist",
+      "itemSubclassID": 4,
+      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 100,
+          "share": 0.7092198581560284
+        },
+        {
+          "stat": "Vers",
+          "value": 41,
+          "share": 0.2907801418439716
+        }
+      ],
+      "secondaryStatBudget": 141,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 122
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
     },
     "268245": {
       "armorType": "Plate",
@@ -820,10 +1583,120 @@
     },
     "268247": {
       "armorType": "Leather",
-      "name": "Breakwater Boots",
-      "inventorySlot": "Feet",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 93,
+        "ITEM_MOD_VERSATILITY": 48,
+        "ITEM_MOD_STAMINA_SHORT": 2440,
+        "RESISTANCE0_NAME": 110,
+        "ITEM_MOD_AGILITY_SHORT": 122
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7679650,
-      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r"
+      "journalFilterType": 9,
+      "itemSubclass": "Leather",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Breakwater Boots",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Leather",
+          "type": 21,
+          "leftText": "Feet",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "110 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "+122 Agility"
+        },
+        {
+          "type": 0,
+          "leftText": "+2,440 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+93 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+48 Versatility"
+        },
+        {
+          "type": 42,
+          "leftText": "+122 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Breakwater Boots",
+      "equipLocation": "INVTYPE_FEET",
+      "inventorySlot": "Feet",
+      "itemSubclassID": 2,
+      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 93,
+          "share": 0.6595744680851063
+        },
+        {
+          "stat": "Vers",
+          "value": 48,
+          "share": 0.3404255319148936
+        }
+      ],
+      "secondaryStatBudget": 141,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 122
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
     },
     "268248": {
       "armorType": "",
@@ -925,17 +1798,232 @@
     },
     "268262": {
       "armorType": "Shield",
-      "name": "Bubblefin Splash Guard",
-      "inventorySlot": "Off Hand",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 249,
+        "ITEM_MOD_HASTE_RATING_SHORT": 31,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 63,
+        "ITEM_MOD_STAMINA_SHORT": 1627,
+        "ITEM_MOD_STRENGTH_SHORT": 81,
+        "RESISTANCE0_NAME": 1144
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7553253,
-      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r"
+      "journalFilterType": 11,
+      "itemSubclass": "Shields",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Bubblefin Splash Guard",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "rightText": "Shield",
+          "type": 21,
+          "leftText": "Off Hand",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "1,144 Armor"
+        },
+        {
+          "type": 0,
+          "leftText": "2,860 Block"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,627 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+31 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+63 Mastery"
+        },
+        {
+          "type": 42,
+          "leftText": "+81 Strength"
+        },
+        {
+          "type": 42,
+          "leftText": "+249 Intellect"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        },
+        {
+          "type": 0,
+          "leftText": "You haven't collected this appearance"
+        }
+      ],
+      "name": "Bubblefin Splash Guard",
+      "equipLocation": "INVTYPE_SHIELD",
+      "inventorySlot": "Off Hand",
+      "itemSubclassID": 6,
+      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 63,
+          "share": 0.6702127659574468
+        },
+        {
+          "stat": "Haste",
+          "value": 31,
+          "share": 0.32978723404255317
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 249
+        },
+        {
+          "stat": "Strength",
+          "value": 81
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
     },
     "268263": {
       "armorType": "",
-      "name": "Frostscale's Mystic Frond",
-      "inventorySlot": "Held In Off-hand",
+      "stats": {
+        "ITEM_MOD_INTELLECT_SHORT": 249,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 31,
+        "ITEM_MOD_CRIT_RATING_SHORT": 63,
+        "ITEM_MOD_STAMINA_SHORT": 1627
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 7500005,
-      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r"
+      "journalFilterType": 11,
+      "itemSubclass": "Miscellaneous",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Frostscale's Mystic Frond",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 21,
+          "leftText": "Held In Off-hand",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 42,
+          "leftText": "+249 Intellect"
+        },
+        {
+          "type": 0,
+          "leftText": "+1,627 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+63 Critical Strike"
+        },
+        {
+          "type": 0,
+          "leftText": "+31 Mastery"
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Frostscale's Mystic Frond",
+      "equipLocation": "INVTYPE_HOLDABLE",
+      "inventorySlot": "Held In Off-hand",
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 63,
+          "share": 0.6702127659574468
+        },
+        {
+          "stat": "Mastery",
+          "value": 31,
+          "share": 0.32978723404255317
+        }
+      ],
+      "secondaryStatBudget": 94,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 249
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
     },
     "268264": {
       "armorType": "Dagger",
@@ -953,10 +2041,118 @@
     },
     "268266": {
       "armorType": "",
-      "name": "Alluring Bubbleband",
-      "inventorySlot": "Finger",
+      "stats": {
+        "ITEM_MOD_STAMINA_SHORT": 1830,
+        "ITEM_MOD_HASTE_RATING_SHORT": 288,
+        "ITEM_MOD_VERSATILITY": 81,
+        "EMPTY_SOCKET_PRISMATIC": 1
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 1391765,
-      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r"
+      "journalFilterType": 12,
+      "itemSubclass": "Miscellaneous",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Alluring Bubbleband",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Finger",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "+1,830 Stamina"
+        },
+        {
+          "type": 0,
+          "leftText": "+288 Haste"
+        },
+        {
+          "type": 0,
+          "leftText": "+81 Versatility"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 3,
+          "leftText": "Prismatic Socket"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Alluring Bubbleband",
+      "equipLocation": "INVTYPE_FINGER",
+      "inventorySlot": "Finger",
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 288,
+          "share": 0.7804878048780488
+        },
+        {
+          "stat": "Vers",
+          "value": 81,
+          "share": 0.21951219512195122
+        }
+      ],
+      "secondaryStatBudget": 369,
+      "primaryStats": [],
+      "sockets": [
+        {
+          "type": "Prismatic",
+          "count": 1
+        }
+      ],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
     },
     "270160": {
       "armorType": "",
@@ -1009,10 +2205,104 @@
     },
     "270167": {
       "armorType": "",
-      "name": "Wavecaller's Seastone",
-      "inventorySlot": "Trinket",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 134
+      },
+      "itemClass": "Armor",
+      "itemQuality": "ffa335ee",
+      "metadataVersion": 1,
+      "itemLevel": 318,
       "iconFileId": 1020350,
-      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r"
+      "journalFilterType": 13,
+      "itemSubclass": "Miscellaneous",
+      "tooltipLines": [
+        {
+          "type": 22,
+          "leftText": "Wavecaller's Seastone",
+          "quality": 4
+        },
+        {
+          "type": 0,
+          "leftText": "|cFF 0FF 0Mythic|r"
+        },
+        {
+          "type": 31,
+          "itemLevel": 318,
+          "leftText": "Item Level 318"
+        },
+        {
+          "type": 32,
+          "leftText": "Upgrade Level: Myth 1/6"
+        },
+        {
+          "bonding": 6,
+          "type": 20,
+          "leftText": "Binds when picked up"
+        },
+        {
+          "type": 0,
+          "leftText": "Unique-Equipped"
+        },
+        {
+          "type": 21,
+          "leftText": "Trinket",
+          "isValidInvSlot": true
+        },
+        {
+          "type": 0,
+          "leftText": "+134 Haste"
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "type": 45,
+          "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 55 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "spellID": 1295058
+        },
+        {
+          "type": 1,
+          "leftText": " "
+        },
+        {
+          "requirementType": 5,
+          "type": 43,
+          "leftText": "Requires Level 90",
+          "level": 90
+        },
+        {
+          "type": 11,
+          "leftText": ""
+        }
+      ],
+      "name": "Wavecaller's Seastone",
+      "equipLocation": "INVTYPE_TRINKET",
+      "inventorySlot": "Trinket",
+      "itemSubclassID": 0,
+      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r",
+      "itemClassID": 4,
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 134,
+          "share": 1
+        }
+      ],
+      "secondaryStatBudget": 134,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1295058,
+          "text": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 55 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "tooltipType": 45
+        }
+      ],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": null
     },
     "270168": {
       "armorType": "",
@@ -1296,10 +2586,35 @@
     },
     "279112": {
       "armorType": "",
+      "stats": [],
+      "itemClass": "Housing",
+      "itemClassID": 20,
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "itemLevel": 1,
+      "itemSubclassID": 0,
+      "journalFilterType": 14,
+      "metadataVersion": 1,
+      "tooltipLines": [
+        {
+          "type": 41,
+          "leftText": "Retrieving item information"
+        }
+      ],
       "name": "Clumped Asteroidea",
+      "itemSubclass": "Decor",
       "inventorySlot": "",
       "iconFileId": 8033308,
-      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r"
+      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r",
+      "itemQuality": "ff0070dd",
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": false,
+      "itemCategory": "housing-decor",
+      "stat1": null,
+      "stat2": null
     },
     "279115": {
       "armorType": "",
@@ -2264,881 +3579,8 @@
           "name": "Nymrissa Wavecaller",
           "dungeonEncounterId": 3379,
           "difficulties": {
-            "14": {
-              "name": "Normal",
-              "baselineItemIds": [
-                268199,
-                268217,
-                268221,
-                268226,
-                268232,
-                268238,
-                268244,
-                268247,
-                268262,
-                268263,
-                268266,
-                270167,
-                279112
-              ],
-              "specializations": {
-                "62": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "63": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "64": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "65": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "66": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "70": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "71": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "72": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "73": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "102": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "103": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "104": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "105": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "250": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "251": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "252": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "253": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "254": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "255": [
-                  268199,
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "256": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "257": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "258": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "259": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "260": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "261": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "262": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "263": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "264": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "265": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "266": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "267": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "268": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "269": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "270": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "577": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "581": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "1467": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1468": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1473": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1480": [
-                  268247,
-                  268266,
-                  270167,
-                  279112
-                ]
-              }
-            },
-            "15": {
-              "name": "Heroic",
-              "baselineItemIds": [
-                268199,
-                268217,
-                268221,
-                268226,
-                268232,
-                268238,
-                268244,
-                268247,
-                268262,
-                268263,
-                268266,
-                270167,
-                279112
-              ],
-              "specializations": {
-                "62": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "63": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "64": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "65": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "66": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "70": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "71": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "72": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "73": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "102": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "103": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "104": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "105": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "250": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "251": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "252": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "253": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "254": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "255": [
-                  268199,
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "256": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "257": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "258": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "259": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "260": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "261": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "262": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "263": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "264": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "265": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "266": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "267": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "268": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "269": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "270": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "577": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "581": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "1467": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1468": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1473": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1480": [
-                  268247,
-                  268266,
-                  270167,
-                  279112
-                ]
-              }
-            },
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268199,
-                268217,
-                268221,
-                268226,
-                268232,
-                268238,
-                268244,
-                268247,
-                268262,
-                268263,
-                268266,
-                270167,
-                279112
-              ],
-              "specializations": {
-                "62": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "63": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "64": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "65": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "66": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "70": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "71": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "72": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "73": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "102": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "103": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "104": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "105": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "250": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "251": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "252": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "253": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "254": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "255": [
-                  268199,
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "256": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "257": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "258": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "259": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "260": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "261": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "262": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "263": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "264": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "265": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "266": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "267": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "268": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "269": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "270": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "577": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "581": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "1467": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1468": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1473": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1480": [
-                  268247,
-                  268266,
-                  270167,
-                  279112
-                ]
-              }
-            },
-            "17": {
-              "name": "Looking For Raid",
               "baselineItemIds": [
                 268199,
                 268217,

@@ -1,5 +1,19 @@
 [
   {
+    "instanceId": 1311,
+    "name": "Den of Nalorakk",
+    "instanceType": "dungeon",
+    "jobs": 123,
+    "url": "/data/instances/1311%20-%20Den%20of%20Nalorakk.json"
+  },
+  {
+    "instanceId": 1300,
+    "name": "Magisters' Terrace",
+    "instanceType": "dungeon",
+    "jobs": 164,
+    "url": "/data/instances/1300%20-%20Magisters'%20Terrace.json"
+  },
+  {
     "instanceId": 1312,
     "name": "Midnight",
     "instanceType": "raid",
@@ -10,7 +24,7 @@
     "instanceId": 1317,
     "name": "The Tidebound Grotto",
     "instanceType": "raid",
-    "jobs": 164,
+    "jobs": 41,
     "url": "/data/instances/1317%20-%20The%20Tidebound%20Grotto.json"
   },
   {

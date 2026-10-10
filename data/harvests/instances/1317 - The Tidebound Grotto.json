@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "2b980be62964276b97aeaa49e357ff310ca91afe4b2d9369f09f7b0bad455eb1",
+  "sourceSha256": "30eebfcb49eaeb2f37f6bdc5b9cb59267a3ac89e0034baa69b36a4fdbf14136d",
   "instanceId": 1317,
   "game": {
     "locale": "enUS",
@@ -12,7 +12,8 @@
   },
   "harvest": {
     "status": "complete",
-    "jobs": 164
+    "jobs": 164,
+    "importedAt": 1791609001
   },
   "specializations": {
     "62": {

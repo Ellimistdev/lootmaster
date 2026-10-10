@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "954d98b462f3a7940c654c1c2816a4c347fa5606913a714c6f8842bece067b15",
+  "sourceSha256": "1fc66739a0aed81b44e3cd3f5290e03c865fa951635bc0799ea0a92a8d3115f6",
   "game": {
     "locale": "enUS",
     "version": "12.1.0",
@@ -335,12 +335,159 @@
     }
   },
   "items": {
+    "244343": {
+      "armorType": "",
+      "name": "Vessel of the Howling Ossuary",
+      "inventorySlot": "",
+      "iconFileId": 7417197,
+      "itemLink": "|cnIQ3:|Hitem:244343::::::::10:1453::6:1:3524:1:28:7362:::::|h[Vessel of the Howling Ossuary]|h|r"
+    },
+    "264716": {
+      "armorType": "",
+      "name": "Hexed Tomb Brazier",
+      "inventorySlot": "",
+      "iconFileId": 7517842,
+      "itemLink": "|cnIQ3:|Hitem:264716::::::::10:1453::6:1:3524:1:28:7362:::::|h[Hexed Tomb Brazier]|h|r"
+    },
+    "268196": {
+      "armorType": "Shield",
+      "name": "Venom-Slashed Scuteward",
+      "inventorySlot": "Off Hand",
+      "iconFileId": 7553253,
+      "itemLink": "|cnIQ4:|Hitem:268196::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venom-Slashed Scuteward]|h|r"
+    },
+    "268197": {
+      "armorType": "",
+      "name": "Spine of the Hissing Abyss",
+      "inventorySlot": "Held In Off-hand",
+      "iconFileId": 7500005,
+      "itemLink": "|cnIQ4:|Hitem:268197::::::::10:1453::6:1:3524:1:28:7362:::::|h[Spine of the Hissing Abyss]|h|r"
+    },
+    "268198": {
+      "armorType": "Mace",
+      "name": "Caustic Keeper-Crusher",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 7576051,
+      "itemLink": "|cnIQ4:|Hitem:268198::::::::10:1453::6:1:3524:1:28:7362:::::|h[Caustic Keeper-Crusher]|h|r"
+    },
     "268199": {
       "armorType": "Staff",
       "name": "Tidepiercer's Bubble Popper",
       "inventorySlot": "Two-Hand",
       "iconFileId": 7552246,
       "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r"
+    },
+    "268200": {
+      "armorType": "Gun",
+      "name": "Gebbo's Backup Blaster",
+      "inventorySlot": "Ranged",
+      "iconFileId": 7476193,
+      "itemLink": "|cnIQ4:|Hitem:268200::::::::10:1453::6:1:3524:1:28:7362:::::|h[Gebbo's Backup Blaster]|h|r"
+    },
+    "268201": {
+      "armorType": "Warglaives",
+      "name": "Venomous Boneglaive",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7499262,
+      "itemLink": "|cnIQ4:|Hitem:268201::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomous Boneglaive]|h|r"
+    },
+    "268202": {
+      "armorType": "Sword",
+      "name": "Jaw of the Shackled Goddess",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7723761,
+      "itemLink": "|cnIQ4:|Hitem:268202::::::::10:1453::6:1:3524:1:28:7362:::::|h[Jaw of the Shackled Goddess]|h|r"
+    },
+    "268203": {
+      "armorType": "Dagger",
+      "name": "Hexing Spiritrender",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7515621,
+      "itemLink": "|cnIQ4:|Hitem:268203::::::::10:1453::6:1:3524:1:28:7362:::::|h[Hexing Spiritrender]|h|r"
+    },
+    "268204": {
+      "armorType": "Dagger",
+      "name": "Ancient Construct's Venomshiv",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7701065,
+      "itemLink": "|cnIQ4:|Hitem:268204::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ancient Construct's Venomshiv]|h|r"
+    },
+    "268205": {
+      "armorType": "Staff",
+      "name": "Venomancer's Winged Channeler",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 7502501,
+      "itemLink": "|cnIQ4:|Hitem:268205::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomancer's Winged Channeler]|h|r"
+    },
+    "268206": {
+      "armorType": "Mace",
+      "name": "Slithering Savage's Gavel",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7502390,
+      "itemLink": "|cnIQ4:|Hitem:268206::::::::10:1453::6:1:3524:1:28:7362:::::|h[Slithering Savage's Gavel]|h|r"
+    },
+    "268207": {
+      "armorType": "Bow",
+      "name": "Caustic Repose Greatbow",
+      "inventorySlot": "Ranged",
+      "iconFileId": 7488509,
+      "itemLink": "|cnIQ4:|Hitem:268207::::::::10:1453::6:1:3524:1:28:7362:::::|h[Caustic Repose Greatbow]|h|r"
+    },
+    "268208": {
+      "armorType": "Axe",
+      "name": "Strongblood's Ceremonial Cleaver",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7736101,
+      "itemLink": "|cnIQ4:|Hitem:268208::::::::10:1453::6:1:3524:1:28:7362:::::|h[Strongblood's Ceremonial Cleaver]|h|r"
+    },
+    "268209": {
+      "armorType": "Axe",
+      "name": "Aman'muso, Warlord's Vengeance",
+      "inventorySlot": "Main Hand",
+      "iconFileId": 7736101,
+      "itemLink": "|cnIQ4:|Hitem:268209::::::::10:1453::6:1:3524:1:28:7362:::::|h[Aman'muso, Warlord's Vengeance]|h|r"
+    },
+    "268210": {
+      "armorType": "Mace",
+      "name": "Malevolent Spiritcudgel",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7502390,
+      "itemLink": "|cnIQ4:|Hitem:268210::::::::10:1453::6:1:3524:1:28:7362:::::|h[Malevolent Spiritcudgel]|h|r"
+    },
+    "268211": {
+      "armorType": "Sword",
+      "name": "Baleful Hexblade",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7723761,
+      "itemLink": "|cnIQ4:|Hitem:268211::::::::10:1453::6:1:3524:1:28:7362:::::|h[Baleful Hexblade]|h|r"
+    },
+    "268213": {
+      "armorType": "Axe",
+      "name": "Maze-roa, Warlord's Fury",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 7455434,
+      "itemLink": "|cnIQ4:|Hitem:268213::::::::10:1453::6:1:3524:1:28:7362:::::|h[Maze-roa, Warlord's Fury]|h|r"
+    },
+    "268214": {
+      "armorType": "Sword",
+      "name": "Malignant Toothed Edge",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 7506565,
+      "itemLink": "|cnIQ4:|Hitem:268214::::::::10:1453::6:1:3524:1:28:7362:::::|h[Malignant Toothed Edge]|h|r"
+    },
+    "268215": {
+      "armorType": "Polearm",
+      "name": "Abyssal Broodfiend's Bardiche",
+      "inventorySlot": "Two-Hand",
+      "iconFileId": 7480487,
+      "itemLink": "|cnIQ4:|Hitem:268215::::::::10:1453::6:1:3524:1:28:7362:::::|h[Abyssal Broodfiend's Bardiche]|h|r"
+    },
+    "268216": {
+      "armorType": "Mail",
+      "name": "Cursed Reliquary Cincture",
+      "inventorySlot": "Waist",
+      "iconFileId": 7789852,
+      "itemLink": "|cnIQ4:|Hitem:268216::::::::10:1453::6:1:3524:1:28:7362:::::|h[Cursed Reliquary Cincture]|h|r"
     },
     "268217": {
       "armorType": "Mail",
@@ -349,12 +496,61 @@
       "iconFileId": 7554475,
       "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r"
     },
+    "268218": {
+      "armorType": "Cloth",
+      "name": "Nek'zali's Spiritwalkers",
+      "inventorySlot": "Feet",
+      "iconFileId": 7667305,
+      "itemLink": "|cnIQ4:|Hitem:268218::::::::10:1453::6:1:3524:1:28:7362:::::|h[Nek'zali's Spiritwalkers]|h|r"
+    },
+    "268219": {
+      "armorType": "Leather",
+      "name": "Shadow Hunter's Warmask",
+      "inventorySlot": "Head",
+      "iconFileId": 7678400,
+      "itemLink": "|cnIQ4:|Hitem:268219::::::::10:1453::6:1:3524:1:28:7362:::::|h[Shadow Hunter's Warmask]|h|r"
+    },
+    "268220": {
+      "armorType": "Plate",
+      "name": "Scaleplate Strangulators",
+      "inventorySlot": "Hands",
+      "iconFileId": 7730302,
+      "itemLink": "|cnIQ4:|Hitem:268220::::::::10:1453::6:1:3524:1:28:7362:::::|h[Scaleplate Strangulators]|h|r"
+    },
     "268221": {
       "armorType": "Cloth",
       "name": "Tidebound Sorcereress's Robes",
       "inventorySlot": "Chest",
       "iconFileId": 7520906,
       "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r"
+    },
+    "268222": {
+      "armorType": "Plate",
+      "name": "Reckless Spirit Breastplate",
+      "inventorySlot": "Chest",
+      "iconFileId": 7515795,
+      "itemLink": "|cnIQ4:|Hitem:268222::::::::10:1453::6:1:3524:1:28:7362:::::|h[Reckless Spirit Breastplate]|h|r"
+    },
+    "268223": {
+      "armorType": "Mail",
+      "name": "Ophidian Fangmail",
+      "inventorySlot": "Chest",
+      "iconFileId": 7554477,
+      "itemLink": "|cnIQ4:|Hitem:268223::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ophidian Fangmail]|h|r"
+    },
+    "268224": {
+      "armorType": "Plate",
+      "name": "Venom Warden's Greaves",
+      "inventorySlot": "Legs",
+      "iconFileId": 7515798,
+      "itemLink": "|cnIQ4:|Hitem:268224::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venom Warden's Greaves]|h|r"
+    },
+    "268225": {
+      "armorType": "Leather",
+      "name": "Coiled Hex Legguards",
+      "inventorySlot": "Legs",
+      "iconFileId": 7487943,
+      "itemLink": "|cnIQ4:|Hitem:268225::::::::10:1453::6:1:3524:1:28:7362:::::|h[Coiled Hex Legguards]|h|r"
     },
     "268226": {
       "armorType": "Plate",
@@ -363,12 +559,82 @@
       "iconFileId": 7730305,
       "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r"
     },
+    "268227": {
+      "armorType": "Leather",
+      "name": "Unpossessed Skullsash",
+      "inventorySlot": "Waist",
+      "iconFileId": 7678393,
+      "itemLink": "|cnIQ4:|Hitem:268227::::::::10:1453::6:1:3524:1:28:7362:::::|h[Unpossessed Skullsash]|h|r"
+    },
+    "268228": {
+      "armorType": "Cloth",
+      "name": "Venom-Singed Cuffs",
+      "inventorySlot": "Wrist",
+      "iconFileId": 7807652,
+      "itemLink": "|cnIQ4:|Hitem:268228::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venom-Singed Cuffs]|h|r"
+    },
+    "268229": {
+      "armorType": "Plate",
+      "name": "Skullguard of the Risen Sacrifice",
+      "inventorySlot": "Head",
+      "iconFileId": 7739389,
+      "itemLink": "|cnIQ4:|Hitem:268229::::::::10:1453::6:1:3524:1:28:7362:::::|h[Skullguard of the Risen Sacrifice]|h|r"
+    },
+    "268230": {
+      "armorType": "Mail",
+      "name": "Crown of the Eternal Fang",
+      "inventorySlot": "Head",
+      "iconFileId": 7705647,
+      "itemLink": "|cnIQ4:|Hitem:268230::::::::10:1453::6:1:3524:1:28:7362:::::|h[Crown of the Eternal Fang]|h|r"
+    },
+    "268231": {
+      "armorType": "Mail",
+      "name": "Soulslither Spaulders",
+      "inventorySlot": "Shoulder",
+      "iconFileId": 7705650,
+      "itemLink": "|cnIQ4:|Hitem:268231::::::::10:1453::6:1:3524:1:28:7362:::::|h[Soulslither Spaulders]|h|r"
+    },
     "268232": {
       "armorType": "Cloth",
       "name": "Cincture of the Abyssal Grotto",
       "inventorySlot": "Waist",
       "iconFileId": 7807649,
       "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r"
+    },
+    "268233": {
+      "armorType": "Mail",
+      "name": "Ferocious Scaleboots",
+      "inventorySlot": "Feet",
+      "iconFileId": 7557369,
+      "itemLink": "|cnIQ4:|Hitem:268233::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ferocious Scaleboots]|h|r"
+    },
+    "268234": {
+      "armorType": "Leather",
+      "name": "Ruthless Slaughtergrips",
+      "inventorySlot": "Hands",
+      "iconFileId": 7679654,
+      "itemLink": "|cnIQ4:|Hitem:268234::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ruthless Slaughtergrips]|h|r"
+    },
+    "268235": {
+      "armorType": "Leather",
+      "name": "Vestment of the Awakening",
+      "inventorySlot": "Chest",
+      "iconFileId": 7579166,
+      "itemLink": "|cnIQ4:|Hitem:268235::::::::10:1453::6:1:3524:1:28:7362:::::|h[Vestment of the Awakening]|h|r"
+    },
+    "268236": {
+      "armorType": "Cloth",
+      "name": "Initiate's Sacrificial Tights",
+      "inventorySlot": "Legs",
+      "iconFileId": 7667310,
+      "itemLink": "|cnIQ4:|Hitem:268236::::::::10:1453::6:1:3524:1:28:7362:::::|h[Initiate's Sacrificial Tights]|h|r"
+    },
+    "268237": {
+      "armorType": "Mail",
+      "name": "Cuisses of the Uncoiled Union",
+      "inventorySlot": "Legs",
+      "iconFileId": 7789850,
+      "itemLink": "|cnIQ4:|Hitem:268237::::::::10:1453::6:1:3524:1:28:7362:::::|h[Cuisses of the Uncoiled Union]|h|r"
     },
     "268238": {
       "armorType": "Mail",
@@ -377,6 +643,41 @@
       "iconFileId": 7789857,
       "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r"
     },
+    "268239": {
+      "armorType": "Plate",
+      "name": "Shellbound Bracers",
+      "inventorySlot": "Wrist",
+      "iconFileId": 7739385,
+      "itemLink": "|cnIQ4:|Hitem:268239::::::::10:1453::6:1:3524:1:28:7362:::::|h[Shellbound Bracers]|h|r"
+    },
+    "268240": {
+      "armorType": "Leather",
+      "name": "Restless Spirit Shackles",
+      "inventorySlot": "Wrist",
+      "iconFileId": 8095063,
+      "itemLink": "|cnIQ4:|Hitem:268240::::::::10:1453::6:1:3524:1:28:7362:::::|h[Restless Spirit Shackles]|h|r"
+    },
+    "268241": {
+      "armorType": "Cloth",
+      "name": "Ornaments of the Eternal Coil",
+      "inventorySlot": "Shoulder",
+      "iconFileId": 7807660,
+      "itemLink": "|cnIQ4:|Hitem:268241::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ornaments of the Eternal Coil]|h|r"
+    },
+    "268242": {
+      "armorType": "Cloth",
+      "name": "Errant Scrollsage's Hood",
+      "inventorySlot": "Head",
+      "iconFileId": 7667309,
+      "itemLink": "|cnIQ4:|Hitem:268242::::::::10:1453::6:1:3524:1:28:7362:::::|h[Errant Scrollsage's Hood]|h|r"
+    },
+    "268243": {
+      "armorType": "Cloth",
+      "name": "Grasps of the Eternal Shadow",
+      "inventorySlot": "Hands",
+      "iconFileId": 7520895,
+      "itemLink": "|cnIQ4:|Hitem:268243::::::::10:1453::6:1:3524:1:28:7362:::::|h[Grasps of the Eternal Shadow]|h|r"
+    },
     "268244": {
       "armorType": "Plate",
       "name": "Forgotten Grotto Girdle",
@@ -384,12 +685,124 @@
       "iconFileId": 7739383,
       "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r"
     },
+    "268245": {
+      "armorType": "Plate",
+      "name": "Entombed Cultist's Sabatons",
+      "inventorySlot": "Feet",
+      "iconFileId": 7515792,
+      "itemLink": "|cnIQ4:|Hitem:268245::::::::10:1453::6:1:3524:1:28:7362:::::|h[Entombed Cultist's Sabatons]|h|r"
+    },
+    "268246": {
+      "armorType": "Leather",
+      "name": "Frothing Venom Spaulders",
+      "inventorySlot": "Shoulder",
+      "iconFileId": 7679657,
+      "itemLink": "|cnIQ4:|Hitem:268246::::::::10:1453::6:1:3524:1:28:7362:::::|h[Frothing Venom Spaulders]|h|r"
+    },
     "268247": {
       "armorType": "Leather",
       "name": "Breakwater Boots",
       "inventorySlot": "Feet",
       "iconFileId": 7679650,
       "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r"
+    },
+    "268248": {
+      "armorType": "",
+      "name": "Amani Summoning Shawl",
+      "inventorySlot": "Back",
+      "iconFileId": 7487939,
+      "itemLink": "|cnIQ4:|Hitem:268248::::::::10:1453::6:1:3524:1:28:7362:::::|h[Amani Summoning Shawl]|h|r"
+    },
+    "268249": {
+      "armorType": "",
+      "name": "Vile Alchemist's Band",
+      "inventorySlot": "Finger",
+      "iconFileId": 7866597,
+      "itemLink": "|cnIQ4:|Hitem:268249::::::::10:1453::6:1:3524:1:28:7362:::::|h[Vile Alchemist's Band]|h|r"
+    },
+    "268250": {
+      "armorType": "",
+      "name": "Sentinel's Vitriolic Chain",
+      "inventorySlot": "Neck",
+      "iconFileId": 7866585,
+      "itemLink": "|cnIQ4:|Hitem:268250::::::::10:1453::6:1:3524:1:28:7362:::::|h[Sentinel's Vitriolic Chain]|h|r"
+    },
+    "268251": {
+      "armorType": "",
+      "name": "Amulet of the Twin Fangs",
+      "inventorySlot": "Neck",
+      "iconFileId": 7866583,
+      "itemLink": "|cnIQ4:|Hitem:268251::::::::10:1453::6:1:3524:1:28:7362:::::|h[Amulet of the Twin Fangs]|h|r"
+    },
+    "268252": {
+      "armorType": "",
+      "name": "Apex Brute's Claw Ring",
+      "inventorySlot": "Finger",
+      "iconFileId": 7866608,
+      "itemLink": "|cnIQ4:|Hitem:268252::::::::10:1453::6:1:3524:1:28:7362:::::|h[Apex Brute's Claw Ring]|h|r"
+    },
+    "268253": {
+      "armorType": "",
+      "name": "Silken Voodoo Drape",
+      "inventorySlot": "Back",
+      "iconFileId": 7678397,
+      "itemLink": "|cnIQ4:|Hitem:268253::::::::10:1453::6:1:3524:1:28:7362:::::|h[Silken Voodoo Drape]|h|r"
+    },
+    "268254": {
+      "armorType": "Mail",
+      "name": "Serpentine Mixing Belt",
+      "inventorySlot": "Waist",
+      "iconFileId": 7705642,
+      "itemLink": "|cnIQ4:|Hitem:268254::::::::10:1453::6:1:3524:1:28:7362:::::|h[Serpentine Mixing Belt]|h|r"
+    },
+    "268255": {
+      "armorType": "Cloth",
+      "name": "Cackling Soultreads",
+      "inventorySlot": "Feet",
+      "iconFileId": 7807651,
+      "itemLink": "|cnIQ4:|Hitem:268255::::::::10:1453::6:1:3524:1:28:7362:::::|h[Cackling Soultreads]|h|r"
+    },
+    "268256": {
+      "armorType": "Leather",
+      "name": "Sash of the Forlorn Vessel",
+      "inventorySlot": "Waist",
+      "iconFileId": 7579159,
+      "itemLink": "|cnIQ4:|Hitem:268256::::::::10:1453::6:1:3524:1:28:7362:::::|h[Sash of the Forlorn Vessel]|h|r"
+    },
+    "268257": {
+      "armorType": "Cloth",
+      "name": "Caustic Chain-Wrapped Sash",
+      "inventorySlot": "Waist",
+      "iconFileId": 7520891,
+      "itemLink": "|cnIQ4:|Hitem:268257::::::::10:1453::6:1:3524:1:28:7362:::::|h[Caustic Chain-Wrapped Sash]|h|r"
+    },
+    "268258": {
+      "armorType": "Mail",
+      "name": "Boots of the Reckless Wayfarer",
+      "inventorySlot": "Feet",
+      "iconFileId": 7789853,
+      "itemLink": "|cnIQ4:|Hitem:268258::::::::10:1453::6:1:3524:1:28:7362:::::|h[Boots of the Reckless Wayfarer]|h|r"
+    },
+    "268259": {
+      "armorType": "Plate",
+      "name": "Girdle of Toxic Regret",
+      "inventorySlot": "Waist",
+      "iconFileId": 7730297,
+      "itemLink": "|cnIQ4:|Hitem:268259::::::::10:1453::6:1:3524:1:28:7362:::::|h[Girdle of Toxic Regret]|h|r"
+    },
+    "268260": {
+      "armorType": "Plate",
+      "name": "Scaled Fiend's Warboots",
+      "inventorySlot": "Feet",
+      "iconFileId": 7730298,
+      "itemLink": "|cnIQ4:|Hitem:268260::::::::10:1453::6:1:3524:1:28:7362:::::|h[Scaled Fiend's Warboots]|h|r"
+    },
+    "268261": {
+      "armorType": "Leather",
+      "name": "Bespittled Slitherslippers",
+      "inventorySlot": "Feet",
+      "iconFileId": 7487936,
+      "itemLink": "|cnIQ4:|Hitem:268261::::::::10:1453::6:1:3524:1:28:7362:::::|h[Bespittled Slitherslippers]|h|r"
     },
     "268262": {
       "armorType": "Shield",
@@ -405,12 +818,75 @@
       "iconFileId": 7500005,
       "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r"
     },
+    "268264": {
+      "armorType": "Dagger",
+      "name": "Ravenous Feaster's Fang",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7515621,
+      "itemLink": "|cnIQ4:|Hitem:268264::::::::10:1453::6:1:3524:1:28:7362:::::|h[Ravenous Feaster's Fang]|h|r"
+    },
+    "268265": {
+      "armorType": "",
+      "name": "Aqirbane Reliquary",
+      "inventorySlot": "Neck",
+      "iconFileId": 7866590,
+      "itemLink": "|cnIQ4:|Hitem:268265::::::::10:1453::6:1:3524:1:28:7362:::::|h[Aqirbane Reliquary]|h|r"
+    },
     "268266": {
       "armorType": "",
       "name": "Alluring Bubbleband",
       "inventorySlot": "Finger",
       "iconFileId": 1391765,
       "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r"
+    },
+    "270160": {
+      "armorType": "",
+      "name": "First Mate's Shellward",
+      "inventorySlot": "Trinket",
+      "iconFileId": 6361206,
+      "itemLink": "|cnIQ4:|Hitem:270160::::::::10:1453::6:1:3524:1:28:7362:::::|h[First Mate's Shellward]|h|r"
+    },
+    "270161": {
+      "armorType": "",
+      "name": "Fang of Umbral Malignance",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956745,
+      "itemLink": "|cnIQ4:|Hitem:270161::::::::10:1453::6:1:3524:1:28:7362:::::|h[Fang of Umbral Malignance]|h|r"
+    },
+    "270162": {
+      "armorType": "",
+      "name": "Soulcoiler Ritual Vessel",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956752,
+      "itemLink": "|cnIQ4:|Hitem:270162::::::::10:1453::6:1:3524:1:28:7362:::::|h[Soulcoiler Ritual Vessel]|h|r"
+    },
+    "270163": {
+      "armorType": "",
+      "name": "Sszorak's Ferocity",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956757,
+      "itemLink": "|cnIQ4:|Hitem:270163::::::::10:1453::6:1:3524:1:28:7362:::::|h[Sszorak's Ferocity]|h|r"
+    },
+    "270164": {
+      "armorType": "",
+      "name": "Gebbo's Bottomless Bag",
+      "inventorySlot": "Trinket",
+      "iconFileId": 4549224,
+      "itemLink": "|cnIQ4:|Hitem:270164::::::::10:1453::6:1:3524:1:28:7362:::::|h[Gebbo's Bottomless Bag]|h|r"
+    },
+    "270165": {
+      "armorType": "",
+      "name": "Keeper's Seething Core",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956747,
+      "itemLink": "|cnIQ4:|Hitem:270165::::::::10:1453::6:1:3524:1:28:7362:::::|h[Keeper's Seething Core]|h|r"
+    },
+    "270166": {
+      "armorType": "",
+      "name": "Vashnik's Sanguine Rancor",
+      "inventorySlot": "Trinket",
+      "iconFileId": 6011948,
+      "itemLink": "|cnIQ4:|Hitem:270166::::::::10:1453::6:1:3524:1:28:7362:::::|h[Vashnik's Sanguine Rancor]|h|r"
     },
     "270167": {
       "armorType": "",
@@ -419,12 +895,362 @@
       "iconFileId": 1020350,
       "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r"
     },
+    "270168": {
+      "armorType": "",
+      "name": "Font of Venomous Rage",
+      "inventorySlot": "Trinket",
+      "iconFileId": 4638540,
+      "itemLink": "|cnIQ4:|Hitem:270168::::::::10:1453::6:1:3524:1:28:7362:::::|h[Font of Venomous Rage]|h|r"
+    },
+    "270169": {
+      "armorType": "",
+      "name": "Hex Lord's Dooming Idol",
+      "inventorySlot": "Trinket",
+      "iconFileId": 1001629,
+      "itemLink": "|cnIQ4:|Hitem:270169::::::::10:1453::6:1:3524:1:28:7362:::::|h[Hex Lord's Dooming Idol]|h|r"
+    },
+    "270170": {
+      "armorType": "",
+      "name": "Vexhul's Everflowing Gland",
+      "inventorySlot": "Trinket",
+      "iconFileId": 6012071,
+      "itemLink": "|cnIQ4:|Hitem:270170::::::::10:1453::6:1:3524:1:28:7362:::::|h[Vexhul's Everflowing Gland]|h|r"
+    },
+    "270171": {
+      "armorType": "",
+      "name": "Preternatural Antivenom",
+      "inventorySlot": "Trinket",
+      "iconFileId": 6011929,
+      "itemLink": "|cnIQ4:|Hitem:270171::::::::10:1453::6:1:3524:1:28:7362:::::|h[Preternatural Antivenom]|h|r"
+    },
+    "270173": {
+      "armorType": "",
+      "name": "Zul'jin's Guillotine Technique",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956755,
+      "itemLink": "|cnIQ4:|Hitem:270173::::::::10:1453::6:1:3524:1:28:7362:::::|h[Zul'jin's Guillotine Technique]|h|r"
+    },
+    "270174": {
+      "armorType": "",
+      "name": "Idol of the Howling Nexus",
+      "inventorySlot": "Trinket",
+      "iconFileId": 237237,
+      "itemLink": "|cnIQ4:|Hitem:270174::::::::10:1453::6:1:3524:1:28:7362:::::|h[Idol of the Howling Nexus]|h|r"
+    },
+    "270175": {
+      "armorType": "",
+      "name": "Voracious Heart of Ula'tek",
+      "inventorySlot": "Trinket",
+      "iconFileId": 7956750,
+      "itemLink": "|cnIQ4:|Hitem:270175::::::::10:1453::6:1:3524:1:28:7362:::::|h[Voracious Heart of Ula'tek]|h|r"
+    },
+    "270909": {
+      "armorType": "",
+      "name": "Slumbering Coil Curio",
+      "inventorySlot": "",
+      "iconFileId": 538441,
+      "itemLink": "|cnIQ4:|Hitem:270909::::::::10:1453::6:1:3524:1:28:7362:::::|h[Slumbering Coil Curio]|h|r"
+    },
+    "270910": {
+      "armorType": "",
+      "name": "Venomwoven Idol",
+      "inventorySlot": "",
+      "iconFileId": 237179,
+      "itemLink": "|cnIQ4:|Hitem:270910::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomwoven Idol]|h|r"
+    },
+    "270911": {
+      "armorType": "",
+      "name": "Venomcured Idol",
+      "inventorySlot": "",
+      "iconFileId": 237242,
+      "itemLink": "|cnIQ4:|Hitem:270911::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcured Idol]|h|r"
+    },
+    "270912": {
+      "armorType": "",
+      "name": "Venomcast Idol",
+      "inventorySlot": "",
+      "iconFileId": 237234,
+      "itemLink": "|cnIQ4:|Hitem:270912::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcast Idol]|h|r"
+    },
+    "270913": {
+      "armorType": "",
+      "name": "Venomforged Idol",
+      "inventorySlot": "",
+      "iconFileId": 133262,
+      "itemLink": "|cnIQ4:|Hitem:270913::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomforged Idol]|h|r"
+    },
+    "270914": {
+      "armorType": "",
+      "name": "Venomwoven Effigy",
+      "inventorySlot": "",
+      "iconFileId": 237179,
+      "itemLink": "|cnIQ4:|Hitem:270914::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomwoven Effigy]|h|r"
+    },
+    "270915": {
+      "armorType": "",
+      "name": "Venomcured Effigy",
+      "inventorySlot": "",
+      "iconFileId": 237242,
+      "itemLink": "|cnIQ4:|Hitem:270915::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcured Effigy]|h|r"
+    },
+    "270916": {
+      "armorType": "",
+      "name": "Venomcast Effigy",
+      "inventorySlot": "",
+      "iconFileId": 237234,
+      "itemLink": "|cnIQ4:|Hitem:270916::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcast Effigy]|h|r"
+    },
+    "270917": {
+      "armorType": "",
+      "name": "Venomforged Effigy",
+      "inventorySlot": "",
+      "iconFileId": 133262,
+      "itemLink": "|cnIQ4:|Hitem:270917::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomforged Effigy]|h|r"
+    },
+    "270918": {
+      "armorType": "",
+      "name": "Venomwoven Relic",
+      "inventorySlot": "",
+      "iconFileId": 237179,
+      "itemLink": "|cnIQ4:|Hitem:270918::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomwoven Relic]|h|r"
+    },
+    "270919": {
+      "armorType": "",
+      "name": "Venomcured Relic",
+      "inventorySlot": "",
+      "iconFileId": 237242,
+      "itemLink": "|cnIQ4:|Hitem:270919::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcured Relic]|h|r"
+    },
+    "270920": {
+      "armorType": "",
+      "name": "Venomcast Relic",
+      "inventorySlot": "",
+      "iconFileId": 237234,
+      "itemLink": "|cnIQ4:|Hitem:270920::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcast Relic]|h|r"
+    },
+    "270921": {
+      "armorType": "",
+      "name": "Venomforged Relic",
+      "inventorySlot": "",
+      "iconFileId": 133262,
+      "itemLink": "|cnIQ4:|Hitem:270921::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomforged Relic]|h|r"
+    },
+    "270922": {
+      "armorType": "",
+      "name": "Venomwoven Remnant",
+      "inventorySlot": "",
+      "iconFileId": 237179,
+      "itemLink": "|cnIQ4:|Hitem:270922::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomwoven Remnant]|h|r"
+    },
+    "270923": {
+      "armorType": "",
+      "name": "Venomcured Remnant",
+      "inventorySlot": "",
+      "iconFileId": 237242,
+      "itemLink": "|cnIQ4:|Hitem:270923::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcured Remnant]|h|r"
+    },
+    "270924": {
+      "armorType": "",
+      "name": "Venomcast Remnant",
+      "inventorySlot": "",
+      "iconFileId": 237234,
+      "itemLink": "|cnIQ4:|Hitem:270924::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcast Remnant]|h|r"
+    },
+    "270925": {
+      "armorType": "",
+      "name": "Venomforged Remnant",
+      "inventorySlot": "",
+      "iconFileId": 133262,
+      "itemLink": "|cnIQ4:|Hitem:270925::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomforged Remnant]|h|r"
+    },
+    "270926": {
+      "armorType": "",
+      "name": "Venomwoven Icon",
+      "inventorySlot": "",
+      "iconFileId": 237179,
+      "itemLink": "|cnIQ4:|Hitem:270926::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomwoven Icon]|h|r"
+    },
+    "270927": {
+      "armorType": "",
+      "name": "Venomcured Icon",
+      "inventorySlot": "",
+      "iconFileId": 237242,
+      "itemLink": "|cnIQ4:|Hitem:270927::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcured Icon]|h|r"
+    },
+    "270928": {
+      "armorType": "",
+      "name": "Venomcast Icon",
+      "inventorySlot": "",
+      "iconFileId": 237234,
+      "itemLink": "|cnIQ4:|Hitem:270928::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomcast Icon]|h|r"
+    },
+    "270929": {
+      "armorType": "",
+      "name": "Venomforged Icon",
+      "inventorySlot": "",
+      "iconFileId": 133262,
+      "itemLink": "|cnIQ4:|Hitem:270929::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomforged Icon]|h|r"
+    },
+    "270930": {
+      "armorType": "Fist Weapon",
+      "name": "Tomb-Creeper's Claw",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7530467,
+      "itemLink": "|cnIQ4:|Hitem:270930::::::::10:1453::6:1:3524:1:28:7362:::::|h[Tomb-Creeper's Claw]|h|r"
+    },
+    "271092": {
+      "armorType": "Dagger",
+      "name": "Jan'thrazet, the Soul Fang",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7850590,
+      "itemLink": "|cnIQ4:|Hitem:271092::::::::10:1453::6:1:3524:1:28:7362:::::|h[Jan'thrazet, the Soul Fang]|h|r"
+    },
+    "271093": {
+      "armorType": "Dagger",
+      "name": "Zatha'tek, Breath of Corruption",
+      "inventorySlot": "One-Hand",
+      "iconFileId": 7578560,
+      "itemLink": "|cnIQ4:|Hitem:271093::::::::10:1453::6:1:3524:1:28:7362:::::|h[Zatha'tek, Breath of Corruption]|h|r"
+    },
+    "271874": {
+      "armorType": "Cloth",
+      "name": "Venomkeeper's Horrific Cowl",
+      "inventorySlot": "Head",
+      "iconFileId": 7520904,
+      "itemLink": "|cnIQ4:|Hitem:271874::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomkeeper's Horrific Cowl]|h|r"
+    },
+    "271875": {
+      "armorType": "Leather",
+      "name": "Gaze of the Coiled Watcher",
+      "inventorySlot": "Head",
+      "iconFileId": 7579164,
+      "itemLink": "|cnIQ4:|Hitem:271875::::::::10:1453::6:1:3524:1:28:7362:::::|h[Gaze of the Coiled Watcher]|h|r"
+    },
+    "271876": {
+      "armorType": "Mail",
+      "name": "Awoken Dreadfang Cuirass",
+      "inventorySlot": "Chest",
+      "iconFileId": 7789856,
+      "itemLink": "|cnIQ4:|Hitem:271876::::::::10:1453::6:1:3524:1:28:7362:::::|h[Awoken Dreadfang Cuirass]|h|r"
+    },
+    "271878": {
+      "armorType": "Plate",
+      "name": "Chausses of Unbound Rancor",
+      "inventorySlot": "Legs",
+      "iconFileId": 7739390,
+      "itemLink": "|cnIQ4:|Hitem:271878::::::::10:1453::6:1:3524:1:28:7362:::::|h[Chausses of Unbound Rancor]|h|r"
+    },
+    "272361": {
+      "armorType": "",
+      "name": "Venomous Pyre",
+      "inventorySlot": "",
+      "iconFileId": 7759687,
+      "itemLink": "|cnIQ3:|Hitem:272361::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venomous Pyre]|h|r"
+    },
+    "273070": {
+      "armorType": "",
+      "name": "Pattern: Adorned Fang",
+      "inventorySlot": "",
+      "iconFileId": 4549193,
+      "itemLink": "|cnIQ3:|Hitem:273070::::::::10:1453::6:1:3524:1:28:7362:::::|h[Pattern: Adorned Fang]|h|r"
+    },
+    "275658": {
+      "armorType": "Mount",
+      "name": "Primeval Skyfriend",
+      "inventorySlot": "",
+      "iconFileId": 7703890,
+      "itemLink": "|cnIQ4:|Hitem:275658::::::::10:1453::6:1:3524:1:28:872:::::|h[Primeval Skyfriend]|h|r"
+    },
+    "275937": {
+      "armorType": "",
+      "name": "Hex Lord's Visage",
+      "inventorySlot": "Head",
+      "iconFileId": 7652220,
+      "itemLink": "|cnIQ3:|Hitem:275937::::::::10:1453::6:1:3524:1:28:7362:::::|h[Hex Lord's Visage]|h|r"
+    },
+    "275938": {
+      "armorType": "",
+      "name": "Hex Lord's Gaze",
+      "inventorySlot": "Head",
+      "iconFileId": 7652220,
+      "itemLink": "|cnIQ3:|Hitem:275938::::::::10:1453::6:1:3524:1:28:7362:::::|h[Hex Lord's Gaze]|h|r"
+    },
     "279112": {
       "armorType": "",
       "name": "Clumped Asteroidea",
       "inventorySlot": "",
       "iconFileId": 8033308,
       "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r"
+    },
+    "279115": {
+      "armorType": "",
+      "name": "Soulcoiler's Ritual Candle",
+      "inventorySlot": "",
+      "iconFileId": 8030633,
+      "itemLink": "|cnIQ3:|Hitem:279115::::::::10:1453::6:1:3524:1:28:7362:::::|h[Soulcoiler's Ritual Candle]|h|r"
+    },
+    "279118": {
+      "armorType": "",
+      "name": "Lost Explorers' Mailbox",
+      "inventorySlot": "",
+      "iconFileId": 8033314,
+      "itemLink": "|cnIQ3:|Hitem:279118::::::::10:1453::6:1:3524:1:28:7362:::::|h[Lost Explorers' Mailbox]|h|r"
+    },
+    "279122": {
+      "armorType": "",
+      "name": "Venom-Fanged Font",
+      "inventorySlot": "",
+      "iconFileId": 7967325,
+      "itemLink": "|cnIQ3:|Hitem:279122::::::::10:1453::6:1:3524:1:28:7362:::::|h[Venom-Fanged Font]|h|r"
+    },
+    "279125": {
+      "armorType": "",
+      "name": "The Venomous Abyss Aureate Trophy",
+      "inventorySlot": "",
+      "iconFileId": 7937278,
+      "itemLink": "|cnIQ4:|Hitem:279125::::::::10:1453::6:1:3524:1:28:7362:::::|h[The Venomous Abyss Aureate Trophy]|h|r"
+    },
+    "279127": {
+      "armorType": "",
+      "name": "The Venomous Abyss Argent Trophy",
+      "inventorySlot": "",
+      "iconFileId": 7937272,
+      "itemLink": "|cnIQ4:|Hitem:279127::::::::10:1453::6:1:3524:1:28:7362:::::|h[The Venomous Abyss Argent Trophy]|h|r"
+    },
+    "279129": {
+      "armorType": "",
+      "name": "The Venomous Abyss Gleaming Trophy",
+      "inventorySlot": "",
+      "iconFileId": 7937274,
+      "itemLink": "|cnIQ4:|Hitem:279129::::::::10:1453::6:1:3524:1:28:7362:::::|h[The Venomous Abyss Gleaming Trophy]|h|r"
+    },
+    "279131": {
+      "armorType": "",
+      "name": "Pillar of the Coiled Isle",
+      "inventorySlot": "",
+      "iconFileId": 7967329,
+      "itemLink": "|cnIQ3:|Hitem:279131::::::::10:1453::6:1:3524:1:28:7362:::::|h[Pillar of the Coiled Isle]|h|r"
+    },
+    "279500": {
+      "armorType": "",
+      "name": "\"Rage of the Shackled\" Mural",
+      "inventorySlot": "",
+      "iconFileId": 8123902,
+      "itemLink": "|cnIQ3:|Hitem:279500::::::::10:1453::6:1:3524:1:28:7362:::::|h[\"Rage of the Shackled\" Mural]|h|r"
+    },
+    "280305": {
+      "armorType": "",
+      "name": "Soulcoil Remnant",
+      "inventorySlot": "",
+      "iconFileId": 7558868,
+      "itemLink": "|cnIQ3:|Hitem:280305::::::::10:1453::6:1:3524:1:28:373:::::|h[Soulcoil Remnant]|h|r"
+    },
+    "281227": {
+      "armorType": "",
+      "name": "Soulcoiler's Rush'kah",
+      "inventorySlot": "Head",
+      "iconFileId": 7558105,
+      "itemLink": "|cnIQ3:|Hitem:281227::::::::10:1453::6:1:3524:1:28:7362:::::|h[Soulcoiler's Rush'kah]|h|r"
     }
   },
   "instances": {
@@ -1596,6 +2422,2824 @@
                   268266,
                   270167,
                   279112
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "1320": {
+      "name": "The Venomous Abyss",
+      "encounters": {
+        "2871": {
+          "name": "Sszorak",
+          "dungeonEncounterId": 3420,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                244343,
+                268201,
+                268206,
+                268233,
+                268234,
+                268252,
+                268257,
+                270163,
+                270174,
+                270918,
+                270919,
+                270920,
+                270921
+              ],
+              "specializations": {
+                "62": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "63": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "64": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "65": [
+                  244343,
+                  268252,
+                  270921
+                ],
+                "66": [
+                  244343,
+                  268252,
+                  270163,
+                  270174,
+                  270921
+                ],
+                "70": [
+                  244343,
+                  268252,
+                  270163,
+                  270921
+                ],
+                "71": [
+                  244343,
+                  268252,
+                  270163,
+                  270921
+                ],
+                "72": [
+                  244343,
+                  268252,
+                  270163,
+                  270921
+                ],
+                "73": [
+                  244343,
+                  268252,
+                  270163,
+                  270174,
+                  270921
+                ],
+                "102": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "103": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "104": [
+                  244343,
+                  268234,
+                  268252,
+                  270174,
+                  270919
+                ],
+                "105": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "250": [
+                  244343,
+                  268252,
+                  270163,
+                  270174,
+                  270921
+                ],
+                "251": [
+                  244343,
+                  268252,
+                  270163,
+                  270921
+                ],
+                "252": [
+                  244343,
+                  268252,
+                  270163,
+                  270921
+                ],
+                "253": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "254": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "255": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "256": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "257": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "258": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "259": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "260": [
+                  244343,
+                  268206,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "261": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "262": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "263": [
+                  244343,
+                  268206,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "264": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "265": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "266": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "267": [
+                  244343,
+                  268252,
+                  268257,
+                  270918
+                ],
+                "268": [
+                  244343,
+                  268206,
+                  268234,
+                  268252,
+                  270174,
+                  270919
+                ],
+                "269": [
+                  244343,
+                  268206,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "270": [
+                  244343,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "577": [
+                  244343,
+                  268201,
+                  268234,
+                  268252,
+                  270919
+                ],
+                "581": [
+                  244343,
+                  268201,
+                  268234,
+                  268252,
+                  270174,
+                  270919
+                ],
+                "1467": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "1468": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "1473": [
+                  244343,
+                  268233,
+                  268252,
+                  270920
+                ],
+                "1480": [
+                  244343,
+                  268201,
+                  268234,
+                  268252,
+                  270919
+                ]
+              }
+            }
+          }
+        },
+        "2874": {
+          "name": "Entombed Sentinels",
+          "dungeonEncounterId": 3445,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                264716,
+                268197,
+                268198,
+                268204,
+                268219,
+                268224,
+                268228,
+                268250,
+                270165,
+                270910,
+                270911,
+                270912,
+                270913
+              ],
+              "specializations": {
+                "62": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "63": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "64": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "65": [
+                  264716,
+                  268224,
+                  268250,
+                  270913
+                ],
+                "66": [
+                  264716,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "70": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "71": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "72": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "73": [
+                  264716,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "102": [
+                  264716,
+                  268197,
+                  268219,
+                  268250,
+                  270911
+                ],
+                "103": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "104": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "105": [
+                  264716,
+                  268197,
+                  268219,
+                  268250,
+                  270911
+                ],
+                "250": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "251": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "252": [
+                  264716,
+                  268198,
+                  268224,
+                  268250,
+                  270165,
+                  270913
+                ],
+                "253": [
+                  264716,
+                  268250,
+                  270165,
+                  270912
+                ],
+                "254": [
+                  264716,
+                  268250,
+                  270165,
+                  270912
+                ],
+                "255": [
+                  264716,
+                  268204,
+                  268250,
+                  270165,
+                  270912
+                ],
+                "256": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "257": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "258": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "259": [
+                  264716,
+                  268204,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "260": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "261": [
+                  264716,
+                  268204,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "262": [
+                  264716,
+                  268250,
+                  270912
+                ],
+                "263": [
+                  264716,
+                  268250,
+                  270165,
+                  270912
+                ],
+                "264": [
+                  264716,
+                  268250,
+                  270912
+                ],
+                "265": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "266": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "267": [
+                  264716,
+                  268197,
+                  268228,
+                  268250,
+                  270910
+                ],
+                "268": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "269": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "270": [
+                  264716,
+                  268197,
+                  268219,
+                  268250,
+                  270911
+                ],
+                "577": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "581": [
+                  264716,
+                  268219,
+                  268250,
+                  270165,
+                  270911
+                ],
+                "1467": [
+                  264716,
+                  268197,
+                  268250,
+                  270912
+                ],
+                "1468": [
+                  264716,
+                  268197,
+                  268250,
+                  270912
+                ],
+                "1473": [
+                  264716,
+                  268197,
+                  268250,
+                  270912
+                ],
+                "1480": [
+                  264716,
+                  268219,
+                  268250,
+                  270911
+                ]
+              }
+            }
+          }
+        },
+        "2882": {
+          "name": "Vashnik the Malignant",
+          "dungeonEncounterId": 3455,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268205,
+                268214,
+                268246,
+                268249,
+                268254,
+                268260,
+                270161,
+                270166,
+                270926,
+                270927,
+                270928,
+                270929,
+                272361
+              ],
+              "specializations": {
+                "62": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "63": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "64": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "65": [
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "66": [
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "70": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "71": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "72": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "73": [
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "102": [
+                  268205,
+                  268246,
+                  268249,
+                  270161,
+                  270927,
+                  272361
+                ],
+                "103": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "104": [
+                  268246,
+                  268249,
+                  270927,
+                  272361
+                ],
+                "105": [
+                  268205,
+                  268246,
+                  268249,
+                  270927,
+                  272361
+                ],
+                "250": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "251": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "252": [
+                  268214,
+                  268249,
+                  268260,
+                  270929,
+                  272361
+                ],
+                "253": [
+                  268249,
+                  268254,
+                  270166,
+                  270928,
+                  272361
+                ],
+                "254": [
+                  268249,
+                  268254,
+                  270166,
+                  270928,
+                  272361
+                ],
+                "255": [
+                  268249,
+                  268254,
+                  270166,
+                  270928,
+                  272361
+                ],
+                "256": [
+                  268205,
+                  268249,
+                  270926,
+                  272361
+                ],
+                "257": [
+                  268205,
+                  268249,
+                  270926,
+                  272361
+                ],
+                "258": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "259": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "260": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "261": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "262": [
+                  268205,
+                  268249,
+                  268254,
+                  270161,
+                  270928,
+                  272361
+                ],
+                "263": [
+                  268249,
+                  268254,
+                  270166,
+                  270928,
+                  272361
+                ],
+                "264": [
+                  268205,
+                  268249,
+                  268254,
+                  270928,
+                  272361
+                ],
+                "265": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "266": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "267": [
+                  268205,
+                  268249,
+                  270161,
+                  270926,
+                  272361
+                ],
+                "268": [
+                  268246,
+                  268249,
+                  270927,
+                  272361
+                ],
+                "269": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "270": [
+                  268205,
+                  268246,
+                  268249,
+                  270927,
+                  272361
+                ],
+                "577": [
+                  268246,
+                  268249,
+                  270166,
+                  270927,
+                  272361
+                ],
+                "581": [
+                  268246,
+                  268249,
+                  270927,
+                  272361
+                ],
+                "1467": [
+                  268205,
+                  268249,
+                  268254,
+                  270161,
+                  270928,
+                  272361
+                ],
+                "1468": [
+                  268205,
+                  268249,
+                  268254,
+                  270928,
+                  272361
+                ],
+                "1473": [
+                  268205,
+                  268249,
+                  268254,
+                  270161,
+                  270928,
+                  272361
+                ],
+                "1480": [
+                  268246,
+                  268249,
+                  270161,
+                  270927,
+                  272361
+                ]
+              }
+            }
+          }
+        },
+        "2883": {
+          "name": "The Coiled Altar",
+          "dungeonEncounterId": 3429,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268209,
+                268211,
+                268213,
+                268222,
+                268225,
+                268231,
+                268237,
+                268243,
+                268253,
+                268255,
+                268256,
+                268259,
+                270169,
+                270173,
+                275937,
+                275938,
+                279131
+              ],
+              "specializations": {
+                "62": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "63": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "64": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "65": [
+                  268211,
+                  268222,
+                  268253,
+                  268259,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "66": [
+                  268209,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "70": [
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "71": [
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "72": [
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "73": [
+                  268209,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "102": [
+                  268225,
+                  268253,
+                  268256,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "103": [
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "104": [
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "105": [
+                  268225,
+                  268253,
+                  268256,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "250": [
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "251": [
+                  268209,
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "252": [
+                  268213,
+                  268222,
+                  268253,
+                  268259,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "253": [
+                  268231,
+                  268237,
+                  268253,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "254": [
+                  268231,
+                  268237,
+                  268253,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "255": [
+                  268209,
+                  268213,
+                  268231,
+                  268237,
+                  268253,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "256": [
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "257": [
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "258": [
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "259": [
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "260": [
+                  268209,
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "261": [
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "262": [
+                  268231,
+                  268237,
+                  268253,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "263": [
+                  268209,
+                  268231,
+                  268237,
+                  268253,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "264": [
+                  268231,
+                  268237,
+                  268253,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "265": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "266": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "267": [
+                  268211,
+                  268243,
+                  268253,
+                  268255,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "268": [
+                  268209,
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "269": [
+                  268209,
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "270": [
+                  268211,
+                  268225,
+                  268253,
+                  268256,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "577": [
+                  268209,
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "581": [
+                  268209,
+                  268225,
+                  268253,
+                  268256,
+                  270173,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "1467": [
+                  268211,
+                  268231,
+                  268237,
+                  268253,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "1468": [
+                  268211,
+                  268231,
+                  268237,
+                  268253,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "1473": [
+                  268211,
+                  268231,
+                  268237,
+                  268253,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ],
+                "1480": [
+                  268211,
+                  268225,
+                  268253,
+                  268256,
+                  270169,
+                  275937,
+                  275938,
+                  279131
+                ]
+              }
+            }
+          }
+        },
+        "2887": {
+          "name": "The Twin Fangs",
+          "dungeonEncounterId": 3421,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268220,
+                268223,
+                268241,
+                268251,
+                268261,
+                268264,
+                270170,
+                270171,
+                270914,
+                270915,
+                270916,
+                270917,
+                273070,
+                279122
+              ],
+              "specializations": {
+                "62": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "63": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "64": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "65": [
+                  268220,
+                  268251,
+                  270171,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "66": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "70": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "71": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "72": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "73": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "102": [
+                  268251,
+                  268261,
+                  270170,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "103": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "104": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "105": [
+                  268251,
+                  268261,
+                  270171,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "250": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "251": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "252": [
+                  268220,
+                  268251,
+                  270917,
+                  273070,
+                  279122
+                ],
+                "253": [
+                  268223,
+                  268251,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "254": [
+                  268223,
+                  268251,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "255": [
+                  268223,
+                  268251,
+                  268264,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "256": [
+                  268241,
+                  268251,
+                  270171,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "257": [
+                  268241,
+                  268251,
+                  270171,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "258": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "259": [
+                  268251,
+                  268261,
+                  268264,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "260": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "261": [
+                  268251,
+                  268261,
+                  268264,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "262": [
+                  268223,
+                  268251,
+                  270170,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "263": [
+                  268223,
+                  268251,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "264": [
+                  268223,
+                  268251,
+                  270171,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "265": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "266": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "267": [
+                  268241,
+                  268251,
+                  270170,
+                  270914,
+                  273070,
+                  279122
+                ],
+                "268": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "269": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "270": [
+                  268251,
+                  268261,
+                  270171,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "577": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "581": [
+                  268251,
+                  268261,
+                  270915,
+                  273070,
+                  279122
+                ],
+                "1467": [
+                  268223,
+                  268251,
+                  270170,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "1468": [
+                  268223,
+                  268251,
+                  270171,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "1473": [
+                  268223,
+                  268251,
+                  270170,
+                  270916,
+                  273070,
+                  279122
+                ],
+                "1480": [
+                  268251,
+                  268261,
+                  270170,
+                  270915,
+                  273070,
+                  279122
+                ]
+              }
+            }
+          }
+        },
+        "2888": {
+          "name": "Nek'zali the Soulcoiler",
+          "dungeonEncounterId": 3470,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268203,
+                268208,
+                268216,
+                268218,
+                268229,
+                268230,
+                268235,
+                268236,
+                268240,
+                268245,
+                268248,
+                270162,
+                270930,
+                279115,
+                280305,
+                281227
+              ],
+              "specializations": {
+                "62": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "63": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "64": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "65": [
+                  268229,
+                  268245,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "66": [
+                  268208,
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "70": [
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "71": [
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "72": [
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "73": [
+                  268208,
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "102": [
+                  268203,
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "103": [
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "104": [
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "105": [
+                  268203,
+                  268235,
+                  268240,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "250": [
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "251": [
+                  268208,
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "252": [
+                  268229,
+                  268245,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "253": [
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "254": [
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "255": [
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "256": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "257": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "258": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "259": [
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "260": [
+                  268235,
+                  268240,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "261": [
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "262": [
+                  268203,
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "263": [
+                  268216,
+                  268230,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "264": [
+                  268203,
+                  268216,
+                  268230,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "265": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "266": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "267": [
+                  268203,
+                  268218,
+                  268236,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "268": [
+                  268235,
+                  268240,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "269": [
+                  268235,
+                  268240,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "270": [
+                  268235,
+                  268240,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "577": [
+                  268235,
+                  268240,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "581": [
+                  268235,
+                  268240,
+                  268248,
+                  270930,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "1467": [
+                  268203,
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "1468": [
+                  268203,
+                  268216,
+                  268230,
+                  268248,
+                  270162,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "1473": [
+                  268203,
+                  268216,
+                  268230,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ],
+                "1480": [
+                  268203,
+                  268235,
+                  268240,
+                  268248,
+                  279115,
+                  280305,
+                  281227
+                ]
+              }
+            }
+          }
+        },
+        "2894": {
+          "name": "The Lost Explorers",
+          "dungeonEncounterId": 3497,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268196,
+                268200,
+                268210,
+                268227,
+                268239,
+                268242,
+                268258,
+                270160,
+                270164,
+                270922,
+                270923,
+                270924,
+                270925,
+                279118
+              ],
+              "specializations": {
+                "62": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "63": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "64": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "65": [
+                  268196,
+                  268210,
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "66": [
+                  268196,
+                  268239,
+                  270160,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "70": [
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "71": [
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "72": [
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "73": [
+                  268196,
+                  268239,
+                  270160,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "102": [
+                  268210,
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "103": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "104": [
+                  268227,
+                  270160,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "105": [
+                  268210,
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "250": [
+                  268239,
+                  270160,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "251": [
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "252": [
+                  268239,
+                  270164,
+                  270925,
+                  279118
+                ],
+                "253": [
+                  268200,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "254": [
+                  268200,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "255": [
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "256": [
+                  268210,
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "257": [
+                  268210,
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "258": [
+                  268210,
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "259": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "260": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "261": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "262": [
+                  268196,
+                  268210,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "263": [
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "264": [
+                  268196,
+                  268210,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "265": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "266": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "267": [
+                  268242,
+                  270164,
+                  270922,
+                  279118
+                ],
+                "268": [
+                  268227,
+                  270160,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "269": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "270": [
+                  268210,
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "577": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "581": [
+                  268227,
+                  270160,
+                  270164,
+                  270923,
+                  279118
+                ],
+                "1467": [
+                  268210,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "1468": [
+                  268210,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "1473": [
+                  268210,
+                  268258,
+                  270164,
+                  270924,
+                  279118
+                ],
+                "1480": [
+                  268227,
+                  270164,
+                  270923,
+                  279118
+                ]
+              }
+            }
+          }
+        },
+        "2895": {
+          "name": "Ula'tek",
+          "dungeonEncounterId": 3492,
+          "difficulties": {
+            "16": {
+              "name": "Mythic",
+              "baselineItemIds": [
+                268202,
+                268207,
+                268215,
+                268265,
+                270168,
+                270175,
+                270909,
+                271092,
+                271093,
+                271874,
+                271875,
+                271876,
+                271878,
+                275658,
+                279125,
+                279127,
+                279129,
+                279500
+              ],
+              "specializations": {
+                "62": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "63": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "64": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "65": [
+                  268265,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "66": [
+                  268202,
+                  268265,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "70": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "71": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "72": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "73": [
+                  268202,
+                  268265,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "102": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "103": [
+                  268215,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "104": [
+                  268215,
+                  268265,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "105": [
+                  268265,
+                  270909,
+                  271092,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "250": [
+                  268265,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "251": [
+                  268202,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "252": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271878,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "253": [
+                  268207,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "254": [
+                  268207,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "255": [
+                  268215,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271093,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "256": [
+                  268265,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "257": [
+                  268265,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "258": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "259": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271093,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "260": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "261": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271093,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "262": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "263": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "264": [
+                  268265,
+                  270909,
+                  271092,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "265": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "266": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "267": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271874,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "268": [
+                  268215,
+                  268265,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "269": [
+                  268215,
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "270": [
+                  268265,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "577": [
+                  268265,
+                  270168,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "581": [
+                  268265,
+                  270175,
+                  270909,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "1467": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "1468": [
+                  268265,
+                  270909,
+                  271092,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "1473": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271876,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
+                ],
+                "1480": [
+                  268265,
+                  270168,
+                  270909,
+                  271092,
+                  271875,
+                  275658,
+                  279125,
+                  279127,
+                  279129,
+                  279500
                 ]
               }
             }

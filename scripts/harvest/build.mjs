@@ -5,7 +5,7 @@ import { createHash } from 'node:crypto'
 const outputPath = resolve(process.argv[2] || 'public/data/encounter-loot.json')
 const instanceDir = resolve('data/harvests/instances')
 const instanceFiles = existsSync(instanceDir)
-  ? readdirSync(instanceDir).filter((name) => /(?:^instance-| - )[0-9]+\.json$/.test(name)).sort()
+  ? readdirSync(instanceDir).filter((name) => /(?:^instance-[0-9]+|^[0-9]+ - .+|^.+ - [0-9]+)\.json$/.test(name)).sort()
   : []
 if (!instanceFiles.length) {
   throw new Error('No per-instance JSON harvests found in data/harvests/instances/. Run npm run import:harvest first.')
@@ -24,6 +24,8 @@ const data = (() => {
     if (doc.schemaVersion !== 1 || doc.source !== merged.source ||
         !Number.isSafeInteger(doc.instanceId) ||
         !(filename === 'instance-' + doc.instanceId + '.json' ||
+          filename === doc.instanceId + ' - ' + String(doc.instance?.name || '').normalize('NFKC')
+            .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim() + '.json' ||
           filename === String(doc.instance?.name || '').normalize('NFKC')
             .replace(/[<>:"/\\|?*\x00-\x1f]/g, '').replace(/\s+/g, ' ').replace(/[. ]+$/g, '').trim() + ' - ' + doc.instanceId + '.json') ||
         !doc.instance || doc.harvest?.status !== 'complete') {

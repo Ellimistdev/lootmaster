@@ -24,6 +24,7 @@ if (!instances.length) throw new Error('No matching instances in export')
 const directory = resolve('data/harvests/instances')
 mkdirSync(directory, { recursive: true })
 let written = 0
+let skipped = 0
 for (const [id, instance] of instances) {
   if (!/^\d+$/.test(id)) throw new Error('Invalid instance ID: ' + id)
   const errors = []
@@ -66,7 +67,17 @@ for (const [id, instance] of instances) {
     }
   }
   if (!jobs) errors.push('No jobs for instance ' + id)
-  if (errors.length) throw new Error('Refusing to import incomplete instance ' + id + ':\n' + errors.join('\n'))
+  if (errors.length) {
+    if (selected.size) {
+      throw new Error('Refusing to import incomplete instance ' + id + ':\n' +
+        errors.slice(0, 10).join('\n') +
+        (errors.length > 10 ? '\n... and ' + (errors.length - 10) + ' more errors' : ''))
+    }
+    console.warn('Skipped instance ' + id + ' (' + (instance.name || 'unnamed') +
+      '): ' + errors.length + ' incomplete/invalid job(s); first: ' + errors[0])
+    skipped++
+    continue
+  }
   const items = Object.fromEntries(Object.entries(db.items || {}).filter(([itemId]) => referenced.has(itemId)))
   const document = {
     schemaVersion: 1,
@@ -86,4 +97,8 @@ for (const [id, instance] of instances) {
   console.log((existed ? 'Updated ' : 'Created ') + path + ' (' + jobs + ' jobs)')
   written++
 }
-console.log('Imported ' + written + ' instance(s). Other instance files were left untouched.')
+console.log('Imported ' + written + ' instance(s); skipped ' + skipped + ' incomplete instance(s). Other instance files were left untouched.')
+if (!written) {
+  console.error('No complete instances available to import.')
+  process.exitCode = 1
+}

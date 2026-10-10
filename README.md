@@ -98,3 +98,16 @@ npm run build
 Season loot data is stored separately from the class/spec priority library so raid drops can be updated independently from spec tuning.
 
 When updating spec priorities, update both the priority and that spec's `updatedAt` metadata. When beginning a new season, also update the global spec-data version and update date.
+
+
+## Encounter Journal harvest pipeline
+
+The raw WoW addon SavedVariables export at `data/harvests/season-2.lua` is the committed source of truth. Do not edit the generated JSON manually.
+
+1. Finish harvesting in WoW and run `/reload` (or log out) to flush SavedVariables.
+2. Replace `data/harvests/season-2.lua` with the addon export from `_retail_/WTF/Account/<account>/SavedVariables/LootmasterHarvester.lua`.
+3. Run `npm run build:harvest` to validate and normalize the export.
+4. Open a PR. The Validate harvest workflow rejects malformed/incomplete data and uploads normalized JSON as a CI artifact.
+5. Merge after review. The existing GitHub Pages deployment runs `npm run build`, which regenerates `public/data/encounter-loot.json` and serves it at `/data/encounter-loot.json`.
+
+Validation checks completed jobs, expected specialization coverage, duplicate IDs, unresolved entries, reported counts, baseline membership, and addon-reported errors. Unclaimed baseline items are warnings. The importer parses Lua tables as data without executing Lua code. Normalized JSON is build output and is not committed.

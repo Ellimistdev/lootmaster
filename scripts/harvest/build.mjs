@@ -1,16 +1,16 @@
 import { readFileSync, mkdirSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
-import { parseSavedVariables } from './parse.mjs'
 
-const sourcePath = resolve(process.argv[2] || 'data/harvests/tidebound-grotto.lua')
-const outputPath = resolve(process.argv[3] || 'public/data/encounter-loot.json')
+const outputPath = resolve(process.argv[2] || 'public/data/encounter-loot.json')
 const instanceDir = resolve('data/harvests/instances')
 const instanceFiles = existsSync(instanceDir)
   ? readdirSync(instanceDir).filter((name) => /(?:^instance-| - )[0-9]+\.json$/.test(name)).sort()
   : []
-const raw = instanceFiles.length ? null : readFileSync(sourcePath, 'utf8')
-const data = instanceFiles.length ? (() => {
+if (!instanceFiles.length) {
+  throw new Error('No per-instance JSON harvests found in data/harvests/instances/. Run npm run import:harvest first.')
+}
+const data = (() => {
   const docs = instanceFiles.map((name) => JSON.parse(readFileSync(resolve(instanceDir, name), 'utf8')))
   const merged = {
     schemaVersion: 1, source: 'wow-encounter-journal', game: docs[0].game,
@@ -54,7 +54,7 @@ const data = instanceFiles.length ? (() => {
   }
   merged.harvest.completedJobs = merged.harvest.totalJobs
   return merged
-})() : parseSavedVariables(raw)
+})()
 const errors = []
 const warnings = []
 const assert = (condition, message) => { if (!condition) errors.push(message) }
@@ -83,7 +83,7 @@ assert(specs.length > 0, 'No specializations')
 const normalized = {
   schemaVersion: 1,
   source: data.source,
-  sourceSha256: createHash('sha256').update(raw ?? instanceFiles.map((name) => readFileSync(resolve(instanceDir, name), 'utf8')).join('')).digest('hex'),
+  sourceSha256: createHash('sha256').update(instanceFiles.map((name) => readFileSync(resolve(instanceDir, name), 'utf8')).join('')).digest('hex'),
   game: data.game,
   harvest: {
     startedAt: data.harvest?.startedAt,

@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "build:harvest": "node scripts/harvest/build.mjs"
+    "build:harvest": "node scripts/harvest/build.mjs",
+    "import:harvest": "node scripts/harvest/import.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",

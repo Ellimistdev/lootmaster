@@ -1,12 +1,58 @@
-import { readFileSync, mkdirSync, writeFileSync } from 'node:fs'
+import { readFileSync, mkdirSync, writeFileSync, readdirSync, existsSync } from 'node:fs'
 import { resolve, dirname } from 'node:path'
 import { createHash } from 'node:crypto'
 import { parseSavedVariables } from './parse.mjs'
 
 const sourcePath = resolve(process.argv[2] || 'data/harvests/tidebound-grotto.lua')
 const outputPath = resolve(process.argv[3] || 'public/data/encounter-loot.json')
-const raw = readFileSync(sourcePath, 'utf8')
-const data = parseSavedVariables(raw)
+const instanceDir = resolve('data/harvests/instances')
+const instanceFiles = existsSync(instanceDir)
+  ? readdirSync(instanceDir).filter((name) => /^instance-[0-9]+\.json$/.test(name)).sort()
+  : []
+const raw = instanceFiles.length ? null : readFileSync(sourcePath, 'utf8')
+const data = instanceFiles.length ? (() => {
+  const docs = instanceFiles.map((name) => JSON.parse(readFileSync(resolve(instanceDir, name), 'utf8')))
+  const merged = {
+    schemaVersion: 1, source: 'wow-encounter-journal', game: docs[0].game,
+    harvest: { status: 'complete', totalJobs: 0, completedJobs: 0, failedJobs: 0 },
+    validation: { errors: [], warnings: [] },
+    specializations: {}, items: {}, instances: {},
+  }
+  for (let i = 0; i < docs.length; i++) {
+    const doc = docs[i]
+    const filename = instanceFiles[i]
+    if (doc.schemaVersion !== 1 || doc.source !== merged.source ||
+        !Number.isSafeInteger(doc.instanceId) ||
+        filename !== 'instance-' + doc.instanceId + '.json' ||
+        !doc.instance || doc.harvest?.status !== 'complete') {
+      throw new Error('Invalid instance export: ' + filename)
+    }
+    if (Object.hasOwn(merged.instances, String(doc.instanceId))) {
+      throw new Error('Duplicate instance export: ' + doc.instanceId)
+    }
+    merged.instances[String(doc.instanceId)] = doc.instance
+    for (const [id, spec] of Object.entries(doc.specializations || {})) {
+      if (merged.specializations[id] && JSON.stringify(merged.specializations[id]) !== JSON.stringify(spec)) {
+        throw new Error('Conflicting specialization ' + id + ' in ' + filename)
+      }
+      merged.specializations[id] = spec
+    }
+    for (const [id, item] of Object.entries(doc.items || {})) {
+      if (merged.items[id] && JSON.stringify(merged.items[id]) !== JSON.stringify(item)) {
+        throw new Error('Conflicting item ' + id + ' in ' + filename)
+      }
+      merged.items[id] = item
+    }
+    for (const encounter of Object.values(doc.instance.encounters || {})) {
+      for (const difficulty of Object.values(encounter.difficulties || {})) {
+        merged.harvest.totalJobs += 1 + Object.keys(difficulty.specializations || {}).length
+      }
+    }
+    merged.validation.warnings.push(...(doc.validation?.warnings || []))
+  }
+  merged.harvest.completedJobs = merged.harvest.totalJobs
+  return merged
+})() : parseSavedVariables(raw)
 const errors = []
 const warnings = []
 const assert = (condition, message) => { if (!condition) errors.push(message) }
@@ -35,7 +81,7 @@ assert(specs.length > 0, 'No specializations')
 const normalized = {
   schemaVersion: 1,
   source: data.source,
-  sourceSha256: createHash('sha256').update(raw).digest('hex'),
+  sourceSha256: createHash('sha256').update(raw ?? instanceFiles.map((name) => readFileSync(resolve(instanceDir, name), 'utf8')).join('')).digest('hex'),
   game: data.game,
   harvest: {
     startedAt: data.harvest?.startedAt,

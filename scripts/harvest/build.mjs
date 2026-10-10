@@ -16,7 +16,7 @@ const data = (() => {
     schemaVersion: 1, source: 'wow-encounter-journal', game: docs[0].game,
     harvest: { status: 'complete', totalJobs: 0, completedJobs: 0, failedJobs: 0 },
     validation: { errors: [], warnings: [] },
-    specializations: {}, items: {}, instances: {},
+    specializations: sharedSpecs ? { ...sharedSpecs } : {}, items: {}, instances: {},
   }
   for (let i = 0; i < docs.length; i++) {
     const doc = docs[i]
@@ -35,7 +35,7 @@ const data = (() => {
       throw new Error('Duplicate instance export: ' + doc.instanceId)
     }
     merged.instances[String(doc.instanceId)] = doc.instance
-    for (const [id, spec] of Object.entries(doc.specializations || {})) {
+    if (!sharedSpecs) for (const [id, spec] of Object.entries(doc.specializations || {})) {
       if (merged.specializations[id] && JSON.stringify(merged.specializations[id]) !== JSON.stringify(spec)) {
         throw new Error('Conflicting specialization ' + id + ' in ' + filename)
       }
@@ -85,7 +85,7 @@ assert(specs.length > 0, 'No specializations')
 const normalized = {
   schemaVersion: 1,
   source: data.source,
-  sourceSha256: createHash('sha256').update(instanceFiles.map((name) => readFileSync(resolve(instanceDir, name), 'utf8')).join('')).digest('hex'),
+  sourceSha256: createHash('sha256').update((sharedSpecs ? readFileSync(sharedSpecsPath, 'utf8') : '') + instanceFiles.map((name) => readFileSync(resolve(instanceDir, name), 'utf8')).join('')).digest('hex'),
   game: data.game,
   harvest: {
     startedAt: data.harvest?.startedAt,

@@ -1,336 +1,336 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "source": "wow-encounter-journal",
-  "sourceSha256": "9f8e276253d9c373c3c1973ef100f76a58164f5c0676f825cce4938a57fef2ec",
+  "sourceSha256": "6fecfc07d99120d24ebf4bd6513cd2a83c2bebab473695788bded5e8e4ddafd5",
   "game": {
-    "locale": "enUS",
-    "version": "12.1.0",
-    "interface": 120100,
     "build": 69933,
-    "product": "retail"
+    "interface": 120100,
+    "locale": "enUS",
+    "product": "retail",
+    "version": "12.1.0"
   },
   "harvest": {
     "status": "complete"
   },
   "specializations": {
     "62": {
-      "specId": 62,
       "classFile": "MAGE",
-      "className": "Mage",
       "classId": 8,
+      "className": "Mage",
       "role": "DAMAGER",
+      "specId": 62,
       "specName": "Arcane"
     },
     "63": {
-      "specId": 63,
       "classFile": "MAGE",
-      "className": "Mage",
       "classId": 8,
+      "className": "Mage",
       "role": "DAMAGER",
+      "specId": 63,
       "specName": "Fire"
     },
     "64": {
-      "specId": 64,
       "classFile": "MAGE",
-      "className": "Mage",
       "classId": 8,
+      "className": "Mage",
       "role": "DAMAGER",
+      "specId": 64,
       "specName": "Frost"
     },
     "65": {
-      "specId": 65,
       "classFile": "PALADIN",
-      "className": "Paladin",
       "classId": 2,
+      "className": "Paladin",
       "role": "HEALER",
+      "specId": 65,
       "specName": "Holy"
     },
     "66": {
-      "specId": 66,
       "classFile": "PALADIN",
-      "className": "Paladin",
       "classId": 2,
+      "className": "Paladin",
       "role": "TANK",
+      "specId": 66,
       "specName": "Protection"
     },
     "70": {
-      "specId": 70,
       "classFile": "PALADIN",
-      "className": "Paladin",
       "classId": 2,
+      "className": "Paladin",
       "role": "DAMAGER",
+      "specId": 70,
       "specName": "Retribution"
     },
     "71": {
-      "specId": 71,
       "classFile": "WARRIOR",
-      "className": "Warrior",
       "classId": 1,
+      "className": "Warrior",
       "role": "DAMAGER",
+      "specId": 71,
       "specName": "Arms"
     },
     "72": {
-      "specId": 72,
       "classFile": "WARRIOR",
-      "className": "Warrior",
       "classId": 1,
+      "className": "Warrior",
       "role": "DAMAGER",
+      "specId": 72,
       "specName": "Fury"
     },
     "73": {
-      "specId": 73,
       "classFile": "WARRIOR",
-      "className": "Warrior",
       "classId": 1,
+      "className": "Warrior",
       "role": "TANK",
+      "specId": 73,
       "specName": "Protection"
     },
     "102": {
-      "specId": 102,
       "classFile": "DRUID",
-      "className": "Druid",
       "classId": 11,
+      "className": "Druid",
       "role": "DAMAGER",
+      "specId": 102,
       "specName": "Balance"
     },
     "103": {
-      "specId": 103,
       "classFile": "DRUID",
-      "className": "Druid",
       "classId": 11,
+      "className": "Druid",
       "role": "DAMAGER",
+      "specId": 103,
       "specName": "Feral"
     },
     "104": {
-      "specId": 104,
       "classFile": "DRUID",
-      "className": "Druid",
       "classId": 11,
+      "className": "Druid",
       "role": "TANK",
+      "specId": 104,
       "specName": "Guardian"
     },
     "105": {
-      "specId": 105,
       "classFile": "DRUID",
-      "className": "Druid",
       "classId": 11,
+      "className": "Druid",
       "role": "HEALER",
+      "specId": 105,
       "specName": "Restoration"
     },
     "250": {
-      "specId": 250,
       "classFile": "DEATHKNIGHT",
-      "className": "Death Knight",
       "classId": 6,
+      "className": "Death Knight",
       "role": "TANK",
+      "specId": 250,
       "specName": "Blood"
     },
     "251": {
-      "specId": 251,
       "classFile": "DEATHKNIGHT",
-      "className": "Death Knight",
       "classId": 6,
+      "className": "Death Knight",
       "role": "DAMAGER",
+      "specId": 251,
       "specName": "Frost"
     },
     "252": {
-      "specId": 252,
       "classFile": "DEATHKNIGHT",
-      "className": "Death Knight",
       "classId": 6,
+      "className": "Death Knight",
       "role": "DAMAGER",
+      "specId": 252,
       "specName": "Unholy"
     },
     "253": {
-      "specId": 253,
       "classFile": "HUNTER",
-      "className": "Hunter",
       "classId": 3,
+      "className": "Hunter",
       "role": "DAMAGER",
+      "specId": 253,
       "specName": "Beast Mastery"
     },
     "254": {
-      "specId": 254,
       "classFile": "HUNTER",
-      "className": "Hunter",
       "classId": 3,
+      "className": "Hunter",
       "role": "DAMAGER",
+      "specId": 254,
       "specName": "Marksmanship"
     },
     "255": {
-      "specId": 255,
       "classFile": "HUNTER",
-      "className": "Hunter",
       "classId": 3,
+      "className": "Hunter",
       "role": "DAMAGER",
+      "specId": 255,
       "specName": "Survival"
     },
     "256": {
-      "specId": 256,
       "classFile": "PRIEST",
-      "className": "Priest",
       "classId": 5,
+      "className": "Priest",
       "role": "HEALER",
+      "specId": 256,
       "specName": "Discipline"
     },
     "257": {
-      "specId": 257,
       "classFile": "PRIEST",
-      "className": "Priest",
       "classId": 5,
+      "className": "Priest",
       "role": "HEALER",
+      "specId": 257,
       "specName": "Holy"
     },
     "258": {
-      "specId": 258,
       "classFile": "PRIEST",
-      "className": "Priest",
       "classId": 5,
+      "className": "Priest",
       "role": "DAMAGER",
+      "specId": 258,
       "specName": "Shadow"
     },
     "259": {
-      "specId": 259,
       "classFile": "ROGUE",
-      "className": "Rogue",
       "classId": 4,
+      "className": "Rogue",
       "role": "DAMAGER",
+      "specId": 259,
       "specName": "Assassination"
     },
     "260": {
-      "specId": 260,
       "classFile": "ROGUE",
-      "className": "Rogue",
       "classId": 4,
+      "className": "Rogue",
       "role": "DAMAGER",
+      "specId": 260,
       "specName": "Outlaw"
     },
     "261": {
-      "specId": 261,
       "classFile": "ROGUE",
-      "className": "Rogue",
       "classId": 4,
+      "className": "Rogue",
       "role": "DAMAGER",
+      "specId": 261,
       "specName": "Subtlety"
     },
     "262": {
-      "specId": 262,
       "classFile": "SHAMAN",
-      "className": "Shaman",
       "classId": 7,
+      "className": "Shaman",
       "role": "DAMAGER",
+      "specId": 262,
       "specName": "Elemental"
     },
     "263": {
-      "specId": 263,
       "classFile": "SHAMAN",
-      "className": "Shaman",
       "classId": 7,
+      "className": "Shaman",
       "role": "DAMAGER",
+      "specId": 263,
       "specName": "Enhancement"
     },
     "264": {
-      "specId": 264,
       "classFile": "SHAMAN",
-      "className": "Shaman",
       "classId": 7,
+      "className": "Shaman",
       "role": "HEALER",
+      "specId": 264,
       "specName": "Restoration"
     },
     "265": {
-      "specId": 265,
       "classFile": "WARLOCK",
-      "className": "Warlock",
       "classId": 9,
+      "className": "Warlock",
       "role": "DAMAGER",
+      "specId": 265,
       "specName": "Affliction"
     },
     "266": {
-      "specId": 266,
       "classFile": "WARLOCK",
-      "className": "Warlock",
       "classId": 9,
+      "className": "Warlock",
       "role": "DAMAGER",
+      "specId": 266,
       "specName": "Demonology"
     },
     "267": {
-      "specId": 267,
       "classFile": "WARLOCK",
-      "className": "Warlock",
       "classId": 9,
+      "className": "Warlock",
       "role": "DAMAGER",
+      "specId": 267,
       "specName": "Destruction"
     },
     "268": {
-      "specId": 268,
       "classFile": "MONK",
-      "className": "Monk",
       "classId": 10,
+      "className": "Monk",
       "role": "TANK",
+      "specId": 268,
       "specName": "Brewmaster"
     },
     "269": {
-      "specId": 269,
       "classFile": "MONK",
-      "className": "Monk",
       "classId": 10,
+      "className": "Monk",
       "role": "DAMAGER",
+      "specId": 269,
       "specName": "Windwalker"
     },
     "270": {
-      "specId": 270,
       "classFile": "MONK",
-      "className": "Monk",
       "classId": 10,
+      "className": "Monk",
       "role": "HEALER",
+      "specId": 270,
       "specName": "Mistweaver"
     },
     "577": {
-      "specId": 577,
       "classFile": "DEMONHUNTER",
-      "className": "Demon Hunter",
       "classId": 12,
+      "className": "Demon Hunter",
       "role": "DAMAGER",
+      "specId": 577,
       "specName": "Havoc"
     },
     "581": {
-      "specId": 581,
       "classFile": "DEMONHUNTER",
-      "className": "Demon Hunter",
       "classId": 12,
+      "className": "Demon Hunter",
       "role": "TANK",
+      "specId": 581,
       "specName": "Vengeance"
     },
     "1467": {
-      "specId": 1467,
       "classFile": "EVOKER",
-      "className": "Evoker",
       "classId": 13,
+      "className": "Evoker",
       "role": "DAMAGER",
+      "specId": 1467,
       "specName": "Devastation"
     },
     "1468": {
-      "specId": 1468,
       "classFile": "EVOKER",
-      "className": "Evoker",
       "classId": 13,
+      "className": "Evoker",
       "role": "HEALER",
+      "specId": 1468,
       "specName": "Preservation"
     },
     "1473": {
-      "specId": 1473,
       "classFile": "EVOKER",
-      "className": "Evoker",
       "classId": 13,
+      "className": "Evoker",
       "role": "DAMAGER",
+      "specId": 1473,
       "specName": "Augmentation"
     },
     "1480": {
-      "specId": 1480,
       "classFile": "DEMONHUNTER",
-      "className": "Demon Hunter",
       "classId": 12,
+      "className": "Demon Hunter",
       "role": "DAMAGER",
+      "specId": 1480,
       "specName": "Devourer"
     }
   },
@@ -491,34 +491,40 @@
     },
     "268199": {
       "armorType": "Staff",
-      "stats": {
-        "ITEM_MOD_CRIT_RATING_SHORT": 129,
-        "ITEM_MOD_STAMINA_SHORT": 3369,
-        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 125.6944427490234,
-        "ITEM_MOD_VERSATILITY": 61,
-        "ITEM_MOD_AGILITY_SHORT": 167
-      },
-      "itemClass": "Weapon",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
+      "equipLocation": "INVTYPE_2HWEAPON",
       "iconFileId": 7552246,
-      "journalFilterType": 10,
+      "inventorySlot": "Two-Hand",
+      "itemClass": "Weapon",
+      "itemClassID": 2,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r",
+      "itemQuality": "ffa335ee",
       "itemSubclass": "Staves",
+      "itemSubclassID": 10,
+      "journalFilterType": 10,
+      "metadataVersion": 1,
+      "name": "Tidepiercer's Bubble Popper",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 167,
+        "ITEM_MOD_CRIT_RATING_SHORT": 129,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 125.6944427490234,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "ITEM_MOD_VERSATILITY": 61
+      },
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Tidepiercer's Bubble Popper",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -526,19 +532,19 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Staff",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Two-Hand",
-          "isValidInvSlot": true
+          "rightText": "Staff",
+          "type": 21
         },
         {
+          "leftText": "384 - 521 Damage",
           "rightText": "Speed 3.60",
-          "type": 0,
-          "leftText": "384 - 521 Damage"
+          "type": 0
         },
         {
           "leftText": "(125.7 damage per second)",
@@ -561,10 +567,10 @@
           "type": 0
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "\"Pop, pop, pop.\"",
@@ -579,12 +585,6 @@
           "type": 0
         }
       ],
-      "name": "Tidepiercer's Bubble Popper",
-      "equipLocation": "INVTYPE_2HWEAPON",
-      "inventorySlot": "Two-Hand",
-      "itemSubclassID": 10,
-      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r",
-      "itemClassID": 2,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -725,34 +725,40 @@
     },
     "268217": {
       "armorType": "Mail",
+      "equipLocation": "INVTYPE_WRIST",
+      "iconFileId": 7554475,
+      "inventorySlot": "Wrist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Mail",
+      "itemSubclassID": 3,
+      "journalFilterType": 5,
+      "metadataVersion": 1,
+      "name": "Rising Tide Wristguards",
       "stats": {
-        "ITEM_MOD_CRIT_RATING_SHORT": 33,
-        "ITEM_MOD_STAMINA_SHORT": 1895,
         "ITEM_MOD_AGILITY_SHORT": 94,
+        "ITEM_MOD_CRIT_RATING_SHORT": 33,
         "ITEM_MOD_MASTERY_RATING_SHORT": 74,
+        "ITEM_MOD_STAMINA_SHORT": 1895,
         "RESISTANCE0_NAME": 132
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7554475,
-      "journalFilterType": 5,
-      "itemSubclass": "Mail",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Rising Tide Wristguards",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -760,14 +766,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Mail",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Wrist",
-          "isValidInvSlot": true
+          "rightText": "Mail",
+          "type": 21
         },
         {
           "leftText": "132 Armor",
@@ -794,10 +800,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -808,12 +814,6 @@
           "type": 0
         }
       ],
-      "name": "Rising Tide Wristguards",
-      "equipLocation": "INVTYPE_WRIST",
-      "inventorySlot": "Wrist",
-      "itemSubclassID": 3,
-      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Mastery",
@@ -863,34 +863,40 @@
     },
     "268221": {
       "armorType": "Cloth",
+      "equipLocation": "INVTYPE_ROBE",
+      "iconFileId": 7520906,
+      "inventorySlot": "Chest",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Cloth",
+      "itemSubclassID": 1,
+      "journalFilterType": 4,
+      "metadataVersion": 1,
+      "name": "Tidebound Sorcereress's Robes",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 167,
         "ITEM_MOD_CRIT_RATING_SHORT": 127,
-        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "ITEM_MOD_INTELLECT_SHORT": 167,
         "ITEM_MOD_MASTERY_RATING_SHORT": 63,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
         "RESISTANCE0_NAME": 105
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7520906,
-      "journalFilterType": 4,
-      "itemSubclass": "Cloth",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Tidebound Sorcereress's Robes",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -898,14 +904,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Cloth",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Chest",
-          "isValidInvSlot": true
+          "rightText": "Cloth",
+          "type": 21
         },
         {
           "leftText": "105 Armor",
@@ -928,22 +934,16 @@
           "type": 0
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
           "type": 11
         }
       ],
-      "name": "Tidebound Sorcereress's Robes",
-      "equipLocation": "INVTYPE_ROBE",
-      "inventorySlot": "Chest",
-      "itemSubclassID": 1,
-      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -1000,34 +1000,40 @@
     },
     "268226": {
       "armorType": "Plate",
+      "equipLocation": "INVTYPE_SHOULDER",
+      "iconFileId": 7730305,
+      "inventorySlot": "Shoulder",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Plate",
+      "itemSubclassID": 4,
+      "journalFilterType": 2,
+      "metadataVersion": 1,
+      "name": "Swelling Sea Spaulders",
       "stats": {
-        "ITEM_MOD_STRENGTH_SHORT": 125,
+        "ITEM_MOD_CRIT_RATING_SHORT": 101,
         "ITEM_MOD_MASTERY_RATING_SHORT": 42,
         "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "ITEM_MOD_STRENGTH_SHORT": 125,
         "RESISTANCE0_NAME": 274
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7730305,
-      "journalFilterType": 2,
-      "itemSubclass": "Plate",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Swelling Sea Spaulders",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1035,14 +1041,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Plate",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Shoulder",
-          "isValidInvSlot": true
+          "rightText": "Plate",
+          "type": 21
         },
         {
           "leftText": "274 Armor",
@@ -1069,10 +1075,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1083,12 +1089,6 @@
           "type": 0
         }
       ],
-      "name": "Swelling Sea Spaulders",
-      "equipLocation": "INVTYPE_SHOULDER",
-      "inventorySlot": "Shoulder",
-      "itemSubclassID": 4,
-      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -1152,34 +1152,40 @@
     },
     "268232": {
       "armorType": "Cloth",
+      "equipLocation": "INVTYPE_WAIST",
+      "iconFileId": 7807649,
+      "inventorySlot": "Waist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Cloth",
+      "itemSubclassID": 1,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "name": "Cincture of the Abyssal Grotto",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 125,
         "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "ITEM_MOD_INTELLECT_SHORT": 125,
         "ITEM_MOD_STAMINA_SHORT": 2527,
         "ITEM_MOD_VERSATILITY": 42,
         "RESISTANCE0_NAME": 59
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7807649,
-      "journalFilterType": 7,
-      "itemSubclass": "Cloth",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Cincture of the Abyssal Grotto",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1187,14 +1193,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Cloth",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Waist",
-          "isValidInvSlot": true
+          "rightText": "Cloth",
+          "type": 21
         },
         {
           "leftText": "59 Armor",
@@ -1217,10 +1223,10 @@
           "type": 0
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1231,12 +1237,6 @@
           "type": 0
         }
       ],
-      "name": "Cincture of the Abyssal Grotto",
-      "equipLocation": "INVTYPE_WAIST",
-      "inventorySlot": "Waist",
-      "itemSubclassID": 1,
-      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -1300,34 +1300,40 @@
     },
     "268238": {
       "armorType": "Mail",
+      "equipLocation": "INVTYPE_HAND",
+      "iconFileId": 7789857,
+      "inventorySlot": "Hands",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Mail",
+      "itemSubclassID": 3,
+      "journalFilterType": 6,
+      "metadataVersion": 1,
+      "name": "Grips of Swirling Fury",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 50,
-        "ITEM_MOD_CRIT_RATING_SHORT": 93,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
         "ITEM_MOD_AGILITY_SHORT": 125,
+        "ITEM_MOD_CRIT_RATING_SHORT": 93,
+        "ITEM_MOD_HASTE_RATING_SHORT": 50,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
         "RESISTANCE0_NAME": 149
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7789857,
-      "journalFilterType": 6,
-      "itemSubclass": "Mail",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Grips of Swirling Fury",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1335,14 +1341,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Mail",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Hands",
-          "isValidInvSlot": true
+          "rightText": "Mail",
+          "type": 21
         },
         {
           "leftText": "149 Armor",
@@ -1369,10 +1375,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1383,12 +1389,6 @@
           "type": 0
         }
       ],
-      "name": "Grips of Swirling Fury",
-      "equipLocation": "INVTYPE_HAND",
-      "inventorySlot": "Hands",
-      "itemSubclassID": 3,
-      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -1452,34 +1452,40 @@
     },
     "268244": {
       "armorType": "Plate",
+      "equipLocation": "INVTYPE_WAIST",
+      "iconFileId": 7739383,
+      "inventorySlot": "Waist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Plate",
+      "itemSubclassID": 4,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "name": "Forgotten Grotto Girdle",
       "stats": {
         "ITEM_MOD_HASTE_RATING_SHORT": 101,
-        "ITEM_MOD_VERSATILITY": 42,
         "ITEM_MOD_STAMINA_SHORT": 2527,
         "ITEM_MOD_STRENGTH_SHORT": 125,
+        "ITEM_MOD_VERSATILITY": 42,
         "RESISTANCE0_NAME": 224
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7739383,
-      "journalFilterType": 7,
-      "itemSubclass": "Plate",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Forgotten Grotto Girdle",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1487,14 +1493,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Plate",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Waist",
-          "isValidInvSlot": true
+          "rightText": "Plate",
+          "type": 21
         },
         {
           "leftText": "224 Armor",
@@ -1521,10 +1527,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1535,12 +1541,6 @@
           "type": 0
         }
       ],
-      "name": "Forgotten Grotto Girdle",
-      "equipLocation": "INVTYPE_WAIST",
-      "inventorySlot": "Waist",
-      "itemSubclassID": 4,
-      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Haste",
@@ -1583,34 +1583,40 @@
     },
     "268247": {
       "armorType": "Leather",
+      "equipLocation": "INVTYPE_FEET",
+      "iconFileId": 7679650,
+      "inventorySlot": "Feet",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Leather",
+      "itemSubclassID": 2,
+      "journalFilterType": 9,
+      "metadataVersion": 1,
+      "name": "Breakwater Boots",
       "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 94,
-        "ITEM_MOD_VERSATILITY": 49,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
         "ITEM_MOD_AGILITY_SHORT": 125,
+        "ITEM_MOD_HASTE_RATING_SHORT": 94,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_VERSATILITY": 49,
         "RESISTANCE0_NAME": 112
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7679650,
-      "journalFilterType": 9,
-      "itemSubclass": "Leather",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Breakwater Boots",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1618,14 +1624,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Leather",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Feet",
-          "isValidInvSlot": true
+          "rightText": "Leather",
+          "type": 21
         },
         {
           "leftText": "112 Armor",
@@ -1652,10 +1658,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1666,12 +1672,6 @@
           "type": 0
         }
       ],
-      "name": "Breakwater Boots",
-      "equipLocation": "INVTYPE_FEET",
-      "inventorySlot": "Feet",
-      "itemSubclassID": 2,
-      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Haste",
@@ -1798,35 +1798,41 @@
     },
     "268262": {
       "armorType": "Shield",
+      "equipLocation": "INVTYPE_SHIELD",
+      "iconFileId": 7553253,
+      "inventorySlot": "Off Hand",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Shields",
+      "itemSubclassID": 6,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "name": "Bubblefin Splash Guard",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 256,
         "ITEM_MOD_HASTE_RATING_SHORT": 31,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
         "ITEM_MOD_MASTERY_RATING_SHORT": 64,
         "ITEM_MOD_STAMINA_SHORT": 1684,
         "ITEM_MOD_STRENGTH_SHORT": 84,
         "RESISTANCE0_NAME": 1167
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7553253,
-      "journalFilterType": 11,
-      "itemSubclass": "Shields",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Bubblefin Splash Guard",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1834,14 +1840,14 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "rightText": "Shield",
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Off Hand",
-          "isValidInvSlot": true
+          "rightText": "Shield",
+          "type": 21
         },
         {
           "leftText": "1,167 Armor",
@@ -1872,10 +1878,10 @@
           "type": 42
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
@@ -1886,12 +1892,6 @@
           "type": 0
         }
       ],
-      "name": "Bubblefin Splash Guard",
-      "equipLocation": "INVTYPE_SHIELD",
-      "inventorySlot": "Off Hand",
-      "itemSubclassID": 6,
-      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Mastery",
@@ -1924,33 +1924,39 @@
     },
     "268263": {
       "armorType": "",
+      "equipLocation": "INVTYPE_HOLDABLE",
+      "iconFileId": 7500005,
+      "inventorySlot": "Held In Off-hand",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "name": "Frostscale's Mystic Frond",
       "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 256,
         "ITEM_MOD_CRIT_RATING_SHORT": 64,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
         "ITEM_MOD_MASTERY_RATING_SHORT": 31,
         "ITEM_MOD_STAMINA_SHORT": 1684
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7500005,
-      "journalFilterType": 11,
-      "itemSubclass": "Miscellaneous",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Frostscale's Mystic Frond",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -1958,13 +1964,13 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Held In Off-hand",
-          "isValidInvSlot": true
+          "type": 21
         },
         {
           "leftText": "+256 Intellect",
@@ -1983,22 +1989,16 @@
           "type": 0
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
           "type": 11
         }
       ],
-      "name": "Frostscale's Mystic Frond",
-      "equipLocation": "INVTYPE_HOLDABLE",
-      "inventorySlot": "Held In Off-hand",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Crit",
@@ -2041,33 +2041,39 @@
     },
     "268266": {
       "armorType": "",
+      "equipLocation": "INVTYPE_FINGER",
+      "iconFileId": 1391765,
+      "inventorySlot": "Finger",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 12,
+      "metadataVersion": 1,
+      "name": "Alluring Bubbleband",
       "stats": {
         "EMPTY_SOCKET_PRISMATIC": 1,
         "ITEM_MOD_HASTE_RATING_SHORT": 293,
-        "ITEM_MOD_VERSATILITY": 83,
-        "ITEM_MOD_STAMINA_SHORT": 1895
+        "ITEM_MOD_STAMINA_SHORT": 1895,
+        "ITEM_MOD_VERSATILITY": 83
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 1391765,
-      "journalFilterType": 12,
-      "itemSubclass": "Miscellaneous",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Alluring Bubbleband",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -2075,17 +2081,17 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
           "leftText": "Unique-Equipped",
           "type": 0
         },
         {
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Finger",
-          "isValidInvSlot": true
+          "type": 21
         },
         {
           "leftText": "+1,895 Stamina",
@@ -2112,22 +2118,16 @@
           "type": 1
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
           "type": 11
         }
       ],
-      "name": "Alluring Bubbleband",
-      "equipLocation": "INVTYPE_FINGER",
-      "inventorySlot": "Finger",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Haste",
@@ -2205,30 +2205,36 @@
     },
     "270167": {
       "armorType": "",
+      "equipLocation": "INVTYPE_TRINKET",
+      "iconFileId": 1020350,
+      "inventorySlot": "Trinket",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 13,
+      "metadataVersion": 1,
+      "name": "Wavecaller's Seastone",
       "stats": {
         "ITEM_MOD_HASTE_RATING_SHORT": 136
       },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 1020350,
-      "journalFilterType": 13,
-      "itemSubclass": "Miscellaneous",
       "tooltipLines": [
         {
-          "type": 22,
           "leftText": "Wavecaller's Seastone",
-          "quality": 4
+          "quality": 4,
+          "type": 22
         },
         {
           "leftText": "|cFF 0FF 0Mythic|r",
           "type": 0
         },
         {
-          "type": 31,
           "itemLevel": 321,
-          "leftText": "Item Level 321"
+          "leftText": "Item Level 321",
+          "type": 31
         },
         {
           "leftText": "Upgrade Level: Myth 2/6",
@@ -2236,17 +2242,17 @@
         },
         {
           "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
+          "leftText": "Binds when picked up",
+          "type": 20
         },
         {
           "leftText": "Unique-Equipped",
           "type": 0
         },
         {
-          "type": 21,
+          "isValidInvSlot": true,
           "leftText": "Trinket",
-          "isValidInvSlot": true
+          "type": 21
         },
         {
           "leftText": "+136 Haste",
@@ -2257,31 +2263,25 @@
           "type": 1
         },
         {
-          "type": 45,
           "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
-          "spellID": 1295058
+          "spellID": 1295058,
+          "type": 45
         },
         {
           "leftText": " ",
           "type": 1
         },
         {
-          "requirementType": 5,
-          "type": 43,
+          "leftText": "Requires Level 90",
           "level": 90,
-          "leftText": "Requires Level 90"
+          "requirementType": 5,
+          "type": 43
         },
         {
           "leftText": "",
           "type": 11
         }
       ],
-      "name": "Wavecaller's Seastone",
-      "equipLocation": "INVTYPE_TRINKET",
-      "inventorySlot": "Trinket",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r",
-      "itemClassID": 4,
       "secondaryStats": [
         {
           "stat": "Haste",
@@ -2586,26 +2586,26 @@
     },
     "279112": {
       "armorType": "",
-      "stats": [],
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "iconFileId": 8033308,
+      "inventorySlot": "",
       "itemClass": "Housing",
       "itemClassID": 20,
-      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
       "itemLevel": 1,
+      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r",
+      "itemQuality": "ff0070dd",
+      "itemSubclass": "Decor",
       "itemSubclassID": 0,
       "journalFilterType": 14,
       "metadataVersion": 1,
+      "name": "Clumped Asteroidea",
+      "stats": [],
       "tooltipLines": [
         {
           "leftText": "Retrieving item information",
           "type": 41
         }
       ],
-      "name": "Clumped Asteroidea",
-      "itemSubclass": "Decor",
-      "inventorySlot": "",
-      "iconFileId": 8033308,
-      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r",
-      "itemQuality": "ff0070dd",
       "secondaryStats": [],
       "secondaryStatBudget": 0,
       "primaryStats": [],
@@ -2697,225 +2697,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                250446,
-                250450,
-                250456,
-                250457,
-                250458,
-                250459,
-                250461,
-                250462
-              ],
               "specializations": {
-                "62": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "63": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "64": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "65": [
-                  250446,
-                  250458,
-                  250461,
-                  250462
-                ],
-                "66": [
-                  250446,
-                  250458,
-                  250461,
-                  250462
-                ],
-                "70": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "71": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "72": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "73": [
-                  250446,
-                  250458,
-                  250461,
-                  250462
-                ],
-                "102": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "103": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "104": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "105": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "250": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "251": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "252": [
-                  250458,
-                  250461,
-                  250462
-                ],
-                "253": [
-                  250450,
-                  250459,
-                  250461,
-                  250462
-                ],
-                "254": [
-                  250450,
-                  250459,
-                  250461,
-                  250462
-                ],
-                "255": [
-                  250459,
-                  250461,
-                  250462
-                ],
-                "256": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "257": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "258": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "259": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "260": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "261": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "262": [
-                  250446,
-                  250459,
-                  250461,
-                  250462
-                ],
-                "263": [
-                  250459,
-                  250461,
-                  250462
-                ],
-                "264": [
-                  250446,
-                  250459,
-                  250461,
-                  250462
-                ],
-                "265": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "266": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "267": [
-                  250456,
-                  250461,
-                  250462
-                ],
-                "268": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "269": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "270": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "577": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "581": [
-                  250457,
-                  250461,
-                  250462
-                ],
-                "1467": [
-                  250459,
-                  250461,
-                  250462
-                ],
-                "1468": [
-                  250459,
-                  250461,
-                  250462
-                ],
-                "1473": [
-                  250459,
-                  250461,
-                  250462
-                ],
-                "1480": [
-                  250457,
-                  250461,
-                  250462
-                ]
-              }
+                "62": "1",
+                "63": "1",
+                "64": "1",
+                "65": "2",
+                "66": "2",
+                "70": "3",
+                "71": "3",
+                "72": "3",
+                "73": "2",
+                "102": "4",
+                "103": "4",
+                "104": "4",
+                "105": "4",
+                "250": "3",
+                "251": "3",
+                "252": "3",
+                "253": "5",
+                "254": "5",
+                "255": "6",
+                "256": "1",
+                "257": "1",
+                "258": "1",
+                "259": "4",
+                "260": "4",
+                "261": "4",
+                "262": "7",
+                "263": "6",
+                "264": "7",
+                "265": "1",
+                "266": "1",
+                "267": "1",
+                "268": "4",
+                "269": "4",
+                "270": "4",
+                "577": "4",
+                "581": "4",
+                "1467": "6",
+                "1468": "6",
+                "1473": "6",
+                "1480": "4"
+              },
+              "baselinePool": "8"
             }
           }
         },
@@ -2925,203 +2749,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                250447,
-                250451,
-                250453,
-                250456,
-                250457,
-                250458,
-                250459,
-                250462
-              ],
               "specializations": {
-                "62": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "63": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "64": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "65": [
-                  250458,
-                  250462
-                ],
-                "66": [
-                  250453,
-                  250458,
-                  250462
-                ],
-                "70": [
-                  250458,
-                  250462
-                ],
-                "71": [
-                  250458,
-                  250462
-                ],
-                "72": [
-                  250458,
-                  250462
-                ],
-                "73": [
-                  250453,
-                  250458,
-                  250462
-                ],
-                "102": [
-                  250447,
-                  250457,
-                  250462
-                ],
-                "103": [
-                  250457,
-                  250462
-                ],
-                "104": [
-                  250457,
-                  250462
-                ],
-                "105": [
-                  250447,
-                  250457,
-                  250462
-                ],
-                "250": [
-                  250458,
-                  250462
-                ],
-                "251": [
-                  250453,
-                  250458,
-                  250462
-                ],
-                "252": [
-                  250458,
-                  250462
-                ],
-                "253": [
-                  250459,
-                  250462
-                ],
-                "254": [
-                  250459,
-                  250462
-                ],
-                "255": [
-                  250451,
-                  250459,
-                  250462
-                ],
-                "256": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "257": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "258": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "259": [
-                  250457,
-                  250462
-                ],
-                "260": [
-                  250451,
-                  250457,
-                  250462
-                ],
-                "261": [
-                  250457,
-                  250462
-                ],
-                "262": [
-                  250459,
-                  250462
-                ],
-                "263": [
-                  250451,
-                  250459,
-                  250462
-                ],
-                "264": [
-                  250459,
-                  250462
-                ],
-                "265": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "266": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "267": [
-                  250447,
-                  250456,
-                  250462
-                ],
-                "268": [
-                  250451,
-                  250457,
-                  250462
-                ],
-                "269": [
-                  250451,
-                  250457,
-                  250462
-                ],
-                "270": [
-                  250447,
-                  250457,
-                  250462
-                ],
-                "577": [
-                  250451,
-                  250457,
-                  250462
-                ],
-                "581": [
-                  250451,
-                  250457,
-                  250462
-                ],
-                "1467": [
-                  250447,
-                  250459,
-                  250462
-                ],
-                "1468": [
-                  250447,
-                  250459,
-                  250462
-                ],
-                "1473": [
-                  250447,
-                  250459,
-                  250462
-                ],
-                "1480": [
-                  250457,
-                  250462
-                ]
-              }
+                "62": "9",
+                "63": "9",
+                "64": "9",
+                "65": "10",
+                "66": "11",
+                "70": "10",
+                "71": "10",
+                "72": "10",
+                "73": "11",
+                "102": "12",
+                "103": "13",
+                "104": "13",
+                "105": "12",
+                "250": "10",
+                "251": "11",
+                "252": "10",
+                "253": "14",
+                "254": "14",
+                "255": "15",
+                "256": "9",
+                "257": "9",
+                "258": "9",
+                "259": "13",
+                "260": "16",
+                "261": "13",
+                "262": "14",
+                "263": "15",
+                "264": "14",
+                "265": "9",
+                "266": "9",
+                "267": "9",
+                "268": "16",
+                "269": "16",
+                "270": "12",
+                "577": "16",
+                "581": "16",
+                "1467": "17",
+                "1468": "17",
+                "1473": "17",
+                "1480": "13"
+              },
+              "baselinePool": "18"
             }
           }
         },
@@ -3131,241 +2801,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                250448,
-                250454,
-                250456,
-                250457,
-                250458,
-                250459,
-                250460,
-                250462
-              ],
               "specializations": {
-                "62": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "63": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "64": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "65": [
-                  250458,
-                  250460,
-                  250462
-                ],
-                "66": [
-                  250458,
-                  250460,
-                  250462
-                ],
-                "70": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "71": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "72": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "73": [
-                  250458,
-                  250460,
-                  250462
-                ],
-                "102": [
-                  250448,
-                  250457,
-                  250460,
-                  250462
-                ],
-                "103": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "104": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "105": [
-                  250448,
-                  250457,
-                  250460,
-                  250462
-                ],
-                "250": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "251": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "252": [
-                  250454,
-                  250458,
-                  250460,
-                  250462
-                ],
-                "253": [
-                  250459,
-                  250460,
-                  250462
-                ],
-                "254": [
-                  250459,
-                  250460,
-                  250462
-                ],
-                "255": [
-                  250459,
-                  250460,
-                  250462
-                ],
-                "256": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "257": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "258": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "259": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "260": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "261": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "262": [
-                  250448,
-                  250459,
-                  250460,
-                  250462
-                ],
-                "263": [
-                  250459,
-                  250460,
-                  250462
-                ],
-                "264": [
-                  250448,
-                  250459,
-                  250460,
-                  250462
-                ],
-                "265": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "266": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "267": [
-                  250448,
-                  250456,
-                  250460,
-                  250462
-                ],
-                "268": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "269": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "270": [
-                  250448,
-                  250457,
-                  250460,
-                  250462
-                ],
-                "577": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "581": [
-                  250457,
-                  250460,
-                  250462
-                ],
-                "1467": [
-                  250448,
-                  250459,
-                  250460,
-                  250462
-                ],
-                "1468": [
-                  250448,
-                  250459,
-                  250460,
-                  250462
-                ],
-                "1473": [
-                  250448,
-                  250459,
-                  250460,
-                  250462
-                ],
-                "1480": [
-                  250457,
-                  250460,
-                  250462
-                ]
-              }
+                "62": "19",
+                "63": "19",
+                "64": "19",
+                "65": "20",
+                "66": "20",
+                "70": "21",
+                "71": "21",
+                "72": "21",
+                "73": "20",
+                "102": "22",
+                "103": "23",
+                "104": "23",
+                "105": "22",
+                "250": "21",
+                "251": "21",
+                "252": "21",
+                "253": "24",
+                "254": "24",
+                "255": "24",
+                "256": "19",
+                "257": "19",
+                "258": "19",
+                "259": "23",
+                "260": "23",
+                "261": "23",
+                "262": "25",
+                "263": "24",
+                "264": "25",
+                "265": "19",
+                "266": "19",
+                "267": "19",
+                "268": "23",
+                "269": "23",
+                "270": "22",
+                "577": "23",
+                "581": "23",
+                "1467": "25",
+                "1468": "25",
+                "1473": "25",
+                "1480": "23"
+              },
+              "baselinePool": "26"
             }
           }
         },
@@ -3375,198 +2853,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                250449,
-                250452,
-                250455,
-                250456,
-                250457,
-                250458,
-                250459,
-                250462
-              ],
               "specializations": {
-                "62": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "63": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "64": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "65": [
-                  250452,
-                  250458,
-                  250462
-                ],
-                "66": [
-                  250458,
-                  250462
-                ],
-                "70": [
-                  250458,
-                  250462
-                ],
-                "71": [
-                  250458,
-                  250462
-                ],
-                "72": [
-                  250458,
-                  250462
-                ],
-                "73": [
-                  250458,
-                  250462
-                ],
-                "102": [
-                  250457,
-                  250462
-                ],
-                "103": [
-                  250455,
-                  250457,
-                  250462
-                ],
-                "104": [
-                  250455,
-                  250457,
-                  250462
-                ],
-                "105": [
-                  250457,
-                  250462
-                ],
-                "250": [
-                  250458,
-                  250462
-                ],
-                "251": [
-                  250458,
-                  250462
-                ],
-                "252": [
-                  250458,
-                  250462
-                ],
-                "253": [
-                  250459,
-                  250462
-                ],
-                "254": [
-                  250459,
-                  250462
-                ],
-                "255": [
-                  250449,
-                  250455,
-                  250459,
-                  250462
-                ],
-                "256": [
-                  250456,
-                  250462
-                ],
-                "257": [
-                  250456,
-                  250462
-                ],
-                "258": [
-                  250456,
-                  250462
-                ],
-                "259": [
-                  250449,
-                  250457,
-                  250462
-                ],
-                "260": [
-                  250457,
-                  250462
-                ],
-                "261": [
-                  250449,
-                  250457,
-                  250462
-                ],
-                "262": [
-                  250459,
-                  250462
-                ],
-                "263": [
-                  250459,
-                  250462
-                ],
-                "264": [
-                  250459,
-                  250462
-                ],
-                "265": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "266": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "267": [
-                  250452,
-                  250456,
-                  250462
-                ],
-                "268": [
-                  250455,
-                  250457,
-                  250462
-                ],
-                "269": [
-                  250455,
-                  250457,
-                  250462
-                ],
-                "270": [
-                  250452,
-                  250457,
-                  250462
-                ],
-                "577": [
-                  250457,
-                  250462
-                ],
-                "581": [
-                  250457,
-                  250462
-                ],
-                "1467": [
-                  250452,
-                  250459,
-                  250462
-                ],
-                "1468": [
-                  250452,
-                  250459,
-                  250462
-                ],
-                "1473": [
-                  250452,
-                  250459,
-                  250462
-                ],
-                "1480": [
-                  250452,
-                  250457,
-                  250462
-                ]
-              }
+                "62": "27",
+                "63": "27",
+                "64": "27",
+                "65": "28",
+                "66": "10",
+                "70": "10",
+                "71": "10",
+                "72": "10",
+                "73": "10",
+                "102": "13",
+                "103": "29",
+                "104": "29",
+                "105": "13",
+                "250": "10",
+                "251": "10",
+                "252": "10",
+                "253": "14",
+                "254": "14",
+                "255": "30",
+                "256": "31",
+                "257": "31",
+                "258": "31",
+                "259": "32",
+                "260": "13",
+                "261": "32",
+                "262": "14",
+                "263": "14",
+                "264": "14",
+                "265": "27",
+                "266": "27",
+                "267": "27",
+                "268": "29",
+                "269": "29",
+                "270": "33",
+                "577": "13",
+                "581": "13",
+                "1467": "34",
+                "1468": "34",
+                "1473": "34",
+                "1480": "33"
+              },
+              "baselinePool": "35"
             }
           }
         }
@@ -3581,294 +2910,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268199,
-                268217,
-                268221,
-                268226,
-                268232,
-                268238,
-                268244,
-                268247,
-                268262,
-                268263,
-                268266,
-                270167,
-                279112
-              ],
               "specializations": {
-                "62": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "63": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "64": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "65": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "66": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "70": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "71": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "72": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "73": [
-                  268226,
-                  268244,
-                  268262,
-                  268266,
-                  279112
-                ],
-                "102": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "103": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "104": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "105": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "250": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "251": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "252": [
-                  268226,
-                  268244,
-                  268266,
-                  279112
-                ],
-                "253": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "254": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "255": [
-                  268199,
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "256": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "257": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "258": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "259": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "260": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "261": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "262": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "263": [
-                  268217,
-                  268238,
-                  268266,
-                  279112
-                ],
-                "264": [
-                  268217,
-                  268238,
-                  268262,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "265": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "266": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "267": [
-                  268221,
-                  268232,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "268": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "269": [
-                  268199,
-                  268247,
-                  268266,
-                  279112
-                ],
-                "270": [
-                  268247,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "577": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "581": [
-                  268247,
-                  268266,
-                  279112
-                ],
-                "1467": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1468": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1473": [
-                  268217,
-                  268238,
-                  268263,
-                  268266,
-                  270167,
-                  279112
-                ],
-                "1480": [
-                  268247,
-                  268266,
-                  270167,
-                  279112
-                ]
-              }
+                "62": "36",
+                "63": "36",
+                "64": "36",
+                "65": "37",
+                "66": "38",
+                "70": "39",
+                "71": "39",
+                "72": "39",
+                "73": "38",
+                "102": "40",
+                "103": "41",
+                "104": "41",
+                "105": "40",
+                "250": "39",
+                "251": "39",
+                "252": "39",
+                "253": "42",
+                "254": "42",
+                "255": "43",
+                "256": "36",
+                "257": "36",
+                "258": "36",
+                "259": "44",
+                "260": "44",
+                "261": "44",
+                "262": "45",
+                "263": "42",
+                "264": "45",
+                "265": "36",
+                "266": "36",
+                "267": "36",
+                "268": "41",
+                "269": "41",
+                "270": "40",
+                "577": "44",
+                "581": "44",
+                "1467": "46",
+                "1468": "46",
+                "1473": "46",
+                "1480": "47"
+              },
+              "baselinePool": "48"
             }
           }
         }
@@ -3883,275 +2967,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                244343,
-                268201,
-                268206,
-                268233,
-                268234,
-                268252,
-                268257,
-                270163,
-                270174,
-                270918,
-                270919,
-                270920,
-                270921
-              ],
               "specializations": {
-                "62": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "63": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "64": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "65": [
-                  244343,
-                  268252,
-                  270921
-                ],
-                "66": [
-                  244343,
-                  268252,
-                  270163,
-                  270174,
-                  270921
-                ],
-                "70": [
-                  244343,
-                  268252,
-                  270163,
-                  270921
-                ],
-                "71": [
-                  244343,
-                  268252,
-                  270163,
-                  270921
-                ],
-                "72": [
-                  244343,
-                  268252,
-                  270163,
-                  270921
-                ],
-                "73": [
-                  244343,
-                  268252,
-                  270163,
-                  270174,
-                  270921
-                ],
-                "102": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "103": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "104": [
-                  244343,
-                  268234,
-                  268252,
-                  270174,
-                  270919
-                ],
-                "105": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "250": [
-                  244343,
-                  268252,
-                  270163,
-                  270174,
-                  270921
-                ],
-                "251": [
-                  244343,
-                  268252,
-                  270163,
-                  270921
-                ],
-                "252": [
-                  244343,
-                  268252,
-                  270163,
-                  270921
-                ],
-                "253": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "254": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "255": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "256": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "257": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "258": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "259": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "260": [
-                  244343,
-                  268206,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "261": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "262": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "263": [
-                  244343,
-                  268206,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "264": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "265": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "266": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "267": [
-                  244343,
-                  268252,
-                  268257,
-                  270918
-                ],
-                "268": [
-                  244343,
-                  268206,
-                  268234,
-                  268252,
-                  270174,
-                  270919
-                ],
-                "269": [
-                  244343,
-                  268206,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "270": [
-                  244343,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "577": [
-                  244343,
-                  268201,
-                  268234,
-                  268252,
-                  270919
-                ],
-                "581": [
-                  244343,
-                  268201,
-                  268234,
-                  268252,
-                  270174,
-                  270919
-                ],
-                "1467": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "1468": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "1473": [
-                  244343,
-                  268233,
-                  268252,
-                  270920
-                ],
-                "1480": [
-                  244343,
-                  268201,
-                  268234,
-                  268252,
-                  270919
-                ]
-              }
+                "62": "49",
+                "63": "49",
+                "64": "49",
+                "65": "50",
+                "66": "51",
+                "70": "52",
+                "71": "52",
+                "72": "52",
+                "73": "51",
+                "102": "53",
+                "103": "53",
+                "104": "54",
+                "105": "53",
+                "250": "51",
+                "251": "52",
+                "252": "52",
+                "253": "55",
+                "254": "55",
+                "255": "55",
+                "256": "49",
+                "257": "49",
+                "258": "49",
+                "259": "53",
+                "260": "56",
+                "261": "53",
+                "262": "55",
+                "263": "57",
+                "264": "55",
+                "265": "49",
+                "266": "49",
+                "267": "49",
+                "268": "58",
+                "269": "56",
+                "270": "53",
+                "577": "59",
+                "581": "60",
+                "1467": "55",
+                "1468": "55",
+                "1473": "55",
+                "1480": "59"
+              },
+              "baselinePool": "61"
             }
           }
         },
@@ -4161,299 +3019,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                264716,
-                268197,
-                268198,
-                268204,
-                268219,
-                268224,
-                268228,
-                268250,
-                270165,
-                270910,
-                270911,
-                270912,
-                270913
-              ],
               "specializations": {
-                "62": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "63": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "64": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "65": [
-                  264716,
-                  268224,
-                  268250,
-                  270913
-                ],
-                "66": [
-                  264716,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "70": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "71": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "72": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "73": [
-                  264716,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "102": [
-                  264716,
-                  268197,
-                  268219,
-                  268250,
-                  270911
-                ],
-                "103": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "104": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "105": [
-                  264716,
-                  268197,
-                  268219,
-                  268250,
-                  270911
-                ],
-                "250": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "251": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "252": [
-                  264716,
-                  268198,
-                  268224,
-                  268250,
-                  270165,
-                  270913
-                ],
-                "253": [
-                  264716,
-                  268250,
-                  270165,
-                  270912
-                ],
-                "254": [
-                  264716,
-                  268250,
-                  270165,
-                  270912
-                ],
-                "255": [
-                  264716,
-                  268204,
-                  268250,
-                  270165,
-                  270912
-                ],
-                "256": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "257": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "258": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "259": [
-                  264716,
-                  268204,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "260": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "261": [
-                  264716,
-                  268204,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "262": [
-                  264716,
-                  268250,
-                  270912
-                ],
-                "263": [
-                  264716,
-                  268250,
-                  270165,
-                  270912
-                ],
-                "264": [
-                  264716,
-                  268250,
-                  270912
-                ],
-                "265": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "266": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "267": [
-                  264716,
-                  268197,
-                  268228,
-                  268250,
-                  270910
-                ],
-                "268": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "269": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "270": [
-                  264716,
-                  268197,
-                  268219,
-                  268250,
-                  270911
-                ],
-                "577": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "581": [
-                  264716,
-                  268219,
-                  268250,
-                  270165,
-                  270911
-                ],
-                "1467": [
-                  264716,
-                  268197,
-                  268250,
-                  270912
-                ],
-                "1468": [
-                  264716,
-                  268197,
-                  268250,
-                  270912
-                ],
-                "1473": [
-                  264716,
-                  268197,
-                  268250,
-                  270912
-                ],
-                "1480": [
-                  264716,
-                  268219,
-                  268250,
-                  270911
-                ]
-              }
+                "62": "62",
+                "63": "62",
+                "64": "62",
+                "65": "63",
+                "66": "64",
+                "70": "65",
+                "71": "65",
+                "72": "65",
+                "73": "64",
+                "102": "66",
+                "103": "67",
+                "104": "67",
+                "105": "66",
+                "250": "65",
+                "251": "65",
+                "252": "65",
+                "253": "68",
+                "254": "68",
+                "255": "69",
+                "256": "62",
+                "257": "62",
+                "258": "62",
+                "259": "70",
+                "260": "67",
+                "261": "70",
+                "262": "71",
+                "263": "68",
+                "264": "71",
+                "265": "62",
+                "266": "62",
+                "267": "62",
+                "268": "67",
+                "269": "67",
+                "270": "66",
+                "577": "67",
+                "581": "67",
+                "1467": "72",
+                "1468": "72",
+                "1473": "72",
+                "1480": "73"
+              },
+              "baselinePool": "74"
             }
           }
         },
@@ -4463,299 +3071,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268205,
-                268214,
-                268246,
-                268249,
-                268254,
-                268260,
-                270161,
-                270166,
-                270926,
-                270927,
-                270928,
-                270929,
-                272361
-              ],
               "specializations": {
-                "62": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "63": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "64": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "65": [
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "66": [
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "70": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "71": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "72": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "73": [
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "102": [
-                  268205,
-                  268246,
-                  268249,
-                  270161,
-                  270927,
-                  272361
-                ],
-                "103": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "104": [
-                  268246,
-                  268249,
-                  270927,
-                  272361
-                ],
-                "105": [
-                  268205,
-                  268246,
-                  268249,
-                  270927,
-                  272361
-                ],
-                "250": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "251": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "252": [
-                  268214,
-                  268249,
-                  268260,
-                  270929,
-                  272361
-                ],
-                "253": [
-                  268249,
-                  268254,
-                  270166,
-                  270928,
-                  272361
-                ],
-                "254": [
-                  268249,
-                  268254,
-                  270166,
-                  270928,
-                  272361
-                ],
-                "255": [
-                  268249,
-                  268254,
-                  270166,
-                  270928,
-                  272361
-                ],
-                "256": [
-                  268205,
-                  268249,
-                  270926,
-                  272361
-                ],
-                "257": [
-                  268205,
-                  268249,
-                  270926,
-                  272361
-                ],
-                "258": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "259": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "260": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "261": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "262": [
-                  268205,
-                  268249,
-                  268254,
-                  270161,
-                  270928,
-                  272361
-                ],
-                "263": [
-                  268249,
-                  268254,
-                  270166,
-                  270928,
-                  272361
-                ],
-                "264": [
-                  268205,
-                  268249,
-                  268254,
-                  270928,
-                  272361
-                ],
-                "265": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "266": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "267": [
-                  268205,
-                  268249,
-                  270161,
-                  270926,
-                  272361
-                ],
-                "268": [
-                  268246,
-                  268249,
-                  270927,
-                  272361
-                ],
-                "269": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "270": [
-                  268205,
-                  268246,
-                  268249,
-                  270927,
-                  272361
-                ],
-                "577": [
-                  268246,
-                  268249,
-                  270166,
-                  270927,
-                  272361
-                ],
-                "581": [
-                  268246,
-                  268249,
-                  270927,
-                  272361
-                ],
-                "1467": [
-                  268205,
-                  268249,
-                  268254,
-                  270161,
-                  270928,
-                  272361
-                ],
-                "1468": [
-                  268205,
-                  268249,
-                  268254,
-                  270928,
-                  272361
-                ],
-                "1473": [
-                  268205,
-                  268249,
-                  268254,
-                  270161,
-                  270928,
-                  272361
-                ],
-                "1480": [
-                  268246,
-                  268249,
-                  270161,
-                  270927,
-                  272361
-                ]
-              }
+                "62": "75",
+                "63": "75",
+                "64": "75",
+                "65": "76",
+                "66": "76",
+                "70": "77",
+                "71": "77",
+                "72": "77",
+                "73": "76",
+                "102": "78",
+                "103": "79",
+                "104": "80",
+                "105": "81",
+                "250": "77",
+                "251": "77",
+                "252": "77",
+                "253": "82",
+                "254": "82",
+                "255": "82",
+                "256": "83",
+                "257": "83",
+                "258": "75",
+                "259": "79",
+                "260": "79",
+                "261": "79",
+                "262": "84",
+                "263": "82",
+                "264": "85",
+                "265": "75",
+                "266": "75",
+                "267": "75",
+                "268": "80",
+                "269": "79",
+                "270": "81",
+                "577": "79",
+                "581": "80",
+                "1467": "84",
+                "1468": "85",
+                "1473": "84",
+                "1480": "86"
+              },
+              "baselinePool": "87"
             }
           }
         },
@@ -4765,416 +3123,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268209,
-                268211,
-                268213,
-                268222,
-                268225,
-                268231,
-                268237,
-                268243,
-                268253,
-                268255,
-                268256,
-                268259,
-                270169,
-                270173,
-                275937,
-                275938,
-                279131
-              ],
               "specializations": {
-                "62": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "63": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "64": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "65": [
-                  268211,
-                  268222,
-                  268253,
-                  268259,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "66": [
-                  268209,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "70": [
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "71": [
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "72": [
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "73": [
-                  268209,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "102": [
-                  268225,
-                  268253,
-                  268256,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "103": [
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "104": [
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "105": [
-                  268225,
-                  268253,
-                  268256,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "250": [
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "251": [
-                  268209,
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "252": [
-                  268213,
-                  268222,
-                  268253,
-                  268259,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "253": [
-                  268231,
-                  268237,
-                  268253,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "254": [
-                  268231,
-                  268237,
-                  268253,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "255": [
-                  268209,
-                  268213,
-                  268231,
-                  268237,
-                  268253,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "256": [
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "257": [
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "258": [
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "259": [
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "260": [
-                  268209,
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "261": [
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "262": [
-                  268231,
-                  268237,
-                  268253,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "263": [
-                  268209,
-                  268231,
-                  268237,
-                  268253,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "264": [
-                  268231,
-                  268237,
-                  268253,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "265": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "266": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "267": [
-                  268211,
-                  268243,
-                  268253,
-                  268255,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "268": [
-                  268209,
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "269": [
-                  268209,
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "270": [
-                  268211,
-                  268225,
-                  268253,
-                  268256,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "577": [
-                  268209,
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "581": [
-                  268209,
-                  268225,
-                  268253,
-                  268256,
-                  270173,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "1467": [
-                  268211,
-                  268231,
-                  268237,
-                  268253,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "1468": [
-                  268211,
-                  268231,
-                  268237,
-                  268253,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "1473": [
-                  268211,
-                  268231,
-                  268237,
-                  268253,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ],
-                "1480": [
-                  268211,
-                  268225,
-                  268253,
-                  268256,
-                  270169,
-                  275937,
-                  275938,
-                  279131
-                ]
-              }
+                "62": "88",
+                "63": "88",
+                "64": "88",
+                "65": "89",
+                "66": "90",
+                "70": "91",
+                "71": "91",
+                "72": "91",
+                "73": "90",
+                "102": "92",
+                "103": "93",
+                "104": "93",
+                "105": "92",
+                "250": "91",
+                "251": "94",
+                "252": "91",
+                "253": "95",
+                "254": "95",
+                "255": "96",
+                "256": "97",
+                "257": "97",
+                "258": "97",
+                "259": "93",
+                "260": "98",
+                "261": "93",
+                "262": "99",
+                "263": "100",
+                "264": "99",
+                "265": "88",
+                "266": "88",
+                "267": "88",
+                "268": "98",
+                "269": "98",
+                "270": "101",
+                "577": "98",
+                "581": "98",
+                "1467": "102",
+                "1468": "102",
+                "1473": "102",
+                "1480": "101"
+              },
+              "baselinePool": "103"
             }
           }
         },
@@ -5184,326 +3175,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268220,
-                268223,
-                268241,
-                268251,
-                268261,
-                268264,
-                270170,
-                270171,
-                270914,
-                270915,
-                270916,
-                270917,
-                273070,
-                279122
-              ],
               "specializations": {
-                "62": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "63": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "64": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "65": [
-                  268220,
-                  268251,
-                  270171,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "66": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "70": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "71": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "72": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "73": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "102": [
-                  268251,
-                  268261,
-                  270170,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "103": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "104": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "105": [
-                  268251,
-                  268261,
-                  270171,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "250": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "251": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "252": [
-                  268220,
-                  268251,
-                  270917,
-                  273070,
-                  279122
-                ],
-                "253": [
-                  268223,
-                  268251,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "254": [
-                  268223,
-                  268251,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "255": [
-                  268223,
-                  268251,
-                  268264,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "256": [
-                  268241,
-                  268251,
-                  270171,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "257": [
-                  268241,
-                  268251,
-                  270171,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "258": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "259": [
-                  268251,
-                  268261,
-                  268264,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "260": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "261": [
-                  268251,
-                  268261,
-                  268264,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "262": [
-                  268223,
-                  268251,
-                  270170,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "263": [
-                  268223,
-                  268251,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "264": [
-                  268223,
-                  268251,
-                  270171,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "265": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "266": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "267": [
-                  268241,
-                  268251,
-                  270170,
-                  270914,
-                  273070,
-                  279122
-                ],
-                "268": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "269": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "270": [
-                  268251,
-                  268261,
-                  270171,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "577": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "581": [
-                  268251,
-                  268261,
-                  270915,
-                  273070,
-                  279122
-                ],
-                "1467": [
-                  268223,
-                  268251,
-                  270170,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "1468": [
-                  268223,
-                  268251,
-                  270171,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "1473": [
-                  268223,
-                  268251,
-                  270170,
-                  270916,
-                  273070,
-                  279122
-                ],
-                "1480": [
-                  268251,
-                  268261,
-                  270170,
-                  270915,
-                  273070,
-                  279122
-                ]
-              }
+                "62": "104",
+                "63": "104",
+                "64": "104",
+                "65": "105",
+                "66": "106",
+                "70": "106",
+                "71": "106",
+                "72": "106",
+                "73": "106",
+                "102": "107",
+                "103": "108",
+                "104": "108",
+                "105": "109",
+                "250": "106",
+                "251": "106",
+                "252": "106",
+                "253": "110",
+                "254": "110",
+                "255": "111",
+                "256": "112",
+                "257": "112",
+                "258": "104",
+                "259": "113",
+                "260": "108",
+                "261": "113",
+                "262": "114",
+                "263": "110",
+                "264": "115",
+                "265": "104",
+                "266": "104",
+                "267": "104",
+                "268": "108",
+                "269": "108",
+                "270": "109",
+                "577": "108",
+                "581": "108",
+                "1467": "114",
+                "1468": "115",
+                "1473": "114",
+                "1480": "107"
+              },
+              "baselinePool": "116"
             }
           }
         },
@@ -5513,379 +3227,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268203,
-                268208,
-                268216,
-                268218,
-                268229,
-                268230,
-                268235,
-                268236,
-                268240,
-                268245,
-                268248,
-                270162,
-                270930,
-                279115,
-                280305,
-                281227
-              ],
               "specializations": {
-                "62": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "63": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "64": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "65": [
-                  268229,
-                  268245,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "66": [
-                  268208,
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "70": [
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "71": [
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "72": [
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "73": [
-                  268208,
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "102": [
-                  268203,
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "103": [
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "104": [
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "105": [
-                  268203,
-                  268235,
-                  268240,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "250": [
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "251": [
-                  268208,
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "252": [
-                  268229,
-                  268245,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "253": [
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "254": [
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "255": [
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "256": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "257": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "258": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "259": [
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "260": [
-                  268235,
-                  268240,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "261": [
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "262": [
-                  268203,
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "263": [
-                  268216,
-                  268230,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "264": [
-                  268203,
-                  268216,
-                  268230,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "265": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "266": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "267": [
-                  268203,
-                  268218,
-                  268236,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "268": [
-                  268235,
-                  268240,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "269": [
-                  268235,
-                  268240,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "270": [
-                  268235,
-                  268240,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "577": [
-                  268235,
-                  268240,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "581": [
-                  268235,
-                  268240,
-                  268248,
-                  270930,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "1467": [
-                  268203,
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "1468": [
-                  268203,
-                  268216,
-                  268230,
-                  268248,
-                  270162,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "1473": [
-                  268203,
-                  268216,
-                  268230,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ],
-                "1480": [
-                  268203,
-                  268235,
-                  268240,
-                  268248,
-                  279115,
-                  280305,
-                  281227
-                ]
-              }
+                "62": "117",
+                "63": "117",
+                "64": "117",
+                "65": "118",
+                "66": "119",
+                "70": "120",
+                "71": "120",
+                "72": "120",
+                "73": "119",
+                "102": "121",
+                "103": "122",
+                "104": "122",
+                "105": "123",
+                "250": "120",
+                "251": "119",
+                "252": "120",
+                "253": "124",
+                "254": "124",
+                "255": "124",
+                "256": "125",
+                "257": "125",
+                "258": "117",
+                "259": "122",
+                "260": "126",
+                "261": "122",
+                "262": "127",
+                "263": "128",
+                "264": "129",
+                "265": "117",
+                "266": "117",
+                "267": "117",
+                "268": "126",
+                "269": "126",
+                "270": "130",
+                "577": "126",
+                "581": "126",
+                "1467": "127",
+                "1468": "129",
+                "1473": "127",
+                "1480": "121"
+              },
+              "baselinePool": "131"
             }
           }
         },
@@ -5895,289 +3279,49 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268196,
-                268200,
-                268210,
-                268227,
-                268239,
-                268242,
-                268258,
-                270160,
-                270164,
-                270922,
-                270923,
-                270924,
-                270925,
-                279118
-              ],
               "specializations": {
-                "62": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "63": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "64": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "65": [
-                  268196,
-                  268210,
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "66": [
-                  268196,
-                  268239,
-                  270160,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "70": [
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "71": [
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "72": [
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "73": [
-                  268196,
-                  268239,
-                  270160,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "102": [
-                  268210,
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "103": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "104": [
-                  268227,
-                  270160,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "105": [
-                  268210,
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "250": [
-                  268239,
-                  270160,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "251": [
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "252": [
-                  268239,
-                  270164,
-                  270925,
-                  279118
-                ],
-                "253": [
-                  268200,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "254": [
-                  268200,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "255": [
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "256": [
-                  268210,
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "257": [
-                  268210,
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "258": [
-                  268210,
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "259": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "260": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "261": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "262": [
-                  268196,
-                  268210,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "263": [
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "264": [
-                  268196,
-                  268210,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "265": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "266": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "267": [
-                  268242,
-                  270164,
-                  270922,
-                  279118
-                ],
-                "268": [
-                  268227,
-                  270160,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "269": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "270": [
-                  268210,
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "577": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "581": [
-                  268227,
-                  270160,
-                  270164,
-                  270923,
-                  279118
-                ],
-                "1467": [
-                  268210,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "1468": [
-                  268210,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "1473": [
-                  268210,
-                  268258,
-                  270164,
-                  270924,
-                  279118
-                ],
-                "1480": [
-                  268227,
-                  270164,
-                  270923,
-                  279118
-                ]
-              }
+                "62": "132",
+                "63": "132",
+                "64": "132",
+                "65": "133",
+                "66": "134",
+                "70": "135",
+                "71": "135",
+                "72": "135",
+                "73": "134",
+                "102": "136",
+                "103": "137",
+                "104": "138",
+                "105": "136",
+                "250": "139",
+                "251": "135",
+                "252": "135",
+                "253": "140",
+                "254": "140",
+                "255": "141",
+                "256": "142",
+                "257": "142",
+                "258": "142",
+                "259": "137",
+                "260": "137",
+                "261": "137",
+                "262": "143",
+                "263": "141",
+                "264": "143",
+                "265": "132",
+                "266": "132",
+                "267": "132",
+                "268": "138",
+                "269": "137",
+                "270": "136",
+                "577": "137",
+                "581": "138",
+                "1467": "144",
+                "1468": "144",
+                "1473": "144",
+                "1480": "137"
+              },
+              "baselinePool": "145"
             }
           }
         },
@@ -6187,510 +3331,221 @@
           "difficulties": {
             "16": {
               "name": "Mythic",
-              "baselineItemIds": [
-                268202,
-                268207,
-                268215,
-                268265,
-                270168,
-                270175,
-                270909,
-                271092,
-                271093,
-                271874,
-                271875,
-                271876,
-                271878,
-                275658,
-                279125,
-                279127,
-                279129,
-                279500
-              ],
               "specializations": {
-                "62": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "63": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "64": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "65": [
-                  268265,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "66": [
-                  268202,
-                  268265,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "70": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "71": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "72": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "73": [
-                  268202,
-                  268265,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "102": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "103": [
-                  268215,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "104": [
-                  268215,
-                  268265,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "105": [
-                  268265,
-                  270909,
-                  271092,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "250": [
-                  268265,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "251": [
-                  268202,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "252": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271878,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "253": [
-                  268207,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "254": [
-                  268207,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "255": [
-                  268215,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271093,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "256": [
-                  268265,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "257": [
-                  268265,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "258": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "259": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271093,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "260": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "261": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271093,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "262": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "263": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "264": [
-                  268265,
-                  270909,
-                  271092,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "265": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "266": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "267": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271874,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "268": [
-                  268215,
-                  268265,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "269": [
-                  268215,
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "270": [
-                  268265,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "577": [
-                  268265,
-                  270168,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "581": [
-                  268265,
-                  270175,
-                  270909,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "1467": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "1468": [
-                  268265,
-                  270909,
-                  271092,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "1473": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271876,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ],
-                "1480": [
-                  268265,
-                  270168,
-                  270909,
-                  271092,
-                  271875,
-                  275658,
-                  279125,
-                  279127,
-                  279129,
-                  279500
-                ]
-              }
+                "62": "146",
+                "63": "146",
+                "64": "146",
+                "65": "147",
+                "66": "148",
+                "70": "149",
+                "71": "149",
+                "72": "149",
+                "73": "148",
+                "102": "150",
+                "103": "151",
+                "104": "152",
+                "105": "153",
+                "250": "154",
+                "251": "155",
+                "252": "149",
+                "253": "156",
+                "254": "156",
+                "255": "157",
+                "256": "158",
+                "257": "158",
+                "258": "146",
+                "259": "159",
+                "260": "160",
+                "261": "159",
+                "262": "161",
+                "263": "162",
+                "264": "163",
+                "265": "146",
+                "266": "146",
+                "267": "146",
+                "268": "152",
+                "269": "151",
+                "270": "164",
+                "577": "160",
+                "581": "165",
+                "1467": "161",
+                "1468": "163",
+                "1473": "161",
+                "1480": "150"
+              },
+              "baselinePool": "166"
             }
           }
         }
       }
     }
+  },
+  "lootPools": {
+    "1": [250456,250461,250462],
+    "2": [250446,250458,250461,250462],
+    "3": [250458,250461,250462],
+    "4": [250457,250461,250462],
+    "5": [250450,250459,250461,250462],
+    "6": [250459,250461,250462],
+    "7": [250446,250459,250461,250462],
+    "8": [250446,250450,250456,250457,250458,250459,250461,250462],
+    "9": [250447,250456,250462],
+    "10": [250458,250462],
+    "11": [250453,250458,250462],
+    "12": [250447,250457,250462],
+    "13": [250457,250462],
+    "14": [250459,250462],
+    "15": [250451,250459,250462],
+    "16": [250451,250457,250462],
+    "17": [250447,250459,250462],
+    "18": [250447,250451,250453,250456,250457,250458,250459,250462],
+    "19": [250448,250456,250460,250462],
+    "20": [250458,250460,250462],
+    "21": [250454,250458,250460,250462],
+    "22": [250448,250457,250460,250462],
+    "23": [250457,250460,250462],
+    "24": [250459,250460,250462],
+    "25": [250448,250459,250460,250462],
+    "26": [250448,250454,250456,250457,250458,250459,250460,250462],
+    "27": [250452,250456,250462],
+    "28": [250452,250458,250462],
+    "29": [250455,250457,250462],
+    "30": [250449,250455,250459,250462],
+    "31": [250456,250462],
+    "32": [250449,250457,250462],
+    "33": [250452,250457,250462],
+    "34": [250452,250459,250462],
+    "35": [250449,250452,250455,250456,250457,250458,250459,250462],
+    "36": [268221,268232,268263,268266,270167,279112],
+    "37": [268226,268244,268262,268266,270167,279112],
+    "38": [268226,268244,268262,268266,279112],
+    "39": [268226,268244,268266,279112],
+    "40": [268247,268263,268266,270167,279112],
+    "41": [268199,268247,268266,279112],
+    "42": [268217,268238,268266,279112],
+    "43": [268199,268217,268238,268266,279112],
+    "44": [268247,268266,279112],
+    "45": [268217,268238,268262,268266,270167,279112],
+    "46": [268217,268238,268263,268266,270167,279112],
+    "47": [268247,268266,270167,279112],
+    "48": [268199,268217,268221,268226,268232,268238,268244,268247,268262,268263,268266,270167,279112],
+    "49": [244343,268252,268257,270918],
+    "50": [244343,268252,270921],
+    "51": [244343,268252,270163,270174,270921],
+    "52": [244343,268252,270163,270921],
+    "53": [244343,268234,268252,270919],
+    "54": [244343,268234,268252,270174,270919],
+    "55": [244343,268233,268252,270920],
+    "56": [244343,268206,268234,268252,270919],
+    "57": [244343,268206,268233,268252,270920],
+    "58": [244343,268206,268234,268252,270174,270919],
+    "59": [244343,268201,268234,268252,270919],
+    "60": [244343,268201,268234,268252,270174,270919],
+    "61": [244343,268201,268206,268233,268234,268252,268257,270163,270174,270918,270919,270920,270921],
+    "62": [264716,268197,268228,268250,270910],
+    "63": [264716,268224,268250,270913],
+    "64": [264716,268224,268250,270165,270913],
+    "65": [264716,268198,268224,268250,270165,270913],
+    "66": [264716,268197,268219,268250,270911],
+    "67": [264716,268219,268250,270165,270911],
+    "68": [264716,268250,270165,270912],
+    "69": [264716,268204,268250,270165,270912],
+    "70": [264716,268204,268219,268250,270165,270911],
+    "71": [264716,268250,270912],
+    "72": [264716,268197,268250,270912],
+    "73": [264716,268219,268250,270911],
+    "74": [264716,268197,268198,268204,268219,268224,268228,268250,270165,270910,270911,270912,270913],
+    "75": [268205,268249,270161,270926,272361],
+    "76": [268249,268260,270929,272361],
+    "77": [268214,268249,268260,270929,272361],
+    "78": [268205,268246,268249,270161,270927,272361],
+    "79": [268246,268249,270166,270927,272361],
+    "80": [268246,268249,270927,272361],
+    "81": [268205,268246,268249,270927,272361],
+    "82": [268249,268254,270166,270928,272361],
+    "83": [268205,268249,270926,272361],
+    "84": [268205,268249,268254,270161,270928,272361],
+    "85": [268205,268249,268254,270928,272361],
+    "86": [268246,268249,270161,270927,272361],
+    "87": [268205,268214,268246,268249,268254,268260,270161,270166,270926,270927,270928,270929,272361],
+    "88": [268211,268243,268253,268255,270169,275937,275938,279131],
+    "89": [268211,268222,268253,268259,270169,275937,275938,279131],
+    "90": [268209,268222,268253,268259,270173,275937,275938,279131],
+    "91": [268213,268222,268253,268259,270173,275937,275938,279131],
+    "92": [268225,268253,268256,270169,275937,275938,279131],
+    "93": [268225,268253,268256,270173,275937,275938,279131],
+    "94": [268209,268213,268222,268253,268259,270173,275937,275938,279131],
+    "95": [268231,268237,268253,270173,275937,275938,279131],
+    "96": [268209,268213,268231,268237,268253,270173,275937,275938,279131],
+    "97": [268243,268253,268255,270169,275937,275938,279131],
+    "98": [268209,268225,268253,268256,270173,275937,275938,279131],
+    "99": [268231,268237,268253,270169,275937,275938,279131],
+    "100": [268209,268231,268237,268253,270173,275937,275938,279131],
+    "101": [268211,268225,268253,268256,270169,275937,275938,279131],
+    "102": [268211,268231,268237,268253,270169,275937,275938,279131],
+    "103": [268209,268211,268213,268222,268225,268231,268237,268243,268253,268255,268256,268259,270169,270173,275937,275938,279131],
+    "104": [268241,268251,270170,270914,273070,279122],
+    "105": [268220,268251,270171,270917,273070,279122],
+    "106": [268220,268251,270917,273070,279122],
+    "107": [268251,268261,270170,270915,273070,279122],
+    "108": [268251,268261,270915,273070,279122],
+    "109": [268251,268261,270171,270915,273070,279122],
+    "110": [268223,268251,270916,273070,279122],
+    "111": [268223,268251,268264,270916,273070,279122],
+    "112": [268241,268251,270171,270914,273070,279122],
+    "113": [268251,268261,268264,270915,273070,279122],
+    "114": [268223,268251,270170,270916,273070,279122],
+    "115": [268223,268251,270171,270916,273070,279122],
+    "116": [268220,268223,268241,268251,268261,268264,270170,270171,270914,270915,270916,270917,273070,279122],
+    "117": [268203,268218,268236,268248,279115,280305,281227],
+    "118": [268229,268245,268248,270162,279115,280305,281227],
+    "119": [268208,268229,268245,268248,279115,280305,281227],
+    "120": [268229,268245,268248,279115,280305,281227],
+    "121": [268203,268235,268240,268248,279115,280305,281227],
+    "122": [268235,268240,268248,279115,280305,281227],
+    "123": [268203,268235,268240,268248,270162,279115,280305,281227],
+    "124": [268216,268230,268248,279115,280305,281227],
+    "125": [268203,268218,268236,268248,270162,279115,280305,281227],
+    "126": [268235,268240,268248,270930,279115,280305,281227],
+    "127": [268203,268216,268230,268248,279115,280305,281227],
+    "128": [268216,268230,268248,270930,279115,280305,281227],
+    "129": [268203,268216,268230,268248,270162,279115,280305,281227],
+    "130": [268235,268240,268248,270162,279115,280305,281227],
+    "131": [268203,268208,268216,268218,268229,268230,268235,268236,268240,268245,268248,270162,270930,279115,280305,281227],
+    "132": [268242,270164,270922,279118],
+    "133": [268196,268210,268239,270164,270925,279118],
+    "134": [268196,268239,270160,270164,270925,279118],
+    "135": [268239,270164,270925,279118],
+    "136": [268210,268227,270164,270923,279118],
+    "137": [268227,270164,270923,279118],
+    "138": [268227,270160,270164,270923,279118],
+    "139": [268239,270160,270164,270925,279118],
+    "140": [268200,268258,270164,270924,279118],
+    "141": [268258,270164,270924,279118],
+    "142": [268210,268242,270164,270922,279118],
+    "143": [268196,268210,268258,270164,270924,279118],
+    "144": [268210,268258,270164,270924,279118],
+    "145": [268196,268200,268210,268227,268239,268242,268258,270160,270164,270922,270923,270924,270925,279118],
+    "146": [268265,270168,270909,271092,271874,275658,279125,279127,279129,279500],
+    "147": [268265,270909,271878,275658,279125,279127,279129,279500],
+    "148": [268202,268265,270175,270909,271878,275658,279125,279127,279129,279500],
+    "149": [268265,270168,270175,270909,271878,275658,279125,279127,279129,279500],
+    "150": [268265,270168,270909,271092,271875,275658,279125,279127,279129,279500],
+    "151": [268215,268265,270168,270175,270909,271875,275658,279125,279127,279129,279500],
+    "152": [268215,268265,270175,270909,271875,275658,279125,279127,279129,279500],
+    "153": [268265,270909,271092,271875,275658,279125,279127,279129,279500],
+    "154": [268265,270175,270909,271878,275658,279125,279127,279129,279500],
+    "155": [268202,268265,270168,270175,270909,271878,275658,279125,279127,279129,279500],
+    "156": [268207,268265,270168,270175,270909,271876,275658,279125,279127,279129,279500],
+    "157": [268215,268265,270168,270175,270909,271093,271876,275658,279125,279127,279129,279500],
+    "158": [268265,270909,271092,271874,275658,279125,279127,279129,279500],
+    "159": [268265,270168,270175,270909,271093,271875,275658,279125,279127,279129,279500],
+    "160": [268265,270168,270175,270909,271875,275658,279125,279127,279129,279500],
+    "161": [268265,270168,270909,271092,271876,275658,279125,279127,279129,279500],
+    "162": [268265,270168,270175,270909,271876,275658,279125,279127,279129,279500],
+    "163": [268265,270909,271092,271876,275658,279125,279127,279129,279500],
+    "164": [268265,270909,271875,275658,279125,279127,279129,279500],
+    "165": [268265,270175,270909,271875,275658,279125,279127,279129,279500],
+    "166": [268202,268207,268215,268265,270168,270175,270909,271092,271093,271874,271875,271876,271878,275658,279125,279127,279129,279500]
   }
 }

@@ -1,2538 +1,26 @@
 {
-  "schemaVersion": 1,
-  "source": "wow-encounter-journal",
-  "sourceSha256": "54f1bc0ed1205b8444bd21b705476491cc1b4154614a32d726533454bce84652",
-  "instanceId": 1317,
   "game": {
-    "locale": "enUS",
-    "version": "12.1.0",
-    "interface": 120100,
     "build": 69933,
-    "product": "retail"
+    "interface": 120100,
+    "locale": "enUS",
+    "product": "retail",
+    "version": "12.1.0"
   },
   "harvest": {
-    "status": "complete",
+    "importedAt": 1791666140,
     "jobs": 41,
-    "importedAt": 1791664285
-  },
-  "items": {
-    "268199": {
-      "armorType": "Staff",
-      "stats": {
-        "ITEM_MOD_CRIT_RATING_SHORT": 129,
-        "ITEM_MOD_STAMINA_SHORT": 3369,
-        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 125.6944427490234,
-        "ITEM_MOD_VERSATILITY": 61,
-        "ITEM_MOD_AGILITY_SHORT": 167
-      },
-      "itemClass": "Weapon",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7552246,
-      "journalFilterType": 10,
-      "itemSubclass": "Staves",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Tidepiercer's Bubble Popper",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Staff",
-          "type": 21,
-          "leftText": "Two-Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "rightText": "Speed 3.60",
-          "type": 0,
-          "leftText": "384 - 521 Damage"
-        },
-        {
-          "leftText": "(125.7 damage per second)",
-          "type": 0
-        },
-        {
-          "leftText": "+167 Agility",
-          "type": 0
-        },
-        {
-          "leftText": "+3,369 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+129 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+61 Versatility",
-          "type": 0
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "\"Pop, pop, pop.\"",
-          "type": 37
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Tidepiercer's Bubble Popper",
-      "equipLocation": "INVTYPE_2HWEAPON",
-      "inventorySlot": "Two-Hand",
-      "itemSubclassID": 10,
-      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r",
-      "itemClassID": 2,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 129,
-          "share": 0.6789473684210526
-        },
-        {
-          "stat": "Vers",
-          "value": 61,
-          "share": 0.32105263157894737
-        }
-      ],
-      "secondaryStatBudget": 190,
-      "primaryStats": [
-        {
-          "stat": "Agility",
-          "value": 167
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Vers"
-    },
-    "268217": {
-      "armorType": "Mail",
-      "stats": {
-        "ITEM_MOD_CRIT_RATING_SHORT": 33,
-        "ITEM_MOD_STAMINA_SHORT": 1895,
-        "ITEM_MOD_AGILITY_SHORT": 94,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 74,
-        "RESISTANCE0_NAME": 132
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7554475,
-      "journalFilterType": 5,
-      "itemSubclass": "Mail",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Rising Tide Wristguards",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Wrist",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "132 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+94 Agility",
-          "type": 0
-        },
-        {
-          "leftText": "+1,895 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+33 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+74 Mastery",
-          "type": 0
-        },
-        {
-          "leftText": "+94 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Rising Tide Wristguards",
-      "equipLocation": "INVTYPE_WRIST",
-      "inventorySlot": "Wrist",
-      "itemSubclassID": 3,
-      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Mastery",
-          "value": 74,
-          "share": 0.6915887850467289
-        },
-        {
-          "stat": "Crit",
-          "value": 33,
-          "share": 0.308411214953271
-        }
-      ],
-      "secondaryStatBudget": 107,
-      "primaryStats": [
-        {
-          "stat": "Agility",
-          "value": 94
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Mastery",
-      "stat2": "Crit"
-    },
-    "268221": {
-      "armorType": "Cloth",
-      "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 167,
-        "ITEM_MOD_CRIT_RATING_SHORT": 127,
-        "ITEM_MOD_STAMINA_SHORT": 3369,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 63,
-        "RESISTANCE0_NAME": 105
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7520906,
-      "journalFilterType": 4,
-      "itemSubclass": "Cloth",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Tidebound Sorcereress's Robes",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Cloth",
-          "type": 21,
-          "leftText": "Chest",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "105 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+167 Intellect",
-          "type": 42
-        },
-        {
-          "leftText": "+3,369 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+127 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+63 Mastery",
-          "type": 0
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        }
-      ],
-      "name": "Tidebound Sorcereress's Robes",
-      "equipLocation": "INVTYPE_ROBE",
-      "inventorySlot": "Chest",
-      "itemSubclassID": 1,
-      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 127,
-          "share": 0.6684210526315789
-        },
-        {
-          "stat": "Mastery",
-          "value": 63,
-          "share": 0.33157894736842103
-        }
-      ],
-      "secondaryStatBudget": 190,
-      "primaryStats": [
-        {
-          "stat": "Intellect",
-          "value": 167
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Mastery"
-    },
-    "268226": {
-      "armorType": "Plate",
-      "stats": {
-        "ITEM_MOD_STRENGTH_SHORT": 125,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 42,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_CRIT_RATING_SHORT": 101,
-        "RESISTANCE0_NAME": 274
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7730305,
-      "journalFilterType": 2,
-      "itemSubclass": "Plate",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Swelling Sea Spaulders",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Plate",
-          "type": 21,
-          "leftText": "Shoulder",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "274 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Strength",
-          "type": 0
-        },
-        {
-          "leftText": "+2,527 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+101 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+42 Mastery",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Swelling Sea Spaulders",
-      "equipLocation": "INVTYPE_SHOULDER",
-      "inventorySlot": "Shoulder",
-      "itemSubclassID": 4,
-      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 101,
-          "share": 0.7062937062937062
-        },
-        {
-          "stat": "Mastery",
-          "value": 42,
-          "share": 0.2937062937062937
-        }
-      ],
-      "secondaryStatBudget": 143,
-      "primaryStats": [
-        {
-          "stat": "Strength",
-          "value": 125
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Mastery"
-    },
-    "268232": {
-      "armorType": "Cloth",
-      "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 125,
-        "ITEM_MOD_CRIT_RATING_SHORT": 101,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_VERSATILITY": 42,
-        "RESISTANCE0_NAME": 59
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7807649,
-      "journalFilterType": 7,
-      "itemSubclass": "Cloth",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Cincture of the Abyssal Grotto",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Cloth",
-          "type": 21,
-          "leftText": "Waist",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "59 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Intellect",
-          "type": 42
-        },
-        {
-          "leftText": "+2,527 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+101 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+42 Versatility",
-          "type": 0
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Cincture of the Abyssal Grotto",
-      "equipLocation": "INVTYPE_WAIST",
-      "inventorySlot": "Waist",
-      "itemSubclassID": 1,
-      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 101,
-          "share": 0.7062937062937062
-        },
-        {
-          "stat": "Vers",
-          "value": 42,
-          "share": 0.2937062937062937
-        }
-      ],
-      "secondaryStatBudget": 143,
-      "primaryStats": [
-        {
-          "stat": "Intellect",
-          "value": 125
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Vers"
-    },
-    "268238": {
-      "armorType": "Mail",
-      "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 50,
-        "ITEM_MOD_CRIT_RATING_SHORT": 93,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_AGILITY_SHORT": 125,
-        "RESISTANCE0_NAME": 149
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7789857,
-      "journalFilterType": 6,
-      "itemSubclass": "Mail",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Grips of Swirling Fury",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Mail",
-          "type": 21,
-          "leftText": "Hands",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "149 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Agility",
-          "type": 0
-        },
-        {
-          "leftText": "+2,527 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+93 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+50 Haste",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Grips of Swirling Fury",
-      "equipLocation": "INVTYPE_HAND",
-      "inventorySlot": "Hands",
-      "itemSubclassID": 3,
-      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 93,
-          "share": 0.6503496503496503
-        },
-        {
-          "stat": "Haste",
-          "value": 50,
-          "share": 0.34965034965034963
-        }
-      ],
-      "secondaryStatBudget": 143,
-      "primaryStats": [
-        {
-          "stat": "Agility",
-          "value": 125
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Haste"
-    },
-    "268244": {
-      "armorType": "Plate",
-      "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 101,
-        "ITEM_MOD_VERSATILITY": 42,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_STRENGTH_SHORT": 125,
-        "RESISTANCE0_NAME": 224
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7739383,
-      "journalFilterType": 7,
-      "itemSubclass": "Plate",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Forgotten Grotto Girdle",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Plate",
-          "type": 21,
-          "leftText": "Waist",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "224 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Strength",
-          "type": 0
-        },
-        {
-          "leftText": "+2,527 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+101 Haste",
-          "type": 0
-        },
-        {
-          "leftText": "+42 Versatility",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Forgotten Grotto Girdle",
-      "equipLocation": "INVTYPE_WAIST",
-      "inventorySlot": "Waist",
-      "itemSubclassID": 4,
-      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Haste",
-          "value": 101,
-          "share": 0.7062937062937062
-        },
-        {
-          "stat": "Vers",
-          "value": 42,
-          "share": 0.2937062937062937
-        }
-      ],
-      "secondaryStatBudget": 143,
-      "primaryStats": [
-        {
-          "stat": "Strength",
-          "value": 125
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Haste",
-      "stat2": "Vers"
-    },
-    "268247": {
-      "armorType": "Leather",
-      "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 94,
-        "ITEM_MOD_VERSATILITY": 49,
-        "ITEM_MOD_STAMINA_SHORT": 2527,
-        "ITEM_MOD_AGILITY_SHORT": 125,
-        "RESISTANCE0_NAME": 112
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7679650,
-      "journalFilterType": 9,
-      "itemSubclass": "Leather",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Breakwater Boots",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Leather",
-          "type": 21,
-          "leftText": "Feet",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "112 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Agility",
-          "type": 0
-        },
-        {
-          "leftText": "+2,527 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+94 Haste",
-          "type": 0
-        },
-        {
-          "leftText": "+49 Versatility",
-          "type": 0
-        },
-        {
-          "leftText": "+125 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Breakwater Boots",
-      "equipLocation": "INVTYPE_FEET",
-      "inventorySlot": "Feet",
-      "itemSubclassID": 2,
-      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Haste",
-          "value": 94,
-          "share": 0.6573426573426573
-        },
-        {
-          "stat": "Vers",
-          "value": 49,
-          "share": 0.34265734265734266
-        }
-      ],
-      "secondaryStatBudget": 143,
-      "primaryStats": [
-        {
-          "stat": "Agility",
-          "value": 125
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Haste",
-      "stat2": "Vers"
-    },
-    "268262": {
-      "armorType": "Shield",
-      "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 256,
-        "ITEM_MOD_HASTE_RATING_SHORT": 31,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 64,
-        "ITEM_MOD_STAMINA_SHORT": 1684,
-        "ITEM_MOD_STRENGTH_SHORT": 84,
-        "RESISTANCE0_NAME": 1167
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7553253,
-      "journalFilterType": 11,
-      "itemSubclass": "Shields",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Bubblefin Splash Guard",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "rightText": "Shield",
-          "type": 21,
-          "leftText": "Off Hand",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "1,167 Armor",
-          "type": 0
-        },
-        {
-          "leftText": "2,917 Block",
-          "type": 0
-        },
-        {
-          "leftText": "+1,684 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+31 Haste",
-          "type": 0
-        },
-        {
-          "leftText": "+64 Mastery",
-          "type": 0
-        },
-        {
-          "leftText": "+84 Strength",
-          "type": 42
-        },
-        {
-          "leftText": "+256 Intellect",
-          "type": 42
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        },
-        {
-          "leftText": "You haven't collected this appearance",
-          "type": 0
-        }
-      ],
-      "name": "Bubblefin Splash Guard",
-      "equipLocation": "INVTYPE_SHIELD",
-      "inventorySlot": "Off Hand",
-      "itemSubclassID": 6,
-      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Mastery",
-          "value": 64,
-          "share": 0.6736842105263158
-        },
-        {
-          "stat": "Haste",
-          "value": 31,
-          "share": 0.3263157894736842
-        }
-      ],
-      "secondaryStatBudget": 95,
-      "primaryStats": [
-        {
-          "stat": "Intellect",
-          "value": 256
-        },
-        {
-          "stat": "Strength",
-          "value": 84
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Mastery",
-      "stat2": "Haste"
-    },
-    "268263": {
-      "armorType": "",
-      "stats": {
-        "ITEM_MOD_INTELLECT_SHORT": 256,
-        "ITEM_MOD_CRIT_RATING_SHORT": 64,
-        "ITEM_MOD_MASTERY_RATING_SHORT": 31,
-        "ITEM_MOD_STAMINA_SHORT": 1684
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 7500005,
-      "journalFilterType": 11,
-      "itemSubclass": "Miscellaneous",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Frostscale's Mystic Frond",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "type": 21,
-          "leftText": "Held In Off-hand",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "+256 Intellect",
-          "type": 42
-        },
-        {
-          "leftText": "+1,684 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+64 Critical Strike",
-          "type": 0
-        },
-        {
-          "leftText": "+31 Mastery",
-          "type": 0
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        }
-      ],
-      "name": "Frostscale's Mystic Frond",
-      "equipLocation": "INVTYPE_HOLDABLE",
-      "inventorySlot": "Held In Off-hand",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Crit",
-          "value": 64,
-          "share": 0.6736842105263158
-        },
-        {
-          "stat": "Mastery",
-          "value": 31,
-          "share": 0.3263157894736842
-        }
-      ],
-      "secondaryStatBudget": 95,
-      "primaryStats": [
-        {
-          "stat": "Intellect",
-          "value": 256
-        }
-      ],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Crit",
-      "stat2": "Mastery"
-    },
-    "268266": {
-      "armorType": "",
-      "stats": {
-        "EMPTY_SOCKET_PRISMATIC": 1,
-        "ITEM_MOD_HASTE_RATING_SHORT": 293,
-        "ITEM_MOD_VERSATILITY": 83,
-        "ITEM_MOD_STAMINA_SHORT": 1895
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 1391765,
-      "journalFilterType": 12,
-      "itemSubclass": "Miscellaneous",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Alluring Bubbleband",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "leftText": "Unique-Equipped",
-          "type": 0
-        },
-        {
-          "type": 21,
-          "leftText": "Finger",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "+1,895 Stamina",
-          "type": 0
-        },
-        {
-          "leftText": "+293 Haste",
-          "type": 0
-        },
-        {
-          "leftText": "+83 Versatility",
-          "type": 0
-        },
-        {
-          "leftText": " ",
-          "type": 1
-        },
-        {
-          "leftText": "Prismatic Socket",
-          "type": 3
-        },
-        {
-          "leftText": " ",
-          "type": 1
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        }
-      ],
-      "name": "Alluring Bubbleband",
-      "equipLocation": "INVTYPE_FINGER",
-      "inventorySlot": "Finger",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Haste",
-          "value": 293,
-          "share": 0.7792553191489362
-        },
-        {
-          "stat": "Vers",
-          "value": 83,
-          "share": 0.22074468085106383
-        }
-      ],
-      "secondaryStatBudget": 376,
-      "primaryStats": [],
-      "sockets": [
-        {
-          "type": "Prismatic",
-          "count": 1
-        }
-      ],
-      "effects": [],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Haste",
-      "stat2": "Vers"
-    },
-    "270167": {
-      "armorType": "",
-      "stats": {
-        "ITEM_MOD_HASTE_RATING_SHORT": 136
-      },
-      "itemClass": "Armor",
-      "itemQuality": "ffa335ee",
-      "metadataVersion": 1,
-      "itemLevel": 321,
-      "iconFileId": 1020350,
-      "journalFilterType": 13,
-      "itemSubclass": "Miscellaneous",
-      "tooltipLines": [
-        {
-          "type": 22,
-          "leftText": "Wavecaller's Seastone",
-          "quality": 4
-        },
-        {
-          "leftText": "|cFF 0FF 0Mythic|r",
-          "type": 0
-        },
-        {
-          "type": 31,
-          "itemLevel": 321,
-          "leftText": "Item Level 321"
-        },
-        {
-          "leftText": "Upgrade Level: Myth 2/6",
-          "type": 32
-        },
-        {
-          "bonding": 6,
-          "type": 20,
-          "leftText": "Binds when picked up"
-        },
-        {
-          "leftText": "Unique-Equipped",
-          "type": 0
-        },
-        {
-          "type": 21,
-          "leftText": "Trinket",
-          "isValidInvSlot": true
-        },
-        {
-          "leftText": "+136 Haste",
-          "type": 0
-        },
-        {
-          "leftText": " ",
-          "type": 1
-        },
-        {
-          "type": 45,
-          "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
-          "spellID": 1295058
-        },
-        {
-          "leftText": " ",
-          "type": 1
-        },
-        {
-          "requirementType": 5,
-          "type": 43,
-          "level": 90,
-          "leftText": "Requires Level 90"
-        },
-        {
-          "leftText": "",
-          "type": 11
-        }
-      ],
-      "name": "Wavecaller's Seastone",
-      "equipLocation": "INVTYPE_TRINKET",
-      "inventorySlot": "Trinket",
-      "itemSubclassID": 0,
-      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r",
-      "itemClassID": 4,
-      "secondaryStats": [
-        {
-          "stat": "Haste",
-          "value": 136,
-          "share": 1
-        }
-      ],
-      "secondaryStatBudget": 136,
-      "primaryStats": [],
-      "sockets": [],
-      "effects": [
-        {
-          "spellID": 1295058,
-          "text": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
-          "tooltipType": 45
-        }
-      ],
-      "isEquipment": true,
-      "itemCategory": "equipment",
-      "stat1": "Haste",
-      "stat2": null
-    },
-    "279112": {
-      "armorType": "",
-      "stats": [],
-      "itemClass": "Housing",
-      "itemClassID": 20,
-      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
-      "itemLevel": 1,
-      "itemSubclassID": 0,
-      "journalFilterType": 14,
-      "metadataVersion": 1,
-      "tooltipLines": [
-        {
-          "leftText": "Retrieving item information",
-          "type": 41
-        }
-      ],
-      "name": "Clumped Asteroidea",
-      "itemSubclass": "Decor",
-      "inventorySlot": "",
-      "iconFileId": 8033308,
-      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r",
-      "itemQuality": "ff0070dd",
-      "secondaryStats": [],
-      "secondaryStatBudget": 0,
-      "primaryStats": [],
-      "sockets": [],
-      "effects": [],
-      "isEquipment": false,
-      "itemCategory": "housing-decor",
-      "stat1": null,
-      "stat2": null
-    }
+    "status": "complete"
   },
   "instance": {
     "encounters": {
       "2849": {
         "difficulties": {
           "16": {
-            "specializations": {
-              "62": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614266,
-                "startedAt": 1791614263,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "63": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.157000000122935,
-                "completedAt": 1791614269,
-                "startedAt": 1791614266,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.157000000122935,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "64": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614273,
-                "startedAt": 1791614269,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "65": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.160999999847263,
-                "completedAt": 1791614276,
-                "startedAt": 1791614273,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.160999999847263,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268262
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "66": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.15500000002794,
-                "completedAt": 1791614279,
-                "startedAt": 1791614276,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 3.15500000002794,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268262
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "70": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.161000000080094,
-                "completedAt": 1791614282,
-                "startedAt": 1791614279,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.161000000080094,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "71": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614285,
-                "startedAt": 1791614282,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "72": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.156999999890104,
-                "completedAt": 1791614288,
-                "startedAt": 1791614285,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.156999999890104,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "73": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158000000054017,
-                "completedAt": 1791614292,
-                "startedAt": 1791614288,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158000000054017,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268262
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "102": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.155999999959022,
-                "completedAt": 1791614295,
-                "startedAt": 1791614292,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 3.155999999959022,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "103": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.160000000149012,
-                "completedAt": 1791614298,
-                "startedAt": 1791614295,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.160000000149012,
-                "items": [
-                  {
-                    "itemID": 268199
-                  },
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "104": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614301,
-                "startedAt": 1791614298,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268199
-                  },
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "105": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 2.458000000100583,
-                "completedAt": 1791614330,
-                "startedAt": 1791614328,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 2.458000000100583,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "250": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.159999999916181,
-                "completedAt": 1791614333,
-                "startedAt": 1791614330,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.159999999916181,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "251": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.157000000122935,
-                "completedAt": 1791614337,
-                "startedAt": 1791614333,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.157000000122935,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "252": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.155999999959022,
-                "completedAt": 1791614340,
-                "startedAt": 1791614337,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.155999999959022,
-                "items": [
-                  {
-                    "itemID": 268226
-                  },
-                  {
-                    "itemID": 268244
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "253": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158000000054017,
-                "completedAt": 1791614343,
-                "startedAt": 1791614340,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158000000054017,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "254": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.160999999847263,
-                "completedAt": 1791614346,
-                "startedAt": 1791614343,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.160999999847263,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "255": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158000000054017,
-                "completedAt": 1791614349,
-                "startedAt": 1791614346,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158000000054017,
-                "items": [
-                  {
-                    "itemID": 268199
-                  },
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "256": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.15500000002794,
-                "completedAt": 1791614352,
-                "startedAt": 1791614349,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.15500000002794,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "257": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614355,
-                "startedAt": 1791614352,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "258": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.15500000002794,
-                "completedAt": 1791614359,
-                "startedAt": 1791614355,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.15500000002794,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "259": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.159999999916181,
-                "completedAt": 1791614362,
-                "startedAt": 1791614359,
-                "reportedCount": 3,
-                "status": "complete",
-                "lastAttemptSeconds": 3.159999999916181,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "260": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.156000000191853,
-                "completedAt": 1791614365,
-                "startedAt": 1791614362,
-                "reportedCount": 3,
-                "status": "complete",
-                "lastAttemptSeconds": 3.156000000191853,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "261": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158999999985099,
-                "completedAt": 1791614368,
-                "startedAt": 1791614365,
-                "reportedCount": 3,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158999999985099,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "262": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.152999999932945,
-                "completedAt": 1791614371,
-                "startedAt": 1791614368,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.152999999932945,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268262
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "263": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.161000000080094,
-                "completedAt": 1791614374,
-                "startedAt": 1791614371,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.161000000080094,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "264": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.157999999821186,
-                "completedAt": 1791614378,
-                "startedAt": 1791614374,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.157999999821186,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268262
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "265": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.157000000122935,
-                "completedAt": 1791614381,
-                "startedAt": 1791614378,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.157000000122935,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "266": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.159999999916181,
-                "completedAt": 1791614384,
-                "startedAt": 1791614381,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.159999999916181,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "267": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158000000054017,
-                "completedAt": 1791614387,
-                "startedAt": 1791614384,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158000000054017,
-                "items": [
-                  {
-                    "itemID": 268221
-                  },
-                  {
-                    "itemID": 268232
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "268": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.158000000054017,
-                "completedAt": 1791614390,
-                "startedAt": 1791614387,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.158000000054017,
-                "items": [
-                  {
-                    "itemID": 268199
-                  },
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "269": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.159999999916181,
-                "completedAt": 1791614393,
-                "startedAt": 1791614390,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.159999999916181,
-                "items": [
-                  {
-                    "itemID": 268199
-                  },
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "270": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.157000000122935,
-                "completedAt": 1791614397,
-                "startedAt": 1791614393,
-                "reportedCount": 5,
-                "status": "complete",
-                "lastAttemptSeconds": 3.157000000122935,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "577": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.153999999864027,
-                "completedAt": 1791614400,
-                "startedAt": 1791614397,
-                "reportedCount": 3,
-                "status": "complete",
-                "lastAttemptSeconds": 3.153999999864027,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "581": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.161000000080094,
-                "completedAt": 1791614403,
-                "startedAt": 1791614400,
-                "reportedCount": 3,
-                "status": "complete",
-                "lastAttemptSeconds": 3.161000000080094,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "1467": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.162000000011176,
-                "completedAt": 1791614406,
-                "startedAt": 1791614403,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.162000000011176,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "1468": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.155999999959022,
-                "completedAt": 1791614409,
-                "startedAt": 1791614406,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.155999999959022,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "1473": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.159999999916181,
-                "completedAt": 1791614412,
-                "startedAt": 1791614409,
-                "reportedCount": 6,
-                "status": "complete",
-                "lastAttemptSeconds": 3.159999999916181,
-                "items": [
-                  {
-                    "itemID": 268217
-                  },
-                  {
-                    "itemID": 268238
-                  },
-                  {
-                    "itemID": 268263
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              },
-              "1480": {
-                "unresolvedEntries": [],
-                "duplicateCount": 0,
-                "durationSeconds": 3.155999999959022,
-                "completedAt": 1791614415,
-                "startedAt": 1791614412,
-                "reportedCount": 4,
-                "status": "complete",
-                "lastAttemptSeconds": 3.155999999959022,
-                "items": [
-                  {
-                    "itemID": 268247
-                  },
-                  {
-                    "itemID": 268266
-                  },
-                  {
-                    "itemID": 270167
-                  },
-                  {
-                    "itemID": 279112
-                  }
-                ],
-                "attempts": 1
-              }
-            },
-            "difficultyId": 16,
             "baseline": {
-              "unresolvedEntries": [],
+              "attempts": 1,
+              "completedAt": 1791614263,
               "duplicateCount": 0,
               "durationSeconds": 2.459000000031665,
-              "completedAt": 1791614263,
-              "startedAt": 1791614261,
-              "reportedCount": 13,
-              "status": "complete",
-              "lastAttemptSeconds": 2.459000000031665,
               "items": [
                 {
                   "itemID": 268199
@@ -2574,20 +62,2532 @@
                   "itemID": 279112
                 }
               ],
-              "attempts": 1
+              "lastAttemptSeconds": 2.459000000031665,
+              "reportedCount": 13,
+              "startedAt": 1791614261,
+              "status": "complete",
+              "unresolvedEntries": []
             },
-            "difficultyName": "Mythic"
+            "difficultyId": 16,
+            "difficultyName": "Mythic",
+            "specializations": {
+              "62": {
+                "attempts": 1,
+                "completedAt": 1791614266,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 6,
+                "startedAt": 1791614263,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "63": {
+                "attempts": 1,
+                "completedAt": 1791614269,
+                "duplicateCount": 0,
+                "durationSeconds": 3.157000000122935,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.157000000122935,
+                "reportedCount": 6,
+                "startedAt": 1791614266,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "64": {
+                "attempts": 1,
+                "completedAt": 1791614273,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 6,
+                "startedAt": 1791614269,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "65": {
+                "attempts": 1,
+                "completedAt": 1791614276,
+                "duplicateCount": 0,
+                "durationSeconds": 3.160999999847263,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268262
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.160999999847263,
+                "reportedCount": 6,
+                "startedAt": 1791614273,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "66": {
+                "attempts": 1,
+                "completedAt": 1791614279,
+                "duplicateCount": 0,
+                "durationSeconds": 3.15500000002794,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268262
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.15500000002794,
+                "reportedCount": 5,
+                "startedAt": 1791614276,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "70": {
+                "attempts": 1,
+                "completedAt": 1791614282,
+                "duplicateCount": 0,
+                "durationSeconds": 3.161000000080094,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.161000000080094,
+                "reportedCount": 4,
+                "startedAt": 1791614279,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "71": {
+                "attempts": 1,
+                "completedAt": 1791614285,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 4,
+                "startedAt": 1791614282,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "72": {
+                "attempts": 1,
+                "completedAt": 1791614288,
+                "duplicateCount": 0,
+                "durationSeconds": 3.156999999890104,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.156999999890104,
+                "reportedCount": 4,
+                "startedAt": 1791614285,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "73": {
+                "attempts": 1,
+                "completedAt": 1791614292,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158000000054017,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268262
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158000000054017,
+                "reportedCount": 5,
+                "startedAt": 1791614288,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "102": {
+                "attempts": 1,
+                "completedAt": 1791614295,
+                "duplicateCount": 0,
+                "durationSeconds": 3.155999999959022,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.155999999959022,
+                "reportedCount": 5,
+                "startedAt": 1791614292,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "103": {
+                "attempts": 1,
+                "completedAt": 1791614298,
+                "duplicateCount": 0,
+                "durationSeconds": 3.160000000149012,
+                "items": [
+                  {
+                    "itemID": 268199
+                  },
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.160000000149012,
+                "reportedCount": 4,
+                "startedAt": 1791614295,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "104": {
+                "attempts": 1,
+                "completedAt": 1791614301,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268199
+                  },
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 4,
+                "startedAt": 1791614298,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "105": {
+                "attempts": 1,
+                "completedAt": 1791614330,
+                "duplicateCount": 0,
+                "durationSeconds": 2.458000000100583,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 2.458000000100583,
+                "reportedCount": 5,
+                "startedAt": 1791614328,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "250": {
+                "attempts": 1,
+                "completedAt": 1791614333,
+                "duplicateCount": 0,
+                "durationSeconds": 3.159999999916181,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.159999999916181,
+                "reportedCount": 4,
+                "startedAt": 1791614330,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "251": {
+                "attempts": 1,
+                "completedAt": 1791614337,
+                "duplicateCount": 0,
+                "durationSeconds": 3.157000000122935,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.157000000122935,
+                "reportedCount": 4,
+                "startedAt": 1791614333,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "252": {
+                "attempts": 1,
+                "completedAt": 1791614340,
+                "duplicateCount": 0,
+                "durationSeconds": 3.155999999959022,
+                "items": [
+                  {
+                    "itemID": 268226
+                  },
+                  {
+                    "itemID": 268244
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.155999999959022,
+                "reportedCount": 4,
+                "startedAt": 1791614337,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "253": {
+                "attempts": 1,
+                "completedAt": 1791614343,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158000000054017,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158000000054017,
+                "reportedCount": 4,
+                "startedAt": 1791614340,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "254": {
+                "attempts": 1,
+                "completedAt": 1791614346,
+                "duplicateCount": 0,
+                "durationSeconds": 3.160999999847263,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.160999999847263,
+                "reportedCount": 4,
+                "startedAt": 1791614343,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "255": {
+                "attempts": 1,
+                "completedAt": 1791614349,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158000000054017,
+                "items": [
+                  {
+                    "itemID": 268199
+                  },
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158000000054017,
+                "reportedCount": 5,
+                "startedAt": 1791614346,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "256": {
+                "attempts": 1,
+                "completedAt": 1791614352,
+                "duplicateCount": 0,
+                "durationSeconds": 3.15500000002794,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.15500000002794,
+                "reportedCount": 6,
+                "startedAt": 1791614349,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "257": {
+                "attempts": 1,
+                "completedAt": 1791614355,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 6,
+                "startedAt": 1791614352,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "258": {
+                "attempts": 1,
+                "completedAt": 1791614359,
+                "duplicateCount": 0,
+                "durationSeconds": 3.15500000002794,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.15500000002794,
+                "reportedCount": 6,
+                "startedAt": 1791614355,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "259": {
+                "attempts": 1,
+                "completedAt": 1791614362,
+                "duplicateCount": 0,
+                "durationSeconds": 3.159999999916181,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.159999999916181,
+                "reportedCount": 3,
+                "startedAt": 1791614359,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "260": {
+                "attempts": 1,
+                "completedAt": 1791614365,
+                "duplicateCount": 0,
+                "durationSeconds": 3.156000000191853,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.156000000191853,
+                "reportedCount": 3,
+                "startedAt": 1791614362,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "261": {
+                "attempts": 1,
+                "completedAt": 1791614368,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158999999985099,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158999999985099,
+                "reportedCount": 3,
+                "startedAt": 1791614365,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "262": {
+                "attempts": 1,
+                "completedAt": 1791614371,
+                "duplicateCount": 0,
+                "durationSeconds": 3.152999999932945,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268262
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.152999999932945,
+                "reportedCount": 6,
+                "startedAt": 1791614368,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "263": {
+                "attempts": 1,
+                "completedAt": 1791614374,
+                "duplicateCount": 0,
+                "durationSeconds": 3.161000000080094,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.161000000080094,
+                "reportedCount": 4,
+                "startedAt": 1791614371,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "264": {
+                "attempts": 1,
+                "completedAt": 1791614378,
+                "duplicateCount": 0,
+                "durationSeconds": 3.157999999821186,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268262
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.157999999821186,
+                "reportedCount": 6,
+                "startedAt": 1791614374,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "265": {
+                "attempts": 1,
+                "completedAt": 1791614381,
+                "duplicateCount": 0,
+                "durationSeconds": 3.157000000122935,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.157000000122935,
+                "reportedCount": 6,
+                "startedAt": 1791614378,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "266": {
+                "attempts": 1,
+                "completedAt": 1791614384,
+                "duplicateCount": 0,
+                "durationSeconds": 3.159999999916181,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.159999999916181,
+                "reportedCount": 6,
+                "startedAt": 1791614381,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "267": {
+                "attempts": 1,
+                "completedAt": 1791614387,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158000000054017,
+                "items": [
+                  {
+                    "itemID": 268221
+                  },
+                  {
+                    "itemID": 268232
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158000000054017,
+                "reportedCount": 6,
+                "startedAt": 1791614384,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "268": {
+                "attempts": 1,
+                "completedAt": 1791614390,
+                "duplicateCount": 0,
+                "durationSeconds": 3.158000000054017,
+                "items": [
+                  {
+                    "itemID": 268199
+                  },
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.158000000054017,
+                "reportedCount": 4,
+                "startedAt": 1791614387,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "269": {
+                "attempts": 1,
+                "completedAt": 1791614393,
+                "duplicateCount": 0,
+                "durationSeconds": 3.159999999916181,
+                "items": [
+                  {
+                    "itemID": 268199
+                  },
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.159999999916181,
+                "reportedCount": 4,
+                "startedAt": 1791614390,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "270": {
+                "attempts": 1,
+                "completedAt": 1791614397,
+                "duplicateCount": 0,
+                "durationSeconds": 3.157000000122935,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.157000000122935,
+                "reportedCount": 5,
+                "startedAt": 1791614393,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "577": {
+                "attempts": 1,
+                "completedAt": 1791614400,
+                "duplicateCount": 0,
+                "durationSeconds": 3.153999999864027,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.153999999864027,
+                "reportedCount": 3,
+                "startedAt": 1791614397,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "581": {
+                "attempts": 1,
+                "completedAt": 1791614403,
+                "duplicateCount": 0,
+                "durationSeconds": 3.161000000080094,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.161000000080094,
+                "reportedCount": 3,
+                "startedAt": 1791614400,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "1467": {
+                "attempts": 1,
+                "completedAt": 1791614406,
+                "duplicateCount": 0,
+                "durationSeconds": 3.162000000011176,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.162000000011176,
+                "reportedCount": 6,
+                "startedAt": 1791614403,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "1468": {
+                "attempts": 1,
+                "completedAt": 1791614409,
+                "duplicateCount": 0,
+                "durationSeconds": 3.155999999959022,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.155999999959022,
+                "reportedCount": 6,
+                "startedAt": 1791614406,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "1473": {
+                "attempts": 1,
+                "completedAt": 1791614412,
+                "duplicateCount": 0,
+                "durationSeconds": 3.159999999916181,
+                "items": [
+                  {
+                    "itemID": 268217
+                  },
+                  {
+                    "itemID": 268238
+                  },
+                  {
+                    "itemID": 268263
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.159999999916181,
+                "reportedCount": 6,
+                "startedAt": 1791614409,
+                "status": "complete",
+                "unresolvedEntries": []
+              },
+              "1480": {
+                "attempts": 1,
+                "completedAt": 1791614415,
+                "duplicateCount": 0,
+                "durationSeconds": 3.155999999959022,
+                "items": [
+                  {
+                    "itemID": 268247
+                  },
+                  {
+                    "itemID": 268266
+                  },
+                  {
+                    "itemID": 270167
+                  },
+                  {
+                    "itemID": 279112
+                  }
+                ],
+                "lastAttemptSeconds": 3.155999999959022,
+                "reportedCount": 4,
+                "startedAt": 1791614412,
+                "status": "complete",
+                "unresolvedEntries": []
+              }
+            }
           }
         },
+        "dungeonEncounterId": 3379,
         "encounterId": 2849,
-        "name": "Nymrissa Wavecaller",
-        "dungeonEncounterId": 3379
+        "name": "Nymrissa Wavecaller"
       }
     },
+    "instanceId": 1317,
     "instanceType": "raid",
-    "name": "The Tidebound Grotto",
-    "instanceId": 1317
+    "name": "The Tidebound Grotto"
   },
+  "instanceId": 1317,
+  "items": {
+    "268199": {
+      "armorType": "Staff",
+      "equipLocation": "INVTYPE_2HWEAPON",
+      "iconFileId": 7552246,
+      "inventorySlot": "Two-Hand",
+      "itemClass": "Weapon",
+      "itemClassID": 2,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268199::::::::10:1453::6:1:3524::::::|h[Tidepiercer's Bubble Popper]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Staves",
+      "itemSubclassID": 10,
+      "journalFilterType": 10,
+      "metadataVersion": 1,
+      "name": "Tidepiercer's Bubble Popper",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 167,
+        "ITEM_MOD_CRIT_RATING_SHORT": 129,
+        "ITEM_MOD_DAMAGE_PER_SECOND_SHORT": 125.6944427490234,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "ITEM_MOD_VERSATILITY": 61
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Tidepiercer's Bubble Popper",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Two-Hand",
+          "rightText": "Staff",
+          "type": 21
+        },
+        {
+          "leftText": "384 - 521 Damage",
+          "rightText": "Speed 3.60",
+          "type": 0
+        },
+        {
+          "leftText": "(125.7 damage per second)",
+          "type": 0
+        },
+        {
+          "leftText": "+167 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+3,369 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+129 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+61 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "\"Pop, pop, pop.\"",
+          "type": 37
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 129,
+          "share": 0.6789473684210526
+        },
+        {
+          "stat": "Vers",
+          "value": 61,
+          "share": 0.32105263157894737
+        }
+      ],
+      "secondaryStatBudget": 190,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 167
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Vers"
+    },
+    "268217": {
+      "armorType": "Mail",
+      "equipLocation": "INVTYPE_WRIST",
+      "iconFileId": 7554475,
+      "inventorySlot": "Wrist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268217::::::::10:1453::6:1:3524::::::|h[Rising Tide Wristguards]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Mail",
+      "itemSubclassID": 3,
+      "journalFilterType": 5,
+      "metadataVersion": 1,
+      "name": "Rising Tide Wristguards",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 94,
+        "ITEM_MOD_CRIT_RATING_SHORT": 33,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 74,
+        "ITEM_MOD_STAMINA_SHORT": 1895,
+        "RESISTANCE0_NAME": 132
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Rising Tide Wristguards",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Wrist",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "132 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+94 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+1,895 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+33 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+74 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+94 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 74,
+          "share": 0.6915887850467289
+        },
+        {
+          "stat": "Crit",
+          "value": 33,
+          "share": 0.308411214953271
+        }
+      ],
+      "secondaryStatBudget": 107,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 94
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Crit"
+    },
+    "268221": {
+      "armorType": "Cloth",
+      "equipLocation": "INVTYPE_ROBE",
+      "iconFileId": 7520906,
+      "inventorySlot": "Chest",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268221::::::::10:1453::6:1:3524::::::|h[Tidebound Sorcereress's Robes]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Cloth",
+      "itemSubclassID": 1,
+      "journalFilterType": 4,
+      "metadataVersion": 1,
+      "name": "Tidebound Sorcereress's Robes",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 127,
+        "ITEM_MOD_INTELLECT_SHORT": 167,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 63,
+        "ITEM_MOD_STAMINA_SHORT": 3369,
+        "RESISTANCE0_NAME": 105
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Tidebound Sorcereress's Robes",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Chest",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "105 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+167 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+3,369 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+127 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+63 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 127,
+          "share": 0.6684210526315789
+        },
+        {
+          "stat": "Mastery",
+          "value": 63,
+          "share": 0.33157894736842103
+        }
+      ],
+      "secondaryStatBudget": 190,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 167
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "268226": {
+      "armorType": "Plate",
+      "equipLocation": "INVTYPE_SHOULDER",
+      "iconFileId": 7730305,
+      "inventorySlot": "Shoulder",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268226::::::::10:1453::6:1:3524::::::|h[Swelling Sea Spaulders]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Plate",
+      "itemSubclassID": 4,
+      "journalFilterType": 2,
+      "metadataVersion": 1,
+      "name": "Swelling Sea Spaulders",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 42,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_STRENGTH_SHORT": 125,
+        "RESISTANCE0_NAME": 274
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Swelling Sea Spaulders",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Shoulder",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "274 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+2,527 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 101,
+          "share": 0.7062937062937062
+        },
+        {
+          "stat": "Mastery",
+          "value": 42,
+          "share": 0.2937062937062937
+        }
+      ],
+      "secondaryStatBudget": 143,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 125
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "268232": {
+      "armorType": "Cloth",
+      "equipLocation": "INVTYPE_WAIST",
+      "iconFileId": 7807649,
+      "inventorySlot": "Waist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268232::::::::10:1453::6:1:3524::::::|h[Cincture of the Abyssal Grotto]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Cloth",
+      "itemSubclassID": 1,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "name": "Cincture of the Abyssal Grotto",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 101,
+        "ITEM_MOD_INTELLECT_SHORT": 125,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_VERSATILITY": 42,
+        "RESISTANCE0_NAME": 59
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Cincture of the Abyssal Grotto",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Cloth",
+          "type": 21
+        },
+        {
+          "leftText": "59 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+2,527 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 101,
+          "share": 0.7062937062937062
+        },
+        {
+          "stat": "Vers",
+          "value": 42,
+          "share": 0.2937062937062937
+        }
+      ],
+      "secondaryStatBudget": 143,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 125
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Vers"
+    },
+    "268238": {
+      "armorType": "Mail",
+      "equipLocation": "INVTYPE_HAND",
+      "iconFileId": 7789857,
+      "inventorySlot": "Hands",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268238::::::::10:1453::6:1:3524::::::|h[Grips of Swirling Fury]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Mail",
+      "itemSubclassID": 3,
+      "journalFilterType": 6,
+      "metadataVersion": 1,
+      "name": "Grips of Swirling Fury",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 125,
+        "ITEM_MOD_CRIT_RATING_SHORT": 93,
+        "ITEM_MOD_HASTE_RATING_SHORT": 50,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "RESISTANCE0_NAME": 149
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Grips of Swirling Fury",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Hands",
+          "rightText": "Mail",
+          "type": 21
+        },
+        {
+          "leftText": "149 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,527 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+93 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+50 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 93,
+          "share": 0.6503496503496503
+        },
+        {
+          "stat": "Haste",
+          "value": 50,
+          "share": 0.34965034965034963
+        }
+      ],
+      "secondaryStatBudget": 143,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 125
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Haste"
+    },
+    "268244": {
+      "armorType": "Plate",
+      "equipLocation": "INVTYPE_WAIST",
+      "iconFileId": 7739383,
+      "inventorySlot": "Waist",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268244::::::::10:1453::6:1:3524::::::|h[Forgotten Grotto Girdle]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Plate",
+      "itemSubclassID": 4,
+      "journalFilterType": 7,
+      "metadataVersion": 1,
+      "name": "Forgotten Grotto Girdle",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 101,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_STRENGTH_SHORT": 125,
+        "ITEM_MOD_VERSATILITY": 42,
+        "RESISTANCE0_NAME": 224
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Forgotten Grotto Girdle",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Waist",
+          "rightText": "Plate",
+          "type": 21
+        },
+        {
+          "leftText": "224 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Strength",
+          "type": 0
+        },
+        {
+          "leftText": "+2,527 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+101 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+42 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 101,
+          "share": 0.7062937062937062
+        },
+        {
+          "stat": "Vers",
+          "value": 42,
+          "share": 0.2937062937062937
+        }
+      ],
+      "secondaryStatBudget": 143,
+      "primaryStats": [
+        {
+          "stat": "Strength",
+          "value": 125
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "268247": {
+      "armorType": "Leather",
+      "equipLocation": "INVTYPE_FEET",
+      "iconFileId": 7679650,
+      "inventorySlot": "Feet",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268247::::::::10:1453::6:1:3524::::::|h[Breakwater Boots]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Leather",
+      "itemSubclassID": 2,
+      "journalFilterType": 9,
+      "metadataVersion": 1,
+      "name": "Breakwater Boots",
+      "stats": {
+        "ITEM_MOD_AGILITY_SHORT": 125,
+        "ITEM_MOD_HASTE_RATING_SHORT": 94,
+        "ITEM_MOD_STAMINA_SHORT": 2527,
+        "ITEM_MOD_VERSATILITY": 49,
+        "RESISTANCE0_NAME": 112
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Breakwater Boots",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Feet",
+          "rightText": "Leather",
+          "type": 21
+        },
+        {
+          "leftText": "112 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Agility",
+          "type": 0
+        },
+        {
+          "leftText": "+2,527 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+94 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+49 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": "+125 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 94,
+          "share": 0.6573426573426573
+        },
+        {
+          "stat": "Vers",
+          "value": 49,
+          "share": 0.34265734265734266
+        }
+      ],
+      "secondaryStatBudget": 143,
+      "primaryStats": [
+        {
+          "stat": "Agility",
+          "value": 125
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "268262": {
+      "armorType": "Shield",
+      "equipLocation": "INVTYPE_SHIELD",
+      "iconFileId": 7553253,
+      "inventorySlot": "Off Hand",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268262::::::::10:1453::6:1:3524::::::|h[Bubblefin Splash Guard]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Shields",
+      "itemSubclassID": 6,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "name": "Bubblefin Splash Guard",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 31,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 64,
+        "ITEM_MOD_STAMINA_SHORT": 1684,
+        "ITEM_MOD_STRENGTH_SHORT": 84,
+        "RESISTANCE0_NAME": 1167
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Bubblefin Splash Guard",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Off Hand",
+          "rightText": "Shield",
+          "type": 21
+        },
+        {
+          "leftText": "1,167 Armor",
+          "type": 0
+        },
+        {
+          "leftText": "2,917 Block",
+          "type": 0
+        },
+        {
+          "leftText": "+1,684 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+31 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "+84 Strength",
+          "type": 42
+        },
+        {
+          "leftText": "+256 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        },
+        {
+          "leftText": "You haven't collected this appearance",
+          "type": 0
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Mastery",
+          "value": 64,
+          "share": 0.6736842105263158
+        },
+        {
+          "stat": "Haste",
+          "value": 31,
+          "share": 0.3263157894736842
+        }
+      ],
+      "secondaryStatBudget": 95,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 256
+        },
+        {
+          "stat": "Strength",
+          "value": 84
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Mastery",
+      "stat2": "Haste"
+    },
+    "268263": {
+      "armorType": "",
+      "equipLocation": "INVTYPE_HOLDABLE",
+      "iconFileId": 7500005,
+      "inventorySlot": "Held In Off-hand",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268263::::::::10:1453::6:1:3524::::::|h[Frostscale's Mystic Frond]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 11,
+      "metadataVersion": 1,
+      "name": "Frostscale's Mystic Frond",
+      "stats": {
+        "ITEM_MOD_CRIT_RATING_SHORT": 64,
+        "ITEM_MOD_INTELLECT_SHORT": 256,
+        "ITEM_MOD_MASTERY_RATING_SHORT": 31,
+        "ITEM_MOD_STAMINA_SHORT": 1684
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Frostscale's Mystic Frond",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Held In Off-hand",
+          "type": 21
+        },
+        {
+          "leftText": "+256 Intellect",
+          "type": 42
+        },
+        {
+          "leftText": "+1,684 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+64 Critical Strike",
+          "type": 0
+        },
+        {
+          "leftText": "+31 Mastery",
+          "type": 0
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Crit",
+          "value": 64,
+          "share": 0.6736842105263158
+        },
+        {
+          "stat": "Mastery",
+          "value": 31,
+          "share": 0.3263157894736842
+        }
+      ],
+      "secondaryStatBudget": 95,
+      "primaryStats": [
+        {
+          "stat": "Intellect",
+          "value": 256
+        }
+      ],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Crit",
+      "stat2": "Mastery"
+    },
+    "268266": {
+      "armorType": "",
+      "equipLocation": "INVTYPE_FINGER",
+      "iconFileId": 1391765,
+      "inventorySlot": "Finger",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:268266::::::::10:1453::6:1:3524::::::|h[Alluring Bubbleband]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 12,
+      "metadataVersion": 1,
+      "name": "Alluring Bubbleband",
+      "stats": {
+        "EMPTY_SOCKET_PRISMATIC": 1,
+        "ITEM_MOD_HASTE_RATING_SHORT": 293,
+        "ITEM_MOD_STAMINA_SHORT": 1895,
+        "ITEM_MOD_VERSATILITY": 83
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Alluring Bubbleband",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Finger",
+          "type": 21
+        },
+        {
+          "leftText": "+1,895 Stamina",
+          "type": 0
+        },
+        {
+          "leftText": "+293 Haste",
+          "type": 0
+        },
+        {
+          "leftText": "+83 Versatility",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Prismatic Socket",
+          "type": 3
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 293,
+          "share": 0.7792553191489362
+        },
+        {
+          "stat": "Vers",
+          "value": 83,
+          "share": 0.22074468085106383
+        }
+      ],
+      "secondaryStatBudget": 376,
+      "primaryStats": [],
+      "sockets": [
+        {
+          "type": "Prismatic",
+          "count": 1
+        }
+      ],
+      "effects": [],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": "Vers"
+    },
+    "270167": {
+      "armorType": "",
+      "equipLocation": "INVTYPE_TRINKET",
+      "iconFileId": 1020350,
+      "inventorySlot": "Trinket",
+      "itemClass": "Armor",
+      "itemClassID": 4,
+      "itemLevel": 321,
+      "itemLink": "|cnIQ4:|Hitem:270167::::::::10:1453::6:1:3524::::::|h[Wavecaller's Seastone]|h|r",
+      "itemQuality": "ffa335ee",
+      "itemSubclass": "Miscellaneous",
+      "itemSubclassID": 0,
+      "journalFilterType": 13,
+      "metadataVersion": 1,
+      "name": "Wavecaller's Seastone",
+      "stats": {
+        "ITEM_MOD_HASTE_RATING_SHORT": 136
+      },
+      "tooltipLines": [
+        {
+          "leftText": "Wavecaller's Seastone",
+          "quality": 4,
+          "type": 22
+        },
+        {
+          "leftText": "|cFF 0FF 0Mythic|r",
+          "type": 0
+        },
+        {
+          "itemLevel": 321,
+          "leftText": "Item Level 321",
+          "type": 31
+        },
+        {
+          "leftText": "Upgrade Level: Myth 2/6",
+          "type": 32
+        },
+        {
+          "bonding": 6,
+          "leftText": "Binds when picked up",
+          "type": 20
+        },
+        {
+          "leftText": "Unique-Equipped",
+          "type": 0
+        },
+        {
+          "isValidInvSlot": true,
+          "leftText": "Trinket",
+          "type": 21
+        },
+        {
+          "leftText": "+136 Haste",
+          "type": 0
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "spellID": 1295058,
+          "type": 45
+        },
+        {
+          "leftText": " ",
+          "type": 1
+        },
+        {
+          "leftText": "Requires Level 90",
+          "level": 90,
+          "requirementType": 5,
+          "type": 43
+        },
+        {
+          "leftText": "",
+          "type": 11
+        }
+      ],
+      "secondaryStats": [
+        {
+          "stat": "Haste",
+          "value": 136,
+          "share": 1
+        }
+      ],
+      "secondaryStatBudget": 136,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [
+        {
+          "spellID": 1295058,
+          "text": "Equip: Your spells have a high chance to call to the sea, granting Tidal Insight to increase your Intellect by 57 up to 6 times. After reaching its peak, your spells instead diminish Tidal Insight before beginning the cycle anew.",
+          "tooltipType": 45
+        }
+      ],
+      "isEquipment": true,
+      "itemCategory": "equipment",
+      "stat1": "Haste",
+      "stat2": null
+    },
+    "279112": {
+      "armorType": "",
+      "equipLocation": "INVTYPE_NON_EQUIP_IGNORE",
+      "iconFileId": 8033308,
+      "inventorySlot": "",
+      "itemClass": "Housing",
+      "itemClassID": 20,
+      "itemLevel": 1,
+      "itemLink": "|cnIQ3:|Hitem:279112::::::::10:1453::6:1:3524::::::|h[Clumped Asteroidea]|h|r",
+      "itemQuality": "ff0070dd",
+      "itemSubclass": "Decor",
+      "itemSubclassID": 0,
+      "journalFilterType": 14,
+      "metadataVersion": 1,
+      "name": "Clumped Asteroidea",
+      "stats": [],
+      "tooltipLines": [
+        {
+          "leftText": "Retrieving item information",
+          "type": 41
+        }
+      ],
+      "secondaryStats": [],
+      "secondaryStatBudget": 0,
+      "primaryStats": [],
+      "sockets": [],
+      "effects": [],
+      "isEquipment": false,
+      "itemCategory": "housing-decor",
+      "stat1": null,
+      "stat2": null
+    }
+  },
+  "schemaVersion": 1,
+  "source": "wow-encounter-journal",
+  "sourceSha256": "2c8a68fb2a1178d23028f4c9a0f9c94c21e0b183ec0b79fbd914d6c03b392cdf",
   "validation": {
     "warnings": []
   }

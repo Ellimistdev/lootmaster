@@ -1,322 +1,322 @@
 {
   "62": {
-    "specId": 62,
     "classFile": "MAGE",
-    "className": "Mage",
     "classId": 8,
+    "className": "Mage",
     "role": "DAMAGER",
+    "specId": 62,
     "specName": "Arcane"
   },
   "63": {
-    "specId": 63,
     "classFile": "MAGE",
-    "className": "Mage",
     "classId": 8,
+    "className": "Mage",
     "role": "DAMAGER",
+    "specId": 63,
     "specName": "Fire"
   },
   "64": {
-    "specId": 64,
     "classFile": "MAGE",
-    "className": "Mage",
     "classId": 8,
+    "className": "Mage",
     "role": "DAMAGER",
+    "specId": 64,
     "specName": "Frost"
   },
   "65": {
-    "specId": 65,
     "classFile": "PALADIN",
-    "className": "Paladin",
     "classId": 2,
+    "className": "Paladin",
     "role": "HEALER",
+    "specId": 65,
     "specName": "Holy"
   },
   "66": {
-    "specId": 66,
     "classFile": "PALADIN",
-    "className": "Paladin",
     "classId": 2,
+    "className": "Paladin",
     "role": "TANK",
+    "specId": 66,
     "specName": "Protection"
   },
   "70": {
-    "specId": 70,
     "classFile": "PALADIN",
-    "className": "Paladin",
     "classId": 2,
+    "className": "Paladin",
     "role": "DAMAGER",
+    "specId": 70,
     "specName": "Retribution"
   },
   "71": {
-    "specId": 71,
     "classFile": "WARRIOR",
-    "className": "Warrior",
     "classId": 1,
+    "className": "Warrior",
     "role": "DAMAGER",
+    "specId": 71,
     "specName": "Arms"
   },
   "72": {
-    "specId": 72,
     "classFile": "WARRIOR",
-    "className": "Warrior",
     "classId": 1,
+    "className": "Warrior",
     "role": "DAMAGER",
+    "specId": 72,
     "specName": "Fury"
   },
   "73": {
-    "specId": 73,
     "classFile": "WARRIOR",
-    "className": "Warrior",
     "classId": 1,
+    "className": "Warrior",
     "role": "TANK",
+    "specId": 73,
     "specName": "Protection"
   },
   "102": {
-    "specId": 102,
     "classFile": "DRUID",
-    "className": "Druid",
     "classId": 11,
+    "className": "Druid",
     "role": "DAMAGER",
+    "specId": 102,
     "specName": "Balance"
   },
   "103": {
-    "specId": 103,
     "classFile": "DRUID",
-    "className": "Druid",
     "classId": 11,
+    "className": "Druid",
     "role": "DAMAGER",
+    "specId": 103,
     "specName": "Feral"
   },
   "104": {
-    "specId": 104,
     "classFile": "DRUID",
-    "className": "Druid",
     "classId": 11,
+    "className": "Druid",
     "role": "TANK",
+    "specId": 104,
     "specName": "Guardian"
   },
   "105": {
-    "specId": 105,
     "classFile": "DRUID",
-    "className": "Druid",
     "classId": 11,
+    "className": "Druid",
     "role": "HEALER",
+    "specId": 105,
     "specName": "Restoration"
   },
   "250": {
-    "specId": 250,
     "classFile": "DEATHKNIGHT",
-    "className": "Death Knight",
     "classId": 6,
+    "className": "Death Knight",
     "role": "TANK",
+    "specId": 250,
     "specName": "Blood"
   },
   "251": {
-    "specId": 251,
     "classFile": "DEATHKNIGHT",
-    "className": "Death Knight",
     "classId": 6,
+    "className": "Death Knight",
     "role": "DAMAGER",
+    "specId": 251,
     "specName": "Frost"
   },
   "252": {
-    "specId": 252,
     "classFile": "DEATHKNIGHT",
-    "className": "Death Knight",
     "classId": 6,
+    "className": "Death Knight",
     "role": "DAMAGER",
+    "specId": 252,
     "specName": "Unholy"
   },
   "253": {
-    "specId": 253,
     "classFile": "HUNTER",
-    "className": "Hunter",
     "classId": 3,
+    "className": "Hunter",
     "role": "DAMAGER",
+    "specId": 253,
     "specName": "Beast Mastery"
   },
   "254": {
-    "specId": 254,
     "classFile": "HUNTER",
-    "className": "Hunter",
     "classId": 3,
+    "className": "Hunter",
     "role": "DAMAGER",
+    "specId": 254,
     "specName": "Marksmanship"
   },
   "255": {
-    "specId": 255,
     "classFile": "HUNTER",
-    "className": "Hunter",
     "classId": 3,
+    "className": "Hunter",
     "role": "DAMAGER",
+    "specId": 255,
     "specName": "Survival"
   },
   "256": {
-    "specId": 256,
     "classFile": "PRIEST",
-    "className": "Priest",
     "classId": 5,
+    "className": "Priest",
     "role": "HEALER",
+    "specId": 256,
     "specName": "Discipline"
   },
   "257": {
-    "specId": 257,
     "classFile": "PRIEST",
-    "className": "Priest",
     "classId": 5,
+    "className": "Priest",
     "role": "HEALER",
+    "specId": 257,
     "specName": "Holy"
   },
   "258": {
-    "specId": 258,
     "classFile": "PRIEST",
-    "className": "Priest",
     "classId": 5,
+    "className": "Priest",
     "role": "DAMAGER",
+    "specId": 258,
     "specName": "Shadow"
   },
   "259": {
-    "specId": 259,
     "classFile": "ROGUE",
-    "className": "Rogue",
     "classId": 4,
+    "className": "Rogue",
     "role": "DAMAGER",
+    "specId": 259,
     "specName": "Assassination"
   },
   "260": {
-    "specId": 260,
     "classFile": "ROGUE",
-    "className": "Rogue",
     "classId": 4,
+    "className": "Rogue",
     "role": "DAMAGER",
+    "specId": 260,
     "specName": "Outlaw"
   },
   "261": {
-    "specId": 261,
     "classFile": "ROGUE",
-    "className": "Rogue",
     "classId": 4,
+    "className": "Rogue",
     "role": "DAMAGER",
+    "specId": 261,
     "specName": "Subtlety"
   },
   "262": {
-    "specId": 262,
     "classFile": "SHAMAN",
-    "className": "Shaman",
     "classId": 7,
+    "className": "Shaman",
     "role": "DAMAGER",
+    "specId": 262,
     "specName": "Elemental"
   },
   "263": {
-    "specId": 263,
     "classFile": "SHAMAN",
-    "className": "Shaman",
     "classId": 7,
+    "className": "Shaman",
     "role": "DAMAGER",
+    "specId": 263,
     "specName": "Enhancement"
   },
   "264": {
-    "specId": 264,
     "classFile": "SHAMAN",
-    "className": "Shaman",
     "classId": 7,
+    "className": "Shaman",
     "role": "HEALER",
+    "specId": 264,
     "specName": "Restoration"
   },
   "265": {
-    "specId": 265,
     "classFile": "WARLOCK",
-    "className": "Warlock",
     "classId": 9,
+    "className": "Warlock",
     "role": "DAMAGER",
+    "specId": 265,
     "specName": "Affliction"
   },
   "266": {
-    "specId": 266,
     "classFile": "WARLOCK",
-    "className": "Warlock",
     "classId": 9,
+    "className": "Warlock",
     "role": "DAMAGER",
+    "specId": 266,
     "specName": "Demonology"
   },
   "267": {
-    "specId": 267,
     "classFile": "WARLOCK",
-    "className": "Warlock",
     "classId": 9,
+    "className": "Warlock",
     "role": "DAMAGER",
+    "specId": 267,
     "specName": "Destruction"
   },
   "268": {
-    "specId": 268,
     "classFile": "MONK",
-    "className": "Monk",
     "classId": 10,
+    "className": "Monk",
     "role": "TANK",
+    "specId": 268,
     "specName": "Brewmaster"
   },
   "269": {
-    "specId": 269,
     "classFile": "MONK",
-    "className": "Monk",
     "classId": 10,
+    "className": "Monk",
     "role": "DAMAGER",
+    "specId": 269,
     "specName": "Windwalker"
   },
   "270": {
-    "specId": 270,
     "classFile": "MONK",
-    "className": "Monk",
     "classId": 10,
+    "className": "Monk",
     "role": "HEALER",
+    "specId": 270,
     "specName": "Mistweaver"
   },
   "577": {
-    "specId": 577,
     "classFile": "DEMONHUNTER",
-    "className": "Demon Hunter",
     "classId": 12,
+    "className": "Demon Hunter",
     "role": "DAMAGER",
+    "specId": 577,
     "specName": "Havoc"
   },
   "581": {
-    "specId": 581,
     "classFile": "DEMONHUNTER",
-    "className": "Demon Hunter",
     "classId": 12,
+    "className": "Demon Hunter",
     "role": "TANK",
+    "specId": 581,
     "specName": "Vengeance"
   },
   "1467": {
-    "specId": 1467,
     "classFile": "EVOKER",
-    "className": "Evoker",
     "classId": 13,
+    "className": "Evoker",
     "role": "DAMAGER",
+    "specId": 1467,
     "specName": "Devastation"
   },
   "1468": {
-    "specId": 1468,
     "classFile": "EVOKER",
-    "className": "Evoker",
     "classId": 13,
+    "className": "Evoker",
     "role": "HEALER",
+    "specId": 1468,
     "specName": "Preservation"
   },
   "1473": {
-    "specId": 1473,
     "classFile": "EVOKER",
-    "className": "Evoker",
     "classId": 13,
+    "className": "Evoker",
     "role": "DAMAGER",
+    "specId": 1473,
     "specName": "Augmentation"
   },
   "1480": {
-    "specId": 1480,
     "classFile": "DEMONHUNTER",
-    "className": "Demon Hunter",
     "classId": 12,
+    "className": "Demon Hunter",
     "role": "DAMAGER",
+    "specId": 1480,
     "specName": "Devourer"
   }
 }

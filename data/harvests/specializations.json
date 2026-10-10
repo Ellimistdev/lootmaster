@@ -1,0 +1,322 @@
+{
+  "62": {
+    "specId": 62,
+    "classFile": "MAGE",
+    "className": "Mage",
+    "classId": 8,
+    "role": "DAMAGER",
+    "specName": "Arcane"
+  },
+  "63": {
+    "specId": 63,
+    "classFile": "MAGE",
+    "className": "Mage",
+    "classId": 8,
+    "role": "DAMAGER",
+    "specName": "Fire"
+  },
+  "64": {
+    "specId": 64,
+    "classFile": "MAGE",
+    "className": "Mage",
+    "classId": 8,
+    "role": "DAMAGER",
+    "specName": "Frost"
+  },
+  "65": {
+    "specId": 65,
+    "classFile": "PALADIN",
+    "className": "Paladin",
+    "classId": 2,
+    "role": "HEALER",
+    "specName": "Holy"
+  },
+  "66": {
+    "specId": 66,
+    "classFile": "PALADIN",
+    "className": "Paladin",
+    "classId": 2,
+    "role": "TANK",
+    "specName": "Protection"
+  },
+  "70": {
+    "specId": 70,
+    "classFile": "PALADIN",
+    "className": "Paladin",
+    "classId": 2,
+    "role": "DAMAGER",
+    "specName": "Retribution"
+  },
+  "71": {
+    "specId": 71,
+    "classFile": "WARRIOR",
+    "className": "Warrior",
+    "classId": 1,
+    "role": "DAMAGER",
+    "specName": "Arms"
+  },
+  "72": {
+    "specId": 72,
+    "classFile": "WARRIOR",
+    "className": "Warrior",
+    "classId": 1,
+    "role": "DAMAGER",
+    "specName": "Fury"
+  },
+  "73": {
+    "specId": 73,
+    "classFile": "WARRIOR",
+    "className": "Warrior",
+    "classId": 1,
+    "role": "TANK",
+    "specName": "Protection"
+  },
+  "102": {
+    "specId": 102,
+    "classFile": "DRUID",
+    "className": "Druid",
+    "classId": 11,
+    "role": "DAMAGER",
+    "specName": "Balance"
+  },
+  "103": {
+    "specId": 103,
+    "classFile": "DRUID",
+    "className": "Druid",
+    "classId": 11,
+    "role": "DAMAGER",
+    "specName": "Feral"
+  },
+  "104": {
+    "specId": 104,
+    "classFile": "DRUID",
+    "className": "Druid",
+    "classId": 11,
+    "role": "TANK",
+    "specName": "Guardian"
+  },
+  "105": {
+    "specId": 105,
+    "classFile": "DRUID",
+    "className": "Druid",
+    "classId": 11,
+    "role": "HEALER",
+    "specName": "Restoration"
+  },
+  "250": {
+    "specId": 250,
+    "classFile": "DEATHKNIGHT",
+    "className": "Death Knight",
+    "classId": 6,
+    "role": "TANK",
+    "specName": "Blood"
+  },
+  "251": {
+    "specId": 251,
+    "classFile": "DEATHKNIGHT",
+    "className": "Death Knight",
+    "classId": 6,
+    "role": "DAMAGER",
+    "specName": "Frost"
+  },
+  "252": {
+    "specId": 252,
+    "classFile": "DEATHKNIGHT",
+    "className": "Death Knight",
+    "classId": 6,
+    "role": "DAMAGER",
+    "specName": "Unholy"
+  },
+  "253": {
+    "specId": 253,
+    "classFile": "HUNTER",
+    "className": "Hunter",
+    "classId": 3,
+    "role": "DAMAGER",
+    "specName": "Beast Mastery"
+  },
+  "254": {
+    "specId": 254,
+    "classFile": "HUNTER",
+    "className": "Hunter",
+    "classId": 3,
+    "role": "DAMAGER",
+    "specName": "Marksmanship"
+  },
+  "255": {
+    "specId": 255,
+    "classFile": "HUNTER",
+    "className": "Hunter",
+    "classId": 3,
+    "role": "DAMAGER",
+    "specName": "Survival"
+  },
+  "256": {
+    "specId": 256,
+    "classFile": "PRIEST",
+    "className": "Priest",
+    "classId": 5,
+    "role": "HEALER",
+    "specName": "Discipline"
+  },
+  "257": {
+    "specId": 257,
+    "classFile": "PRIEST",
+    "className": "Priest",
+    "classId": 5,
+    "role": "HEALER",
+    "specName": "Holy"
+  },
+  "258": {
+    "specId": 258,
+    "classFile": "PRIEST",
+    "className": "Priest",
+    "classId": 5,
+    "role": "DAMAGER",
+    "specName": "Shadow"
+  },
+  "259": {
+    "specId": 259,
+    "classFile": "ROGUE",
+    "className": "Rogue",
+    "classId": 4,
+    "role": "DAMAGER",
+    "specName": "Assassination"
+  },
+  "260": {
+    "specId": 260,
+    "classFile": "ROGUE",
+    "className": "Rogue",
+    "classId": 4,
+    "role": "DAMAGER",
+    "specName": "Outlaw"
+  },
+  "261": {
+    "specId": 261,
+    "classFile": "ROGUE",
+    "className": "Rogue",
+    "classId": 4,
+    "role": "DAMAGER",
+    "specName": "Subtlety"
+  },
+  "262": {
+    "specId": 262,
+    "classFile": "SHAMAN",
+    "className": "Shaman",
+    "classId": 7,
+    "role": "DAMAGER",
+    "specName": "Elemental"
+  },
+  "263": {
+    "specId": 263,
+    "classFile": "SHAMAN",
+    "className": "Shaman",
+    "classId": 7,
+    "role": "DAMAGER",
+    "specName": "Enhancement"
+  },
+  "264": {
+    "specId": 264,
+    "classFile": "SHAMAN",
+    "className": "Shaman",
+    "classId": 7,
+    "role": "HEALER",
+    "specName": "Restoration"
+  },
+  "265": {
+    "specId": 265,
+    "classFile": "WARLOCK",
+    "className": "Warlock",
+    "classId": 9,
+    "role": "DAMAGER",
+    "specName": "Affliction"
+  },
+  "266": {
+    "specId": 266,
+    "classFile": "WARLOCK",
+    "className": "Warlock",
+    "classId": 9,
+    "role": "DAMAGER",
+    "specName": "Demonology"
+  },
+  "267": {
+    "specId": 267,
+    "classFile": "WARLOCK",
+    "className": "Warlock",
+    "classId": 9,
+    "role": "DAMAGER",
+    "specName": "Destruction"
+  },
+  "268": {
+    "specId": 268,
+    "classFile": "MONK",
+    "className": "Monk",
+    "classId": 10,
+    "role": "TANK",
+    "specName": "Brewmaster"
+  },
+  "269": {
+    "specId": 269,
+    "classFile": "MONK",
+    "className": "Monk",
+    "classId": 10,
+    "role": "DAMAGER",
+    "specName": "Windwalker"
+  },
+  "270": {
+    "specId": 270,
+    "classFile": "MONK",
+    "className": "Monk",
+    "classId": 10,
+    "role": "HEALER",
+    "specName": "Mistweaver"
+  },
+  "577": {
+    "specId": 577,
+    "classFile": "DEMONHUNTER",
+    "className": "Demon Hunter",
+    "classId": 12,
+    "role": "DAMAGER",
+    "specName": "Havoc"
+  },
+  "581": {
+    "specId": 581,
+    "classFile": "DEMONHUNTER",
+    "className": "Demon Hunter",
+    "classId": 12,
+    "role": "TANK",
+    "specName": "Vengeance"
+  },
+  "1467": {
+    "specId": 1467,
+    "classFile": "EVOKER",
+    "className": "Evoker",
+    "classId": 13,
+    "role": "DAMAGER",
+    "specName": "Devastation"
+  },
+  "1468": {
+    "specId": 1468,
+    "classFile": "EVOKER",
+    "className": "Evoker",
+    "classId": 13,
+    "role": "HEALER",
+    "specName": "Preservation"
+  },
+  "1473": {
+    "specId": 1473,
+    "classFile": "EVOKER",
+    "className": "Evoker",
+    "classId": 13,
+    "role": "DAMAGER",
+    "specName": "Augmentation"
+  },
+  "1480": {
+    "specId": 1480,
+    "classFile": "DEMONHUNTER",
+    "className": "Demon Hunter",
+    "classId": 12,
+    "role": "DAMAGER",
+    "specName": "Devourer"
+  }
+}

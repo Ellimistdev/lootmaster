@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": "wow-encounter-journal",
-  "sourceSha256": "1fc66739a0aed81b44e3cd3f5290e03c865fa951635bc0799ea0a92a8d3115f6",
+  "sourceSha256": "80a72f7f60e71d9de94c744dda2e7d49f966bdf6b8f135802ac04d18a4317de9",
   "game": {
     "locale": "enUS",
     "version": "12.1.0",

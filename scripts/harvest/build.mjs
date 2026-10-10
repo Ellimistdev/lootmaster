@@ -193,7 +193,7 @@ const raidCount = publishPool('raid', 'season-2-raids.json')
 const dungeonCount = publishPool('dungeon', 'season-2-dungeons.json')
 console.log('Published seasonal pools: ' + raidCount + ' raids, ' + dungeonCount + ' dungeons')
 
-// Publish the original, per-instance harvests alongside the normalized seasonal dataset.
+// Publish normalized per-instance harvests alongside the normalized seasonal dataset.
 const publicDataDir = resolve('public/data')
 const publicInstancesDir = resolve(publicDataDir, 'instances')
 mkdirSync(publicDataDir, { recursive: true })
@@ -201,7 +201,14 @@ rmSync(publicInstancesDir, { recursive: true, force: true })
 mkdirSync(publicInstancesDir, { recursive: true })
 const index = instanceFiles.map((filename) => {
   const doc = JSON.parse(readFileSync(resolve(instanceDir, filename), 'utf8'))
-  copyFileSync(resolve(instanceDir, filename), resolve(publicInstancesDir, filename))
+  // Keep data/harvests/instances as the immutable raw import; public files
+  // receive the same additive normalization as combined and seasonal pools.
+  const published = {
+    ...doc,
+    items: Object.fromEntries(Object.entries(doc.items || {})
+      .map(([id, item]) => [id, normalizeItem(item)])),
+  }
+  writeFileSync(resolve(publicInstancesDir, filename), JSON.stringify(published, null, 2) + '\n')
   return {
     instanceId: doc.instanceId,
     name: doc.instance.name,

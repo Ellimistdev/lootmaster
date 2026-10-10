@@ -3,6 +3,7 @@ import { resolve } from 'node:path'
 import { createHash } from 'node:crypto'
 import { loadEnvFile } from 'node:process'
 import { parseSavedVariables } from './parse.mjs'
+import { stableStringify } from './stable-json.mjs'
 
 if (existsSync(resolve('.env'))) loadEnvFile(resolve('.env'))
 const args = process.argv.slice(2)
@@ -141,7 +142,7 @@ for (const [id, instance] of instances) {
     name === 'instance-' + id + '.json' ||
     ((name.endsWith(' - ' + id + '.json') || name.startsWith(id + ' - ')) && name !== filename))
   const existed = existsSync(path) || obsolete.length > 0
-  writeFileSync(path, JSON.stringify(document, null, 2) + '\n')
+  writeFileSync(path, stableStringify(document))
   for (const oldName of obsolete) unlinkSync(resolve(directory, oldName))
   console.log((existed ? 'Updated ' : 'Created ') + path + ' (' + jobs + ' jobs)')
   written++
@@ -150,7 +151,7 @@ if (written) {
   const sharedPath = resolve('data/harvests/specializations.json')
   const specs = db.specializations || {}
   if (!Object.keys(specs).length) throw new Error('No specialization metadata in SavedVariables')
-  writeFileSync(sharedPath, JSON.stringify(specs, null, 2) + '\n')
+  writeFileSync(sharedPath, stableStringify(specs))
   console.log('Updated ' + sharedPath + ' (' + Object.keys(specs).length + ' specs)')
 }
 console.log('Imported ' + written + ' instance(s); skipped ' + skipped + ' incomplete instance(s). Other instance files were left untouched.')

@@ -20,6 +20,25 @@ describe("SimC encounter pool resolution", () => {
     variant.instances["100"].encounters["200"].difficulties["16"] = { name: "Other", specializations: { "257": "2" } };
     expect(resolveBonusRollPools(groupBonusRolls([roll]), variant)[0].completion).toBeNull();
   });
+  it("keeps Heroic and Mythic raid pools separate regardless of reward keyLevel", () => {
+    const raid = { schemaVersion: 2, lootPools: { "1": [10, 20], "2": [10, 30] }, instances: {
+      "1317": { name: "Raid", encounters: { "274708": { name: "Nymrissa", dungeonEncounterId: 274708,
+        difficulties: {
+          "15": { name: "Heroic", specializations: { "257": "1" } },
+          "16": { name: "Mythic", specializations: { "257": "2" } },
+        },
+      } } },
+    } };
+    const heroic = { ...roll, source: 274708, context: 5, keyLevel: 4 };
+    const mythic = { ...roll, source: 274708, context: 6, keyLevel: 1 };
+    const [h, m] = resolveBonusRollPools(groupBonusRolls([heroic, mythic]), raid);
+    expect(h.encounterDifficultyId).toBe("15");
+    expect(h.missingIds).toEqual([20]);
+    expect(h.rewardKeyLevel).toBe(4);
+    expect(m.encounterDifficultyId).toBe("16");
+    expect(m.missingIds).toEqual([30]);
+    expect(m.rewardKeyLevel).toBe(1);
+  });
   it("does not invent completion for an unknown pool", () => {
     expect(resolveBonusRollPools(groupBonusRolls([roll]), { instances: {} })[0].completion).toBeNull();
   });

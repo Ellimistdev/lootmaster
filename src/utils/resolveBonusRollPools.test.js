@@ -10,6 +10,7 @@ describe("SimC encounter pool resolution", () => {
   it("resolves a source and lists remaining spec-eligible items", () => {
     const [pool] = resolveBonusRollPools(groupBonusRolls([roll, roll]), data);
     expect(pool.name).toBe("Boss");
+    expect(pool.encounterDifficultyId).toBe("23");
     expect(pool.rollCount).toBe(2);
     expect(pool.obtainedIds).toEqual([10]);
     expect(pool.missingIds).toEqual([20]);

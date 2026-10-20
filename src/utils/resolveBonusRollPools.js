@@ -18,7 +18,9 @@ export function resolveBonusRollPools(groups, dataset) {
     const candidates = entries.flatMap((entry) => {
       // For known raid contexts, never mix Heroic and Mythic eligibility.
       // keyLevel describes a reward variant, not the encounter difficulty.
-      if (raidDifficulty && entry.difficultyId !== raidDifficulty) return []
+      const hasRaidDifficulties = Object.keys(entry.encounter.difficulties || {})
+        .some((id) => id === '15' || id === '16')
+      if (raidDifficulty && hasRaidDifficulties && entry.difficultyId !== raidDifficulty) return []
       const { difficulty } = entry
       const raw = difficulty.specializations?.[String(group.specId)]
       if (raw == null) return []

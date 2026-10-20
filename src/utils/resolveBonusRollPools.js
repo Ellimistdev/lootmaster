@@ -11,9 +11,14 @@ export function resolveBonusRollPools(groups, dataset) {
       }
     }
   }
+  const RAID_CONTEXT_DIFFICULTIES = { 5: '15', 6: '16' }
   return groups.map((group) => {
     const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
+    const raidDifficulty = RAID_CONTEXT_DIFFICULTIES[group.context] ?? null
     const candidates = entries.flatMap((entry) => {
+      // For known raid contexts, never mix Heroic and Mythic eligibility.
+      // keyLevel describes a reward variant, not the encounter difficulty.
+      if (raidDifficulty && entry.difficultyId !== raidDifficulty) return []
       const { difficulty } = entry
       const raw = difficulty.specializations?.[String(group.specId)]
       if (raw == null) return []
@@ -40,6 +45,8 @@ export function resolveBonusRollPools(groups, dataset) {
     const missingIds = eligibleIds.filter((id) => !obtainedIds.includes(id))
     return {
       ...group, resolution: matched.length ? 'source' : 'item-inferred',
+      encounterDifficultyId: match.difficultyId,
+      rewardKeyLevel: group.keyLevel,
       name: match.encounter.name, instanceName: match.instance.name,
       difficultyName: possible.length === 1 ? match.difficulty.name : 'Multiple difficulties (identical pool)',
       eligibleIds, obtainedIds, missingIds, totalEligible: eligibleIds.length,

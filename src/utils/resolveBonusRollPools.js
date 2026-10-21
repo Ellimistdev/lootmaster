@@ -50,7 +50,28 @@ export function resolveBonusRollPools(groups, dataset) {
     // source is unknown, only use item membership when it identifies exactly
     // one encounter; never guess between multiple bosses.
     const matched = candidates.filter((candidate) => candidate.sourceMatches)
-    const possible = matched.length ? matched : candidates
+    let possible = matched.length ? matched : candidates
+    // Heroic bonus-roll variants can be absent from the Heroic EJ list.
+    // Use reward membership in another difficulty only to identify the boss;
+    // the requested context still selects the final difficulty-specific pool.
+    if (!possible.length && raidDifficulty) {
+      const crossDifficulty = entries.filter((entry) => Object.values(entry.encounter.difficulties || {})
+        .some((difficulty) => {
+          const raw = difficulty.specializations?.[String(group.specId)]
+          const ids = Array.isArray(raw) ? raw : pools[String(raw)]
+          return Array.isArray(ids) && awarded.every((id) => ids.includes(id))
+        }))
+      const bosses = new Set(crossDifficulty.map((entry) => entry.instanceId + ':' + entry.encounterId))
+      if (bosses.size === 1) {
+        const key = [...bosses][0]
+        possible = entries.filter((entry) => entry.instanceId + ':' + entry.encounterId === key &&
+          entry.difficultyId === raidDifficulty).flatMap((entry) => {
+            const raw = entry.difficulty.specializations?.[String(group.specId)]
+            const ids = Array.isArray(raw) ? raw : pools[String(raw)]
+            return Array.isArray(ids) ? [{ ...entry, itemIds: ids.filter(isBonusEquipment), sourceMatches: false }] : []
+          })
+      }
+    }
     const encounters = new Set(possible.map((candidate) => candidate.instanceId + ':' + candidate.encounterId))
     if (encounters.size !== 1) return { ...group, resolution: possible.length ? 'ambiguous' : 'unresolved' }
     // Multiple difficulties are safe only when they produce identical pools.

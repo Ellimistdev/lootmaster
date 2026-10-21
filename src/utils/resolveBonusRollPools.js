@@ -3,6 +3,16 @@
 export function resolveBonusRollPools(groups, dataset) {
   if (!dataset?.instances) return groups
   const pools = dataset.lootPools || {}
+  const items = dataset.items || {}
+  const isBonusEquipment = (id) => {
+    const item = items[String(id)]
+    if (!item) return false
+    if (item.itemCategory === 'housing-decor' || item.isHousingDecor || item.isCosmetic || item.isPet) return false
+    if (item.isEquipment === true) return true
+    if (item.isEquipment === false) return false
+    return item.itemClassID === 2 || (item.itemClassID === 4 && typeof item.equipLocation === 'string' &&
+      item.equipLocation.startsWith('INVTYPE_') && item.equipLocation !== 'INVTYPE_NON_EQUIP_IGNORE')
+  }
   const entries = []
   for (const [instanceId, instance] of Object.entries(dataset.instances)) {
     for (const [encounterId, encounter] of Object.entries(instance.encounters || {})) {
@@ -26,10 +36,15 @@ export function resolveBonusRollPools(groups, dataset) {
       if (raw == null) return []
       const itemIds = Array.isArray(raw) ? raw : pools[String(raw)]
       if (!Array.isArray(itemIds)) return []
-      if (!awarded.every((id) => itemIds.includes(id))) return []
+      // The EJ pool includes non-bonus-roll rewards; exclude those before matching.
+      const equipmentIds = itemIds.filter(isBonusEquipment)
+      if (!equipmentIds.length) return []
+      // A known source can still identify the encounter when Heroic bonus-roll
+      // item variants differ from the normal EJ drop IDs.
       const sourceMatches = Number(group.source) === Number(entry.encounterId) ||
         Number(group.source) === Number(entry.encounter.dungeonEncounterId)
-      return [{ ...entry, itemIds, sourceMatches }]
+      if (!sourceMatches && !awarded.every((id) => equipmentIds.includes(id))) return []
+      return [{ ...entry, itemIds: equipmentIds, sourceMatches }]
     })
     // Source IDs are not guaranteed to use Encounter Journal IDs. If the
     // source is unknown, only use item membership when it identifies exactly
@@ -43,6 +58,12 @@ export function resolveBonusRollPools(groups, dataset) {
     if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous' }
     const match = possible[0]
     const eligibleIds = [...new Set(match.itemIds)].sort((a,b) => a-b)
+    const unmatchedRewardIds = awarded.filter((id) => !eligibleIds.includes(id))
+    // A matched encounter is not sufficient evidence that its EJ equipment
+    // list exactly matches bonus-roll variants. Do not claim completion.
+    if (unmatchedRewardIds.length) return { ...group, resolution: 'reward-variant-mismatch',
+      name: match.encounter.name, instanceName: match.instance.name,
+      difficultyName: match.difficulty.name, unmatchedRewardIds }
     const obtainedIds = awarded.filter((id) => eligibleIds.includes(id))
     const missingIds = eligibleIds.filter((id) => !obtainedIds.includes(id))
     return {

@@ -17,7 +17,12 @@ export function resolveBonusRollPools(groups, dataset) {
     return item.itemClassID === 2 || (item.itemClassID === 4 && typeof item.equipLocation === 'string' &&
       item.equipLocation.startsWith('INVTYPE_') && item.equipLocation !== 'INVTYPE_NON_EQUIP_IGNORE')
   }
-  const itemName = (id) => String(items[String(id)]?.name || items[String(id)]?.itemName || '').trim().toLocaleLowerCase()
+  const itemName = (id) => {
+    const item = items[String(id)]
+    const tooltipName = item?.tooltipLines?.find((line) => line?.leftText && line.type === 22)?.leftText
+    return String(item?.name || item?.itemName || tooltipName || '')
+      .trim().toLocaleLowerCase()
+  }
   const entries = []
   for (const [instanceId, instance] of Object.entries(dataset.instances)) {
     for (const [encounterId, encounter] of Object.entries(instance.encounters || {})) {
@@ -27,59 +32,65 @@ export function resolveBonusRollPools(groups, dataset) {
     }
   }
   const RAID_CONTEXT_DIFFICULTIES = { 5: '15', 6: '16' }
+  const poolIds = (entry, specId) => {
+    const raw = entry.difficulty.specializations?.[String(specId)]
+    const ids = Array.isArray(raw) ? raw : pools[String(raw)]
+    return Array.isArray(ids) ? ids.filter(isBonusEquipment) : null
+  }
+  const bossKey = (entry) => entry.instanceId + ':' + entry.encounterId
+  const sameItem = (rewardId, candidateId) => rewardId === candidateId ||
+    (itemName(rewardId) && itemName(rewardId) === itemName(candidateId))
+  const matchesReward = (rewardId, ids) => ids.some((id) => sameItem(rewardId, id))
+  // Source IDs may not be Encounter Journal IDs. Collect evidence from all
+  // recorded rewards for the same source, including Mythic rewards that can
+  // identify the boss for an otherwise unresolvable Heroic group.
+  const sourceEvidence = new Map()
+  for (const group of groups) {
+    const key = String(group.source)
+    if (!sourceEvidence.has(key)) sourceEvidence.set(key, [])
+    sourceEvidence.get(key).push(...group.rolls.map((roll) => ({ id: roll.itemId, specId: roll.specId })))
+  }
+  const sourceBosses = new Map()
+  for (const [source, rewards] of sourceEvidence) {
+    const scored = new Map()
+    for (const entry of entries) {
+      const key = bossKey(entry)
+      if (Number(source) === Number(entry.encounterId) ||
+          Number(source) === Number(entry.encounter.dungeonEncounterId)) {
+        scored.set(key, (scored.get(key) || 0) + 100)
+      }
+      for (const reward of rewards) {
+        const ids = poolIds(entry, reward.specId)
+        if (ids && matchesReward(reward.id, ids)) {
+          const evidenceKey = key + ':' + reward.id
+          // Each reward contributes only once per boss, not once per difficulty.
+          if (!scored.has(evidenceKey)) {
+            scored.set(evidenceKey, 1)
+            scored.set(key, (scored.get(key) || 0) + 1)
+          }
+        }
+      }
+    }
+    const scores = [...scored].filter(([key]) => key.split(':').length === 2)
+    const highest = Math.max(0, ...scores.map(([, score]) => score))
+    const winners = scores.filter(([, score]) => score === highest)
+    if (highest > 0 && winners.length === 1) sourceBosses.set(source, winners[0][0])
+  }
   return groups.map((group) => {
     const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
     const raidDifficulty = RAID_CONTEXT_DIFFICULTIES[group.context] ?? null
-    const candidates = entries.flatMap((entry) => {
-      // For known raid contexts, never mix Heroic and Mythic eligibility.
-      // keyLevel describes a reward variant, not the encounter difficulty.
-      const hasRaidDifficulties = Object.keys(entry.encounter.difficulties || {})
-        .some((id) => id === '15' || id === '16')
-      if (raidDifficulty && hasRaidDifficulties && entry.difficultyId !== raidDifficulty) return []
-      const { difficulty } = entry
-      const raw = difficulty.specializations?.[String(group.specId)]
-      if (raw == null) return []
-      const itemIds = Array.isArray(raw) ? raw : pools[String(raw)]
-      if (!Array.isArray(itemIds)) return []
-      // The EJ pool includes non-bonus-roll rewards; exclude those before matching.
-      const equipmentIds = itemIds.filter(isBonusEquipment)
-      if (!equipmentIds.length) return []
-      // A known source can still identify the encounter when Heroic bonus-roll
-      // item variants differ from the normal EJ drop IDs.
-      const sourceMatches = Number(group.source) === Number(entry.encounterId) ||
-        Number(group.source) === Number(entry.encounter.dungeonEncounterId)
-      if (!sourceMatches && !awarded.every((id) => equipmentIds.includes(id))) return []
-      return [{ ...entry, itemIds: equipmentIds, sourceMatches }]
-    })
-    // Source IDs are not guaranteed to use Encounter Journal IDs. If the
-    // source is unknown, only use item membership when it identifies exactly
-    // one encounter; never guess between multiple bosses.
-    const matched = candidates.filter((candidate) => candidate.sourceMatches)
-    let possible = matched.length ? matched : candidates
-    // Heroic bonus-roll variants can be absent from the Heroic EJ list.
-    // Use reward membership in another difficulty only to identify the boss;
-    // the requested context still selects the final difficulty-specific pool.
-    if (!possible.length && raidDifficulty) {
-      const crossDifficulty = entries.filter((entry) => Object.values(entry.encounter.difficulties || {})
-        .some((difficulty) => {
-          const raw = difficulty.specializations?.[String(group.specId)]
-          const ids = Array.isArray(raw) ? raw : pools[String(raw)]
-          return Array.isArray(ids) && awarded.every((id) => {
-            const name = itemName(id)
-            return ids.includes(id) || (name && ids.some((candidateId) => itemName(candidateId) === name))
-          })
-        }))
-      const bosses = new Set(crossDifficulty.map((entry) => entry.instanceId + ':' + entry.encounterId))
-      if (bosses.size === 1) {
-        const key = [...bosses][0]
-        possible = entries.filter((entry) => entry.instanceId + ':' + entry.encounterId === key &&
-          entry.difficultyId === raidDifficulty).flatMap((entry) => {
-            const raw = entry.difficulty.specializations?.[String(group.specId)]
-            const ids = Array.isArray(raw) ? raw : pools[String(raw)]
-            return Array.isArray(ids) ? [{ ...entry, itemIds: ids.filter(isBonusEquipment), sourceMatches: false }] : []
-          })
-      }
-    }
+    const selectedBoss = sourceBosses.get(String(group.source))
+    if (!selectedBoss) return { ...group, resolution: 'unresolved' }
+    const possible = entries.filter((entry) => bossKey(entry) === selectedBoss &&
+      (!raidDifficulty || !('15' in entry.encounter.difficulties || '16' in entry.encounter.difficulties) ||
+        entry.difficultyId === raidDifficulty))
+      .flatMap((entry) => {
+        const itemIds = poolIds(entry, group.specId)
+        return itemIds ? [{ ...entry, itemIds, sourceMatches:
+          Number(group.source) === Number(entry.encounterId) ||
+          Number(group.source) === Number(entry.encounter.dungeonEncounterId) }] : []
+      })
+    const matched = possible.filter((candidate) => candidate.sourceMatches)
     const encounters = new Set(possible.map((candidate) => candidate.instanceId + ':' + candidate.encounterId))
     if (encounters.size !== 1) return { ...group, resolution: possible.length ? 'ambiguous' : 'unresolved' }
     // Multiple difficulties are safe only when they produce identical pools.

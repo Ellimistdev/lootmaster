@@ -83,6 +83,33 @@ describe("SimC encounter pool resolution", () => {
     expect(pool.obtainedIds).toEqual([100]);
     expect(pool.missingIds).toEqual([200]);
   });
+  it("resolves Heroic from a Mythic reward sharing the same SimC source", () => {
+    const variant = { schemaVersion: 2, lootPools: { "1": [100, 200], "2": [101, 201] },
+      items: { "100": { name: "Cincture", isEquipment: true },
+        "101": { name: "Cincture", isEquipment: true },
+        "200": { name: "Other", isEquipment: true },
+        "201": { name: "Other", isEquipment: true } },
+      instances: { "1": { name: "Raid", encounters: { "500": { name: "Nymrissa",
+        difficulties: { "15": { name: "Heroic", specializations: { "257": "1" } },
+          "16": { name: "Mythic", specializations: { "257": "2" } } } } } } } };
+    const groups = groupBonusRolls([
+      { ...roll, source: 274708, context: 5, keyLevel: 1, itemId: 999 },
+      { ...roll, source: 274708, context: 6, keyLevel: 1, itemId: 101 },
+    ]);
+    const [heroic] = resolveBonusRollPools(groups, variant);
+    expect(heroic.name).toBe("Nymrissa");
+    expect(heroic.difficultyName).toBe("Heroic");
+    expect(heroic.resolution).toBe("reward-variant-mismatch");
+    expect(heroic.totalEligible).toBeNull();
+  });
+  it("resolves item names from harvested tooltip titles", () => {
+    const variant = structuredClone(data);
+    variant.items["10"] = { isEquipment: true, tooltipLines: [{ type: 22, leftText: "Shared Item" }] };
+    variant.items["99"] = { isEquipment: true, tooltipLines: [{ type: 22, leftText: "Shared Item" }] };
+    const [pool] = resolveBonusRollPools(groupBonusRolls([{ ...roll, source: 999, itemId: 99 }]), variant);
+    expect(pool.name).toBe("Boss");
+    expect(pool.obtainedIds).toEqual([10]);
+  });
   it("does not invent completion for an unknown pool", () => {
     expect(resolveBonusRollPools(groupBonusRolls([roll]), { instances: {} })[0].completion).toBeNull();
   });

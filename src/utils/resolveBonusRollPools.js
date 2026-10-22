@@ -4,15 +4,20 @@ export function resolveBonusRollPools(groups, dataset) {
   if (!dataset?.instances) return groups
   const pools = dataset.lootPools || {}
   const items = dataset.items || {}
+  const isCosmeticTooltip = (item) => (item.tooltipLines || []).some((line) =>
+    /\\bcosmetic\\b|add this appearance to your warband collection/i.test(
+      String(line?.leftText || '') + ' ' + String(line?.rightText || '')))
   const isBonusEquipment = (id) => {
     const item = items[String(id)]
     if (!item) return false
-    if (item.itemCategory === 'housing-decor' || item.isHousingDecor || item.isCosmetic || item.isPet) return false
+    if (item.itemCategory === 'housing-decor' || item.isHousingDecor || item.isCosmetic || item.isPet ||
+      isCosmeticTooltip(item) || item.inventorySlot === 'Cosmetic' || item.itemSubClass === 'Cosmetic') return false
     if (item.isEquipment === true) return true
     if (item.isEquipment === false) return false
     return item.itemClassID === 2 || (item.itemClassID === 4 && typeof item.equipLocation === 'string' &&
       item.equipLocation.startsWith('INVTYPE_') && item.equipLocation !== 'INVTYPE_NON_EQUIP_IGNORE')
   }
+  const itemName = (id) => String(items[String(id)]?.name || items[String(id)]?.itemName || '').trim().toLocaleLowerCase()
   const entries = []
   for (const [instanceId, instance] of Object.entries(dataset.instances)) {
     for (const [encounterId, encounter] of Object.entries(instance.encounters || {})) {
@@ -59,7 +64,10 @@ export function resolveBonusRollPools(groups, dataset) {
         .some((difficulty) => {
           const raw = difficulty.specializations?.[String(group.specId)]
           const ids = Array.isArray(raw) ? raw : pools[String(raw)]
-          return Array.isArray(ids) && awarded.every((id) => ids.includes(id))
+          return Array.isArray(ids) && awarded.every((id) => {
+            const name = itemName(id)
+            return ids.includes(id) || (name && ids.some((candidateId) => itemName(candidateId) === name))
+          })
         }))
       const bosses = new Set(crossDifficulty.map((entry) => entry.instanceId + ':' + entry.encounterId))
       if (bosses.size === 1) {
@@ -79,13 +87,22 @@ export function resolveBonusRollPools(groups, dataset) {
     if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous' }
     const match = possible[0]
     const eligibleIds = [...new Set(match.itemIds)].sort((a,b) => a-b)
-    const unmatchedRewardIds = awarded.filter((id) => !eligibleIds.includes(id))
+    // Resolve reward variants by unique item name within the chosen boss/difficulty.
+    // A same-name match across difficulties identifies the encounter, but does not
+    // authorize combining the Heroic and Mythic eligibility pools.
+    const rewardMatches = awarded.map((id) => {
+      if (eligibleIds.includes(id)) return [id, id]
+      const name = itemName(id)
+      const sameName = name ? eligibleIds.filter((candidateId) => itemName(candidateId) === name) : []
+      return [id, sameName.length === 1 ? sameName[0] : null]
+    })
+    const unmatchedRewardIds = rewardMatches.filter(([, id]) => id == null).map(([id]) => id)
     // A matched encounter is not sufficient evidence that its EJ equipment
     // list exactly matches bonus-roll variants. Do not claim completion.
     if (unmatchedRewardIds.length) return { ...group, resolution: 'reward-variant-mismatch',
       name: match.encounter.name, instanceName: match.instance.name,
       difficultyName: match.difficulty.name, unmatchedRewardIds }
-    const obtainedIds = awarded.filter((id) => eligibleIds.includes(id))
+    const obtainedIds = [...new Set(rewardMatches.map(([, id]) => id))]
     const missingIds = eligibleIds.filter((id) => !obtainedIds.includes(id))
     return {
       ...group, resolution: matched.length ? 'source' : 'item-inferred',

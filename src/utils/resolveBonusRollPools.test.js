@@ -57,6 +57,32 @@ describe("SimC encounter pool resolution", () => {
     expect(pool.resolution).toBe("reward-variant-mismatch");
     expect(pool.completion).toBeNull();
   });
+  it("filters equippable cosmetics identified by tooltip text", () => {
+    const variant = structuredClone(data);
+    variant.lootPools["1"] = [10, 20, 99];
+    variant.items["99"] = { isEquipment: true, itemClassID: 4, equipLocation: "INVTYPE_HEAD",
+      tooltipLines: [{ leftText: "Soulcoiler's Rush'kah" }, { rightText: "Cosmetic", leftText: "Head" },
+        { leftText: "Use: Add this appearance to your Warband collection." }] };
+    const [pool] = resolveBonusRollPools(groupBonusRolls([roll]), variant);
+    expect(pool.eligibleIds).toEqual([10, 20]);
+  });
+  it("infers Heroic from matching item names on Mythic and maps the reward variant", () => {
+    const variant = { schemaVersion: 2, lootPools: { "1": [100, 200], "2": [101, 201] },
+      items: { "100": { name: "Cincture", isEquipment: true },
+        "101": { name: "Cincture", isEquipment: true },
+        "200": { name: "Other", isEquipment: true },
+        "201": { name: "Other", isEquipment: true } },
+      instances: { "1": { name: "Raid", encounters: { "500": { name: "Nymrissa",
+        difficulties: { "15": { name: "Heroic", specializations: { "257": "1" } },
+          "16": { name: "Mythic", specializations: { "257": "2" } } } } } } } };
+    const [pool] = resolveBonusRollPools(groupBonusRolls([
+      { ...roll, source: 274708, context: 5, keyLevel: 1, itemId: 101 },
+    ]), variant);
+    expect(pool.name).toBe("Nymrissa");
+    expect(pool.encounterDifficultyId).toBe("15");
+    expect(pool.obtainedIds).toEqual([100]);
+    expect(pool.missingIds).toEqual([200]);
+  });
   it("does not invent completion for an unknown pool", () => {
     expect(resolveBonusRollPools(groupBonusRolls([roll]), { instances: {} })[0].completion).toBeNull();
   });

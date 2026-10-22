@@ -76,6 +76,24 @@ export function resolveBonusRollPools(groups, dataset) {
     const winners = scores.filter(([, score]) => score === highest)
     if (highest > 0 && winners.length === 1) sourceBosses.set(source, winners[0][0])
   }
+  // A confidently identified group anchors every other record with the same
+  // SimC source, regardless of its context or reward variant. This avoids
+  // cross-difficulty scoring ties from shared items.
+  for (const group of groups) {
+    const source = String(group.source)
+    const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
+    const candidates = new Map()
+    for (const entry of entries) {
+      const ids = poolIds(entry, group.specId)
+      if (!ids || !awarded.every((id) => matchesReward(id, ids))) continue
+      candidates.set(bossKey(entry), entry)
+    }
+    if (candidates.size === 1) {
+      const [key] = candidates.keys()
+      if (!sourceBosses.has(source)) sourceBosses.set(source, key)
+      else if (sourceBosses.get(source) !== key) sourceBosses.delete(source)
+    }
+  }
   return groups.map((group) => {
     const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
     const raidDifficulty = RAID_CONTEXT_DIFFICULTIES[group.context] ?? null
@@ -92,7 +110,12 @@ export function resolveBonusRollPools(groups, dataset) {
       })
     const matched = possible.filter((candidate) => candidate.sourceMatches)
     const encounters = new Set(possible.map((candidate) => candidate.instanceId + ':' + candidate.encounterId))
-    if (encounters.size !== 1) return { ...group, resolution: possible.length ? 'ambiguous' : 'unresolved' }
+    if (encounters.size !== 1) {
+      const identity = entries.find((entry) => bossKey(entry) === selectedBoss)
+      return { ...group, name: identity?.encounter.name, instanceName: identity?.instance.name,
+        difficultyName: raidDifficulty === '15' ? 'Heroic' : raidDifficulty === '16' ? 'Mythic' : undefined,
+        resolution: possible.length ? 'ambiguous' : 'difficulty-pool-unavailable', totalEligible: null, completion: null }
+    }
     // Multiple difficulties are safe only when they produce identical pools.
     const signatures = new Set(possible.map((candidate) => JSON.stringify([...candidate.itemIds].sort((a,b) => a-b))))
     if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous' }

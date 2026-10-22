@@ -110,6 +110,25 @@ describe("SimC encounter pool resolution", () => {
     expect(pool.name).toBe("Boss");
     expect(pool.obtainedIds).toEqual([10]);
   });
+  it("reuses an encounter identified by Mythic rewards for an unresolved Heroic group", () => {
+    const fixture = { lootPools: { "1": [10, 20] }, items: {
+      "10": { isEquipment: true }, "20": { isEquipment: true },
+    }, instances: { "1": { name: "Raid", encounters: { "500": {
+      name: "Nymrissa", difficulties: { "16": {
+        name: "Mythic", specializations: { "257": "1" },
+      } },
+    } } } } };
+    const groups = groupBonusRolls([
+      { ...roll, source: 274708, context: 5, itemId: 999 },
+      { ...roll, source: 274708, context: 6, itemId: 10 },
+    ]);
+    const [heroic, mythic] = resolveBonusRollPools(groups, fixture);
+    expect(heroic.name).toBe("Nymrissa");
+    expect(heroic.resolution).toBe("difficulty-pool-unavailable");
+    expect(heroic.completion).toBeNull();
+    expect(mythic.name).toBe("Nymrissa");
+    expect(mythic.completion).toBe(0.5);
+  });
   it("does not invent completion for an unknown pool", () => {
     expect(resolveBonusRollPools(groupBonusRolls([roll]), { instances: {} })[0].completion).toBeNull();
   });

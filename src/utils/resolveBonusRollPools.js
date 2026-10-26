@@ -122,7 +122,7 @@ export function resolveBonusRollPools(groups, dataset) {
     }
     // Multiple difficulties are safe only when they produce identical pools.
     const signatures = new Set(possible.map((candidate) => JSON.stringify([...candidate.itemIds].sort((a,b) => a-b))))
-    if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous' }
+    if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous', totalEligible: null, completion: null }
     const match = possible[0]
     const eligibleIds = [...new Set(match.itemIds)].sort((a,b) => a-b)
     // Resolve reward variants by unique item name within the chosen boss/difficulty.

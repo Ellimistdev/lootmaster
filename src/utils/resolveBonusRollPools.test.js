@@ -18,7 +18,7 @@ describe("SimC encounter pool resolution", () => {
   });
   it("does not invent completion when difficulties disagree", () => {
     const variant = structuredClone(data);
-    variant.instances["100"].encounters["200"].difficulties["16"] = { name: "Other", specializations: { "257": "2" } };
+    variant.instances["100"].encounters["200"].difficulties["24"] = { name: "Other", specializations: { "257": "2" } };
     expect(resolveBonusRollPools(groupBonusRolls([roll]), variant)[0].completion).toBeNull();
   });
   it("keeps Heroic and Mythic raid pools separate regardless of reward keyLevel", () => {

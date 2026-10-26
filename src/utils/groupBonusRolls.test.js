@@ -3,7 +3,7 @@ import { groupBonusRolls } from "./groupBonusRolls";
 const item = { currency:3418, source:278284, context:5, keyLevel:4, specId:257, itemId:268265 };
 describe("groupBonusRolls", () => {
   it("preserves duplicate rolls but deduplicates collection", () => {
-    const [pool] = groupBonusRolls([item,item], { "3418:278284:5:4:257": {name:"Test",itemIds:[268265,271092]} });
+    const [pool] = groupBonusRolls([item,item], { "3418:278284:5:257": {name:"Test",itemIds:[268265,271092]} });
     expect(pool.rollCount).toBe(2);
     expect(pool.obtainedIds).toEqual([268265]);
     expect(pool.completion).toBe(0.5);

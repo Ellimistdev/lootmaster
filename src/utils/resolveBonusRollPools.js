@@ -5,7 +5,7 @@ export function resolveBonusRollPools(groups, dataset) {
   const pools = dataset.lootPools || {}
   const items = dataset.items || {}
   const isCosmeticTooltip = (item) => (item.tooltipLines || []).some((line) =>
-    /\\bcosmetic\\b|add this appearance to your warband collection/i.test(
+    /\bcosmetic\b|add this appearance to your warband collection/i.test(
       String(line?.leftText || '') + ' ' + String(line?.rightText || '')))
   const isBonusEquipment = (id) => {
     const item = items[String(id)]
@@ -76,26 +76,53 @@ export function resolveBonusRollPools(groups, dataset) {
     const winners = scores.filter(([, score]) => score === highest)
     if (highest > 0 && winners.length === 1) sourceBosses.set(source, winners[0][0])
   }
+  // A confidently identified group anchors every other record with the same
+  // SimC source, regardless of its context or reward variant. This avoids
+  // cross-difficulty scoring ties from shared items.
+  for (const group of groups) {
+    const source = String(group.source)
+    const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
+    const candidates = new Map()
+    for (const entry of entries) {
+      const ids = poolIds(entry, group.specId)
+      if (!ids || !awarded.every((id) => matchesReward(id, ids))) continue
+      candidates.set(bossKey(entry), entry)
+    }
+    if (candidates.size === 1) {
+      const [key] = candidates.keys()
+      if (!sourceBosses.has(source)) sourceBosses.set(source, key)
+      else if (sourceBosses.get(source) !== key) sourceBosses.delete(source)
+    }
+  }
   return groups.map((group) => {
     const awarded = [...new Set(group.rolls.map((roll) => roll.itemId))]
     const raidDifficulty = RAID_CONTEXT_DIFFICULTIES[group.context] ?? null
     const selectedBoss = sourceBosses.get(String(group.source))
     if (!selectedBoss) return { ...group, resolution: 'unresolved' }
-    const possible = entries.filter((entry) => bossKey(entry) === selectedBoss &&
-      (!raidDifficulty || !('15' in entry.encounter.difficulties || '16' in entry.encounter.difficulties) ||
-        entry.difficultyId === raidDifficulty))
-      .flatMap((entry) => {
-        const itemIds = poolIds(entry, group.specId)
-        return itemIds ? [{ ...entry, itemIds, sourceMatches:
-          Number(group.source) === Number(entry.encounterId) ||
-          Number(group.source) === Number(entry.encounter.dungeonEncounterId) }] : []
-      })
+    // The harvest contains Mythic raid eligibility only. Heroic and Mythic
+    // bonus rolls share that item pool but retain separate collection progress.
+    const bossEntries = entries.filter((entry) => bossKey(entry) === selectedBoss)
+    const isRaid = bossEntries.some((entry) => entry.difficultyId === '16')
+    const eligibleEntries = isRaid && raidDifficulty
+      ? bossEntries.filter((entry) => entry.difficultyId === '16')
+      : bossEntries
+    const possible = eligibleEntries.flatMap((entry) => {
+      const itemIds = poolIds(entry, group.specId)
+      return itemIds ? [{ ...entry, itemIds, sourceMatches:
+        Number(group.source) === Number(entry.encounterId) ||
+        Number(group.source) === Number(entry.encounter.dungeonEncounterId) }] : []
+    })
     const matched = possible.filter((candidate) => candidate.sourceMatches)
     const encounters = new Set(possible.map((candidate) => candidate.instanceId + ':' + candidate.encounterId))
-    if (encounters.size !== 1) return { ...group, resolution: possible.length ? 'ambiguous' : 'unresolved' }
+    if (encounters.size !== 1) {
+      const identity = entries.find((entry) => bossKey(entry) === selectedBoss)
+      return { ...group, name: identity?.encounter.name, instanceName: identity?.instance.name,
+        difficultyName: raidDifficulty === '15' ? 'Heroic' : raidDifficulty === '16' ? 'Mythic' : undefined,
+        resolution: possible.length ? 'ambiguous' : 'difficulty-pool-unavailable', totalEligible: null, completion: null }
+    }
     // Multiple difficulties are safe only when they produce identical pools.
     const signatures = new Set(possible.map((candidate) => JSON.stringify([...candidate.itemIds].sort((a,b) => a-b))))
-    if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous' }
+    if (signatures.size !== 1) return { ...group, resolution: 'difficulty-ambiguous', totalEligible: null, completion: null }
     const match = possible[0]
     const eligibleIds = [...new Set(match.itemIds)].sort((a,b) => a-b)
     // Resolve reward variants by unique item name within the chosen boss/difficulty.
@@ -112,15 +139,18 @@ export function resolveBonusRollPools(groups, dataset) {
     // list exactly matches bonus-roll variants. Do not claim completion.
     if (unmatchedRewardIds.length) return { ...group, resolution: 'reward-variant-mismatch',
       name: match.encounter.name, instanceName: match.instance.name,
-      difficultyName: match.difficulty.name, unmatchedRewardIds }
+      difficultyName: isRaid && raidDifficulty ? (raidDifficulty === '15' ? 'Heroic' : 'Mythic') : match.difficulty.name,
+      unmatchedRewardIds, totalEligible: null, completion: null }
     const obtainedIds = [...new Set(rewardMatches.map(([, id]) => id))]
     const missingIds = eligibleIds.filter((id) => !obtainedIds.includes(id))
     return {
       ...group, resolution: matched.length ? 'source' : 'item-inferred',
-      encounterDifficultyId: match.difficultyId,
+      encounterDifficultyId: raidDifficulty && isRaid ? raidDifficulty : match.difficultyId,
+      eligibilityDifficultyId: match.difficultyId,
       rewardKeyLevel: group.keyLevel,
       name: match.encounter.name, instanceName: match.instance.name,
-      difficultyName: possible.length === 1 ? match.difficulty.name : 'Multiple difficulties (identical pool)',
+      difficultyName: isRaid && raidDifficulty ? (raidDifficulty === '15' ? 'Heroic' : 'Mythic') :
+        (possible.length === 1 ? match.difficulty.name : 'Multiple difficulties (identical pool)'),
       eligibleIds, obtainedIds, missingIds, totalEligible: eligibleIds.length,
       completion: eligibleIds.length ? obtainedIds.length / eligibleIds.length : null,
     }

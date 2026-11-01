@@ -3,7 +3,7 @@
 export function groupBonusRolls(rolls, poolDefinitions = {}) {
   const groups = new Map();
   for (const roll of rolls) {
-    const key = [roll.currency, roll.source, roll.context, roll.keyLevel, roll.specId].join(":");
+    const key = [roll.currency, roll.source, roll.context, roll.specId].join(":");
     if (!groups.has(key)) groups.set(key, { key, currency: roll.currency, source: roll.source, context: roll.context, keyLevel: roll.keyLevel, specId: roll.specId, rolls: [] });
     groups.get(key).rolls.push(roll);
   }
@@ -13,7 +13,8 @@ export function groupBonusRolls(rolls, poolDefinitions = {}) {
     const eligibleIds = definition?.itemIds ?? null;
     const obtainedIds = eligibleIds ? awardedIds.filter((id) => eligibleIds.includes(id)) : awardedIds;
     return {
-      ...group, name: definition?.name ?? null, awardedIds, obtainedIds,
+      ...group, keyLevels: [...new Set(group.rolls.map((roll) => roll.keyLevel))].sort((a, b) => a - b),
+      name: definition?.name ?? null, awardedIds, obtainedIds,
       rollCount: group.rolls.length,
       totalEligible: eligibleIds?.length ?? null,
       completion: eligibleIds?.length ? obtainedIds.length / eligibleIds.length : null,
